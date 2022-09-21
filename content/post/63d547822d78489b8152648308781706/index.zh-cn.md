@@ -5,7 +5,7 @@ date = "2021-11-22"
 description = "好好好"
 categories = ["Consumer"]
 tags = ["Xbox"]
-image = "https://img.mitsea.com/blog/posts/2020/05/%E9%BE%99%E6%97%8F%E6%89%8B%E6%B8%B8%E5%AE%89%E5%8D%93%E7%89%88%E5%BC%80%E5%90%AF%2060fps/title.jpg?x-oss-process=style/ImageCompress"
+image = "https://img.mitsea.com/blog/posts/2021/11/title.jpg?x-oss-process=style/ImageCompress"
 +++
 
 其实我原来买的是 Series S，但是我后来卖掉买了 Series X，有两个主要原因
