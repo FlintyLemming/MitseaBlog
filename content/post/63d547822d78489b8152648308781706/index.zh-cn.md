@@ -25,7 +25,14 @@ Series X 用了快半年，这玩意对我其实有很多意想不到的体验�
     
 2. Quick Resume。这个功能简直了，它能让我5秒就可以从待机唤醒到进入游戏。
     
-    [](https://img.mitsea.com/blog/posts/2021/11/1.mov)
+    {{< rawhtml >}} 
+
+    <video width=100% controls autoplay>
+        <source src="https://img.mitsea.com/blog/posts/2021/11/1.mov" type="video/mov">
+        Your browser does not support the video tag.  
+    </video>
+    
+    {{< /rawhtml >}}
     
     社畜应该有这种体会，就是有的时候倒不是不想玩，就真的因为累，所以开游戏稍微麻烦点就不想玩了，所以这个功能真的很赞。
     
