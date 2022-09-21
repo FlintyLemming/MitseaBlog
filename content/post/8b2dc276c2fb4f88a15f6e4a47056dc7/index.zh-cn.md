@@ -5,7 +5,7 @@ date = "2019-10-22"
 description = ""
 categories = ["Network"]
 tags = ["宽带"]
-image = "https://img.mitsea.com/blog/posts/2019/10/%E8%80%81%E7%89%88%E6%9C%AC%20Xcode%20%E5%9C%A8%E6%96%B0%20iOS%20%E8%AE%BE%E5%A4%87%E4%B8%8A%E8%B0%83%E8%AF%95/title.jpg?x-oss-process=style/ImageCompress"
+image = "https://img.mitsea.com/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%BD%93%E5%89%8D%E6%98%AF%E5%90%A6%E6%9C%89%E5%8D%87%E7%BA%A7%E5%BF%85%E8%A6%81/title.jpg?x-oss-process=style/ImageCompress"
 +++
 
 到南京之后，一直用的 500M 宽带，用了大约四个多月之后，简单分析下是否值得升级到 500M 宽带。总体来说，是不建议升级的，所以先说优点，再说缺点。
