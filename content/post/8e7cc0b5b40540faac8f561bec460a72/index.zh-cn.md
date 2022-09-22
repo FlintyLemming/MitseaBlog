@@ -5,7 +5,7 @@ date = "2019-11-11"
 description = ""
 categories = ["HomeLab", "Network"]
 tags = ["Clash"]
-image = "https://img.mitsea.com/blog/posts/2020/05/%E5%8E%9F%E7%94%9F%E7%94%A8%E6%88%B7%E7%9A%84%20iQOO%20%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/title.jpg?x-oss-process=style/ImageCompress"
+image = "https://img.mitsea.com/blog/posts/2019/11/ClashR%20%E8%B7%AF%E7%94%B1%E5%99%A8%E5%AE%89%E8%A3%85/title.jpg?x-oss-process=style/ImageCompress"
 +++
 
 ## 下载内核
