@@ -1,0 +1,53 @@
++++
+author = "FlintyLemming"
+title = "华硕 AX3000 Wi-Fi 6 路由器使用体验"
+date = "2020-01-16"
+description = ""
+categories = ["Coding"]
+tags = ["华硕", "路由器"]
+image = "https://img.mitsea.com/blog/posts/2020/01/%E5%8D%8E%E7%A1%95%20AX3000%20Wi-Fi%206%20%E8%B7%AF%E7%94%B1%E5%99%A8%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/title.jpg?x-oss-process=style/ImageCompress"
++++
+
+## 写在前面
+
+最近一直关注 Wi-Fi 6 路由器，主要还是购买的这款 TUF AX3000 实在太垃圾。看到小米路由器推出了自己的 Wi-Fi 6 路由，在微博宣传速度对比时，好巧不巧选用了这款 TUF AX3000。我看很多人觉得华硕的路由器不可能这么垃圾，这款 AX3000 测速不可能这么慢。（先放下视频截图）
+
+![](https://img.mitsea.com/blog/posts/2020/01/%E5%8D%8E%E7%A1%95%20AX3000%20Wi-Fi%206%20%E8%B7%AF%E7%94%B1%E5%99%A8%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/1.png?x-oss-process=style/ImageCompress)
+
+但我想说这款路由器他就真的是这么慢。首先抱歉我翻了下截图只找到 MacBook Pro 连接外网的测速数据，不过虽然是 Wi-Fi 5，但却是 3x3 的满血 Wi-Fi 5，跟普通 Wi-Fi 5 差距还是蛮大，实际性能应当接近千兆网路环境下普通 Wi-Fi 6 的水平。（如果你质疑这一块，下面就不用看了）
+
+而且我先站个队，小米的这款路由器我是不打算买的，我是打算买华为的新 Wi-Fi 6 路由器，因为我这边自己在用的 WS5200 四核版 非常稳定。所以我也不是捧小米，我就单纯说说 TUF 这个路由器的的问题。
+
+## 购买
+
+过年时候在淘宝 969 元在淘宝买的这款路由器，之前双十一是 999 就想买，然后觉得今年差不多也要入 Wi-Fi 6 设备了，所以就买了这款支持 Wi-Fi 6 的路由器。买之前想着虽然是千兆口，但要是能跑满 1000Mbps 那相对于残血版 Wi-Fi 5 来说也很不错了。并且 Wi-Fi 6 的路由器一定是支持满血版的 Wi-Fi 5 （至少 3x3）所以决定购买这个路由器。（后续退货卖家态度非常好，所以我后面就不放卖家名称了，免得有的观众搞错批判对象）
+
+![](https://img.mitsea.com/blog/posts/2020/01/%E5%8D%8E%E7%A1%95%20AX3000%20Wi-Fi%206%20%E8%B7%AF%E7%94%B1%E5%99%A8%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/2.jpg?x-oss-process=style/ImageCompress)
+
+## 购买后
+
+购买后第一件事肯定是测速，问题就来了。首先，他激活了我 MacBook Pro Wi-Fi 5 的 3x3 天线，握手速率达到了 1300Mbps
+
+![](https://img.mitsea.com/blog/posts/2020/01/%E5%8D%8E%E7%A1%95%20AX3000%20Wi-Fi%206%20%E8%B7%AF%E7%94%B1%E5%99%A8%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/3.png?x-oss-process=style/ImageCompress)
+
+但是测速的结果却很差，但这里我要特别说明一下，正常速度大约是在 550Mbps 左右，截图里属于较差的情况，但我只有这么一张图了
+
+![](https://img.mitsea.com/blog/posts/2020/01/%E5%8D%8E%E7%A1%95%20AX3000%20Wi-Fi%206%20%E8%B7%AF%E7%94%B1%E5%99%A8%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/4.png?x-oss-process=style/ImageCompress)
+
+然后是有线速度测试做参照
+
+![](https://img.mitsea.com/blog/posts/2020/01/%E5%8D%8E%E7%A1%95%20AX3000%20Wi-Fi%206%20%E8%B7%AF%E7%94%B1%E5%99%A8%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/5.png?x-oss-process=style/ImageCompress)
+
+然后看下测试时，电脑与路由器的距离
+
+![](https://img.mitsea.com/blog/posts/2020/01/%E5%8D%8E%E7%A1%95%20AX3000%20Wi-Fi%206%20%E8%B7%AF%E7%94%B1%E5%99%A8%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/6.jpeg?x-oss-process=style/ImageCompress)
+
+后续我也使用了 Wi-Fi 6 的网卡进行测试，速度大同小异，无线外网速度也就在 500Mbps - 600Mbps 波动。这个测速图我实在是找不到，我这边放一个我正在使用 Wi-Fi 6 网卡的截图吧。而且测试时甚至是工作在 160MHz 频率上的。
+
+![](https://img.mitsea.com/blog/posts/2020/01/%E5%8D%8E%E7%A1%95%20AX3000%20Wi-Fi%206%20%E8%B7%AF%E7%94%B1%E5%99%A8%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/7.png?x-oss-process=style/ImageCompress)
+
+然后我发现这个路由器无线跑外网就是很慢，但是内网很快，能跑到 850Mbps 左右的速度。也就是说，如果我弄个软路由，然后将这个路由器作为无线 AP，应当是可以在外网测试中获得比较理想的速度。不过我没这么干，我花 1k 买个路由器，还要搭上一个软路由，捞不捞哦。
+
+## 总结
+
+华硕 TUF AX 3000 路由器的无线性能在内网传输中表现尚可，但是外网测试慢得离谱。我不知道是硬件性能问题，还是软件优化问题，不过已经与我没有关系，因为已经退货了。下次碰到无脑吹华硕的，觉得华硕路由器就是好的，我也会更加谨慎。
