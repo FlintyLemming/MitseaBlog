@@ -3,7 +3,7 @@ author = "FlintyLemming"
 title = "【归档】WordPress 静态化"
 date = "2019-11-17"
 description = ""
-categories = ["个人服务"]
+categories = ["MineService"]
 tags = ["WordPress"]
 image = "https://img.mitsea.com/blog/posts/2019/11/WordPress%20%E9%9D%99%E6%80%81%E5%8C%96/title.jpg?x-oss-process=style/ImageCompress"
 +++
