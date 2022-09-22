@@ -5,7 +5,7 @@ date = "2020-02-08"
 description = ""
 categories = ["Game"]
 tags = ["崩坏3"]
-image = "https://img.mitsea.com/blog/posts/2020/02/%E8%B0%81%E6%98%AF%E6%9C%80%E9%80%82%E5%90%88%E6%88%91%E7%9A%84%E5%B4%A9%E5%9D%8F3%E6%A8%A1%E6%8B%9F%E5%99%A8/title.jpg?x-oss-process=style/ImageCompress
+image = "https://img.mitsea.com/blog/posts/2020/02/%E8%B0%81%E6%98%AF%E6%9C%80%E9%80%82%E5%90%88%E6%88%91%E7%9A%84%E5%B4%A9%E5%9D%8F3%E6%A8%A1%E6%8B%9F%E5%99%A8/title.jpg?x-oss-process=style/ImageCompress"
 +++
 
 ## 平台配置
