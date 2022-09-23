@@ -195,6 +195,6 @@ linuxserver/qbittorrent
 
 #### 群晖内置的反代工具设置
 
-其实我更推荐这种方式，因为这样方便管理。不过你通过 https 访问的端口就必须和 WebUI 的端口不一样了，不然会冲突。具体设置方法，可以参考我[另一篇教程](https://blog.mitsea.com/post/4a08e5064d834921b206bf128e463d1a/)。
+其实我更推荐这种方式，因为这样方便管理。不过你通过 https 访问的端口就必须和 WebUI 的端口不一样了，不然会冲突。具体设置方法，可以参考我[另一篇教程](https://blog.mitsea.com/4a08e5064d834921b206bf128e463d1a/)。
 
 ![](https://img.mitsea.com/blog/posts/2020/02/%E7%BE%A4%E6%99%96%20Docker%20%E5%AE%89%E8%A3%85%20qbittorrent%20%E5%90%AB%20https%20%E8%AE%BE%E7%BD%AE/Untitled%2027.png?x-oss-process=style/ImageCompress)
