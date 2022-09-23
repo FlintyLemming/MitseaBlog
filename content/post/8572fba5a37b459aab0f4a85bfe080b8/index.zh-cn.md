@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "A卡补帧 N卡输出"
+slug = "8572fba5a37b459aab0f4a85bfe080b8"
 date = "2019-12-12"
 description = ""
 categories = ["Consumer", "Windows"]

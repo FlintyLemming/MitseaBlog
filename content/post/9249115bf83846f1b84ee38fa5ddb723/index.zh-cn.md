@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "Windows Server 2019 安装 Intel I219V 网卡驱动"
+slug = "9249115bf83846f1b84ee38fa5ddb723"
 date = "2020-01-07"
 description = ""
 categories = ["Windows", "Network"]

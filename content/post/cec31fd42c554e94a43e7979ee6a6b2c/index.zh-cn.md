@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "关于 Microsoft 365 世纪互联的权限说明"
+slug = "cec31fd42c554e94a43e7979ee6a6b2c"
 date = "2020-03-07"
 description = ""
 categories = ["Microsoft"]

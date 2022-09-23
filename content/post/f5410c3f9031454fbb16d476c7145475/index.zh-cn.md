@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "Windows Server 创建 Parity HDD 与 Mirror SSD 混合存储"
+slug = "f5410c3f9031454fbb16d476c7145475"
 date = "2022-06-27"
 description = ""
 categories = ["Windows"]

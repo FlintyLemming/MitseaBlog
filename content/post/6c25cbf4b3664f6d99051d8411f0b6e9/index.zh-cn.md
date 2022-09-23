@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "【归档】WordPress 静态化"
+slug = "6c25cbf4b3664f6d99051d8411f0b6e9"
 date = "2019-11-17"
 description = ""
 categories = ["MineService"]

@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "提升 Windows 远程桌面的音频质量"
+slug = "ef1e2ce020d34aae925def26baf380a9"
 date = "2020-01-21"
 description = ""
 categories = ["Windows"]

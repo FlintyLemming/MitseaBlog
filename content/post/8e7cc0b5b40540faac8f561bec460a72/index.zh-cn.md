@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "【归档】ClashR 路由器安装"
+slug = "8e7cc0b5b40540faac8f561bec460a72"
 date = "2019-11-11"
 description = ""
 categories = ["HomeLab", "Network"]

@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "华硕 AX3000 Wi-Fi 6 路由器使用体验"
+slug = "c48be530efa04e1f940ae854c7f4d452"
 date = "2020-01-16"
 description = ""
 categories = ["Coding"]

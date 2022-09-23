@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "SourceTree 跳过登录以及创建快捷方式"
+slug = "3a24528e7a2d4c53875f92dbedccad18"
 date = "2020-05-31"
 description = ""
 categories = ["Coding"]

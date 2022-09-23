@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "【归档】如何抓取 iOS app 的安装包"
+slug = "35bd800f58454f74b0829a520a2057b2"
 date = "2019-10-09"
 description = ""
 categories = ["Apple"]

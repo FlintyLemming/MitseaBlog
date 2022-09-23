@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "借助宽带公网 IP 分发内网内容"
+slug = "027af4dd9eba4315a0d3707178080d4c"
 date = "2019-10-10"
 description = ""
 categories = ["HomeLab"]

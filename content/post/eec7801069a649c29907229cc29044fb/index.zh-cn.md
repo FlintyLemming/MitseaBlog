@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "使用 Active Backup for Business 备份虚拟机（Hyper-V）"
+slug = "eec7801069a649c29907229cc29044fb"
 date = "2020-02-26"
 description = ""
 categories = ["HomeLab"]

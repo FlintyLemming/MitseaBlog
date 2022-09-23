@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "X410 使用方法"
+slug = "ac60813238214ffca203b23af9672699"
 date = "2021-03-25"
 description = ""
 categories = ["Linux", "Windows"]

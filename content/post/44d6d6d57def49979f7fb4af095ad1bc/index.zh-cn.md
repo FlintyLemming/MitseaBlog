@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "家有公网IP 利用frp远程无公网IP的电脑"
+slug = "44d6d6d57def49979f7fb4af095ad1bc"
 date = "2020-01-11"
 description = ""
 categories = ["HomeLab"]

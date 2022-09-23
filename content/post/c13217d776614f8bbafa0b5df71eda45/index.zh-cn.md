@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "【归档】黑苹果安装与升级"
+slug = "c13217d776614f8bbafa0b5df71eda45"
 date = "2020-05-30"
 description = ""
 categories = ["Apple"]

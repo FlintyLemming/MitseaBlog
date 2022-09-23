@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "老版本 Xcode 在新 iOS 设备上调试"
+slug = "9da8a85a555d4d189f08024356e99f90"
 date = "2019-10-06"
 description = "主要就是补充 DeviceSupport"
 categories = ["Apple"]

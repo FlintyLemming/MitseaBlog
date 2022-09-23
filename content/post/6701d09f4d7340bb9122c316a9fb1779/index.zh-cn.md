@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "SQL Server 数据库迁移"
+slug = "6701d09f4d7340bb9122c316a9fb1779"
 date = "2020-03-02"
 description = ""
 categories = ["Coding"]

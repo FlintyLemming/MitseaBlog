@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "使用 proxy_pass 反代"
+slug = "34a1ad27d1c7465c84df4daa12802301"
 date = "2020-03-07"
 description = ""
 categories = ["Linux", "Network"]

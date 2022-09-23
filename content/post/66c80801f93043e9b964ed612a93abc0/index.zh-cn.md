@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "蜗牛星际A款更换电源"
+slug = "66c80801f93043e9b964ed612a93abc0"
 date = "2020-12-13"
 description = ""
 categories = ["HomeLab", "Consumer"]

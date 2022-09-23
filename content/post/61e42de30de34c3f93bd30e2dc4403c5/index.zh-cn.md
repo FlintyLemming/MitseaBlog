@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "QNAP 设置桥接"
+slug = "61e42de30de34c3f93bd30e2dc4403c5"
 date = "2021-04-02"
 description = ""
 categories = ["HomeLab", "Network"]

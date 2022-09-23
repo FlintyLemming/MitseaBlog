@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "群晖 Docker 安装 qbittorrent 含 https 设置"
+slug = "07dbeb35868e46f5a3cc465742c029d8"
 date = "2020-02-13"
 description = ""
 categories = ["HomeLab"]

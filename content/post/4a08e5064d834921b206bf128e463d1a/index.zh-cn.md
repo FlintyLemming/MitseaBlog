@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "利用群晖自带反代为网络服务配置 https"
+slug = "4a08e5064d834921b206bf128e463d1a"
 date = "2020-01-28"
 description = ""
 categories = ["HomeLab"]

@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "Windows 10 连接 IPSec 未加密的 L2TP VPN"
+slug = "683396e4936841a8b82181d9fd8ccf42"
 date = "2020-04-04"
 description = ""
 categories = ["Windows"]

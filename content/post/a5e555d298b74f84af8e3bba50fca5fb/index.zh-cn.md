@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "华为 AX3 Pro 与 小米 AX3600 的对比"
+slug = "a5e555d298b74f84af8e3bba50fca5fb"
 date = "2020-05-17"
 description = "可惜华为这个芯片绝版了"
 categories = ["Consumer"]

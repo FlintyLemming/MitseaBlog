@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "Xbox Series 上手半年体验"
+slug = "63d547822d78489b8152648308781706"
 date = "2021-11-22"
 description = "好好好"
 categories = ["Consumer"]

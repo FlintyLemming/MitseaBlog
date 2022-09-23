@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "【翻译】管理配置文件最好的方法：一个 bare git 仓库"
+slug = "4b7df285915b4fc19d2d6af4e3817b84"
 date = "2021-04-22"
 description = ""
 categories = ["Linux"]

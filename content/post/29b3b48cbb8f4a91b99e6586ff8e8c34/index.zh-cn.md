@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "修改 Windows 网络连接位置"
+slug = "29b3b48cbb8f4a91b99e6586ff8e8c34"
 date = "2020-02-26"
 description = "Windows 的防火墙设置"
 categories = ["Windows"]

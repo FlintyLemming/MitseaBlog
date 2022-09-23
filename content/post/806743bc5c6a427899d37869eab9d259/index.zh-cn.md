@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "【归档】原神装备推荐"
+slug = "806743bc5c6a427899d37869eab9d259"
 date = "2021-01-31"
 description = ""
 categories = ["Game"]

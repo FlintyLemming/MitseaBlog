@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "海明校验码"
+slug = "126cc71ce5234e699042036798edcf66"
 date = "2020-06-01"
 description = ""
 categories = ["Coding"]

@@ -1,6 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "【归档】500M 宽带当前是否有升级必要"
+slug = "8b2dc276c2fb4f88a15f6e4a47056dc7"
 date = "2019-10-22"
 description = ""
 categories = ["Network"]
