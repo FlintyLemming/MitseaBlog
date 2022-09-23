@@ -1,0 +1,15 @@
+baseURL: https://blog.mitsea.com/
+languageCode: zh-cn
+title: Mitsea Blog
+theme: hugo-theme-stack
+paginate: 5
+
+languages:
+    zh-cn:
+        languageName: 中文
+        title: Mitsea Blog
+        weight: 1
+    en:
+        languageName: English
+        title: Mitsea Blog
+        weight: 2
