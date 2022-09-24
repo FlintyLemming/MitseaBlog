@@ -4,7 +4,7 @@ title = "M1 Mac 无法设置正确的缩放比例"
 slug = "57a9a3c008de49f0a1ee810a7a076f4c"
 date = "2021-03-03"
 description = ""
-categories = ["Apple"]
+categories = ["Apple", "Crash"]
 tags = ["M1", "Mac"]
 image = "https://img.mitsea.com/blog/posts/2021/03/M1%20Mac%20%E6%97%A0%E6%B3%95%E8%AE%BE%E7%BD%AE%E6%AD%A3%E7%A1%AE%E7%9A%84%E7%BC%A9%E6%94%BE%E6%AF%94%E4%BE%8B/title.jpg?x-oss-process=style/ImageCompress"
 +++
