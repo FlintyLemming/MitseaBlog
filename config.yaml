@@ -49,7 +49,7 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: 人菜话多
+        subtitle: 人菜瘾大
         avatar:
             enabled: true
             local: true
