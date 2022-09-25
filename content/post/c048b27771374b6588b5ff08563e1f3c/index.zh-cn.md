@@ -1,7 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "自建 Tailscale DERP"
-slug = "57a9a3c008de49f0a1ee810a7a076f4c"
+slug = "c048b27771374b6588b5ff08563e1f3c"
 date = "2022-09-17"
 description = ""
 categories = ["Network", "Linux"]
