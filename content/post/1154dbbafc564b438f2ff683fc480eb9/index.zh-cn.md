@@ -6,13 +6,15 @@ date = "2020-05-31"
 description = ""
 categories = ["Apple"]
 tags = ["iOS"]
-image = "https://blog.mitsea.com/blog/posts/2020/05/%E5%9C%A8%20iOS%20%E7%9A%84%E9%94%81%E5%B1%8F%E7%95%8C%E9%9D%A2%20%E7%A7%AF%E5%88%86%E3%80%81%E4%BB%98%E6%AC%BE%20%E4%B8%80%E6%B0%94%E5%91%B5%E6%88%90/title.jpg?x-oss-process=style/ImageCompress"
+image = "https://img.mitsea.com/blog/posts/2020/05/%E5%9C%A8%20iOS%20%E7%9A%84%E9%94%81%E5%B1%8F%E7%95%8C%E9%9D%A2%20%E7%A7%AF%E5%88%86%E3%80%81%E4%BB%98%E6%AC%BE%20%E4%B8%80%E6%B0%94%E5%91%B5%E6%88%90/title.jpg?x-oss-process=style/ImageCompress"
 +++
 
 首先先看看实际的录屏吧，在视频里可以看到，在锁屏界面下，直接掉出卡包，先积分，再刷卡，无缝完成。
 
+{{< rawhtml >}}
 <video src="https://img.mitsea.com/blog/posts/2020/05/%E5%9C%A8%20iOS%20%E7%9A%84%E9%94%81%E5%B1%8F%E7%95%8C%E9%9D%A2%20%E7%A7%AF%E5%88%86%E3%80%81%E4%BB%98%E6%AC%BE%20%E4%B8%80%E6%B0%94%E5%91%B5%E6%88%90/v1.mp4" width="304" height="540"
 controls="controls"></video>
+{{< /rawhtml >}}
 
 那么这是怎么做到的呢，除了店家需要支持刷卡，你需要在钱包 app 里添加银行卡以外，你还需要一款名叫 “Pass2U” 的应用，他可以帮助你把存在于微信、支付宝、商家app里的电子积分卡的信息添加到卡包里。下面以 Lawson 的 app 罗森点点为例简单介绍一下使用方式。
 
