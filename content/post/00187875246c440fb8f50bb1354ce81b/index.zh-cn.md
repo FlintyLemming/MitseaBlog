@@ -72,3 +72,6 @@ image = "https://img.mitsea.com/blog/posts/2020/05/%E5%9C%A8%E7%BE%A4%E6%99%96%E
     下面是关心的性能表现，我安装了一个大型程序，模拟硬盘满负载时候的表现，好像还不错呢
 
     ![](https://img.mitsea.com/blog/posts/2020/05/%E5%9C%A8%E7%BE%A4%E6%99%96%E4%B8%8A%E9%85%8D%E7%BD%AE%20iSCSI%20%E5%B9%B6%E5%9C%A8%20Windows%20%E4%B8%8B%E4%BD%BF%E7%94%A8/15.png?x-oss-process=style/ImageCompress)
+
+> Photo by [Patrick Lindenberg](https://unsplash.com/@heapdump?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/disk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  
