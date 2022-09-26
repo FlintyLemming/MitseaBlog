@@ -9,11 +9,6 @@ tags = ["Synology", "NAS"]
 image = "https://img.mitsea.com/blog/posts/2022/09/%E7%BE%A4%E6%99%96%20Active%20Backup%20for%20Business%20%E6%81%A2%E5%A4%8D%20Windows%20%E8%AE%BE%E5%A4%87/title.jpg?x-oss-process=style/ImageCompress"
 +++
 
-category: Home Lab
-date: September 26, 2022 8:37 PM
-status: Published
-type: Post
-
 当使用 Active Backup for Business 备份一台机器的系统卷或者全部设备后，机器挂掉之后可以通过已有的备份来恢复。
 
 ## 注意点
