@@ -15,16 +15,16 @@ image = "https://img.mitsea.com/blog/posts/2020/06/iOS%2012%20futurerestore/titl
 
 1. unc0ver 越狱工具
 
-项目地址：https://github.com/pwn20wndstuff/Undecimus
+    项目地址：https://github.com/pwn20wndstuff/Undecimus
 2. 需要刷入的固件
 
-下载地址：ipsw.me
+    下载地址：ipsw.me
 3. futurerestore 工具
 
-项目地址：https://github.com/s0uthwest/futurerestore
+    项目地址：https://github.com/s0uthwest/futurerestore
 4. Cydia Impactor
 
-下载地址：http://www.cydiaimpactor.com
+    下载地址：http://www.cydiaimpactor.com
 
 5. blobs
 
