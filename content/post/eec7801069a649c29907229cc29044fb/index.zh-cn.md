@@ -11,9 +11,9 @@ image = "https://img.mitsea.com/blog/posts/2020/02/%E4%BD%BF%E7%94%A8%20Active%2
 
 在生产环境中，虚拟机集群是经常被采用的方式。通过群晖附带的 Active Backup for Business 可以可靠并高效的备份以及还原这些虚拟机，并尽量减少存储开销，这是他最大的亮点。同时，它还可以拿来备份实体机器和服务器，通过下面的基础设置，可以快速使用起这些功能。
 
-# Windows 端配置
+## Windows 端配置
 
-## 配置 Windows RM
+### 配置 Windows RM
 
 首先确保 Windows RM（Windows Remote Management）是否已经启用，打开 PowerShell，输入下面的命令查看服务状态
 
@@ -45,7 +45,7 @@ image = "https://img.mitsea.com/blog/posts/2020/02/%E4%BD%BF%E7%94%A8%20Active%2
 
         winrm e winrm/config/listener
 
-## 配置脚本执行策略
+### 配置脚本执行策略
 
 此外，还需要配置 PowerShell 的脚本执行策略，否则将会出现下面的错误
 
@@ -63,7 +63,7 @@ image = "https://img.mitsea.com/blog/posts/2020/02/%E4%BD%BF%E7%94%A8%20Active%2
 
     ![](https://img.mitsea.com/blog/posts/2020/02/%E4%BD%BF%E7%94%A8%20Active%20Backup%20for%20Business%20%E5%A4%87%E4%BB%BD%E8%99%9A%E6%8B%9F%E6%9C%BA%EF%BC%88Hyper-V%EF%BC%89/6.png?x-oss-process=style/ImageCompress)
 
-# DSM 端配置
+## DSM 端配置
 
 1. 打开 Active Backup for Business，按照下图打开 **添加 Hypervisor** 窗口
 
