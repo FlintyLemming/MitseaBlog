@@ -12,7 +12,7 @@ image = "https://img.mitsea.com/blog/posts/2022/09/Hugo%20%E6%90%AD%E9%85%8D%20N
 最近把博客迁移到了 Hugo，Hugo 并不算是个纯静态的博客系统。一般来说，是作为一个 go 服务放在后台运行的。通过 `hugo server` 命令可以启动为服务端，默认端口为 1313。但如果直接通过 Nginx 的 proxy_pass 反代为公网服务会遇到一些问题，应该加上一些参数启动。我的启动命令如下。
 
 ```bash
-hugo server --appendPort=false --baseURL="[https://blog.mitsea.com/](https://blog.mitsea.com/)" --liveReloadPort 443
+hugo server --appendPort=false --baseURL="https://blog.mitsea.com" --liveReloadPort 443
 ```
 
 ## appendPort
