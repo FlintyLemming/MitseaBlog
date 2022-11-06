@@ -6,6 +6,7 @@ date = "2022-11-06"
 description = ""
 categories = ["HomeLab"]
 tags = ["DSM", "pt"]
+image = "https://img.mitsea.com/blog/posts/2022/11/%E7%BE%A4%E6%99%96%20btrfs%20%E5%85%B3%E4%BA%8E%20cow%20%E7%9A%84%E8%A7%82%E5%AF%9F/title.jpg?x-oss-process=style/ImageCompress"
 +++
 
 ## 关于 btrfs 的 cow
@@ -53,3 +54,5 @@ tags = ["DSM", "pt"]
 在同样支持 cow 的 APFS 中也表现出相同的行为，复制出来的副本虽然实际上不会额外占用空间，但是统计文件夹大小的时候仍然会重复统计。
 
 ![](https://img.mitsea.com/blog/posts/2022/11/%E7%BE%A4%E6%99%96%20btrfs%20%E5%85%B3%E4%BA%8E%20cow%20%E7%9A%84%E8%A7%82%E5%AF%9F/8.png?x-oss-process=style/ImageCompress)
+
+> Photo by [Lysander Yuen](https://unsplash.com/@lysanderyuen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/duplicate?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
