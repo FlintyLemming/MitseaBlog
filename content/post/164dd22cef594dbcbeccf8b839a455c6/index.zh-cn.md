@@ -17,7 +17,7 @@ image = "https://img.mitsea.com/blog/posts/2022/11/%E7%BE%A4%E6%99%96%20btrfs%20
 
 ![](https://img.mitsea.com/blog/posts/2022/11/%E7%BE%A4%E6%99%96%20btrfs%20%E5%85%B3%E4%BA%8E%20cow%20%E7%9A%84%E8%A7%82%E5%AF%9F/1.png?x-oss-process=style/ImageCompress)
 
-这个本质上是在复制文件的时候在 cp 命令后追加 `--reflink=always` 参数
+这个本质上是在复制文件的时候在 cp 命令后追加 `--reflink=always` 参数。此外，cow 支持 smb，通过 smb 进行复制的操作同样有效，与硬链接相比有无可比拟的便利性。
 
 ## 小实验
 
