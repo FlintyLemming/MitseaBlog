@@ -103,7 +103,7 @@ crontab /etc/config/crontab && /etc/init.d/crond.sh restart
 执行下面的命令查看是否有进程
 
 ```bash
-ps -ef|grep ttnode
+ps -ef|grep nezha
 ```
 
 Photo by [Valentin Bolder](https://unsplash.com/es/@vallibo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
