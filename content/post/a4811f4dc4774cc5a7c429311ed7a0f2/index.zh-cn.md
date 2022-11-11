@@ -9,8 +9,6 @@ tags = ["Apple Music"]
 image = "https://img.mitsea.com/blog/posts/2022/11/%E5%9B%BD%E5%8C%BA%20Apple%20Music%20iTunes%20Match%20%E8%A7%82%E5%AF%9F/title.jpg?x-oss-process=style/ImageCompress"
 +++
 
-date: November 9, 2022 12:24 AM
-
 众所周知，iTunes Match 作为一项历史悠久的服务一直在 iTunes Store 中。但是随着 Apple Music 的推出，它实际上也集成了 iTunes Match 的功能。
 
 但是因为国区缺失了 iTunes Store，所以有人觉得国区的 Apple Music 没有 iTunes Match，无法匹配音乐。这篇文章就记录下我的观察。
@@ -45,9 +43,7 @@ date: November 9, 2022 12:24 AM
 
 美区可以正常打开，但是国区是没有这张专辑的
 
-![左美区，右国区](https://img.mitsea.com/blog/posts/2022/11/%E5%9B%BD%E5%8C%BA%20Apple%20Music%20iTunes%20Match%20%E8%A7%82%E5%AF%9F/3.png?x-oss-process=style/ImageCompress)
-
-左美区，右国区
+![左美区，右国区](https://img.mitsea.com/blog/posts/2022/11/%E5%9B%BD%E5%8C%BA%20Apple%20Music%20iTunes%20Match%20%E8%A7%82%E5%AF%9F/4.png?x-oss-process=style/ImageCompress)
 
 所以国区的 iTunes Match 是可以匹配到外区音源的。
 
