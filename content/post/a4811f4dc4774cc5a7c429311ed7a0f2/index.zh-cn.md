@@ -1,7 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "国区 Apple Music iTunes Match 观察"
-slug = "e243ad2e577342098196568ed9df3a36"
+slug = "a4811f4dc4774cc5a7c429311ed7a0f2"
 date = "2022-11-09"
 description = "省流：国区有 Match，并且可以匹配到外区音源"
 categories = ["Apple"]
