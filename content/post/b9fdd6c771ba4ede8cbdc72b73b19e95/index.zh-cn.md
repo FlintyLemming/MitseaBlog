@@ -31,18 +31,6 @@ Setapp 所包含的软件原则上不限制商业使用，而且都是一些小�
 
 但是处于报备的考虑，我尽可能咨询到每一款软件。下面是我具体会使用的软件。
 
-## AnyDroid
-
-### 软件官网
-
-[[Official] AnyDroid - Manage Your Android Content in Every Way](https://www.imobie.com/anydroid/)
-
-### 商用许可
-
-### 使用理由
-
-Android 开发用，管理 Android 手机
-
 ## Asset Catalog Creator Pro
 
 ### 软件官网
@@ -96,6 +84,8 @@ macOS 管理工具
 [CleanShot X for Mac](https://cleanshot.com/)
 
 ### 商用许可
+
+这个和下面那个 PixelSnap 是一家公司出的
 
 [CleanShot EULA](https://cleanshot.com/eula.html)
 
@@ -216,6 +206,8 @@ UI 像素级别检查工具
 [Keep Your Code At Your Fingertips](https://www.renfei.org/snippets-lab/)
 
 ### 商用许可
+
+这个官网没找到许可文件，但是这个软件也不分个人和商业版
 
 ### 使用理由
 
