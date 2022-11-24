@@ -107,5 +107,37 @@ macOS 的网络抓包调试工具
 
 Redis 开发工具
 
+## Beyond Compare
+
+### 购买记录
+
+![](https://img.mitsea.com/blog/posts/2022/11/%E8%BD%AF%E4%BB%B6%E8%AE%B8%E5%8F%AF%E8%AF%81%E6%98%8E%EF%BC%88macOS%20%E5%8D%95%E7%8B%AC%E8%B4%AD%E4%B9%B0%EF%BC%89/Untitled.jpeg?x-oss-process=style/ImageCompress)
+
+### 商用授权
+
+![](https://img.mitsea.com/blog/posts/2022/11/%E8%BD%AF%E4%BB%B6%E8%AE%B8%E5%8F%AF%E8%AF%81%E6%98%8E%EF%BC%88macOS%20%E5%8D%95%E7%8B%AC%E8%B4%AD%E4%B9%B0%EF%BC%89/Untitled%2012.png?x-oss-process=style/ImageCompress)
+
+### 使用理由
+
+文件夹对比
+
+## Parallels Desktop
+
+### 购买记录
+
+按年订阅，所以订单只有一年的费用。之前用的个人版的 Pro 貌似不符合要求，又买了份商业版。
+
+![](https://img.mitsea.com/blog/posts/2022/11/%E8%BD%AF%E4%BB%B6%E8%AE%B8%E5%8F%AF%E8%AF%81%E6%98%8E%EF%BC%88macOS%20%E5%8D%95%E7%8B%AC%E8%B4%AD%E4%B9%B0%EF%BC%89/Untitled%2013.png?x-oss-process=style/ImageCompress)
+
+### 商用许可
+
+买的就是商业版
+
+![](https://img.mitsea.com/blog/posts/2022/11/%E8%BD%AF%E4%BB%B6%E8%AE%B8%E5%8F%AF%E8%AF%81%E6%98%8E%EF%BC%88macOS%20%E5%8D%95%E7%8B%AC%E8%B4%AD%E4%B9%B0%EF%BC%89/Untitled%2014.png?x-oss-process=style/ImageCompress)
+
+### 使用理由
+
+macOS 上的虚拟机应用，需要多个环境进行测试
+
 > Photo by [Philip Oroni](https://unsplash.com/@philipsfuture?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   
