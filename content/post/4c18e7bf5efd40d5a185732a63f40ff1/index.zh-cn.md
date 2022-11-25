@@ -21,9 +21,9 @@ image = "https://img.mitsea.com/blog/posts/2022/11/macOS%20%E5%85%8D%E8%B4%B9%E8
 
 Arc 浏览器最大的特点就是垂直标签页+多Space，这对于需要打开超多标签页的用户管理起来特别方便
 
-![](https://img.mitsea.com/blog/posts/2022/11/macOS%20%E5%85%8D%E8%B4%B9%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E7%94%B3%E8%AF%B/Untitled.png)
+![](https://img.mitsea.com/blog/posts/2022/11/macOS%20%E5%85%8D%E8%B4%B9%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E7%94%B3%E8%AF%B7/Untitled.png?x-oss-process=style/ImageCompress)
 
-![](macOS%20%E5%85%8D%E8%B4%B9%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E7%94%B3%E8%AF%B7%204c18e7bf5efd40d5a185732a63f40ff1/Untitled%201.png)
+![](https://img.mitsea.com/blog/posts/2022/11/macOS%20%E5%85%8D%E8%B4%B9%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E7%94%B3%E8%AF%B7/Untitled%201.png?x-oss-process=style/ImageCompress)
 
 ### Boost 模式
 
@@ -31,11 +31,11 @@ Arc 浏览器最大的特点就是垂直标签页+多Space，这对于需要打�
 
 比如这个网页中的进度条是直角，与其他元素不统一
 
-![](macOS%20%E5%85%8D%E8%B4%B9%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E7%94%B3%E8%AF%B7%204c18e7bf5efd40d5a185732a63f40ff1/Untitled%202.png)
+![](https://img.mitsea.com/blog/posts/2022/11/macOS%20%E5%85%8D%E8%B4%B9%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E7%94%B3%E8%AF%B7/Untitled%202.png?x-oss-process=style/ImageCompress)
 
 使用 Boost 模式添加样式覆盖后，以后每次打开都会应用自定义样式。这对于开发也有作用。
 
-![](macOS%20%E5%85%8D%E8%B4%B9%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E7%94%B3%E8%AF%B7%204c18e7bf5efd40d5a185732a63f40ff1/Untitled%203.png)
+![](https://img.mitsea.com/blog/posts/2022/11/macOS%20%E5%85%8D%E8%B4%B9%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E7%94%B3%E8%AF%B7/Untitled%203.png?x-oss-process=style/ImageCompress)
 
 ## Xcodes
 
@@ -49,7 +49,7 @@ Arc 浏览器最大的特点就是垂直标签页+多Space，这对于需要打�
 
 给 Finder 增加标签页功能的插件
 
-![](macOS%20%E5%85%8D%E8%B4%B9%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E7%94%B3%E8%AF%B7%204c18e7bf5efd40d5a185732a63f40ff1/Untitled%204.png)
+![](https://img.mitsea.com/blog/posts/2022/11/macOS%20%E5%85%8D%E8%B4%B9%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E7%94%B3%E8%AF%B7/Untitled%204.png?x-oss-process=style/ImageCompress)
 
 ## Studio 3T
 
@@ -57,7 +57,7 @@ Arc 浏览器最大的特点就是垂直标签页+多Space，这对于需要打�
 
 查看 MongoDB 的工具，虽然有付费版，但是跟开发者确认过可以在商业公司内只使用免费版
 
-![](macOS%20%E5%85%8D%E8%B4%B9%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E7%94%B3%E8%AF%B7%204c18e7bf5efd40d5a185732a63f40ff1/Untitled%205.png)
+![](https://img.mitsea.com/blog/posts/2022/11/macOS%20%E5%85%8D%E8%B4%B9%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E7%94%B3%E8%AF%B7/Untitled%205.png?x-oss-process=style/ImageCompress)
 
 ## KeyboardHolder
 
