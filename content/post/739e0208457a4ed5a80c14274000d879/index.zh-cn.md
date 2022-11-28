@@ -211,6 +211,8 @@ macOS 对鼠标滚轮支持不好，滚动很生硬，用这个小工具改善�
 
 ### 商用许可
 
+![](https://img.mitsea.com/blog/posts/2022/11/%E8%BD%AF%E4%BB%B6%E8%AE%B8%E5%8F%AF%E8%AF%81%E6%98%8E%EF%BC%88macOS%20%E5%8D%95%E7%8B%AC%E8%B4%AD%E4%B9%B0%EF%BC%89/Untitled%2018.png?x-oss-process=style/ImageCompress)
+
 ### 使用理由
 
 功能强大的 markdown 格式文本编辑器
@@ -222,6 +224,8 @@ macOS 对鼠标滚轮支持不好，滚动很生硬，用这个小工具改善�
 [GrandPerspective](https://grandperspectiv.sourceforge.net/)
 
 ### 购买记录
+
+![](https://img.mitsea.com/blog/posts/2022/11/%E8%BD%AF%E4%BB%B6%E8%AE%B8%E5%8F%AF%E8%AF%81%E6%98%8E%EF%BC%88macOS%20%E5%8D%95%E7%8B%AC%E8%B4%AD%E4%B9%B0%EF%BC%89/Untitled%2019.png?x-oss-process=style/ImageCompress)
 
 ### 商用许可
 
