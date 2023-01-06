@@ -4,7 +4,7 @@ title = "孤岛惊魂6 等效主机画质设定"
 slug = "a4a38b2e665d4cb3804c5191c5fe2053"
 date = "2023-01-06"
 description = ""
-categories = ["Games"]
+categories = ["Game"]
 tags = ["Far Cry"]
 image = "https://img.mitsea.com/blog/posts/2023/01/Far-Cry-6-Key-Art-Logo.webp?x-oss-process=style/ImageCompress"
 +++
