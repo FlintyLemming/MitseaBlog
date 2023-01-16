@@ -11,7 +11,7 @@ image = "https://img.mitsea.com/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudF
 
 Backblaze B2 在大厂的对象存储里算是非常便宜的了，如果不考虑国内访问速度，应该是非常不错的选择。由于 B2 与 CloudFlare 合作，所以套上 CloudFlare 后并不会消耗流量，所以拿来做图床是个不错的选择，下面介绍下步骤。
 
-# 配置 CDN
+## 配置 CDN
 
 以下步骤参考官方教程
 
@@ -67,7 +67,7 @@ Backblaze B2 在大厂的对象存储里算是非常便宜的了，如果不考�
     ![](https://img.mitsea.com/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/Untitled%206.png?x-oss-process=style/ImageCompress)
     
 
-# 隐藏 Bucket 名称
+## 隐藏 Bucket 名称
 
 这样设置完后，虽然能免流了，但是 Bucket 名称还是暴露了，为了避免被人搞事情，所以要隐藏 Bucket 名称。这里用到了 cf 的 workers，参考下面站点的内容。
 
