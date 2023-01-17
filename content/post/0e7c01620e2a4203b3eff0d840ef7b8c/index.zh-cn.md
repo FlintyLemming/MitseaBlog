@@ -2,7 +2,7 @@
 author = "FlintyLemming"
 title = "微星 Z690 刀锋钛 + 金百达 D5 6000 超频参考作业"
 slug = "0e7c01620e2a4203b3eff0d840ef7b8c"
-date = "2023-01-23"
+date = "2023-01-16"
 categories = ["Consumer"]
 tags = ["超频"]
 image = "https://img.mitsea.com/blog/posts/2023/01/%E5%BE%AE%E6%98%9F%20Z690%20%E5%88%80%E9%94%8B%E9%92%9B%20+%20%E9%87%91%E7%99%BE%E8%BE%BE%20D5%206000%20%E8%B6%85%E9%A2%91%E5%8F%82%E8%80%83%E4%BD%9C%E4%B8%9A%200e7c01620e2a4203b3eff0d840ef7b8c/FoJXRxdi8Dpoznow.jpg?x-oss-process=style/ImageCompress"
