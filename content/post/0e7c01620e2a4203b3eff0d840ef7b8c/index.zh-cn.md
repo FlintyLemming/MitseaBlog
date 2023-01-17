@@ -16,7 +16,7 @@ image = "https://img.mitsea.com/blog/posts/2023/01/%E5%BE%AE%E6%98%9F%20Z690%20%
 
 Z690 对 D5 的支持其实不算太好。板卡官方最大是支持 6600 OC，实际也差不多，我一开始试了下 MemoryTryIt，6800 会突然关机，然后重启掉 XMP。所以最后超的是 6600MHz 32-39-39-42 Gear2。
 
-下面就是超频作业了，没有截到的就是
+下面就是超频作业了，没有截到的就是没有动
 
 ![](https://img.mitsea.com/blog/posts/2023/01/%E5%BE%AE%E6%98%9F%20Z690%20%E5%88%80%E9%94%8B%E9%92%9B%20%2B%20%E9%87%91%E7%99%BE%E8%BE%BE%20D5%206000%20%E8%B6%85%E9%A2%91%E5%8F%82%E8%80%83%E4%BD%9C%E4%B8%9A/MSI_SnapShot6_00.jpg?x-oss-process=style/ImageCompress)
 
