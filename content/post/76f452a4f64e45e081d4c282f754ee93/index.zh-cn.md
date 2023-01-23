@@ -2,7 +2,7 @@
 author = "FlintyLemming"
 title = "NAS 只用后台网页 SSH 本机 Shell"
 slug = "76f452a4f64e45e081d4c282f754ee93"
-date = "2022-01-23"
+date = "2023-01-23"
 description = ""
 categories = ["HomeLab"]
 tags = ["NAS", "Docker"]
@@ -38,10 +38,7 @@ Docker 的子网实际上是从 NAS 自己桥接出来的，你可以理解 NAS 
     
 6. 点击连接后，就会新打开一个标签页，这个无论你是用的 QNAP 自己的穿透，还是自己通过 nginx 反代到公网都是可以打开的。打开就是这个容器内部的 shell。
     
-    <aside>
     💡 如果是自己使用 nginx 将 NAS 后台反代到公网，请务必确保已启用 websocket 支持
-    
-    </aside>
     
     ![](https://img.mitsea.com/blog/posts/2023/01/NAS%20%E5%8F%AA%E7%94%A8%E5%90%8E%E5%8F%B0%E7%BD%91%E9%A1%B5%20SSH%20%E6%9C%AC%E6%9C%BA%20Shell/Untitled%204.png?x-oss-process=style/ImageCompress)
     
@@ -74,18 +71,12 @@ Docker 的子网实际上是从 NAS 自己桥接出来的，你可以理解 NAS 
     
 3. 启动后，打开容器详情，在 终端机 就可以进入容器的 shell 了。
     
-    <aside>
     💡 在老版本的 DSM 中默认可能没有 shell，需要手动创建，点击 新建 右侧的 通过命令启动，命令输入 `/bin/sh`
-    
-    </aside>
-    
+        
     ![](https://img.mitsea.com/blog/posts/2023/01/NAS%20%E5%8F%AA%E7%94%A8%E5%90%8E%E5%8F%B0%E7%BD%91%E9%A1%B5%20SSH%20%E6%9C%AC%E6%9C%BA%20Shell/Untitled%2011.png?x-oss-process=style/ImageCompress)
     
-    <aside>
     💡 如果是自己使用 nginx 将 NAS 后台反代到公网，请务必确保已启用 websocket 支持
-    
-    </aside>
-    
+        
 4. 连接前，需要找一下容器网关地址，在 网络 - bridge 展开后可以看到。我这边是 172.17.0.1。
     
     ![](https://img.mitsea.com/blog/posts/2023/01/NAS%20%E5%8F%AA%E7%94%A8%E5%90%8E%E5%8F%B0%E7%BD%91%E9%A1%B5%20SSH%20%E6%9C%AC%E6%9C%BA%20Shell/Untitled%2012.png?x-oss-process=style/ImageCompress)
@@ -94,10 +85,7 @@ Docker 的子网实际上是从 NAS 自己桥接出来的，你可以理解 NAS 
     
     ![](https://img.mitsea.com/blog/posts/2023/01/NAS%20%E5%8F%AA%E7%94%A8%E5%90%8E%E5%8F%B0%E7%BD%91%E9%A1%B5%20SSH%20%E6%9C%AC%E6%9C%BA%20Shell/Untitled%2013.png?x-oss-process=style/ImageCompress)
     
-    <aside>
     💡 你的 SSH 端口有可能因为某次安全提示修改了端口。如果需要指定端口，在地址后面加上  `-p <端口号>` 即可
     
-    </aside>
-
 > Photo by [Thái An](https://unsplash.com/@johnn21?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   
