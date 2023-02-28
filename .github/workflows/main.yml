@@ -1,4 +1,4 @@
-name: learn-github-actions
+name: Update Blogs
 run-name: Updating blogs on server
 on: [push]
 jobs:
