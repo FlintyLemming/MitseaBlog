@@ -1,6 +1,6 @@
 +++
 author = "FlintyLemming"
-title = "自建 Tailscale DERP"
+title = "自建 Tailscale DERP 服务器"
 slug = "c048b27771374b6588b5ff08563e1f3c"
 date = "2022-09-17"
 description = ""
@@ -10,10 +10,6 @@ image = "https://img.mitsea.com/blog/posts/2022/09/%E8%87%AA%E5%BB%BA%20Tailscal
 +++
 
 ## 配置 Go 环境
-
-以下参考 
-
-[How To Install Go on Ubuntu 20.04 | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-go-on-ubuntu-20-04)
 
 1. 在 Go 官网查找并下载最新版
     
@@ -25,24 +21,34 @@ image = "https://img.mitsea.com/blog/posts/2022/09/%E8%87%AA%E5%BB%BA%20Tailscal
     sudo tar -C /usr/local -xvf go1.19.1.linux-amd64.tar.gz
     ```
     
-3. 配置 shell 环境
+3. 准备 gopath 文件夹。gopath 文件夹建议放在当前用户自己的文件夹里，否则后面安装会提示没有权限。我习惯在个人文件夹的根目录下创建一个 AppData 文件夹存放数据。
+    
+    ```bash
+    mkdir -p ~/AppData/gopath
+    ```
+    
+4. 配置 shell 环境
     
     编辑 `.profile` 文件
     
     ```bash
-    sudo nano ~/.profile
+    sudo nano /etc/profile
     ```
     
-    在最后一行加上
+    在最后一行加上（注意这里的 GOPATH 一定要换成你自己刚才创建的那个文件夹）
     
     ```bash
-    export PATH=$PATH:/usr/local/go/bin
+    export GOROOT=/usr/local/go
+    export GOPATH=/home/username/AppData/gopath
+    export GOBIN=$GOPATH/bin
+    export PATH=$PATH:$GOROOT/bin
+    export PATH=$PATH:$GOPATH/bin
     ```
     
     刷新设置
     
     ```bash
-    source ~/.profile
+    source /etc/profile
     ```
     
     执行 `go version` 命令，能看到版本就行
@@ -56,7 +62,14 @@ image = "https://img.mitsea.com/blog/posts/2022/09/%E8%87%AA%E5%BB%BA%20Tailscal
 go install tailscale.com/cmd/derper@main
 ```
 
-## 准备 DERP 所需内容（使用 443 端口）
+如果安装速度慢，可以配置下国内镜像
+
+```jsx
+go env -w GO111MODULE=on
+go env -w GOPROXY=https://goproxy.cn,direct
+```
+
+## 准备 DERP 所需内容
 
 ### 域名
 
@@ -68,11 +81,49 @@ go install tailscale.com/cmd/derper@main
 
 ## 启动 DERP
 
+### 启动服务
+
 ```bash
-/root/go/bin/derper -hostname <域名> -certdir <证书存放路径> -certmode manual -verify-clients
+derper -hostname <域名> -c <存放配置文件的路径>/derper.conf -a :<自定义端口> -http-port -1 -certdir <存放证书的路径> -certmode manual -verify-clients
 ```
 
+`-c` 是存放配置文件的地方，默认可以不需要，启动时会自动创建，你选择好位置就行。比如你选在 `/home/username/app` 下，那你就写 `/home/username/app/derper.conf`
+
+`-a` 是自定义端口，如果不设置，默认是 443
+
+`-http-port` 是服务启的一个测试页面，用于测试服务是否已经启动，默认是 80，如果启动需要 root 权限。为了避免用 sudo 启动，这里直接设置成 `-1`，关闭这个测试页面
+
 保活的话，可以把这个做成服务或者直接丢到一个 screen 里跑
+
+### 设置端口映射
+
+如果服务器在内网中，需要把 3478 和你刚才设置的端口暴露到公网中
+
+## 配置 ACL
+
+要想自己的 Tailscale 内网设备可以使用自建的 DERP 服务器，需要配置 ACL 文件。在配置文件里添加如下一段，注意把里面的信息替换成自己的。
+
+```yaml
+"derpMap": {
+		// "OmitDefaultRegions": true,
+		"Regions": {
+			"xxx": {
+				"RegionID": xxx,
+				"RegionCode": "xxx",
+				"Nodes": [
+					{
+						"Name":     "xxx",
+						"RegionID": xxx,
+						"HostName": "xxx",
+						"DERPPort": xxx,
+					},
+				],
+			},
+		},
+	},
+```
+
+![](https://img.mitsea.com/blog/posts/2022/09/%E8%87%AA%E5%BB%BA%20Tailscale%20DERP/Untitled.png?x-oss-process=style/ImageCompress)
 
 ## 防止被滥用
 
