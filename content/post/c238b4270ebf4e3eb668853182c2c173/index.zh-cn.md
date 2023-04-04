@@ -6,7 +6,7 @@ date = "2023-04-04"
 description = ""
 categories = ["HomeLab"]
 tags = ["FreeBSD", "TrueNAS Core", "qBittorrent"]
-image = "https://img.mitsea.com/blog/posts/2023/04/FreeBSD%20%E6%9B%B4%E6%8D%A2%E4%B8%AD%E7%A7%91%E5%A4%A7%E8%BD%AF%E4%BB%B6%E5%8C%85%E6%BA%90/milad-fakurian-r1JDkQgwnC4-unsplash.jpg?x-oss-process=style/ImageCompress"
+image = "https://img.mitsea.com/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/marek-piwnicki-i5AF9bW10p0-unsplash.jpg?x-oss-process=style/ImageCompress"
 +++
 
 ## 开头
