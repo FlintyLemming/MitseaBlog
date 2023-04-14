@@ -9,13 +9,13 @@ tags = ["QQ", "内存", "Electron"]
 image = "https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/malik-skydsgaard-rhqsKzvyyQo-unsplash.jpg?x-oss-process=style/ImageCompress"
 +++
 
-# 说明
+## 说明
 
 测试方法是通过对比打开和关闭程序前后的内存和显存数值，只看任务管理器某几个进程的内存占用之和是不准确的
 
-# 具体测试
+## 具体测试
 
-## 环境1 有独立显卡的台式机
+### 环境1 有独立显卡的台式机
 
 32G DDR5 内存+3090 24G 显存
 
@@ -24,7 +24,7 @@ image = "https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8
 | QQ本体 | ~300M | ~400M |
 | QQ本体+频道 | ~500M | ~700M |
 
-## 环境2 没有显卡的服务器
+### 环境2 没有显卡的服务器
 
 128G 内存 远程桌面
 
@@ -33,7 +33,7 @@ image = "https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8
 | QQ本体 | ~600M | 0M |
 | QQ本体+频道 | ~900M | 0M |
 
-## 环境3 核显轻薄本
+### 环境3 核显轻薄本
 
 AMD Ryzen 5 5500U，核显分配 1G 内存
 
@@ -46,7 +46,7 @@ AMD Ryzen 5 5500U，核显分配 1G 内存
 
 ![](https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Untitled.png?x-oss-process=style/ImageCompress)
 
-# 其他观察
+## 其他观察
 
 ## 突发占用
 
@@ -58,9 +58,9 @@ AMD Ryzen 5 5500U，核显分配 1G 内存
 
 ![](https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Untitled%202.png?x-oss-process=style/ImageCompress)
 
-# 附件
+## 附件
 
-## 环境1截图
+### 环境1截图
 
 ![](https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Snipaste_2023-03-24_19-13-00.png?x-oss-process=style/ImageCompress)
 
@@ -68,7 +68,7 @@ AMD Ryzen 5 5500U，核显分配 1G 内存
 
 ![](https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Snipaste_2023-03-24_19-14-46.png?x-oss-process=style/ImageCompress)
 
-## 环境2截图
+### 环境2截图
 
 ![](https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Untitled%203.png?x-oss-process=style/ImageCompress)
 
@@ -76,7 +76,7 @@ AMD Ryzen 5 5500U，核显分配 1G 内存
 
 ![](https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Untitled%205.png?x-oss-process=style/ImageCompress)
 
-## 环境3截图
+### 环境3截图
 
 ![](https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Snipaste_2023-03-24_20-08-56.png?x-oss-process=style/ImageCompress)
 
