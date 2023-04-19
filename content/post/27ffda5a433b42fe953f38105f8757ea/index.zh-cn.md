@@ -13,7 +13,7 @@ image = "https://img.mitsea.com/blog/posts/2023/03/%E5%85%B1%E7%94%A8%E8%B4%A6%E
 
 不过事先说明下，这个管理方法属于野路子，仅限内部小规模开发用。因为其中生成的证书需要安装到其他开发人员的机器上，这个证书是可以被随意导出的。
 
-## 1. 收集设备信息
+## 收集设备信息
 
 需要收集开发所使用的 iOS 设备的 UDID
 
@@ -29,7 +29,7 @@ iOS 设备的 UDID 需要将其连接至 Mac，在 Finder 左侧找到设备，�
 
 ![](https://img.mitsea.com/blog/posts/2023/03/%E5%85%B1%E7%94%A8%E8%B4%A6%E5%8F%B7%E5%9C%BA%E6%99%AF%E4%B8%8B%E7%9A%84%E7%AE%A1%E7%90%86%E5%A4%9A%E4%BA%BA%20iOS%20%E5%BC%80%E5%8F%91%E5%92%8C%E5%8F%91%E5%B8%83%E5%85%A8%E6%B5%81%E7%A8%8B/Untitled%202.png?x-oss-process=style/ImageCompress)
 
-## 2. 创建 ****Certificates（证书）****
+## 创建 ****Certificates（证书）****
 
 1. 当开始创建 Certificates 的时候，会让你选择类别，需要创建两个，一个 Apple Development、一个 Apple Distribution。图上 Apple Development 选不了是因为只能创建一个，我创建过了。
 
@@ -53,13 +53,13 @@ iOS 设备的 UDID 需要将其连接至 Mac，在 Finder 左侧找到设备，�
 
 4. 把这个 p12 证书导入到所有开发用 Mac 的钥匙串里
 
-## 3. 创建 App ID
+## 创建 App ID
 
 这一步主要是要给你的 App 设定一个包名。下图中，Description 随便写，他不是商店显示的名称，也不是 App Icon 下的名称；Bundle ID 就是包名；Capabilities 选择你需要使用的功能，不知道选什么也没关系，这个后面可以改。
 
 ![](https://img.mitsea.com/blog/posts/2023/03/%E5%85%B1%E7%94%A8%E8%B4%A6%E5%8F%B7%E5%9C%BA%E6%99%AF%E4%B8%8B%E7%9A%84%E7%AE%A1%E7%90%86%E5%A4%9A%E4%BA%BA%20iOS%20%E5%BC%80%E5%8F%91%E5%92%8C%E5%8F%91%E5%B8%83%E5%85%A8%E6%B5%81%E7%A8%8B/Untitled%208.png?x-oss-process=style/ImageCompress)
 
-## 4. 创建开发用的 Profiles （描述文件）并开发
+## 创建开发用的 Profiles （描述文件）并开发
 
 这一步就是生成如果你不勾选自动签名，这里需要的 Provisioning Profile
 
@@ -75,18 +75,18 @@ iOS 设备的 UDID 需要将其连接至 Mac，在 Finder 左侧找到设备，�
 
 3. 这里选择第二步选择的证书
 
-![](https://img.mitsea.com/blog/posts/2023/03/%E5%85%B1%E7%94%A8%E8%B4%A6%E5%8F%B7%E5%9C%BA%E6%99%AF%E4%B8%8B%E7%9A%84%E7%AE%A1%E7%90%86%E5%A4%9A%E4%BA%BA%20iOS%20%E5%BC%80%E5%8F%91%E5%92%8C%E5%8F%91%E5%B8%83%E5%85%A8%E6%B5%81%E7%A8%8B/Untitled%2012.png?x-oss-process=style/ImageCompress)
+    ![](https://img.mitsea.com/blog/posts/2023/03/%E5%85%B1%E7%94%A8%E8%B4%A6%E5%8F%B7%E5%9C%BA%E6%99%AF%E4%B8%8B%E7%9A%84%E7%AE%A1%E7%90%86%E5%A4%9A%E4%BA%BA%20iOS%20%E5%BC%80%E5%8F%91%E5%92%8C%E5%8F%91%E5%B8%83%E5%85%A8%E6%B5%81%E7%A8%8B/Untitled%2012.png?x-oss-process=style/ImageCompress)
 
-1. 这里选择第一步添加的设备
+4. 这里选择第一步添加的设备
 
     ![](https://img.mitsea.com/blog/posts/2023/03/%E5%85%B1%E7%94%A8%E8%B4%A6%E5%8F%B7%E5%9C%BA%E6%99%AF%E4%B8%8B%E7%9A%84%E7%AE%A1%E7%90%86%E5%A4%9A%E4%BA%BA%20iOS%20%E5%BC%80%E5%8F%91%E5%92%8C%E5%8F%91%E5%B8%83%E5%85%A8%E6%B5%81%E7%A8%8B/Untitled%2013.png?x-oss-process=style/ImageCompress)
 
-2. 写一个名字后导出，会得到一个 .mobileprovision 的文件
-3. Xcode 里 Provisioning Profile 位置导入这个文件后，就可以使用 Xcode 在注册的机器上进行真机调试了
+5. 写一个名字后导出，会得到一个 .mobileprovision 的文件
+6. Xcode 里 Provisioning Profile 位置导入这个文件后，就可以使用 Xcode 在注册的机器上进行真机调试了
 
     ![](https://img.mitsea.com/blog/posts/2023/03/%E5%85%B1%E7%94%A8%E8%B4%A6%E5%8F%B7%E5%9C%BA%E6%99%AF%E4%B8%8B%E7%9A%84%E7%AE%A1%E7%90%86%E5%A4%9A%E4%BA%BA%20iOS%20%E5%BC%80%E5%8F%91%E5%92%8C%E5%8F%91%E5%B8%83%E5%85%A8%E6%B5%81%E7%A8%8B/Untitled%2014.png?x-oss-process=style/ImageCompress)
 
-## 5. 在 App Store Connect 里为 App 创建坑位
+## 在 App Store Connect 里为 App 创建坑位
 
 从下面这个网址进入 App Store Connect 的 App 管理页面并新建 App
 
@@ -96,7 +96,7 @@ iOS 设备的 UDID 需要将其连接至 Mac，在 Finder 左侧找到设备，�
 
 ![](https://img.mitsea.com/blog/posts/2023/03/%E5%85%B1%E7%94%A8%E8%B4%A6%E5%8F%B7%E5%9C%BA%E6%99%AF%E4%B8%8B%E7%9A%84%E7%AE%A1%E7%90%86%E5%A4%9A%E4%BA%BA%20iOS%20%E5%BC%80%E5%8F%91%E5%92%8C%E5%8F%91%E5%B8%83%E5%85%A8%E6%B5%81%E7%A8%8B/Untitled%2015.png?x-oss-process=style/ImageCompress)
 
-## 6. 创建发布用的 Profiles （描述文件）并上传至 Connect
+## 创建发布用的 Profiles （描述文件）并上传至 Connect
 
 这一步跟第四步差不多，就是选择类别的时候选 App Store
 
