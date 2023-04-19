@@ -6,7 +6,7 @@ date = "2023-03-02"
 description = "也算是梳理了一下 App 上架的部分过程"
 categories = ["Coding"]
 tags = ["Apple", "Develop"]
-image = "https://img.mitsea.com/blog/posts/2023/03/https://img.mitsea.com/blog/posts/2023/03/%E5%85%B1%E7%94%A8%E8%B4%A6%E5%8F%B7%E5%9C%BA%E6%99%AF%E4%B8%8B%E7%9A%84%E7%AE%A1%E7%90%86%E5%A4%9A%E4%BA%BA%20iOS%20%E5%BC%80%E5%8F%91%E5%92%8C%E5%8F%91%E5%B8%83%E5%85%A8%E6%B5%81%E7%A8%8B/y-s-cIED8mVpyTY-unsplash.jpg?x-oss-process=style/ImageCompress"
+image = "https://img.mitsea.com/blog/posts/2023/03/%E5%85%B1%E7%94%A8%E8%B4%A6%E5%8F%B7%E5%9C%BA%E6%99%AF%E4%B8%8B%E7%9A%84%E7%AE%A1%E7%90%86%E5%A4%9A%E4%BA%BA%20iOS%20%E5%BC%80%E5%8F%91%E5%92%8C%E5%8F%91%E5%B8%83%E5%85%A8%E6%B5%81%E7%A8%8B/y-s-cIED8mVpyTY-unsplash.jpg?x-oss-process=style/ImageCompress"
 +++
 
 虽然按理说应该是每个开发者一个 Apple ID，然后拉到组织内统一管理，但是在实际开发中有时也会采用共用同一个人的签名进行开发的方式。比如这个项目可能是外包的，别人并不会给你弄一个账号。
