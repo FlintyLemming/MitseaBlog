@@ -4,7 +4,7 @@ title = "Windows Electron QQ 资源占用观察"
 slug = "09605e45ed8141468a1d64ae81f7148e"
 date = "2023-04-07"
 description = "原本 8G 显存玩 2K 3A 的同学这下 QQ 都不敢挂后台了"
-categories = ["LiftTec"]
+categories = ["LifeTec"]
 tags = ["QQ", "内存", "Electron"]
 image = "https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/malik-skydsgaard-rhqsKzvyyQo-unsplash.jpg?x-oss-process=style/ImageCompress"
 +++
