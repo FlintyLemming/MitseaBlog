@@ -4,7 +4,7 @@ title = "群晖外接 u.2 nvme 可行性验证"
 slug = "9e866c458c9b48819386331eb7a68c57"
 date = "2023-04-25"
 description = "全闪 NAS 的一小步"
-categories = ["Coding"]
+categories = ["HomeLab"]
 tags = ["全闪", "NAS", "SSD"]
 image = "https://img.mitsea.com/blog/posts/2023/04/%E7%BE%A4%E6%99%96%E5%A4%96%E6%8E%A5%20u.2%20nvme%20%E5%8F%AF%E8%A1%8C%E6%80%A7%E9%AA%8C%E8%AF%81/jorgen-haland-fu0z-_iPa4M-unsplash.jpg?x-oss-process=style/ImageCompress"
 +++
