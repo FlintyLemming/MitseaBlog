@@ -9,16 +9,16 @@ tags = ["群晖", "设备树"]
 image = "https://img.mitsea.com/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2B%20%E6%B7%BB%E5%8A%A0%20E10M20-T1%20%E7%9A%84%E6%94%AF%E6%8C%81/johannes-mandle-r_FNlKOxxos-unsplash.jpg?x-oss-process=style/ImageCompress"
 +++
 
-# 起因
+## 起因
 
 实际上群晖官方并没有让 DS1621+ 支持 E10M20-T1，我买他主要是有两个原因：
 
 1. 根据 Reddit 上用户的[提醒](https://www.reddit.com/r/synology/comments/ksaw7s/comment/gif30av/?utm_source=share&utm_medium=web2x&context=3)，相同 CPU 和 PCIe x4 的 RS1221+ 是支持这款扩展卡的。所以硬件上应该是没有障碍的。实际上卡到手后也证明了这一点，这就是个使用 ASM PCIe 交换芯片的 plx 卡，插在 PCIe x4 的 Windows 电脑上所有功能都可以正常使用。
 2. https://github.com/007revad/Synology_HDD_db这个 GitHub 脚本 Readme 说该脚本可以 “Optionally enables M2D20, M2D18, M2D17 and E10M20-T1 on Synology NAS that don't officially support them.”
 
-# 折腾历程
+## 折腾历程
 
-## 尝试脚本
+### 尝试脚本
 
 既然硬件没限制，又有脚本号称可以支持，那我直接进行一个冲动消费，1575，卡就到手上了
 
@@ -26,7 +26,7 @@ image = "https://img.mitsea.com/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2
 
 结果是，脚本 log 认出了这张卡，也认到了卡上的 nvme SSD，但就是在 WebGUI 里看不到，无法管理，网卡也用不了。但我觉得硬件上肯定是没限制，只是这个卡没什么大冤种会买，用的人比较少罢了，所以作者的脚本没有适配全面。我就继续研究。
 
-## 启用网卡
+### 启用网卡
 
 脚本解决不了问题第一时间是搜 issue，找到了这条讨论记录
 
@@ -38,7 +38,7 @@ image = "https://img.mitsea.com/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2
 
 ![](https://img.mitsea.com/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2B%20%E6%B7%BB%E5%8A%A0%20E10M20-T1%20%E7%9A%84%E6%94%AF%E6%8C%81/%25E6%2588%25AA%25E5%25B1%258F2023-06-25_15.38.58.png?x-oss-process=style/ImageCompress)
 
-## 手动创建存储池？
+### 手动创建存储池？
 
 虽然 WebGUI 里看不到硬盘，但是 /dev 下还是能看到的。考虑到之前 nvme 不能做存储池的时候，都是可以先格式化硬盘然后用 mdadm 命令手动创建一个存储池。具体创建方法一搜一大堆，我这边随便贴一个帖子，步骤其实都一样的
 
@@ -46,7 +46,7 @@ image = "https://img.mitsea.com/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2
 
 然而并不行，比如我创建了个 md9 出来，但是重启后这个 md9 就消失了，存储管理器里也看不到任何存储池。
 
-## extensionPorts？
+### extensionPorts？
 
 我记得之前看过关于黑群晖启用 nvme 存储池的帖子，里面是要修改一个叫 extensionPorts 的文件。内容类似于这篇帖子的回复
 
@@ -56,7 +56,7 @@ image = "https://img.mitsea.com/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2
 
 ![](https://img.mitsea.com/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2B%20%E6%B7%BB%E5%8A%A0%20E10M20-T1%20%E7%9A%84%E6%94%AF%E6%8C%81/%25E6%2588%25AA%25E5%25B1%258F2023-06-25_15.47.55.png?x-oss-process=style/ImageCompress)
 
-## Device Tree
+### Device Tree
 
 遇到难题后，我自己也提了个 issue
 
@@ -109,7 +109,7 @@ dtc -I dts -O dtb -o model.dtb model.dts
 
 保存好源文件，替换掉 `/etc.defaults/model.dtb` 文件即可，`/run` 下面的同名文件不用管，`/run` 是个临时目录
 
-# 修改效果
+## 修改效果
 
 ![](https://img.mitsea.com/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2B%20%E6%B7%BB%E5%8A%A0%20E10M20-T1%20%E7%9A%84%E6%94%AF%E6%8C%81/%25E6%2588%25AA%25E5%25B1%258F2023-06-25_17.28.26.png?x-oss-process=style/ImageCompress)
 
