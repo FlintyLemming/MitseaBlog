@@ -11,8 +11,6 @@ image = "https://img.mitsea.com/blog/posts/2022/04/Apple%20%E5%BC%80%E5%8F%91%E8
 
 开发中有的时候需要把 ipa 发给客户先看看。但是弄 TestFlight 又有点麻烦，因为要避免审核的话，还得拉一个内部测试组。所以用 Ad Hoc 直接分发 ipa 安装是比较方便的做法。
 
-# 准备 App 和签名需要的文件
-
 ## 获取证书（p12 文件）
 
 1. 打开 钥匙串访问 App，菜单栏找到 钥匙串访问 - 证书助理 - 从证书颁发机构请求证书...
@@ -107,7 +105,7 @@ image = "https://img.mitsea.com/blog/posts/2022/04/Apple%20%E5%BC%80%E5%8F%91%E8
 
     ![](https://img.mitsea.com/blog/posts/2022/04/Apple%20%E5%BC%80%E5%8F%91%E8%80%85%E8%B4%A6%E5%8F%B7%E7%AD%BE%E5%90%8D%20ipa%20%E5%B9%B6%E7%9B%B4%E6%8E%A5%E5%AE%89%E8%A3%85%E5%88%B0%E6%8C%87%E5%AE%9A%E8%AE%BE%E5%A4%87%E4%B8%AD/Untitled%2020.png?x-oss-process=style/ImageCompress)
 
-# 签名 App
+## 签名 App
 
 通过上面的步骤，就准备好了签名必要的 p12 文件和描述文件
 
@@ -115,13 +113,13 @@ image = "https://img.mitsea.com/blog/posts/2022/04/Apple%20%E5%BC%80%E5%8F%91%E8
 
 签名的工具很多，macOS 可以用 iOS App Signer，Windows 可以用爱思助手
 
-## iOS App Signer
+### iOS App Signer
 
 ![](https://img.mitsea.com/blog/posts/2022/04/Apple%20%E5%BC%80%E5%8F%91%E8%80%85%E8%B4%A6%E5%8F%B7%E7%AD%BE%E5%90%8D%20ipa%20%E5%B9%B6%E7%9B%B4%E6%8E%A5%E5%AE%89%E8%A3%85%E5%88%B0%E6%8C%87%E5%AE%9A%E8%AE%BE%E5%A4%87%E4%B8%AD/Untitled%2022.png?x-oss-process=style/ImageCompress)
 
 软件打开选择 ipa 后，Signing Certificate 选择之前导入到钥匙串的证书，Provisioning Profile 选择刚才下载的描述文件即可。
 
-## 爱思助手
+### 爱思助手
 
 1. 打开 IPA 签名，添加 ipa 文件后，点击右下方的导入证书
 
@@ -135,7 +133,7 @@ image = "https://img.mitsea.com/blog/posts/2022/04/Apple%20%E5%BC%80%E5%8F%91%E8
 
     ![](https://img.mitsea.com/blog/posts/2022/04/Apple%20%E5%BC%80%E5%8F%91%E8%80%85%E8%B4%A6%E5%8F%B7%E7%AD%BE%E5%90%8D%20ipa%20%E5%B9%B6%E7%9B%B4%E6%8E%A5%E5%AE%89%E8%A3%85%E5%88%B0%E6%8C%87%E5%AE%9A%E8%AE%BE%E5%A4%87%E4%B8%AD/Untitled%2025.png?x-oss-process=style/ImageCompress)
 
-# 安装 App
+## 安装 App
 
 安装方法有很多，我用的最多的方法是隔空投送。直接 AirDrop ipa 文件给注册过的设备，就会直接询问你是否安装，点击安装即可
 
