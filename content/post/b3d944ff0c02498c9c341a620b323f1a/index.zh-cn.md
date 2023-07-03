@@ -62,7 +62,7 @@ image = "https://img.mitsea.com/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2
 
 [Can not enable E10M20-T1 on DS1621+ · Issue #97 · 007revad/Synology_HDD_db](https://github.com/007revad/Synology_HDD_db/issues/97#issuecomment-1605868704)
 
-出乎意料的是，[@007revad](https://github.com/007revad) 大佬真的非常认真，他帮忙比对了 1621+ 和 1221+ 设备的相关文件。它认为应该是设备树文件导致的差异，不过他不确定群晖是否校验 Device Tree Blob 文件，似乎也没有条件尝试。但他帮我从 1221+ 的 pat 文件里提取了 dtb 文件供我参考，真的超级好。我对 Linux 和 DSM 也就是略懂，所以我又去请教了 [Jim](https://github.com/jim3ma) 大佬，他说 DSM 的设备树文件是可以改的，不校验的。考虑到我的情况，它建议我直接看我机器的 dtb 文件。通过执行 `dtc -I dtb -O dts -o - /run/model.dtb`，我对比了两个设备的 dtb 文件发现主要就是缺少一段
+出乎意料的是，[@007revad](https://github.com/007revad) 大佬真的非常认真，他帮忙比对了 1621+ 和 1221+ 设备的相关文件。他认为应该是设备树文件导致的差异，不过他不确定群晖是否校验 Device Tree Blob 文件，似乎也没有条件尝试。但他帮我从 1221+ 的 pat 文件里提取了 dtb 文件供我参考，真的超级好。我对 Linux 和 DSM 也就是略懂，所以我又去请教了 [Jim](https://github.com/jim3ma) 大佬，他说 DSM 的设备树文件是可以改的，不校验的。考虑到我的情况，他建议我直接看我机器的 dtb 文件。通过执行 `dtc -I dtb -O dts -o - /run/model.dtb`，我对比了两个设备的 dtb 文件发现主要就是缺少一段
 
 ```dts
 E10M20-T1 {
