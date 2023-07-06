@@ -13,7 +13,7 @@ links:
   - title: Pdone's Blog
     description: Only Peace & Love Here
     website: https://awaw.cc
-    image: https://cdn.jsdelivr.net/gh/pdone/static/img/avatar.jpg
+    image: 
 menu:
     main: 
         weight: -50
