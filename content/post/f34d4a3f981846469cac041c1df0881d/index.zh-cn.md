@@ -135,3 +135,6 @@ Torrent 排队 同理，需要根据自己的条件设置
     ![](https://img.mitsea.com/blog/posts/2023/08/%E7%BE%A4%E6%99%96%20Docker%20%E5%AE%89%E8%A3%85%20qBittorrent%20%28DSM%207.2%29/Untitled%2020.png?x-oss-process=style/ImageCompress)
     
 2. 按照[这篇教程](https://blog.mitsea.com/3a0b40567ffe42e999eade2fdaf775b0/)设置反代
+
+> Photo by [Philip Oroni](https://unsplash.com/@philipsfuture?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/a-close-up-of-a-black-and-blue-background-mb_VqCIOTiU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  
