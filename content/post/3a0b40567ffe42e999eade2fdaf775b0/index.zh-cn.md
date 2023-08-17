@@ -13,7 +13,7 @@ image = "https://img.mitsea.com/blog/posts/2023/08/%E5%88%A9%E7%94%A8%E7%BE%A4%E
 
 该场景主要是用的 Nginx 的 proxy_pass 功能，它可以让我们通过一个端口、不同的域名就可以访问到本机的多个 Web 服务。效果如下图。
 
-![](https://img.mitsea.com/blog/posts/2023/08/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https%20%28DSM%207.x%29/Untitled%202.png?x-oss-process=style/ImageCompress)
+![](https://img.mitsea.com/blog/posts/2023/08/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https%20%28DSM%207.x%29/Untitled.png?x-oss-process=style/ImageCompress)
 
 本篇文章就以 qBittorrent 的 WebUI 为例，介绍如何添加 https
 
