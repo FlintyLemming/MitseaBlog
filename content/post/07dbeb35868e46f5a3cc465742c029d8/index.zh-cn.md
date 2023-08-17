@@ -9,6 +9,8 @@ tags = ["Synology", "Docker"]
 image = "https://img.mitsea.com/blog/posts/2020/02/%E7%BE%A4%E6%99%96%20Docker%20%E5%AE%89%E8%A3%85%20qbittorrent%20%E5%90%AB%20https%20%E8%AE%BE%E7%BD%AE/title.jpg?x-oss-process=style/ImageCompress"
 +++
 
+**教程已更新 DSM 7.2，请移步[这里](https://blog.mitsea.com/f34d4a3f981846469cac041c1df0881d/)**
+
 ## 速查
 
 ### 镜像名
