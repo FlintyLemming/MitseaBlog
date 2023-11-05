@@ -93,6 +93,14 @@ PCIe 硬件用起来也都正常
 
 如果用 GUI 的话也是跟 Arch 一样，否则开机显示桌面直接黑屏
 
+## scrutiny 监控硬盘 SMART
+
+因为我已经安装过 Web 端，所以我只需要在这台机器上定时跑 collector 即可。
+
+安装 `golang-go` 和 `make` 后，从 [GitHub 仓库](https://github.com/AnalogJ/scrutiny/releases)下载源码直接 `make binary-collector` 就可以把二进制文件 `scrutiny-collector-metrics` 编译出来，之后编辑计划任务定时跑就行。
+
+在 [https://disks.mitsea.com](https://disks.mitsea.com) 可以看到我的所有硬盘
+
 ## mdadm 创建阵列并挂载
 
 由于我有7个相同容量的 HDD，所以我可以直接用 mdadm 创建一个 raid5 阵列。mdadm 软件包里有，直接 apt install 即可。下面简单介绍下步骤，所有分区操作不详细说明，直接用 cfdisk 很简单。
