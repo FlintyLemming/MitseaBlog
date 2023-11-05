@@ -222,4 +222,4 @@ rsync 软件包里也有，直接安装就行
 
 还没有体验过 CPU 规模比较大的龙芯产品，但我觉得只要把软件包这块积极维护好还是未来可期的。
 
-Photo by [eberhard 🖐 grossgasteiger](https://unsplash.com/@eberhardgross?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/W7l2qAUKWcs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+> Photo by [eberhard 🖐 grossgasteiger](https://unsplash.com/@eberhardgross?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/W7l2qAUKWcs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
