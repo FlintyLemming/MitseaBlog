@@ -41,7 +41,7 @@ image = "https://img.mitsea.com/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%
 
 问题就出现在红框处，因为 GUI 创建时 **NumberOfColumns** 默认是等于硬盘数量，当前场景下的话就是 5。
 
-**NumberOfColumns 代表操作阵列时的硬盘数量，5 代表着操作这块阵列时，始终要操作五个硬盘。**可以按照下图所示模拟同时写入5块磁盘，当写入 100G 后，可以同时写入的硬盘就只剩4块了，不符合 NumberOfColumns 数量，剩下的空间都被废弃了。
+**NumberOfColumns 代表操作阵列时的硬盘数量，5 代表着操作这块阵列时，始终要操作五个硬盘。** 可以按照下图所示模拟同时写入5块磁盘，当写入 100G 后，可以同时写入的硬盘就只剩4块了，不符合 NumberOfColumns 数量，剩下的空间都被废弃了。
 
 ![](https://img.mitsea.com/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/Untitled%204.png?x-oss-process=style/ImageCompress)
 
