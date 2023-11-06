@@ -6,7 +6,7 @@ date = "2023-11-06"
 description = "WinNAS 好"
 categories = ["HomeLab", "Windows"]
 tags = ["存储空间", "NAS"]
-image = "https://img.mitsea.com/blog/posts/2023/10/%E9%BE%99%E8%8A%AF%203A6000%20%E6%89%8B%E6%90%93%20NAS%20%E8%AE%B0%E5%BD%95%E4%B8%8E%E5%B9%B3%E5%8F%B0%E4%BD%93%E9%AA%8C/eberhard-grossgasteiger-W7l2qAUKWcs-unsplash.jpg?x-oss-process=style/ImageCompress"
+image = "https://img.mitsea.com/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/jigar-panchal-D_ivYIn4jWw-unsplash.jpg?x-oss-process=style/ImageCompress"
 +++
 
 在组建阵列时，一般都推荐使用容量相同的磁盘，不过这种情况下有条件的都使用 RAID 阵列卡获得最大性能了。但是作为垃圾佬，手头的硬盘都是根据市场价格买最便宜的容量，所以会有容量不一的硬盘。此时，如何在不同容量的硬盘上创建单盘冗余阵列并且还能最大化可用空间就成了一个重要的需求。目前主流方案有两个方向：块冗余和文件冗余。
