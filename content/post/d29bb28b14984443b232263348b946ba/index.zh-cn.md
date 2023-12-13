@@ -3,7 +3,7 @@ author = "FlintyLemming"
 title = "Proxmox VE 8.1 vGPU 配置 （A6000）"
 slug = "d29bb28b14984443b232263348b946ba"
 date = "2023-12-13"
-description = ""
+description = "新到的大玩具"
 categories = ["Consumer", "Linux"]
 tags = ["pve", "Nvidia"]
 image = "https://img.mitsea.com/blog/posts/2023/12/Proxmox%20VE%208.1%20vGPU%20%E9%85%8D%E7%BD%AE%20%EF%BC%88A6000%EF%BC%89/jigar-panchal-TVyPnkS5k5w-unsplash.jpg?x-oss-process=style/ImageCompress"
