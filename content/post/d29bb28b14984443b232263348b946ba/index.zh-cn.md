@@ -180,7 +180,7 @@ Raw Device 选择一个不是 .0 的设备后，MDev Type 就可以选 vGPU Prof
 2. 从 https://<你的dls服务器>/-/client-token 上下载配置文件，然后放到 C:\Program Files\NVIDIA Corporation\vGPU Licensing\ClientConfigToken 下
 3. 重启电脑，然后就能看到正在获取许可证并激活成功
 
-    ![CleanShot 2023-12-13 at 22.17.13@2x.png](Proxmox%20VE%208%201%20vGPU%20%E9%85%8D%E7%BD%AE%20%EF%BC%88A6000%EF%BC%89%20d29bb28b14984443b232263348b946ba/CleanShot_2023-12-13_at_22.17.132x.png?x-oss-process=style/ImageCompress)
+    ![](https://img.mitsea.com/blog/posts/2023/12/Proxmox%20VE%208.1%20vGPU%20%E9%85%8D%E7%BD%AE%20%EF%BC%88A6000%EF%BC%89/CleanShot_2023-12-13_at_22.17.132x.png?x-oss-process=style/ImageCompress)
 
 ### Linux
 
