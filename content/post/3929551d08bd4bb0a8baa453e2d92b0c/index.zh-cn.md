@@ -13,7 +13,7 @@ image = "https://img.mitsea.com/blog/posts/2022/10/%E7%BE%A4%E6%99%96%20DSM%207.
 
 1. 先去哪吒的下载页下载符合自己群晖 CPU 架构的 Agent 客户端。我是 DS420+，Intel CPU，下载 nezha-agent_linux_amd64.zip。
 
-    <https://github.com/naiba/nezha/releases>
+    <https://github.com/nezhahq/agent/releases>
 
 2. 解压后，把里面的二进制文件随便放到一个地方
 
