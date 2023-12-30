@@ -2,7 +2,7 @@
 author = "FlintyLemming"
 title = "TrueNAS 定时同步配置"
 slug = "5bc10de5f19441f1bfe50bc5ede20799"
-date = "2023-12-14"
+date = "2023-12-31"
 description = ""
 categories = ["HomeLab"]
 tags = ["TrueNAS", "rsync"]
