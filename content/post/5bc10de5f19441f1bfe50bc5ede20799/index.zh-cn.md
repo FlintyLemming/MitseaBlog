@@ -4,8 +4,8 @@ title = "TrueNAS 定时同步配置"
 slug = "5bc10de5f19441f1bfe50bc5ede20799"
 date = "2023-12-31"
 description = ""
-categories = ["Game"]
-tags = ["崩坏3"]
+categories = ["HomeLab"]
+tags = ["TrueNAS", "rsync"]
 image = "https://img.mitsea.com/blog/posts/2023/12/TrueNAS%20%E5%AE%9A%E6%97%B6%E5%90%8C%E6%AD%A5%E9%85%8D%E7%BD%AE/rick-rothenberg-Ih4tXZrOkMI-unsplash.jpg?x-oss-process=style/ImageCompress"
 +++
 
