@@ -3,7 +3,7 @@ author = "FlintyLemming"
 title = "TrueNAS Core 安装 Debian 虚拟机踩坑"
 slug = "687bd07a74a242dbbf1f4cf15ba64954"
 date = "2024-01-06"
-description = ""
+description = "可能真的没有人闲着无聊会用 TrueNAS Core 的虚拟机吧"
 categories = ["Linux"]
 tags = ["TrueNAS", "虚拟机"]
 image = "https://img.mitsea.com/blog/posts/2024/01/TrueNAS%20Core%20%E5%AE%89%E8%A3%85%20Debian%20%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%B8%A9%E5%9D%91/josh-withers-7TjLFBDOoNE-unsplash.jpg?x-oss-process=style/ImageCompress"
