@@ -27,7 +27,7 @@ image = "https://img.mitsea.com/blog/posts/2024/01/TrueNAS%20Core%20%E5%AE%89%E8
 
 这样就可以正常显示了
 
-![](https://img.mitsea.com/blog/posts/2024/01/TrueNAS%20Core%20%E5%AE%89%E8%A3%85%20Debian%20%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%B8%A9%E5%9D%91/Untitled.png?x-oss-process=style/ImageCompressg)
+![](https://img.mitsea.com/blog/posts/2024/01/TrueNAS%20Core%20%E5%AE%89%E8%A3%85%20Debian%20%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%B8%A9%E5%9D%91/Untitled.png?x-oss-process=style/ImageCompress)
 
 ## 引导问题
 
