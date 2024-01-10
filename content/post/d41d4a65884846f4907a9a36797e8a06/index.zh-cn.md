@@ -1,6 +1,6 @@
 +++
 author = "FlintyLemming"
-title = "Windows 笔记本 S0 省电待机设置"
+title = "Windows 笔记本省电待机设置"
 slug = "d41d4a65884846f4907a9a36797e8a06"
 date = "2024-01-10"
 description = "新入手了台笔记本，照例修改了待机策略"
