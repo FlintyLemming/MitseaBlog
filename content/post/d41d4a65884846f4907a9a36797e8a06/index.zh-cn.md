@@ -65,9 +65,8 @@ image = "https://img.mitsea.com/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%
 2. 依次打开 硬件与声音 - 电源选项
 3. 打开左侧的 选择关闭笔记本计算机盖的功能
 4. 点击更改当前不可用的设置
-    
+
     ![](https://img.mitsea.com/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9C%81%E7%94%B5%E5%BE%85%E6%9C%BA%E8%AE%BE%E7%BD%AE/Untitled%201.png?x-oss-process=style/ImageCompress)
-    
 
 推荐如下设置：
 
@@ -94,9 +93,11 @@ image = "https://img.mitsea.com/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%
 3. 双击 Attributes，修改为 2，然后确定，关闭注册表编辑器
 4. 打开控制面板，依次打开 硬件与声音 - 电源选项 - 当前选定的计划右侧的 更改计划设置 - 更改高级电源设置
 5. 把 待机状态下的网络连接 性下面两个都改为禁用
-    
+
     ![](https://img.mitsea.com/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9C%81%E7%94%B5%E5%BE%85%E6%9C%BA%E8%AE%BE%E7%BD%AE/Untitled%204.png?x-oss-process=style/ImageCompress)
-    
+
 6. 再次查看此系统上的睡眠状态，变成 待机（S0 低电量待机）网络已断开连接 即可
-    
+
     ![](https://img.mitsea.com/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9C%81%E7%94%B5%E5%BE%85%E6%9C%BA%E8%AE%BE%E7%BD%AE/Untitled%205.png?x-oss-process=style/ImageCompress)
+
+> Photo by [Daniil Silantev](https://unsplash.com/@betagamma?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-group-of-trees-that-are-covered-in-snow-eNnGiKM-IjE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
