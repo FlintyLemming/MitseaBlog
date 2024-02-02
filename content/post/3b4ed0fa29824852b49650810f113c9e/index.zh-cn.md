@@ -62,12 +62,12 @@ image = "https://img.mitsea.com/blog/posts/2024/02/3b4ed0fa29824852b49650810f113
     ```yaml
     {
     	"action": "accept",
-    	"src":    ["group:example@mail.com", "tag:example", "hosts_name", "xxx,xxx,xxx,xxx"],
+    	"src":    ["group:example@mail.com", "tag:example", "hosts_name", "xxx,xxx,xxx,xxx", "192.168.5.0/24"],
     	"dst":    ["192.168.5.0/24:*"],
     },
     ```
 
-    这个 src 可以是 group、tag、hosts、IP 等，group、tag 和 hosts 都需要你在配置文件里定义好
+    这个 src 可以是 group、tag、hosts、IP 等，group、tag 和 hosts 都需要你在配置文件里定义好。但是一定要注意！src 里一定要把这个网段也写上，否则这个网段内的设备就访问不到了！！！
 
     ![](https://img.mitsea.com/blog/posts/2024/02/3b4ed0fa29824852b49650810f113c9e/Untitled%202.png?x-oss-process=style/ImageCompress)
 
@@ -77,7 +77,7 @@ image = "https://img.mitsea.com/blog/posts/2024/02/3b4ed0fa29824852b49650810f113
 
     在本例中，我是给设备 C 设置了一个 tag，然后规则如下
 
-    ![](https://img.mitsea.com/blog/posts/2024/02/3b4ed0fa29824852b49650810f113c9e/Untitled%204.png?x-oss-process=style/ImageCompress)
+    ![](https://img.mitsea.com/blog/posts/2024/02/3b4ed0fa29824852b49650810f113c9e/%E6%8D%95%E8%8E%B7.PNG?x-oss-process=style/ImageCompress)
 
 
 这样，设备 C 就可以直接访问设备 A 了
