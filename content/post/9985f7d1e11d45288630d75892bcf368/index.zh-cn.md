@@ -9,14 +9,6 @@ tags = ["虚拟机", "Hyper-V"]
 image = "https://img.mitsea.com/blog/posts/2021/08/9985f7d1e11d45288630d75892bcf368/ryunosuke-kikuno-m6AbRqGmGCo-unsplash.jpg?x-oss-process=style/ImageCompress"
 +++
 
-# 
-
-type: Post
-status: Published
-category: Windows与Linux
-Last edited time: September 19, 2022 2:16 PM
-date: August 10, 2021 3:18 PM
-
 本篇文章虽然图片是重新截的，但是内容基本就是下面这篇文章
 
 [Hyper-V Server 2019 安装使用记录](https://www.cnblogs.com/oloroso/p/12294966.html)
