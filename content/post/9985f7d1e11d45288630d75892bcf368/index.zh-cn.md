@@ -13,7 +13,7 @@ image = "https://img.mitsea.com/blog/posts/2021/08/9985f7d1e11d45288630d75892bcf
 
 [Hyper-V Server 2019 安装使用记录](https://www.cnblogs.com/oloroso/p/12294966.html)
 
-# 服务端设置
+## 服务端设置
 
 1. 开启本机远程管理
     
@@ -34,7 +34,7 @@ image = "https://img.mitsea.com/blog/posts/2021/08/9985f7d1e11d45288630d75892bcf
     ```
     
 
-# 客户端设置
+## 客户端设置
 
 1. 将网络状态设置为专用
     
