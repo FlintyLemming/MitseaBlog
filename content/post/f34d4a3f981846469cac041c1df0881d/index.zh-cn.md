@@ -99,10 +99,13 @@ image = "https://img.mitsea.com/blog/posts/2023/08/%E7%BE%A4%E6%99%96%20Docker%2
     
     ![](https://img.mitsea.com/blog/posts/2023/08/%E7%BE%A4%E6%99%96%20Docker%20%E5%AE%89%E8%A3%85%20qBittorrent%20%28DSM%207.2%29/Untitled%2015.png?x-oss-process=style/ImageCompress)
     
-8. 可以通过查看日志来判断是否正常启动
-    
-    ![](https://img.mitsea.com/blog/posts/2023/08/%E7%BE%A4%E6%99%96%20Docker%20%E5%AE%89%E8%A3%85%20qBittorrent%20%28DSM%207.2%29/Untitled%2016.png?x-oss-process=style/ImageCompress)
-    
+8. qBittorrent 新版本默认密码不再是 adminadmin，而是默认生成的密码，所以需要打开日志找到密码。先点一下容器名字进入容器详情
+
+    ![](https://img.mitsea.com/blog/posts/2023/08/%E7%BE%A4%E6%99%96%20Docker%20%E5%AE%89%E8%A3%85%20qBittorrent%20%28DSM%207.2%29/CleanShot%202024-03-27%20at%2018.12.54%402x.png?x-oss-process=style/ImageCompress)
+
+9. 然后找到这行日志，他会告诉你默认密码是多少，用这个密码登录
+
+    ![](https://img.mitsea.com/blog/posts/2023/08/%E7%BE%A4%E6%99%96%20Docker%20%E5%AE%89%E8%A3%85%20qBittorrent%20%28DSM%207.2%29/CleanShot%202024-03-27%20at%2018.10.40%402x.png?x-oss-process=style/ImageCompress)
 
 ## 设置 qBittorrent
 
