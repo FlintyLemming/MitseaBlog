@@ -11,7 +11,7 @@ image = "https://img.mitsea.com/blog/posts/2024/07/AVIF%20%E6%B5%8B%E8%AF%95/dan
 
 Edge 已从 121 版本开始支持 avif，思考是否将图片全都替换为 avif。下面是一个测试，如果能够看到这段文字下方有一张图片，则说明浏览器支持 avif。
 
-![](https://img.mitsea.com/blog/posts/2024/07/AVIF%20%E6%B5%8B%E8%AF%95/rawkkim-tvE5L0g3tic-unsplash.avif)
+![](/images/rawkkim-tvE5L0g3tic-unsplash.avif)
 
 ⬆️ 图片结束
 
