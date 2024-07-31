@@ -6,7 +6,7 @@ date = "2020-02-07"
 description = ""
 categories = ["Apple"]
 tags = ["iOS", "Jailbreak"]
-image = "https://img.mitsea.com/blog/posts/2020/02/iOS%2012-12.1.2%20%E7%9B%AE%E5%89%8D%E5%9F%BA%E4%BA%8E%E6%BC%8F%E6%B4%9E%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B7%A5%E5%85%B7/title.jpg?x-oss-process=style/ImageCompress"
+image = "https://img.mitsea.com/blog/posts/2020/02/iOS%2012-12.1.2%20%E7%9B%AE%E5%89%8D%E5%9F%BA%E4%BA%8E%E6%BC%8F%E6%B4%9E%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B7%A5%E5%85%B7/title.avif"
 +++
 
 iOS 12-12.1.2 漏洞这几天已经放出，虽然完整越狱工具暂时还没有，但已经有一些基于漏洞实现功能的app，这里总结下

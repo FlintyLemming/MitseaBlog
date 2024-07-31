@@ -6,7 +6,7 @@ date = "2020-06-01"
 description = ""
 categories = ["Apple", "Consumer"]
 tags = ["iPhone", "改装"]
-image = "https://img.mitsea.com/blog/posts/2020/06/iPhone%206s%20%E5%8A%A0%E5%8E%9A%E7%94%B5%E6%B1%A0%E5%85%85%E6%94%BE%E7%94%B5%E6%B5%8B%E8%AF%95/title.jpg?x-oss-process=style/ImageCompress"
+image = "https://img.mitsea.com/blog/posts/2020/06/iPhone%206s%20%E5%8A%A0%E5%8E%9A%E7%94%B5%E6%B1%A0%E5%85%85%E6%94%BE%E7%94%B5%E6%B5%8B%E8%AF%95/title.avif"
 +++
 
 之前在淘宝买了个 6s 的加厚电池，用了一段时间感觉确实不错，至少能一天一充了（原来重度使用的话一天两充都不够）。所以最近就做个充放电的测试，看看到底是个什么水平。
@@ -28,7 +28,7 @@ PD充电器：>30w 输出功率的标准 PD 充电器
 数据线：苹果官网 lighting - type-c 数据线（新款）
 由于本人时间精力有限，没有做每分钟电量表格，所以充电情况直接看下图
 
-![](https://img.mitsea.com/blog/posts/2020/06/iPhone%206s%20%E5%8A%A0%E5%8E%9A%E7%94%B5%E6%B1%A0%E5%85%85%E6%94%BE%E7%94%B5%E6%B5%8B%E8%AF%95/1.png?x-oss-process=style/ImageCompress)
+![](https://img.mitsea.com/blog/posts/2020/06/iPhone%206s%20%E5%8A%A0%E5%8E%9A%E7%94%B5%E6%B1%A0%E5%85%85%E6%94%BE%E7%94%B5%E6%B5%8B%E8%AF%95/1.avif)
 
 充电时间：23:00-2:40（大约），总时长大约为3小时40分钟，充电速度不快。
 
@@ -40,7 +40,7 @@ PD充电器：>30w 输出功率的标准 PD 充电器
 **开启 “dim screen”，开启自动亮度（这里其实是忘记关了，不过由于测试过程在深夜，所以亮度应该是最低了）**
 得分为：4223，其他设备得分也可看到。
 
-![](https://img.mitsea.com/blog/posts/2020/06/iPhone%206s%20%E5%8A%A0%E5%8E%9A%E7%94%B5%E6%B1%A0%E5%85%85%E6%94%BE%E7%94%B5%E6%B5%8B%E8%AF%95/2.jpg?x-oss-process=style/ImageCompress)
+![](https://img.mitsea.com/blog/posts/2020/06/iPhone%206s%20%E5%8A%A0%E5%8E%9A%E7%94%B5%E6%B1%A0%E5%85%85%E6%94%BE%E7%94%B5%E6%B5%8B%E8%AF%95/2.avif)
 
 表现还是比较优异的，不过注意这是保持最低亮度的情况下。
 详细结果：https://browser.geekbench.com/v4/battery/87828
@@ -48,14 +48,14 @@ PD充电器：>30w 输出功率的标准 PD 充电器
 **关闭“dim screen”，亮度为30%，关闭自动亮度调整**
 得分为：4114，表现仍然相当不错。
 
-![](https://img.mitsea.com/blog/posts/2020/06/iPhone%206s%20%E5%8A%A0%E5%8E%9A%E7%94%B5%E6%B1%A0%E5%85%85%E6%94%BE%E7%94%B5%E6%B5%8B%E8%AF%95/3.jpg?x-oss-process=style/ImageCompress)
+![](https://img.mitsea.com/blog/posts/2020/06/iPhone%206s%20%E5%8A%A0%E5%8E%9A%E7%94%B5%E6%B1%A0%E5%85%85%E6%94%BE%E7%94%B5%E6%B5%8B%E8%AF%95/3.avif)
 
 详细结果：https://browser.geekbench.com/v4/battery/87826
 
 ## 对比数据
 https://www.youtube.com/watch?v=lkyy6WSHnGs&t=34s
 
-![](https://img.mitsea.com/blog/posts/2020/06/iPhone%206s%20%E5%8A%A0%E5%8E%9A%E7%94%B5%E6%B1%A0%E5%85%85%E6%94%BE%E7%94%B5%E6%B5%8B%E8%AF%95/4.png?x-oss-process=style/ImageCompress)
+![](https://img.mitsea.com/blog/posts/2020/06/iPhone%206s%20%E5%8A%A0%E5%8E%9A%E7%94%B5%E6%B1%A0%E5%85%85%E6%94%BE%E7%94%B5%E6%B5%8B%E8%AF%95/4.avif)
 
 视频同样和上面一个测试相同，30%的亮度，关闭自动亮度，打开Wi-Fi
 而且视频里的测试手机并没有插卡，所以得分应该比正常情况更高

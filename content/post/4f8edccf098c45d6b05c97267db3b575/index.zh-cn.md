@@ -6,7 +6,7 @@ date = "2020-02-08"
 description = ""
 categories = ["Game"]
 tags = ["崩坏3"]
-image = "https://img.mitsea.com/blog/posts/2020/02/%E8%B0%81%E6%98%AF%E6%9C%80%E9%80%82%E5%90%88%E6%88%91%E7%9A%84%E5%B4%A9%E5%9D%8F3%E6%A8%A1%E6%8B%9F%E5%99%A8/title.jpg?x-oss-process=style/ImageCompress"
+image = "https://img.mitsea.com/blog/posts/2020/02/%E8%B0%81%E6%98%AF%E6%9C%80%E9%80%82%E5%90%88%E6%88%91%E7%9A%84%E5%B4%A9%E5%9D%8F3%E6%A8%A1%E6%8B%9F%E5%99%A8/title.avif"
 +++
 
 ## 平台配置
@@ -22,7 +22,7 @@ CPU：i7-4790K@4.4GHz
 
 ## 统计图表
 
-![](https://img.mitsea.com/blog/posts/2020/02/%E8%B0%81%E6%98%AF%E6%9C%80%E9%80%82%E5%90%88%E6%88%91%E7%9A%84%E5%B4%A9%E5%9D%8F3%E6%A8%A1%E6%8B%9F%E5%99%A8/4.jpg?x-oss-process=style/ImageCompress)
+![](https://img.mitsea.com/blog/posts/2020/02/%E8%B0%81%E6%98%AF%E6%9C%80%E9%80%82%E5%90%88%E6%88%91%E7%9A%84%E5%B4%A9%E5%9D%8F3%E6%A8%A1%E6%8B%9F%E5%99%A8/4.avif)
 
 ## 模拟器设置
 
@@ -39,14 +39,14 @@ CPU：i7-4790K@4.4GHz
 
 腾讯模拟器是我认为这几款中玩崩坏3最好的模拟器，但是存在兼容新问题，具体表现为存在一定的渲染问题，比如武器渲染有问题，如图：
 
-![](https://img.mitsea.com/blog/posts/2020/02/%E8%B0%81%E6%98%AF%E6%9C%80%E9%80%82%E5%90%88%E6%88%91%E7%9A%84%E5%B4%A9%E5%9D%8F3%E6%A8%A1%E6%8B%9F%E5%99%A8/1.png?x-oss-process=style/ImageCompress)
+![](https://img.mitsea.com/blog/posts/2020/02/%E8%B0%81%E6%98%AF%E6%9C%80%E9%80%82%E5%90%88%E6%88%91%E7%9A%84%E5%B4%A9%E5%9D%8F3%E6%A8%A1%E6%8B%9F%E5%99%A8/1.avif)
 
 以及大招缺少一点点特效（不是很明显），不过月光什么的翅膀渲染是正常的。总体而言正常游玩观感影响很小，我个人完全能接受。
 大招特效对比，这个是差别【最】明显的地方
 
-![](https://img.mitsea.com/blog/posts/2020/02/%E8%B0%81%E6%98%AF%E6%9C%80%E9%80%82%E5%90%88%E6%88%91%E7%9A%84%E5%B4%A9%E5%9D%8F3%E6%A8%A1%E6%8B%9F%E5%99%A8/2.jpg?x-oss-process=style/ImageCompress)
+![](https://img.mitsea.com/blog/posts/2020/02/%E8%B0%81%E6%98%AF%E6%9C%80%E9%80%82%E5%90%88%E6%88%91%E7%9A%84%E5%B4%A9%E5%9D%8F3%E6%A8%A1%E6%8B%9F%E5%99%A8/2.avif)
 
-![](https://img.mitsea.com/blog/posts/2020/02/%E8%B0%81%E6%98%AF%E6%9C%80%E9%80%82%E5%90%88%E6%88%91%E7%9A%84%E5%B4%A9%E5%9D%8F3%E6%A8%A1%E6%8B%9F%E5%99%A8/3.jpg?x-oss-process=style/ImageCompress)
+![](https://img.mitsea.com/blog/posts/2020/02/%E8%B0%81%E6%98%AF%E6%9C%80%E9%80%82%E5%90%88%E6%88%91%E7%9A%84%E5%B4%A9%E5%9D%8F3%E6%A8%A1%E6%8B%9F%E5%99%A8/3.avif)
 
 性能方面，普通操作非常流畅，在宿舍大厅和深渊中，也是顶着游戏性能天花板运行。因为这两个场景即使在iPad Pro 11’ 下也无法满帧，属于游戏优化问题。
 手柄支持方面，完全支持xbox one手柄，美中不足就是手动视角转动有点快，不能调节

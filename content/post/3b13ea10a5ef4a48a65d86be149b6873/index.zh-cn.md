@@ -6,7 +6,7 @@ date = "2022-09-27"
 description = ""
 categories = ["Lifestyle"]
 tags = ["Money"]
-image = "https://img.mitsea.com/blog/posts/2022/09/9%E6%9C%88%E9%99%8D%E6%9C%AC%E5%A2%9E%E6%95%88%E6%9C%88%E6%80%BB%E7%BB%93/title.jpg?x-oss-process=style/ImageCompress"
+image = "https://img.mitsea.com/blog/posts/2022/09/9%E6%9C%88%E9%99%8D%E6%9C%AC%E5%A2%9E%E6%95%88%E6%9C%88%E6%80%BB%E7%BB%93/title.avif"
 +++
 
 9月是降本增效月，本月降本增效成果显著。从娱乐服务、云服务、硬件三方面削减开支，并一定程度上降低了管理成本、增加了产出。
@@ -53,7 +53,7 @@ image = "https://img.mitsea.com/blog/posts/2022/09/9%E6%9C%88%E9%99%8D%E6%9C%AC%
 
 理由：现有的 DS420+ 由于一直在索引导致 CPU 居高不下。通过调查解决了索引问题，CPU 占用恢复正常，目前不需要购买新设备。节约成本为 DS420+ 置换 DS1621+ 的价格。
 
-![](https://img.mitsea.com/blog/posts/2022/09/9%E6%9C%88%E9%99%8D%E6%9C%AC%E5%A2%9E%E6%95%88%E6%9C%88%E6%80%BB%E7%BB%93/1.png?x-oss-process=style/ImageCompress)
+![](https://img.mitsea.com/blog/posts/2022/09/9%E6%9C%88%E9%99%8D%E6%9C%AC%E5%A2%9E%E6%95%88%E6%9C%88%E6%80%BB%E7%BB%93/1.avif)
 
 > Photo by [Khara Woods](https://unsplash.com/@kharaoke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/down?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 >

@@ -6,7 +6,7 @@ date = "2020-06-01"
 description = ""
 categories = ["Apple", "Game"]
 tags = ["iOS", "崩坏3", "狂野飙车9"]
-image = "https://img.mitsea.com/blog/posts/2020/06/iOS%20%E4%BF%AE%E6%94%B9%20%E5%B4%A9%E5%9D%8F3%20%E7%8B%82%E9%87%8E%E9%A3%99%E8%BD%A69%20%E7%9A%84%E5%B8%A7%E7%8E%87%E4%B8%8A%E9%99%90/title.jpg?x-oss-process=style/ImageCompress"
+image = "https://img.mitsea.com/blog/posts/2020/06/iOS%20%E4%BF%AE%E6%94%B9%20%E5%B4%A9%E5%9D%8F3%20%E7%8B%82%E9%87%8E%E9%A3%99%E8%BD%A69%20%E7%9A%84%E5%B8%A7%E7%8E%87%E4%B8%8A%E9%99%90/title.avif"
 +++
 
 ## 前排提示
@@ -21,33 +21,33 @@ image = "https://img.mitsea.com/blog/posts/2020/06/iOS%20%E4%BF%AE%E6%94%B9%20%E
 
 2. 打开崩坏3，把帧率改成60fps
 
-    ![](https://img.mitsea.com/blog/posts/2020/06/iOS%20%E4%BF%AE%E6%94%B9%20%E5%B4%A9%E5%9D%8F3%20%E7%8B%82%E9%87%8E%E9%A3%99%E8%BD%A69%20%E7%9A%84%E5%B8%A7%E7%8E%87%E4%B8%8A%E9%99%90/1.png?x-oss-process=style/ImageCompress)
+    ![](https://img.mitsea.com/blog/posts/2020/06/iOS%20%E4%BF%AE%E6%94%B9%20%E5%B4%A9%E5%9D%8F3%20%E7%8B%82%E9%87%8E%E9%A3%99%E8%BD%A69%20%E7%9A%84%E5%B8%A7%E7%8E%87%E4%B8%8A%E9%99%90/1.avif)
 
 3. 打开 iGG，在“目标”里选择 bh3
 
-    ![](https://img.mitsea.com/blog/posts/2020/06/iOS%20%E4%BF%AE%E6%94%B9%20%E5%B4%A9%E5%9D%8F3%20%E7%8B%82%E9%87%8E%E9%A3%99%E8%BD%A69%20%E7%9A%84%E5%B8%A7%E7%8E%87%E4%B8%8A%E9%99%90/2.png?x-oss-process=style/ImageCompress)
+    ![](https://img.mitsea.com/blog/posts/2020/06/iOS%20%E4%BF%AE%E6%94%B9%20%E5%B4%A9%E5%9D%8F3%20%E7%8B%82%E9%87%8E%E9%A3%99%E8%BD%A69%20%E7%9A%84%E5%B8%A7%E7%8E%87%E4%B8%8A%E9%99%90/2.avif)
 
 4. 在“搜索”里点击“数值搜索”，搜索60，可以看到搜索很多很多值为60的项目。
 
 5. 返回游戏，把帧率改成30。
 
-    ![](https://img.mitsea.com/blog/posts/2020/06/iOS%20%E4%BF%AE%E6%94%B9%20%E5%B4%A9%E5%9D%8F3%20%E7%8B%82%E9%87%8E%E9%A3%99%E8%BD%A69%20%E7%9A%84%E5%B8%A7%E7%8E%87%E4%B8%8A%E9%99%90/3.png?x-oss-process=style/ImageCompress)
+    ![](https://img.mitsea.com/blog/posts/2020/06/iOS%20%E4%BF%AE%E6%94%B9%20%E5%B4%A9%E5%9D%8F3%20%E7%8B%82%E9%87%8E%E9%A3%99%E8%BD%A69%20%E7%9A%84%E5%B8%A7%E7%8E%87%E4%B8%8A%E9%99%90/3.avif)
 
 6. 返回iGG，打开左上角的开关，点击“差值搜索”，搜索`-30`，即搜索60-30=30的数值
 
-    ![](https://img.mitsea.com/blog/posts/2020/06/iOS%20%E4%BF%AE%E6%94%B9%20%E5%B4%A9%E5%9D%8F3%20%E7%8B%82%E9%87%8E%E9%A3%99%E8%BD%A69%20%E7%9A%84%E5%B8%A7%E7%8E%87%E4%B8%8A%E9%99%90/4.png?x-oss-process=style/ImageCompress)
+    ![](https://img.mitsea.com/blog/posts/2020/06/iOS%20%E4%BF%AE%E6%94%B9%20%E5%B4%A9%E5%9D%8F3%20%E7%8B%82%E9%87%8E%E9%A3%99%E8%BD%A69%20%E7%9A%84%E5%B8%A7%E7%8E%87%E4%B8%8A%E9%99%90/4.avif)
 
 7. 此时可以看到之前数值为60的项目中，只有3个值现在是30
 
-    ![](https://img.mitsea.com/blog/posts/2020/06/iOS%20%E4%BF%AE%E6%94%B9%20%E5%B4%A9%E5%9D%8F3%20%E7%8B%82%E9%87%8E%E9%A3%99%E8%BD%A69%20%E7%9A%84%E5%B8%A7%E7%8E%87%E4%B8%8A%E9%99%90/5.jpeg?x-oss-process=style/ImageCompress)
+    ![](https://img.mitsea.com/blog/posts/2020/06/iOS%20%E4%BF%AE%E6%94%B9%20%E5%B4%A9%E5%9D%8F3%20%E7%8B%82%E9%87%8E%E9%A3%99%E8%BD%A69%20%E7%9A%84%E5%B8%A7%E7%8E%87%E4%B8%8A%E9%99%90/5.avif)
 
 8. 其实只有一两个值和FPS上限相关，可以重复之前的操作，改成60再搜一次，这里就不继续了。长按搜到的这三个值，保存起来。
 
-    ![](https://img.mitsea.com/blog/posts/2020/06/iOS%20%E4%BF%AE%E6%94%B9%20%E5%B4%A9%E5%9D%8F3%20%E7%8B%82%E9%87%8E%E9%A3%99%E8%BD%A69%20%E7%9A%84%E5%B8%A7%E7%8E%87%E4%B8%8A%E9%99%90/6.png?x-oss-process=style/ImageCompress)
+    ![](https://img.mitsea.com/blog/posts/2020/06/iOS%20%E4%BF%AE%E6%94%B9%20%E5%B4%A9%E5%9D%8F3%20%E7%8B%82%E9%87%8E%E9%A3%99%E8%BD%A69%20%E7%9A%84%E5%B8%A7%E7%8E%87%E4%B8%8A%E9%99%90/6.avif)
 
 9. 在“记录”中看到保存的三个值，点击“全改”，改成120，然后打开后面的开关，锁定数值。修改完毕。
 
-    ![](https://img.mitsea.com/blog/posts/2020/06/iOS%20%E4%BF%AE%E6%94%B9%20%E5%B4%A9%E5%9D%8F3%20%E7%8B%82%E9%87%8E%E9%A3%99%E8%BD%A69%20%E7%9A%84%E5%B8%A7%E7%8E%87%E4%B8%8A%E9%99%90/7.jpeg?x-oss-process=style/ImageCompress)
+    ![](https://img.mitsea.com/blog/posts/2020/06/iOS%20%E4%BF%AE%E6%94%B9%20%E5%B4%A9%E5%9D%8F3%20%E7%8B%82%E9%87%8E%E9%A3%99%E8%BD%A69%20%E7%9A%84%E5%B8%A7%E7%8E%87%E4%B8%8A%E9%99%90/7.avif)
 
 ## 证明有效
 
