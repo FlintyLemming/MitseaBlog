@@ -1,29 +1,9 @@
 baseurl: https://example.com
 languageCode: en-us
 theme: hugo-theme-stack
-paginate: 5
+paginate: 3
 title: Example Site
-
-languages:
-    en:
-        languageName: English
-        title: Example Site
-        weight: 1
-    zh-cn:
-        languageName: 中文
-        title: 演示站点
-        weight: 2
-    ar:
-        languageName: عربي
-        languagedirection: rtl
-        title: موقع تجريبي
-        weight: 3
-
-# Change it to your Disqus shortname before using
-disqusShortname: hugo-theme-stack
-
-# GA Tracking ID
-googleAnalytics:
+copyright: Example Person
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
@@ -32,6 +12,35 @@ DefaultContentLanguage: en
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 hasCJKLanguage: false
+
+languages:
+    en:
+        languageName: English
+        title: Example Site
+        weight: 1
+        params:
+            description: Example description
+    zh-cn:
+        languageName: 中文
+        title: 演示站点
+        weight: 2
+        params:
+            description: 演示说明
+    ar:
+        languageName: عربي
+        languagedirection: rtl
+        title: موقع تجريبي
+        weight: 3
+        params:
+            description: وصف تجريبي
+
+services:
+    # Change it to your Disqus shortname before using
+    disqus:
+        shortname: "hugo-theme-stack"
+    # GA Tracking ID
+    googleAnalytics:
+        id:
 
 permalinks:
     post: /p/:slug/
@@ -42,7 +51,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
         since: 2020
@@ -83,6 +92,12 @@ params:
             repo:
             issueTerm: pathname
             label:
+
+        beaudar:
+            repo:
+            issueTerm: pathname
+            label:
+            theme:        
 
         remark42:
             host:
@@ -188,7 +203,7 @@ params:
             enabled: true
 
 ### Custom menu
-### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
+### See https://stack.jimmycai.com/config/menu
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
     main: []
@@ -221,7 +236,7 @@ markup:
     goldmark:
         renderer:
             ## Set to true if you have HTML content inside Markdown
-            unsafe: false
+            unsafe: true
     tableOfContents:
         endLevel: 4
         ordered: true

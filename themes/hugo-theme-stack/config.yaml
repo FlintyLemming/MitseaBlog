@@ -28,6 +28,7 @@ params:
             src: img/avatar.jpeg
 
     article:
+        headingAnchor: false
         math: false
         toc: true
         readingTime: true
@@ -51,6 +52,12 @@ params:
             issueTerm: pathname
             label:
 
+        beaudar:
+            repo:
+            issueTerm: pathname
+            label:
+            theme:        
+
         remark42:
             host:
             site:
@@ -64,7 +71,7 @@ params:
             clientSecret:
             autoCreateIssue: false
 
-        # Waline client configuration see: https://waline.js.org/en/reference/client.html
+        # Waline client configuration see: https://waline.js.org/en/reference/client/props.html
         waline:
             serverURL:
             lang:
@@ -73,12 +80,11 @@ params:
             emoji:
                 - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
             requiredMeta:
-                - name
-                - email
-                - url
-            placeholder:
+                - nick
+                - mail
             locale:
                 admin: Admin
+                placeholder:
 
         twikoo:
             envId:
@@ -112,19 +118,8 @@ params:
             id:
 
     widgets:
-        homepage:
-            - type: search
-            - type: archives
-              params:
-                  limit: 10
-            - type: categories
-              params:
-                  limit: 20
-            - type: tag-cloud
-              params:
-                  limit: 10
-        page:
-            - type: toc
+        homepage: []
+        page: []
 
     opengraph:
         twitter:
