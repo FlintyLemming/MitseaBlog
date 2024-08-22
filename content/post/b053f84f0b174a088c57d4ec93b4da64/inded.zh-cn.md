@@ -6,7 +6,7 @@ date = "2020-02-09"
 description = ""
 categories = ["Android", "Consumer"]
 tags = ["小米"]
-image = "https://img.mitsea.com/blog/posts/2020/02/%E5%9B%BD%E8%A1%8C%E7%89%88%E5%B0%8F%E7%B1%B3%E7%9B%92%E5%AD%903s%E5%88%B7%E5%9B%BD%E9%99%85%E7%89%88%E7%B3%BB%E7%BB%9F/title.avif"
+image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2020/02/%E5%9B%BD%E8%A1%8C%E7%89%88%E5%B0%8F%E7%B1%B3%E7%9B%92%E5%AD%903s%E5%88%B7%E5%9B%BD%E9%99%85%E7%89%88%E7%B3%BB%E7%BB%9F/title.avif"
 +++
 
 *主要内容来自[http://www.hdpfans.com/thread-777808-1-1.html](http://www.hdpfans.com/thread-777808-1-1.html)，其他相关连接：*

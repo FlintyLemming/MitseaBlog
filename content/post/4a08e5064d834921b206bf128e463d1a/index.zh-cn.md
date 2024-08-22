@@ -6,7 +6,7 @@ date = "2020-01-28"
 description = ""
 categories = ["HomeLab"]
 tags = ["Synology"]
-image = "https://img.mitsea.com/blog/posts/2020/01/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https/title.avif"
+image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2020/01/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https/title.avif"
 +++
 
 群晖无论是商店的套件还是 Docker 都可以自行安装很多网络服务，有的比如 qbittorrent、Jellyfin 都是内置 https 配置选项的。那对于其他安装的服务应该如何配置 https 呢？在常规 Linux 系统上，一般通过 Nginx、Apache 解决，但群晖内置了基于 Nginx 的图形化反代工具，一切都变得非常简单。
@@ -31,11 +31,11 @@ image = "https://img.mitsea.com/blog/posts/2020/01/%E5%88%A9%E7%94%A8%E7%BE%A4%E
 
 1. 确认网络服务的本地端口，正如之前提到的，后面是不会通过这个端口访问的。Docker 这里的话，最好也别用默认端口 8080，因为默认 8080 端口的服务一大堆，这里随便填个比如 8000。至于上面的那个端口是其他作用，与本例无关，请忽略。
 
-    ![](https://img.mitsea.com/blog/posts/2020/01/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https/1.avif)
+    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2020/01/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https/1.avif)
 
 2. 打开 控制面板 - Synology 应用程序门户 - 反向代理服务器，点 新增
 
-    ![](https://img.mitsea.com/blog/posts/2020/01/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https/2.avif)
+    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2020/01/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https/2.avif)
 
 3. 这里有一些内容需要填写，一项一项来
 
@@ -59,12 +59,12 @@ image = "https://img.mitsea.com/blog/posts/2020/01/%E5%88%A9%E7%94%A8%E7%BE%A4%E
 
     目的地端口 - 服务的本地端口，刚才设置的是 8000，这里就填 8000
 
-    ![](https://img.mitsea.com/blog/posts/2020/01/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https/3.avif)
+    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2020/01/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https/3.avif)
 
 4. 路由器 NAT 设置一下，内网 8857 对公网的 8857
 5. 尝试通过 https://<子域名>:8857 访问，成功
 
-    ![](https://img.mitsea.com/blog/posts/2020/01/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https/4.avif)
+    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2020/01/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https/4.avif)
 
 6. 如果收藏夹存了地址，并且端口没变，记得把原来的地址从 http 改成 https
 

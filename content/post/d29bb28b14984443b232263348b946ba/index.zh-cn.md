@@ -6,20 +6,20 @@ date = "2023-12-13"
 description = "新到的大玩具"
 categories = ["Consumer", "Linux"]
 tags = ["pve", "Nvidia"]
-image = "https://img.mitsea.com/blog/posts/2023/12/Proxmox%20VE%208.1%20vGPU%20%E9%85%8D%E7%BD%AE%20%EF%BC%88A6000%EF%BC%89/jigar-panchal-TVyPnkS5k5w-unsplash.avif"
+image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2023/12/Proxmox%20VE%208.1%20vGPU%20%E9%85%8D%E7%BD%AE%20%EF%BC%88A6000%EF%BC%89/jigar-panchal-TVyPnkS5k5w-unsplash.avif"
 +++
 
 ## 操作环境
 
 Dell R750xa 配置如下
 
-![](https://img.mitsea.com/blog/posts/2023/12/Proxmox%20VE%208.1%20vGPU%20%E9%85%8D%E7%BD%AE%20%EF%BC%88A6000%EF%BC%89/Untitled.avif)
+![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2023/12/Proxmox%20VE%208.1%20vGPU%20%E9%85%8D%E7%BD%AE%20%EF%BC%88A6000%EF%BC%89/Untitled.avif)
 
 ## 设备配置
 
 确保开启虚拟化和 SR-IOV
 
-![](https://img.mitsea.com/blog/posts/2023/12/Proxmox%20VE%208.1%20vGPU%20%E9%85%8D%E7%BD%AE%20%EF%BC%88A6000%EF%BC%89/Untitled%201.avif)
+![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2023/12/Proxmox%20VE%208.1%20vGPU%20%E9%85%8D%E7%BD%AE%20%EF%BC%88A6000%EF%BC%89/Untitled%201.avif)
 
 ## Proxmox VM host 环境配置
 
@@ -114,7 +114,7 @@ Dell R750xa 配置如下
     ./displaymodeselector --gpumode physical_display_disabled -i 3
     ```
 
-    ![](https://img.mitsea.com/blog/posts/2023/12/Proxmox%20VE%208.1%20vGPU%20%E9%85%8D%E7%BD%AE%20%EF%BC%88A6000%EF%BC%89/Untitled%202.avif)
+    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2023/12/Proxmox%20VE%208.1%20vGPU%20%E9%85%8D%E7%BD%AE%20%EF%BC%88A6000%EF%BC%89/Untitled%202.avif)
 
 5. 重启服务器，重启后应该显示为 3D Controller
 
@@ -143,7 +143,7 @@ Dell R750xa 配置如下
 
 3. 执行 `nvidia-smi` 后无误即可
 
-    ![](https://img.mitsea.com/blog/posts/2023/12/Proxmox%20VE%208.1%20vGPU%20%E9%85%8D%E7%BD%AE%20%EF%BC%88A6000%EF%BC%89/Untitled%203.avif)
+    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2023/12/Proxmox%20VE%208.1%20vGPU%20%E9%85%8D%E7%BD%AE%20%EF%BC%88A6000%EF%BC%89/Untitled%203.avif)
 
 ## 搭建 vGPU 授权服务器
 
@@ -164,9 +164,9 @@ Dell R750xa 配置如下
 
 Raw Device 选择一个不是 .0 的设备后，MDev Type 就可以选 vGPU Profile 了。如果想要用整张显卡，也不要通 .0 的设备，据说会容易导致 pve 爆炸失联，建议还是选择一个用完所有显存的 Profile。
 
-![](https://img.mitsea.com/blog/posts/2023/12/Proxmox%20VE%208.1%20vGPU%20%E9%85%8D%E7%BD%AE%20%EF%BC%88A6000%EF%BC%89/Untitled%204.avif)
+![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2023/12/Proxmox%20VE%208.1%20vGPU%20%E9%85%8D%E7%BD%AE%20%EF%BC%88A6000%EF%BC%89/Untitled%204.avif)
 
-![](https://img.mitsea.com/blog/posts/2023/12/Proxmox%20VE%208.1%20vGPU%20%E9%85%8D%E7%BD%AE%20%EF%BC%88A6000%EF%BC%89/Untitled%205.avif)
+![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2023/12/Proxmox%20VE%208.1%20vGPU%20%E9%85%8D%E7%BD%AE%20%EF%BC%88A6000%EF%BC%89/Untitled%205.avif)
 
 ## 激活 vGPU 授权
 
@@ -180,7 +180,7 @@ Raw Device 选择一个不是 .0 的设备后，MDev Type 就可以选 vGPU Prof
 2. 从 https://<你的dls服务器>/-/client-token 上下载配置文件，然后放到 C:\Program Files\NVIDIA Corporation\vGPU Licensing\ClientConfigToken 下
 3. 重启电脑，然后就能看到正在获取许可证并激活成功
 
-    ![](https://img.mitsea.com/blog/posts/2023/12/Proxmox%20VE%208.1%20vGPU%20%E9%85%8D%E7%BD%AE%20%EF%BC%88A6000%EF%BC%89/CleanShot_2023-12-13_at_22.17.132x.avif)
+    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2023/12/Proxmox%20VE%208.1%20vGPU%20%E9%85%8D%E7%BD%AE%20%EF%BC%88A6000%EF%BC%89/CleanShot_2023-12-13_at_22.17.132x.avif)
 
 ### Linux
 

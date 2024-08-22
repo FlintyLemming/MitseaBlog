@@ -6,7 +6,7 @@ date = "2020-01-08"
 description = ""
 categories = ["LifeTec"]
 tags = ["USB-C"]
-image = "https://img.mitsea.com/blog/posts/2020/01/%E5%85%B3%E4%BA%8E%20USB-C%20%E5%AE%9E%E7%8E%B04K%2060Hz%20%E5%92%8C%20USB%203.0%20%E5%85%B1%E5%AD%98/miguel-hernandez-NKFPu0Iw8Ys-unsplash.avif"
+image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2020/01/%E5%85%B3%E4%BA%8E%20USB-C%20%E5%AE%9E%E7%8E%B04K%2060Hz%20%E5%92%8C%20USB%203.0%20%E5%85%B1%E5%AD%98/miguel-hernandez-NKFPu0Iw8Ys-unsplash.avif"
 +++
 
 昨天看了 Mac云课堂 的新视频，虽然是个推广，但非常详细的介绍了为什么现在的 USB-C 扩展坞又能支持 4K 60Hz 和 USB 3.0 了。链接在下方

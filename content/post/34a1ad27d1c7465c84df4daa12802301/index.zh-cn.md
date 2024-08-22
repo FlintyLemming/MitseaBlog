@@ -6,7 +6,7 @@ date = "2020-03-07"
 description = ""
 categories = ["Linux", "Network"]
 tags = ["Linux", "Nginx"]
-image = "https://img.mitsea.com/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20proxy_pass%20%E5%8F%8D%E4%BB%A3/title.avif"
+image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20proxy_pass%20%E5%8F%8D%E4%BB%A3/title.avif"
 +++
 
 好比我利用家庭公网搭建了一个小网站，设置了解析和端口，现在的地址是 [site.name.com:8086](http://site.name.com:8086)，毕竟家宽肯定 443 和 80 是不能用的。那我现在想通过一个公网机器，并且这个机器是开放 443 端口的，来反代家宽上的网站，以达到去掉端口后缀的效果，就要用到 proxy_pass 这个功能。目标就是通过 [web.name.com](http://web.name.com) 就能直接访问到 site.name.com:8086 上的内容。

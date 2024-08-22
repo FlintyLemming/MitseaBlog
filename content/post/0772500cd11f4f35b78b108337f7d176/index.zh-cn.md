@@ -6,12 +6,12 @@ date = "2023-11-05"
 description = "体验不错，未来可期"
 categories = ["HomeLab", "Linux"]
 tags = ["Loongson", "NAS"]
-image = "https://img.mitsea.com/blog/posts/2023/10/%E9%BE%99%E8%8A%AF%203A6000%20%E6%89%8B%E6%90%93%20NAS%20%E8%AE%B0%E5%BD%95%E4%B8%8E%E5%B9%B3%E5%8F%B0%E4%BD%93%E9%AA%8C/eberhard-grossgasteiger-W7l2qAUKWcs-unsplash.avif"
+image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2023/10/%E9%BE%99%E8%8A%AF%203A6000%20%E6%89%8B%E6%90%93%20NAS%20%E8%AE%B0%E5%BD%95%E4%B8%8E%E5%B9%B3%E5%8F%B0%E4%BD%93%E9%AA%8C/eberhard-grossgasteiger-W7l2qAUKWcs-unsplash.avif"
 +++
 
 最近到收了个龙芯 3A6000 的平台，简单测了下，首先由于是自主架构，所以 Windows 肯定是不行。然后内置 GPU 只能亮机，试了 Arch、UOS、AOSC 在安装或者启动时都不同程度遇到显示问题，桌面基本上是不可用。不过考虑到 loongarch64 Linux 内核已经并入主线，所以硬件支持和基本 Linux 软件还是没问题，拿来做 NAS 似乎还不错。
 
-![](https://img.mitsea.com/blog/posts/2023/10/%E9%BE%99%E8%8A%AF%203A6000%20%E6%89%8B%E6%90%93%20NAS%20%E8%AE%B0%E5%BD%95%E4%B8%8E%E5%B9%B3%E5%8F%B0%E4%BD%93%E9%AA%8C/IMG_4370.avif)
+![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2023/10/%E9%BE%99%E8%8A%AF%203A6000%20%E6%89%8B%E6%90%93%20NAS%20%E8%AE%B0%E5%BD%95%E4%B8%8E%E5%B9%B3%E5%8F%B0%E4%BD%93%E9%AA%8C/IMG_4370.avif)
 
 由于我已经有一个群晖 DS1621+，所以这台机器的定位就是取代我当前使用 unraid 作为 HyperBackup 备份 NAS 的角色。梳理了一下他主要承担如下几个作用：smb 共享、rsync 服务端做备份、qBittorrent pt下载和保种。
 
@@ -21,17 +21,17 @@ image = "https://img.mitsea.com/blog/posts/2023/10/%E9%BE%99%E8%8A%AF%203A6000%2
 
 ### 下述软件包运行情况
 
-![](https://img.mitsea.com/blog/posts/2023/10/%E9%BE%99%E8%8A%AF%203A6000%20%E6%89%8B%E6%90%93%20NAS%20%E8%AE%B0%E5%BD%95%E4%B8%8E%E5%B9%B3%E5%8F%B0%E4%BD%93%E9%AA%8C/Untitled.avif)
+![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2023/10/%E9%BE%99%E8%8A%AF%203A6000%20%E6%89%8B%E6%90%93%20NAS%20%E8%AE%B0%E5%BD%95%E4%B8%8E%E5%B9%B3%E5%8F%B0%E4%BD%93%E9%AA%8C/Untitled.avif)
 
 ### qBittorrent 高强度下载测试
 
-![](https://img.mitsea.com/blog/posts/2023/10/%E9%BE%99%E8%8A%AF%203A6000%20%E6%89%8B%E6%90%93%20NAS%20%E8%AE%B0%E5%BD%95%E4%B8%8E%E5%B9%B3%E5%8F%B0%E4%BD%93%E9%AA%8C/Untitled%201.avif)
+![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2023/10/%E9%BE%99%E8%8A%AF%203A6000%20%E6%89%8B%E6%90%93%20NAS%20%E8%AE%B0%E5%BD%95%E4%B8%8E%E5%B9%B3%E5%8F%B0%E4%BD%93%E9%AA%8C/Untitled%201.avif)
 
 下载速度 259MB/s 连接用户 575 完全不卡，性能完全够用。这个速度我在 AMD V1500B 上用 Docker 跑 WebUI 就完全打不开了。
 
 ### 网络性能测试
 
-![](https://img.mitsea.com/blog/posts/2023/10/%E9%BE%99%E8%8A%AF%203A6000%20%E6%89%8B%E6%90%93%20NAS%20%E8%AE%B0%E5%BD%95%E4%B8%8E%E5%B9%B3%E5%8F%B0%E4%BD%93%E9%AA%8C/Untitled%202.avif)
+![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2023/10/%E9%BE%99%E8%8A%AF%203A6000%20%E6%89%8B%E6%90%93%20NAS%20%E8%AE%B0%E5%BD%95%E4%B8%8E%E5%B9%B3%E5%8F%B0%E4%BD%93%E9%AA%8C/Untitled%202.avif)
 
 1500 MTU 单线程跑满 10Gbps
 

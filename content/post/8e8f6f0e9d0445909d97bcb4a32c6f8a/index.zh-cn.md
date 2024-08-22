@@ -6,12 +6,12 @@ date = "2024-07-31"
 description = ""
 categories = ["Network"]
 tags = ["AVIF"]
-image = "https://img.mitsea.com/blog/posts/2024/07/AVIF%20%E6%B5%8B%E8%AF%95/daniel-sessler-iID6w89lt1M-unsplash.avif"
+image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/07/AVIF%20%E6%B5%8B%E8%AF%95/daniel-sessler-iID6w89lt1M-unsplash.avif"
 +++
 
 Edge 已从 121 版本开始支持 avif，思考是否将图片全都替换为 avif。下面是一个测试，如果能够看到这段文字下方有一张图片，则说明浏览器支持 avif。
 
-![](https://img.mitsea.com/blog/posts/2024/07/AVIF%20%E6%B5%8B%E8%AF%95/rawkkim-tvE5L0g3tic-unsplash.avif)
+![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/07/AVIF%20%E6%B5%8B%E8%AF%95/rawkkim-tvE5L0g3tic-unsplash.avif)
 
 ⬆️ 图片结束
 

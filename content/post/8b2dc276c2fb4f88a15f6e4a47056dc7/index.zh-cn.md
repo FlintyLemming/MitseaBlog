@@ -6,7 +6,7 @@ date = "2019-10-22"
 description = ""
 categories = ["Network"]
 tags = ["宽带"]
-image = "https://img.mitsea.com/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%BD%93%E5%89%8D%E6%98%AF%E5%90%A6%E6%9C%89%E5%8D%87%E7%BA%A7%E5%BF%85%E8%A6%81/title.avif"
+image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%BD%93%E5%89%8D%E6%98%AF%E5%90%A6%E6%9C%89%E5%8D%87%E7%BA%A7%E5%BF%85%E8%A6%81/title.avif"
 +++
 
 到南京之后，一直用的 500M 宽带，用了大约四个多月之后，简单分析下是否值得升级到 500M 宽带。总体来说，是不建议升级的，所以先说优点，再说缺点。
@@ -17,13 +17,13 @@ image = "https://img.mitsea.com/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%
 
 先来测个速吧，首先是 Speedtest，这个是写这篇文章的时候现测的，可以看到今晚貌似用的人不多，带宽给的比较足
 
-![](https://img.mitsea.com/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%BD%93%E5%89%8D%E6%98%AF%E5%90%A6%E6%9C%89%E5%8D%87%E7%BA%A7%E5%BF%85%E8%A6%81/1.avif)
+![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%BD%93%E5%89%8D%E6%98%AF%E5%90%A6%E6%9C%89%E5%8D%87%E7%BA%A7%E5%BF%85%E8%A6%81/1.avif)
 
 实际上这也是 500M 宽带本身的一个优势，就是使用的人并不会太多，而提供 500M 宽带的小区单元给的带宽往往都不会太小，所以经常能有个很高的速度。
 
 不过偶尔也有稍微差一点点的时候，比如这个 Netflix 网速测试，不过这个可能跟代理当时的线路有一定关系
 
-![](https://img.mitsea.com/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%BD%93%E5%89%8D%E6%98%AF%E5%90%A6%E6%9C%89%E5%8D%87%E7%BA%A7%E5%BF%85%E8%A6%81/2.avif)
+![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%BD%93%E5%89%8D%E6%98%AF%E5%90%A6%E6%9C%89%E5%8D%87%E7%BA%A7%E5%BF%85%E8%A6%81/2.avif)
 
 ### 节省时间
 
@@ -51,21 +51,21 @@ image = "https://img.mitsea.com/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%
 
 记得 Bilibili up主 老师好我叫何同学那个关于 5G 的视频里提到这么一个场景，大致意思就是说，当游戏如果蹦出一个几百M的更新，4G 可能需要等很久，打搅了性质，5G 并不会。但最后他也没给出 5G 下，王者荣耀的游戏内更新到底有多快。
 
-![](https://img.mitsea.com/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%BD%93%E5%89%8D%E6%98%AF%E5%90%A6%E6%9C%89%E5%8D%87%E7%BA%A7%E5%BF%85%E8%A6%81/3.avif)
+![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%BD%93%E5%89%8D%E6%98%AF%E5%90%A6%E6%9C%89%E5%8D%87%E7%BA%A7%E5%BF%85%E8%A6%81/3.avif)
 
 那么？到底有多快呢？500M 的宽带告诉你，并没有多快。王者荣耀的应用内更新我从没见过比 10M/s 高很多的速度，而 500M 的宽带，就算不按正常单位换算，你至少也要有 50M/s 的速度。以我的 iPhone 7 为例，速度大约是 5M/s，这也就是个 4G 网络的速度。
 
-![](https://img.mitsea.com/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%BD%93%E5%89%8D%E6%98%AF%E5%90%A6%E6%9C%89%E5%8D%87%E7%BA%A7%E5%BF%85%E8%A6%81/4.avif)
+![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%BD%93%E5%89%8D%E6%98%AF%E5%90%A6%E6%9C%89%E5%8D%87%E7%BA%A7%E5%BF%85%E8%A6%81/4.avif)
 
 为什么会这样呢，主要是你的网络准备好了足够的带宽，但是服务提供商并没有准备好。无论是直接从原始服务器还是从 CDN 下载，他们给你所能提供的最大速度甚至只有 200M 甚至 100M 带宽的水平。
 
 实际上下载文件也是，很多服务器所能提供的最大速度也不高，而有的则是因为线路问题，到你电脑上速度就只有一点了，很多时候需要依赖迅雷这样的 P2P 下载器才能跑满带宽。
 
-![](https://img.mitsea.com/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%BD%93%E5%89%8D%E6%98%AF%E5%90%A6%E6%9C%89%E5%8D%87%E7%BA%A7%E5%BF%85%E8%A6%81/5.avif)
+![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%BD%93%E5%89%8D%E6%98%AF%E5%90%A6%E6%9C%89%E5%8D%87%E7%BA%A7%E5%BF%85%E8%A6%81/5.avif)
 
 是否使用下载器的速度对比
 
-![](https://img.mitsea.com/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%BD%93%E5%89%8D%E6%98%AF%E5%90%A6%E6%9C%89%E5%8D%87%E7%BA%A7%E5%BF%85%E8%A6%81/6.avif)
+![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%BD%93%E5%89%8D%E6%98%AF%E5%90%A6%E6%9C%89%E5%8D%87%E7%BA%A7%E5%BF%85%E8%A6%81/6.avif)
 
 那如果你是个不喜欢使用毒瘤软件的人，就会很麻烦，因为这种你用其他下载器，拉很多线程也无法解决。
 
@@ -77,17 +77,17 @@ image = "https://img.mitsea.com/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%
 
 不过如果你是和我一样在外地租一个房间住，那就只需要一个路由器，这里推荐一下我一直用的华为 WS5200 增强版，增强版已经停产，不太好买，四核版也可以。这个路由性能还可以，不仅能够提供足够的外网速度，内网也很不错，传输单个大文件可以达到 90-100M/s 的速度。
 
-![](https://img.mitsea.com/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%BD%93%E5%89%8D%E6%98%AF%E5%90%A6%E6%9C%89%E5%8D%87%E7%BA%A7%E5%BF%85%E8%A6%81/7.avif)
+![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%BD%93%E5%89%8D%E6%98%AF%E5%90%A6%E6%9C%89%E5%8D%87%E7%BA%A7%E5%BF%85%E8%A6%81/7.avif)
 
 #### 移动终端
 
 要知道你较早的设备可能也无法跑到 500M 的速度，iPhone 的话，大约是 iPhone 6s 和之前的设备都不可以。Android 可以在 Wi-Fi 中查看链接详细信息，如果 传输链接速度 只有 433 Mbps，那就不可以，这些大多是老设备或者刻意被厂商阉割过天线。
 
-![](https://img.mitsea.com/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%BD%93%E5%89%8D%E6%98%AF%E5%90%A6%E6%9C%89%E5%8D%87%E7%BA%A7%E5%BF%85%E8%A6%81/8.avif)
+![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%BD%93%E5%89%8D%E6%98%AF%E5%90%A6%E6%9C%89%E5%8D%87%E7%BA%A7%E5%BF%85%E8%A6%81/8.avif)
 
 比如我手里的 MIX 1，便只能跑到这个速度。
 
-![](https://img.mitsea.com/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%BD%93%E5%89%8D%E6%98%AF%E5%90%A6%E6%9C%89%E5%8D%87%E7%BA%A7%E5%BF%85%E8%A6%81/9.avif)
+![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2019/10/500M%20%E5%AE%BD%E5%B8%A6%E5%BD%93%E5%89%8D%E6%98%AF%E5%90%A6%E6%9C%89%E5%8D%87%E7%BA%A7%E5%BF%85%E8%A6%81/9.avif)
 
 ### 仍然不算快的上传
 

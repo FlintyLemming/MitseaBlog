@@ -6,7 +6,7 @@ date = "2020-05-31"
 description = ""
 categories = ["Apple"]
 tags = ["iOS"]
-image = "https://img.mitsea.com/blog/posts/2020/05/iOS%2013%20%E4%B8%8A%20Find%20My%20%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E6%A6%82%E8%BF%B0/title.avif"
+image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2020/05/iOS%2013%20%E4%B8%8A%20Find%20My%20%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E6%A6%82%E8%BF%B0/title.avif"
 +++
 
 > 原文转载自 ZW Cai 的 Facebook 动态，他的 Facebook 地址是：<https://www.facebook.com/x43x61x69>
