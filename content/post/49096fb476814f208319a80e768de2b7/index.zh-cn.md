@@ -6,7 +6,7 @@ date = "2024-09-14"
 description = "本质就是用一个旧版的三星穿戴app完成最开始的配对"
 categories = ["Android", "Consumer"]
 tags = ["wearOS", "Galaxy"]
-image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/09/%E5%A4%96%E7%89%88%20Galaxy%20%E6%89%8B%E6%9C%BA%E7%BB%91%E5%AE%9A%E5%9B%BD%E8%A1%8C%20Galaxy%20Watch/ryunosuke-kikuno-m6AbRqGmGCo-unsplash.avif"
+image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/09/%E5%A4%96%E7%89%88%20Galaxy%20%E6%89%8B%E6%9C%BA%E7%BB%91%E5%AE%9A%E5%9B%BD%E8%A1%8C%20Galaxy%20Watch/karsten-winegeart-Rr0DAKP6bu4-unsplash.avif"
 +++
 
 ## 读前须知
@@ -52,3 +52,5 @@ image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/09/%E5%
 7. 因为是港版手机，所以中间会尝试在手表上登录 Google 账号。由于国行手表的 Google 服务不完整，所以这里只能等他超时失败后选择跳过，不影响
     
     ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/09/%E5%A4%96%E7%89%88%20Galaxy%20%E6%89%8B%E6%9C%BA%E7%BB%91%E5%AE%9A%E5%9B%BD%E8%A1%8C%20Galaxy%20Watch/IMG_8864.avif)
+
+> Photo by [Karsten Winegeart](https://unsplash.com/@karsten116?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) [Unsplash](https://unsplash.com/photos/a-mountain-range-with-a-dirt-road-in-the-foreground-Rr0DAKP6bu4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
