@@ -11,11 +11,11 @@ image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/03/Netb
 
 上一期简单介绍了 Netbird 的子网路由的配置，相比与 Tailscale 真的是简单很多。但是还遗留一个问题，就是如果设备不方便或者不想安装 Netbird 应该怎么办。其实不影响的，两个内网只要分别在一台设备上安装 Netbird，这两个内网的所有设备其实都可以互访。比如在下图中，让设备 A1 直接访问 B1（红色箭头）。当然，也可以直接访问 Netbird 内网中的其他设备（橙色箭头）。
 
-![](http://mitsea-img.oss-cn-shanghai.aliyuncs.com/blog/posts/2024/03/Netbird%20%E5%AD%90%E7%BD%91%E8%B7%AF%E7%94%B1%E8%AE%BE%E7%BD%AE%20%EF%BC%88%E5%A4%84%E7%90%86%E4%B8%8D%E4%BE%BF%E5%AE%89%E8%A3%85%E7%9A%84%E8%AE%BE%E5%A4%87%EF%BC%89/Netbird_%25E5%2586%2585%25E7%25BD%2591%25E8%25B7%25AF%25E7%2594%25B1.avif)
+![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/03/Netbird%20%E5%AD%90%E7%BD%91%E8%B7%AF%E7%94%B1%E8%AE%BE%E7%BD%AE%20%EF%BC%88%E5%A4%84%E7%90%86%E4%B8%8D%E4%BE%BF%E5%AE%89%E8%A3%85%E7%9A%84%E8%AE%BE%E5%A4%87%EF%BC%89/Netbird_%25E5%2586%2585%25E7%25BD%2591%25E8%25B7%25AF%25E7%2594%25B1.avif)
 
 这样在内网其他设备上即便不安装任何组网工具，也可以无缝访问多个内网
 
-![](http://mitsea-openshare.oss-cn-shanghai.aliyuncs.com/Netbird_%25E5%2586%2585%25E7%25BD%2591%25E8%25B7%25AF%25E7%2594%25B1.avif)
+![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/03/Netbird%20%E5%AD%90%E7%BD%91%E8%B7%AF%E7%94%B1%E8%AE%BE%E7%BD%AE%20%EF%BC%88%E5%A4%84%E7%90%86%E4%B8%8D%E4%BE%BF%E5%AE%89%E8%A3%85%E7%9A%84%E8%AE%BE%E5%A4%87%EF%BC%89/Untitled.avif)
 
 ## 准备工作
 
@@ -33,7 +33,7 @@ image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/03/Netb
 
 3 处填写来源区域内网安装 Netbird 的设备所在的 Group
 
-![](https://mitsea-img.oss-cn-shanghai.aliyuncs.com/blog/posts/2024/03/Netbird%20%E5%AD%90%E7%BD%91%E8%B7%AF%E7%94%B1%E8%AE%BE%E7%BD%AE%20%EF%BC%88%E5%A4%84%E7%90%86%E4%B8%8D%E4%BE%BF%E5%AE%89%E8%A3%85%E7%9A%84%E8%AE%BE%E5%A4%87%EF%BC%89/Untitled%201.avif)
+![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/03/Netbird%20%E5%AD%90%E7%BD%91%E8%B7%AF%E7%94%B1%E8%AE%BE%E7%BD%AE%20%EF%BC%88%E5%A4%84%E7%90%86%E4%B8%8D%E4%BE%BF%E5%AE%89%E8%A3%85%E7%9A%84%E8%AE%BE%E5%A4%87%EF%BC%89/Untitled%201.avif)
 
 这样的话，以开头的图为例，设备 A2 就可以访问区域 B 的所有内网设备了
 
