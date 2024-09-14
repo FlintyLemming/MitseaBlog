@@ -57,7 +57,7 @@ image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/09/%E5%
     
 10. 我这刷了 37 分钟，刷完后手表会自动重启。由于已经是美版固件了，所以外版手机后面就正常配置就行了
     
-    ![image.png](https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/09/%E5%9B%BD%E8%A1%8C%20Galaxy%20Watch%206%20%E5%88%B7%E7%BE%8E%E7%89%88%E5%9B%BA%E4%BB%B6/image%202.avif)
+    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/09/%E5%9B%BD%E8%A1%8C%20Galaxy%20Watch%206%20%E5%88%B7%E7%BE%8E%E7%89%88%E5%9B%BA%E4%BB%B6/image%202.avif)
 
 > Photo by [Pawel Czerwinski](https://unsplash.com/@pawel_czerwinski?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-group-of-white-buildings-with-grass-in-the-middle-of-them-HiefyP9quJE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
   
