@@ -4,7 +4,7 @@ title = "华硕 AX3000 Wi-Fi 6 路由器使用体验"
 slug = "c48be530efa04e1f940ae854c7f4d452"
 date = "2020-01-16"
 description = ""
-categories = ["Coding"]
+categories = ["Consumer"]
 tags = ["华硕", "路由器"]
 image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2020/01/%E5%8D%8E%E7%A1%95%20AX3000%20Wi-Fi%206%20%E8%B7%AF%E7%94%B1%E5%99%A8%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/title.avif"
 +++
