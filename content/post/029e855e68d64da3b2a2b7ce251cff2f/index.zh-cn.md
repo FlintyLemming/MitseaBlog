@@ -6,7 +6,7 @@ date = "2020-02-08"
 description = ""
 categories = ["LifeTec"]
 tags = ["Google Photos", "iCloud"]
-image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2020/02/%E8%BD%AC%E7%A7%BB%20Google%20Photos%20%E7%9A%84%E7%85%A7%E7%89%87%E5%88%B0%20iCloud/title.avif"
+image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2020/02/%E8%BD%AC%E7%A7%BB%20Google%20Photos%20%E7%9A%84%E7%85%A7%E7%89%87%E5%88%B0%20iCloud/title.avif"
 +++
 
 不得不承认 Google Photo 是相当好用且智能的服务，但是它在 iOS 上的体验并不好，主要是会有重复项目，一个代表本地文件，一个代表云端项目。

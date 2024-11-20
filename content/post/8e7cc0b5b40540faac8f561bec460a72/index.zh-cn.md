@@ -6,7 +6,7 @@ date = "2019-11-11"
 description = ""
 categories = ["HomeLab", "Network"]
 tags = ["Clash"]
-image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2019/11/ClashR%20%E8%B7%AF%E7%94%B1%E5%99%A8%E5%AE%89%E8%A3%85/title.avif"
+image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2019/11/ClashR%20%E8%B7%AF%E7%94%B1%E5%99%A8%E5%AE%89%E8%A3%85/title.avif"
 +++
 
 ## 下载内核
@@ -35,7 +35,7 @@ image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2019/11/Clas
     
     之后提示输入密码，输入即可
     
-    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2019/11/ClashR%20%E8%B7%AF%E7%94%B1%E5%99%A8%E5%AE%89%E8%A3%85/1.avif)
+    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2019/11/ClashR%20%E8%B7%AF%E7%94%B1%E5%99%A8%E5%AE%89%E8%A3%85/1.avif)
     
 2. 然后通过 SSH 登陆后安装（当然也可以用网页端的那个终端，注意登陆一定要用 root 登陆，用户名不能置空）
     
@@ -50,7 +50,7 @@ image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2019/11/Clas
     ls
     ```
     
-    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2019/11/ClashR%20%E8%B7%AF%E7%94%B1%E5%99%A8%E5%AE%89%E8%A3%85/2.avif)
+    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2019/11/ClashR%20%E8%B7%AF%E7%94%B1%E5%99%A8%E5%AE%89%E8%A3%85/2.avif)
     
 3. 使用 opkg 命令安装，名字太长可以使用通配符
     
@@ -58,15 +58,15 @@ image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2019/11/Clas
     opkg install luci-app-clash*
     ```
     
-    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2019/11/ClashR%20%E8%B7%AF%E7%94%B1%E5%99%A8%E5%AE%89%E8%A3%85/3.avif)
+    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2019/11/ClashR%20%E8%B7%AF%E7%94%B1%E5%99%A8%E5%AE%89%E8%A3%85/3.avif)
     
 4. 安装完毕后，刷新网页，在服务下就能看到 Clash 了
     
-    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2019/11/ClashR%20%E8%B7%AF%E7%94%B1%E5%99%A8%E5%AE%89%E8%A3%85/4.avif)
+    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2019/11/ClashR%20%E8%B7%AF%E7%94%B1%E5%99%A8%E5%AE%89%E8%A3%85/4.avif)
     
 5. 这只是个壳子，实际上你点开客户端，内核里是没得选的，需要我们放入内核
     
-    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2019/11/ClashR%20%E8%B7%AF%E7%94%B1%E5%99%A8%E5%AE%89%E8%A3%85/5.avif)
+    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2019/11/ClashR%20%E8%B7%AF%E7%94%B1%E5%99%A8%E5%AE%89%E8%A3%85/5.avif)
     
 6. 通过同样的方法安装刚才下载的内核 ipk 文件，之后即可选择内核，至此安装完毕。
 

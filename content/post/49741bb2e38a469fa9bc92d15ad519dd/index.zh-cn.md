@@ -6,7 +6,7 @@ date = "2021-08-31"
 description = "iOS 其实一直都内置多账号系统"
 categories = ["Apple"]
 tags = ["AppStore"]
-image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/title.avif"
+image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/title.avif"
 +++
 
 Apple Music 有个很坑人的设定，当你切换 App Store 账号的时候，缓存的来自 Apple Music 曲库的歌曲就会全部消失。当你缓存很多歌曲后，想要切换账号去别的区下个 App 的时候就会非常痛苦。但其实不需要退出当前账号，就可以通过工具部署其他账号的 App。下面通过 iMazing（Windows 适用）和 Apple Configurator 2（macOS 适用）介绍下方法。
@@ -31,30 +31,30 @@ Apple Music 有个很坑人的设定，当你切换 App Store 账号的时候，
     
 2. 安装并打开，点击左上角的 音乐 - 编辑菜单..
     
-    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/1.avif)
+    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/1.avif)
     
 3. 勾选“应用” - 完成。并切换到刚才选择的 应用 菜单。
     
-    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/2.avif)
+    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/2.avif)
     
 4. 点击这两个地方，都可以跳转到商店页面
     
-    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/3.avif)
+    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/3.avif)
     
 5. 点击 账户 - 登录，登录需要获取新应用的 Apple ID
     
-    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/4.avif)
+    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/4.avif)
     
 6. 与移动端类似，点击一个 App，就可以 “Get” 了
     
-    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/5.avif)
+    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/5.avif)
     
 
 ### 使用 M1 Mac 的 App Store 获取 App
 
 M1 Mac 的 App Store 可以检索 iPhone 和 iPad 程序，当然也可以获取新应用。不过有的 App 并不允许在 M1 Mac 上运行，则会搜索不到。
 
-![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/6.avif)
+![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/6.avif)
 
 # 具体步骤
 
@@ -62,36 +62,36 @@ M1 Mac 的 App Store 可以检索 iPhone 和 iPad 程序，当然也可以获取
 
 1. 连接设备到电脑，打开 Apple Configurator 2，双击已经连接的设备
     
-    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/7.avif)
+    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/7.avif)
     
 2. 菜单栏找到 账户，登录需要下载的 App 所在的账户
 3. 添加 - App
     
-    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/8.avif)
+    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/8.avif)
     
 4. 找到需要安装的 App，点击 添加
     
-    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/9.avif)
+    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/9.avif)
     
 5. 稍等他下载并安装完成
     
-    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/10.avif)
+    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/10.avif)
     
 
 ## 使用 iMazing 2（Windows、macOS 适用）
 
 1. 连接设备后，点击 管理应用程序
     
-    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/11.avif)
+    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/11.avif)
     
 2. 左上角，切换到 资料库
     
-    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/12.avif)
+    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/12.avif)
     
 3. 默认的话，应该是你当前设备登录的 Apple ID。可以点击右上角的 退出，然后换成别的 Apple ID。
 4. 找到需要安装的 App，选择后点击 安装 即可
     
-    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/13.avif)
+    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2021/08/%E4%B8%8D%E9%80%80%E5%87%BA%20App%20Store%20%E5%BD%93%E5%89%8D%E8%B4%A6%E5%8F%B7%20%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E8%B4%A6%E5%8F%B7%20App/13.avif)
     
 
 # Q&A

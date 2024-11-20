@@ -6,7 +6,7 @@ date = "2020-02-08"
 description = ""
 categories = ["Android", "LifeTec"]
 tags = ["Telegram"]
-image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2020/02/Android%20SMS%20%E8%BD%AC%E5%8F%91%E5%88%B0%20Telegram/title.avif"
+image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2020/02/Android%20SMS%20%E8%BD%AC%E5%8F%91%E5%88%B0%20Telegram/title.avif"
 +++
 
 项目地址：[https://github.com/qwe7002/telegram-sms](https://github.com/qwe7002/telegram-sms)
@@ -37,7 +37,7 @@ image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2020/02/Andr
 
 1. 从文章开头的地址下载 Android 端 apk 安装包并安装，打开，如图
 
-    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2020/02/Android%20SMS%20%E8%BD%AC%E5%8F%91%E5%88%B0%20Telegram/1.avif)
+    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2020/02/Android%20SMS%20%E8%BD%AC%E5%8F%91%E5%88%B0%20Telegram/1.avif)
 
 2. 在“机器人令牌”处填写刚才获得的 token
 3. 在 Telegram 上给机器人发一句话，内容任意（一句可能不行，多发几句x）
@@ -61,4 +61,4 @@ image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2020/02/Andr
 
 ### 效果展示
 
-![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2020/02/Android%20SMS%20%E8%BD%AC%E5%8F%91%E5%88%B0%20Telegram/2.avif)
+![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2020/02/Android%20SMS%20%E8%BD%AC%E5%8F%91%E5%88%B0%20Telegram/2.avif)

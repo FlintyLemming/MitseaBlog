@@ -6,16 +6,16 @@ date = "2024-03-11"
 description = ""
 categories = ["HomeLab", "Network"]
 tags = ["异地组网", "Tailscale", "Netbird"]
-image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/03/Netbird%20%E5%AD%90%E7%BD%91%E8%B7%AF%E7%94%B1%E8%AE%BE%E7%BD%AE%20%EF%BC%88%E5%A4%84%E7%90%86%E4%B8%8D%E4%BE%BF%E5%AE%89%E8%A3%85%E7%9A%84%E8%AE%BE%E5%A4%87%EF%BC%89/martin-katler-eVk59Ks4k2U-unsplash.avif"
+image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2024/03/Netbird%20%E5%AD%90%E7%BD%91%E8%B7%AF%E7%94%B1%E8%AE%BE%E7%BD%AE%20%EF%BC%88%E5%A4%84%E7%90%86%E4%B8%8D%E4%BE%BF%E5%AE%89%E8%A3%85%E7%9A%84%E8%AE%BE%E5%A4%87%EF%BC%89/martin-katler-eVk59Ks4k2U-unsplash.avif"
 +++
 
 上一期简单介绍了 Netbird 的子网路由的配置，相比与 Tailscale 真的是简单很多。但是还遗留一个问题，就是如果设备不方便或者不想安装 Netbird 应该怎么办。其实不影响的，两个内网只要分别在一台设备上安装 Netbird，这两个内网的所有设备其实都可以互访。比如在下图中，让设备 A1 直接访问 B1（红色箭头）。当然，也可以直接访问 Netbird 内网中的其他设备（橙色箭头）。
 
-![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/03/Netbird%20%E5%AD%90%E7%BD%91%E8%B7%AF%E7%94%B1%E8%AE%BE%E7%BD%AE%20%EF%BC%88%E5%A4%84%E7%90%86%E4%B8%8D%E4%BE%BF%E5%AE%89%E8%A3%85%E7%9A%84%E8%AE%BE%E5%A4%87%EF%BC%89/Netbird_%25E5%2586%2585%25E7%25BD%2591%25E8%25B7%25AF%25E7%2594%25B1.avif)
+![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2024/03/Netbird%20%E5%AD%90%E7%BD%91%E8%B7%AF%E7%94%B1%E8%AE%BE%E7%BD%AE%20%EF%BC%88%E5%A4%84%E7%90%86%E4%B8%8D%E4%BE%BF%E5%AE%89%E8%A3%85%E7%9A%84%E8%AE%BE%E5%A4%87%EF%BC%89/Netbird_%25E5%2586%2585%25E7%25BD%2591%25E8%25B7%25AF%25E7%2594%25B1.avif)
 
 这样在内网其他设备上即便不安装任何组网工具，也可以无缝访问多个内网
 
-![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/03/Netbird%20%E5%AD%90%E7%BD%91%E8%B7%AF%E7%94%B1%E8%AE%BE%E7%BD%AE%20%EF%BC%88%E5%A4%84%E7%90%86%E4%B8%8D%E4%BE%BF%E5%AE%89%E8%A3%85%E7%9A%84%E8%AE%BE%E5%A4%87%EF%BC%89/Untitled.avif)
+![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2024/03/Netbird%20%E5%AD%90%E7%BD%91%E8%B7%AF%E7%94%B1%E8%AE%BE%E7%BD%AE%20%EF%BC%88%E5%A4%84%E7%90%86%E4%B8%8D%E4%BE%BF%E5%AE%89%E8%A3%85%E7%9A%84%E8%AE%BE%E5%A4%87%EF%BC%89/Untitled.avif)
 
 ## 准备工作
 
@@ -33,7 +33,7 @@ image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/03/Netb
 
 3 处填写来源区域内网安装 Netbird 的设备所在的 Group
 
-![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/03/Netbird%20%E5%AD%90%E7%BD%91%E8%B7%AF%E7%94%B1%E8%AE%BE%E7%BD%AE%20%EF%BC%88%E5%A4%84%E7%90%86%E4%B8%8D%E4%BE%BF%E5%AE%89%E8%A3%85%E7%9A%84%E8%AE%BE%E5%A4%87%EF%BC%89/Untitled%201.avif)
+![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2024/03/Netbird%20%E5%AD%90%E7%BD%91%E8%B7%AF%E7%94%B1%E8%AE%BE%E7%BD%AE%20%EF%BC%88%E5%A4%84%E7%90%86%E4%B8%8D%E4%BE%BF%E5%AE%89%E8%A3%85%E7%9A%84%E8%AE%BE%E5%A4%87%EF%BC%89/Untitled%201.avif)
 
 这样的话，以开头的图为例，设备 A2 就可以访问区域 B 的所有内网设备了
 
@@ -41,7 +41,7 @@ image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/03/Netb
 
 设置区域 A 的路由器，添加静态路由。目的是让这个内网设备访问区域 B 的内网网段时，不会被路由器丢弃，而是发送到 Netbird 设备上。具体配置如下：
 
-![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/03/Netbird%20%E5%AD%90%E7%BD%91%E8%B7%AF%E7%94%B1%E8%AE%BE%E7%BD%AE%20%EF%BC%88%E5%A4%84%E7%90%86%E4%B8%8D%E4%BE%BF%E5%AE%89%E8%A3%85%E7%9A%84%E8%AE%BE%E5%A4%87%EF%BC%89/Untitled%202.avif)
+![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2024/03/Netbird%20%E5%AD%90%E7%BD%91%E8%B7%AF%E7%94%B1%E8%AE%BE%E7%BD%AE%20%EF%BC%88%E5%A4%84%E7%90%86%E4%B8%8D%E4%BE%BF%E5%AE%89%E8%A3%85%E7%9A%84%E8%AE%BE%E5%A4%87%EF%BC%89/Untitled%202.avif)
 
 目的地址和子网掩码：填写区域 B 的内网网段，可以再加一条，填写 Netbird 的内网网段
 
@@ -55,7 +55,7 @@ image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/03/Netb
 
 1. 确认 Netbird 创建的 TUN 所使用的 Interface 名称（一般是 wt0）以及默认联网网卡的 Interface 名称。你可以使用`ip addr show` 来确认
     
-    ![](https://hf-public-source.mitsea.com:8840/images/blog/posts/2024/03/Netbird%20%E5%AD%90%E7%BD%91%E8%B7%AF%E7%94%B1%E8%AE%BE%E7%BD%AE%20%EF%BC%88%E5%A4%84%E7%90%86%E4%B8%8D%E4%BE%BF%E5%AE%89%E8%A3%85%E7%9A%84%E8%AE%BE%E5%A4%87%EF%BC%89/Untitled%203.avif)
+    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2024/03/Netbird%20%E5%AD%90%E7%BD%91%E8%B7%AF%E7%94%B1%E8%AE%BE%E7%BD%AE%20%EF%BC%88%E5%A4%84%E7%90%86%E4%B8%8D%E4%BE%BF%E5%AE%89%E8%A3%85%E7%9A%84%E8%AE%BE%E5%A4%87%EF%BC%89/Untitled%203.avif)
     
     我这边就是 wt0 和 eth0，这两个 Interface 名称要记住，后面配置 iptables 要用。
     

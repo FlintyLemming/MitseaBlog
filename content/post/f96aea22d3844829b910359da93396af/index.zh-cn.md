@@ -6,7 +6,7 @@ date = "2020-06-01"
 description = ""
 categories = ["Apple"]
 tags = ["iOS", "Jailbreak"]
-image = "https://hf-public-source.mitsea.com:8840/images/blog/posts/2020/06/iOS%2012%20%E8%B6%8A%E7%8B%B1%E5%90%8E%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%20Palert%20%E6%8F%92%E4%BB%B6/title.avif"
+image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2020/06/iOS%2012%20%E8%B6%8A%E7%8B%B1%E5%90%8E%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%20Palert%20%E6%8F%92%E4%BB%B6/title.avif"
 +++
 
 Palert 是可以将 iOS 弹窗变为 Apple TV 风格的一个插件
