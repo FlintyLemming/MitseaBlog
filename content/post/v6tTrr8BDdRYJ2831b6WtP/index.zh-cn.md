@@ -13,7 +13,7 @@ image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/
 
 如果在初始化电脑的过程中直接使用微软账号，默认情况下是不能使用账号密码使用远程桌面登陆到这台计算机的。特别是在 Windows 11 新版本中默认不让你配置本地账号，导致很多人在初始化电脑的时候实际上使用的是微软账号登陆的，然后设置的是一个 PIN，并不是传统意义上的账号密码
 
-https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2024/12/%E5%9C%A8%E4%BD%BF%E7%94%A8%E5%BE%AE%E8%BD%AF%E8%B4%A6%E5%8F%B7%E5%88%9D%E5%A7%8B%E5%8C%96%E7%9A%84%E8%AE%BE%E5%A4%87%E4%B8%8A%E5%90%AF%E7%94%A8%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/CleanShot%202024-12-03%20at%2017.34.14@2x_DIjFhetbv5.avif
+![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2024/12/%E5%9C%A8%E4%BD%BF%E7%94%A8%E5%BE%AE%E8%BD%AF%E8%B4%A6%E5%8F%B7%E5%88%9D%E5%A7%8B%E5%8C%96%E7%9A%84%E8%AE%BE%E5%A4%87%E4%B8%8A%E5%90%AF%E7%94%A8%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/CleanShot%202024-12-03%20at%2017.34.14@2x_DIjFhetbv5.avif)
 
 这个 PIN 是不可以拿来做为远程桌面的账号密码的
 
