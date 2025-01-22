@@ -6,7 +6,7 @@ date = "2023-04-04"
 description = ""
 categories = ["HomeLab"]
 tags = ["FreeBSD", "TrueNAS Core", "qBittorrent"]
-image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/marek-piwnicki-i5AF9bW10p0-unsplash.avif"
+image = "https://blog-img.mitsea.com/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/marek-piwnicki-i5AF9bW10p0-unsplash.avif"
 +++
 
 ## 开头
@@ -21,7 +21,7 @@ TrueNAS Core 由于使用 FreeBSD，zfs 的性能似乎比在 Linux 上好不少
 
 1. 创建一个存放 qBittorrent 配置文件的文件夹，和下载文件夹。比如我用 AppData 存放配置文件，Downloads 存放下载文件。
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled.avif)
 
 2. 记下两个文件夹的路径，TrueNAS Core 的路径是 /mnt/<Pool名>/<dataset名>/……。我的话，配置文件的路径是 /mnt/pool0/AppData/qbittorrent，下载路径是 /mnt/pool0/Downloads
 3. 配置 ACL，这里不需要给 Jail 额外配置什么权限，给你自己 smb 访问的账户配好权限就行
@@ -30,45 +30,45 @@ TrueNAS Core 由于使用 FreeBSD，zfs 的性能似乎比在 Linux 上好不少
 
 1. 创建 Jail，点击高级设置
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%201.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%201.avif)
 
 2. Basic Properties 这里有几个地方修改一下：① 填写一个名称；② Release 选择一个最新版；③ 勾选 DHCP，此时下方的 VNET 和 Berkeley Packet Filter 会被自动勾选；④ 选择联网的网口
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%202.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%202.avif)
 
     其他地方不用动，点击 Next
 
 3. Jail Properties 一个都不需要动，直接 Next
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%203.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%203.avif)
 
 4. Network Properties 这里都不需要动，直接 Next
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%204.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%204.avif)
 
 5. Custom Properties 这里都不需要动，直接 Save
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%205.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%205.avif)
 
 6. 保存后，回到 Jails 管理画面，展开刚才创建的 Jail，启动它。然后点击 Shell 进入 Jail，这里需要先把 qBittorrent 的 config 和下载文件夹创建好
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%206.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%206.avif)
 
     创建文件夹
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%207.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%207.avif)
 
 7. 关闭 Shell，再把 Jail 也停止。停止后，点击 Mount Points
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%208.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%208.avif)
 
 8. 新建文件夹映射，这里上面是 NAS 的文件目录，下面是 Jail 内的。这里映射的是配置文件夹的，下载文件夹同理
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%209.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%209.avif)
 
     配置好后大概是这样
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%2010.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%2010.avif)
 
 ### 安装并启动 qBittorrent
 
@@ -115,11 +115,11 @@ TrueNAS Core 由于使用 FreeBSD，zfs 的性能似乎比在 Linux 上好不少
 
 前面说了，Jail 类似与 lxc，或者是虚拟机，所以他默认是桥接本机网络，Jail 获得了一个内网 IP。在管理页面可以看到
 
-![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%2011.avif)
+![](https://blog-img.mitsea.com/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%2011.avif)
 
 我这边就是打开 [http://192.168.2.121:8080/](http://192.168.2.121:8080/) 即可
 
-![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%2012.avif)
+![](https://blog-img.mitsea.com/images/blog/posts/2023/04/TrueNAS%20Core%20%E4%BD%BF%E7%94%A8%20Jail%20%E5%AE%89%E8%A3%85%20qBittorrent/Untitled%2012.avif)
 
 默认用户是 admin，默认密码是 adminadmin
 

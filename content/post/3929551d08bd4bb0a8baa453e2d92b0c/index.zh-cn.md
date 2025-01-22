@@ -6,7 +6,7 @@ date = "2022-10-08"
 description = ""
 categories = ["HomeLab"]
 tags = ["Synology", "哪吒监控"]
-image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2022/10/%E7%BE%A4%E6%99%96%20DSM%207.x%20%E5%AE%89%E8%A3%85%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/title.avif"
+image = "https://blog-img.mitsea.com/images/blog/posts/2022/10/%E7%BE%A4%E6%99%96%20DSM%207.x%20%E5%AE%89%E8%A3%85%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/title.avif"
 +++
 
 ## 下载 Agent
@@ -17,12 +17,12 @@ image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/
 
 2. 解压后，把里面的二进制文件随便放到一个地方
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2022/10/%E7%BE%A4%E6%99%96%20DSM%207.x%20%E5%AE%89%E8%A3%85%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/1.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2022/10/%E7%BE%A4%E6%99%96%20DSM%207.x%20%E5%AE%89%E8%A3%85%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/1.avif)
 
 3. SSH 到群晖，使用 `sudo -i` 切换到 root 账号
 4. 找到刚才放进去的文件，共享文件夹一般在 /volume1 下面。刚才我是放在了 AppData 这个共享文件夹里，那二进制文件就在 /volume1/AppData 下
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2022/10/%E7%BE%A4%E6%99%96%20DSM%207.x%20%E5%AE%89%E8%A3%85%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/2.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2022/10/%E7%BE%A4%E6%99%96%20DSM%207.x%20%E5%AE%89%E8%A3%85%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/2.avif)
 
 ## 测试启动
 
@@ -31,7 +31,7 @@ image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/
 1. 在 Dashboard 里创建一个新设备，获取链接密码
 2. 进到 agent 所在文件夹后，通过执行 ./nezha-agent 可以查看使用帮助
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2022/10/%E7%BE%A4%E6%99%96%20DSM%207.x%20%E5%AE%89%E8%A3%85%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/3.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2022/10/%E7%BE%A4%E6%99%96%20DSM%207.x%20%E5%AE%89%E8%A3%85%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/3.avif)
 
 3. 基本上指定一下服务器地址和密码即可，命令为
 
@@ -41,7 +41,7 @@ image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/
 
 4. 执行后，没报错，并且在 Web 上能看到信息就可以
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2022/10/%E7%BE%A4%E6%99%96%20DSM%207.x%20%E5%AE%89%E8%A3%85%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/4.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2022/10/%E7%BE%A4%E6%99%96%20DSM%207.x%20%E5%AE%89%E8%A3%85%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/4.avif)
 
 5. 记下自己的执行命令，并把 `./` 替换成绝对路径，比如我的文件放在 `/volume1/AppData` 下，那我的执行命令就是
 
@@ -96,6 +96,6 @@ image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/
     systemctl status nezha-agent
     ```
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2022/10/%E7%BE%A4%E6%99%96%20DSM%207.x%20%E5%AE%89%E8%A3%85%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/5.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2022/10/%E7%BE%A4%E6%99%96%20DSM%207.x%20%E5%AE%89%E8%A3%85%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/5.avif)
 
 > Photo by [Steve Johnson](https://unsplash.com/@steve_j?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

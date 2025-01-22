@@ -6,7 +6,7 @@ date = "2021-11-22"
 description = "好好好"
 categories = ["Consumer"]
 tags = ["Xbox"]
-image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2021/11/title.avif"
+image = "https://blog-img.mitsea.com/images/blog/posts/2021/11/title.avif"
 +++
 
 其实我原来买的是 Series S，但是我后来卖掉买了 Series X，有两个主要原因
@@ -18,18 +18,18 @@ Series X 用了快半年，这玩意对我其实有很多意想不到的体验�
 
 1. 游戏价格。Microsoft 的账号不绑定区域，这意味着你可以用现有的账号今天在阿根廷购买游戏，明天在巴西购买游戏，完全没有问题。不像 PlayStation、Steam、Epic，他们都是一个账号绑定一个区，即便是能改区也非常麻烦，限制也很多。即便都是低价区，Xbox 往往也有相当优惠的价格，比如英雄联盟衍生游戏 Ruined King，Steam 俄区淘宝是 84 元。
     
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2021/11/1.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2021/11/1.avif)
     
     而 Xbox 我只花了…额 7 块钱。而且别忘了，这个价格我不需要额外准备低价区账号，直接用现有的 Microsoft 账号就可以激活。
     
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2021/11/2.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2021/11/2.avif)
     
 2. Quick Resume。这个功能简直了，它能让我5秒就可以从待机唤醒到进入游戏。
     
     {{< rawhtml >}} 
 
     <video width=100% controls autoplay>
-        <source src="https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2021/11/1.mov" type="video/mov">
+        <source src="https://blog-img.mitsea.com/images/blog/posts/2021/11/1.mov" type="video/mov">
         Your browser does not support the video tag.  
     </video>
     

@@ -13,6 +13,6 @@ image = ""
 
 此时千万不要因为无法使用在 Apple Pay 里解绑！存在一项未完成的交易后，商户会在几天内重新提请一个扣款订单，扣款成功后 Apple Pay 就会恢复正常。而如果你在此前解绑卡片，导致商户重新扣款失败，商户->银联就会禁用你的 Apple Pay，不仅当前绑定的卡片无法使用，解绑后也不能重新绑定。
 
-![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2020/05/Apple%20Pay%20%E4%B8%AD%E5%8D%A1%E7%89%87%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E6%97%B6%E4%B8%80%E5%AE%9A%E4%B8%8D%E8%A6%81%E6%97%A0%E6%95%85%E8%A7%A3%E7%BB%91%EF%BC%81/1.avif)
+![](https://blog-img.mitsea.com/images/blog/posts/2020/05/Apple%20Pay%20%E4%B8%AD%E5%8D%A1%E7%89%87%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E6%97%B6%E4%B8%80%E5%AE%9A%E4%B8%8D%E8%A6%81%E6%97%A0%E6%95%85%E8%A7%A3%E7%BB%91%EF%BC%81/1.avif)
 
 解决方法当然是打银联电话，因为银联没有线下服务网点（至少南京没有）。当然正常来说银联电话很难打，等40分钟是平均水平，打一把自走棋结束还没排到你属于正常情况。此时可以直接走投诉通道（毕竟你这个是因为系统问题导致，算作投诉问题不大），一分钟内就会有客服，陈述问题 - 等待客服跟进即可。

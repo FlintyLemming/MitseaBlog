@@ -6,7 +6,7 @@ date = "2025-01-01"
 description = ""
 categories = ["HomeLab"]
 tags = ["黑群晖"]
-image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2025/01/zach-lezniewicz-E4IDq9NfFYY-unsplash.avif"
+image = "https://blog-img.mitsea.com/images/blog/posts/2025/01/zach-lezniewicz-E4IDq9NfFYY-unsplash.avif"
 +++
 
 这台机器用的外挂 SATA 控制器不能被大多数 Linux 系统默认识别，Windows 倒是可以，所以黑群晖自然也是识别不到。
@@ -19,7 +19,7 @@ image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/
 
 在这行的最后加一段 `pcie_port_pm=off` 就可以了
 
-![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2025/01/image_850z0ohy1Z.avif)
+![](https://blog-img.mitsea.com/images/blog/posts/2025/01/image_850z0ohy1Z.avif)
 
 > Photo by [Zach Lezniewicz](https://unsplash.com/@zachlez?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-black-and-white-photo-of-a-large-body-of-water-E4IDq9NfFYY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
       

@@ -6,7 +6,7 @@ date = "2020-03-11"
 description = ""
 categories = ["Coding"]
 tags = ["协同工作"]
-image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/title.avif"
+image = "https://blog-img.mitsea.com/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/title.avif"
 +++
 
 ## 功能演示
@@ -28,35 +28,35 @@ image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/
 1. 安装最新版的 Visual Studio（我这边是 2019 16.4.6）并在 Visual Studio 里登录自己的微软账号
 2. 点击右上角的 Live Share。第一次使用，会弹出防火墙提示，请打开。
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/1.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/1.avif)
 
 3. 第一次启动可能会比较慢，稍等片刻，启动完成则会看到这条提示
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/2.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/2.avif)
 
 4. 复制共享链接，或是可以点开详细信息获取功能描述
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/3.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/3.avif)
 
 ### macOS 环境配置
 
 1. 安装 Visual Studio Code，然后安装 Live Share 插件
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/4.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/4.avif)
 
 2. 安装完毕后在左侧功能区找到 Live Share 并打开，点击这里，填写共享地址。输入后回车即可连接。
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/5.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/5.avif)
 
 3. 连接成功后，即可看到项目目录
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/6.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/6.avif)
 
 4. 在 Visual Studio 里点击运行，macOS 上的 Visual Studio Code 同样会进入 debug 状态。并且，IIS Express 的网页也会共享过来，非常方便。
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/7.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/7.avif)
 
-    ![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/8.avif)
+    ![](https://blog-img.mitsea.com/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/8.avif)
 
 ## 其他设置
 
@@ -64,11 +64,11 @@ image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/
 
 若要在 Visual Studio Code 中也能开始编译并运行，需要进行权限设置，否则会提示如下错误
 
-![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/9.avif)
+![](https://blog-img.mitsea.com/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/9.avif)
 
 只需要在 Visual Studio 的选项中找到 Live Share - 常规，将图中两个位置改为 True 即可
 
-![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/10.avif)
+![](https://blog-img.mitsea.com/images/blog/posts/2020/03/%E4%BD%BF%E7%94%A8%20Live%20Share%20%E5%90%88%E4%BD%9C%E7%BC%96%E8%BE%91%E3%80%81%E8%B0%83%E8%AF%95%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81/10.avif)
 
 ### 网络设置
 

@@ -6,7 +6,7 @@ date = "2022-09-17"
 description = ""
 categories = ["Network", "Linux"]
 tags = ["Tailscale"]
-image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2022/09/%E8%87%AA%E5%BB%BA%20Tailscale%20DERP/title.avif"
+image = "https://blog-img.mitsea.com/images/blog/posts/2022/09/%E8%87%AA%E5%BB%BA%20Tailscale%20DERP/title.avif"
 +++
 
 ## 配置 Go 环境
@@ -123,7 +123,7 @@ derper -hostname <域名> -c <存放配置文件的路径>/derper.conf -a :<自�
 	},
 ```
 
-![](https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2022/09/%E8%87%AA%E5%BB%BA%20Tailscale%20DERP/Untitled.avif)
+![](https://blog-img.mitsea.com/images/blog/posts/2022/09/%E8%87%AA%E5%BB%BA%20Tailscale%20DERP/Untitled.avif)
 
 ## 防止被滥用
 

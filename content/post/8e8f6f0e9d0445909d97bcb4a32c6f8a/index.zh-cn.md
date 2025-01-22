@@ -6,7 +6,7 @@ date = "2024-07-31"
 description = "本站所有图片资源都将使用 AVIF 格式"
 categories = ["Network"]
 tags = ["AVIF"]
-image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2024/07/Dive%20into%20AVIF/daniel-sessler-iID6w89lt1M-unsplash.avif"
+image = "https://blog-img.mitsea.com/images/blog/posts/2024/07/Dive%20into%20AVIF/daniel-sessler-iID6w89lt1M-unsplash.avif"
 +++
 
 目前市面上所有还在更新的浏览器大概都支持显示 AVIF 格式的图片了（即便是 360 安全浏览器）

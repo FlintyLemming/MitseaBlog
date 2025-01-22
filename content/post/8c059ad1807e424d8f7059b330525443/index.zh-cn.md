@@ -6,7 +6,7 @@ date = "2024-07-03"
 description = ""
 categories = ["Linux", "HomeLab"]
 tags = ["群晖", "Docker"]
-image = "https://gitee.com/flintylemming/mitsea-public-source/raw/master/images/blog/posts/2024/07/%E7%BB%99%E7%BE%A4%E6%99%96%20Docker%20%E5%91%BD%E4%BB%A4%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86/karsten-winegeart-PrXVzkJOqq4-unsplash.avif"
+image = "https://blog-img.mitsea.com/images/blog/posts/2024/07/%E7%BB%99%E7%BE%A4%E6%99%96%20Docker%20%E5%91%BD%E4%BB%A4%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86/karsten-winegeart-PrXVzkJOqq4-unsplash.avif"
 +++
 
 本方法在 SA6400 机型上测试可用，该方法只作用于 Docker 命令，`docker pull` 之类的，不作用于容器
