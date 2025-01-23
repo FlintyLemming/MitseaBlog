@@ -6,7 +6,7 @@ date = "2022-11-09"
 description = "省流：国区有 Match，并且可以匹配到外区音源"
 categories = ["Apple"]
 tags = ["Apple Music"]
-image = "https://blog-img.mitsea.com/images/blog/posts/2022/11/%E5%9B%BD%E5%8C%BA%20Apple%20Music%20iTunes%20Match%20%E8%A7%82%E5%AF%9F/title.avif"
+image = "https://image.mitsea.com/blog/posts/2022/11/%E5%9B%BD%E5%8C%BA%20Apple%20Music%20iTunes%20Match%20%E8%A7%82%E5%AF%9F/title.avif"
 +++
 
 众所周知，iTunes Match 作为一项历史悠久的服务一直在 iTunes Store 中。但是随着 Apple Music 的推出，它实际上也集成了 iTunes Match 的功能。
@@ -17,11 +17,11 @@ image = "https://blog-img.mitsea.com/images/blog/posts/2022/11/%E5%9B%BD%E5%8C%B
 
 以《璃月云海》这首歌为例，我先向 Apple Music 上传了一份从网易云下载的 mp3 文件
 
-![](https://blog-img.mitsea.com/images/blog/posts/2022/11/%E5%9B%BD%E5%8C%BA%20Apple%20Music%20iTunes%20Match%20%E8%A7%82%E5%AF%9F/1.avif)
+![](https://image.mitsea.com/blog/posts/2022/11/%E5%9B%BD%E5%8C%BA%20Apple%20Music%20iTunes%20Match%20%E8%A7%82%E5%AF%9F/1.avif)
 
 上传完毕后，云端状态变成了已匹配。在其他设备上下载，也能正确下载无 DRM 的 m4a 文件。
 
-![](https://blog-img.mitsea.com/images/blog/posts/2022/11/%E5%9B%BD%E5%8C%BA%20Apple%20Music%20iTunes%20Match%20%E8%A7%82%E5%AF%9F/2.avif)
+![](https://image.mitsea.com/blog/posts/2022/11/%E5%9B%BD%E5%8C%BA%20Apple%20Music%20iTunes%20Match%20%E8%A7%82%E5%AF%9F/2.avif)
 
 因为如果没有匹配到，你上传 mp3，别的设备上下的还是 mp3；如果下载的 Apple Music 曲库的歌曲，也下不到 m4a 无 DRM 格式。
 
@@ -35,7 +35,7 @@ image = "https://blog-img.mitsea.com/images/blog/posts/2022/11/%E5%9B%BD%E5%8C%B
 
 同步后在其他设备上查看，可以看到云端状态变成了 已匹配，文件也下载到了无 DRM 的 m4a 文件。
 
-![](https://blog-img.mitsea.com/images/blog/posts/2022/11/%E5%9B%BD%E5%8C%BA%20Apple%20Music%20iTunes%20Match%20%E8%A7%82%E5%AF%9F/3.avif)
+![](https://image.mitsea.com/blog/posts/2022/11/%E5%9B%BD%E5%8C%BA%20Apple%20Music%20iTunes%20Match%20%E8%A7%82%E5%AF%9F/3.avif)
 
 但是这张专辑在国区是没有的。专辑链接如下
 
@@ -43,7 +43,7 @@ image = "https://blog-img.mitsea.com/images/blog/posts/2022/11/%E5%9B%BD%E5%8C%B
 
 美区可以正常打开，但是国区是没有这张专辑的
 
-![](https://blog-img.mitsea.com/images/blog/posts/2022/11/%E5%9B%BD%E5%8C%BA%20Apple%20Music%20iTunes%20Match%20%E8%A7%82%E5%AF%9F/4.avif)
+![](https://image.mitsea.com/blog/posts/2022/11/%E5%9B%BD%E5%8C%BA%20Apple%20Music%20iTunes%20Match%20%E8%A7%82%E5%AF%9F/4.avif)
 
 所以国区的 iTunes Match 是可以匹配到外区音源的。
 

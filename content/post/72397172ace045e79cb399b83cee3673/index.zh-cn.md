@@ -6,7 +6,7 @@ date = "2020-11-23"
 description = ""
 categories = ["HomeLab", "Network"]
 tags = ["家庭宽带"]
-image = "https://blog-img.mitsea.com/images/blog/posts/2020/10/%E6%90%AD%E5%BB%BA%20ss-server%20%E8%BF%94%E5%9B%9E%E5%AE%B6%E4%B8%AD%E7%BD%91%E7%BB%9C/title.avif"
+image = "https://image.mitsea.com/blog/posts/2020/10/%E6%90%AD%E5%BB%BA%20ss-server%20%E8%BF%94%E5%9B%9E%E5%AE%B6%E4%B8%AD%E7%BD%91%E7%BB%9C/title.avif"
 +++
 
 家里开了公网 IP 后，在外面有时需要返回到家里的局域网中，不然每个服务都 NAT 端口出去，既麻烦也不安全。
@@ -25,11 +25,11 @@ Docker 镜像我这边使用的是 gists/shadowsocks-libev。
 
 环境变量注意三个地方，SERVER_PORT 是端口号、METHOD 是加密方式、PASSWORD 是密码，根据自己的需要修改。
 
-![](https://blog-img.mitsea.com/images/blog/posts/2020/10/%E6%90%AD%E5%BB%BA%20ss-server%20%E8%BF%94%E5%9B%9E%E5%AE%B6%E4%B8%AD%E7%BD%91%E7%BB%9C/1.avif)
+![](https://image.mitsea.com/blog/posts/2020/10/%E6%90%AD%E5%BB%BA%20ss-server%20%E8%BF%94%E5%9B%9E%E5%AE%B6%E4%B8%AD%E7%BD%91%E7%BB%9C/1.avif)
 
 端口映射这里，容器端口填写刚才 SERVER_PORT 里的，Published 端口填写需要转发出去的端口，后面路由器 NAT 要用到。如果小白不熟悉，就 SERVER_PORT、Docker Port、Published Port 三者一致也可。
 
-![](https://blog-img.mitsea.com/images/blog/posts/2020/10/%E6%90%AD%E5%BB%BA%20ss-server%20%E8%BF%94%E5%9B%9E%E5%AE%B6%E4%B8%AD%E7%BD%91%E7%BB%9C/2.avif)
+![](https://image.mitsea.com/blog/posts/2020/10/%E6%90%AD%E5%BB%BA%20ss-server%20%E8%BF%94%E5%9B%9E%E5%AE%B6%E4%B8%AD%E7%BD%91%E7%BB%9C/2.avif)
 
 其他就没了，不需要设置路径映射。
 
@@ -47,7 +47,7 @@ Docker 镜像我这边使用的是 gists/shadowsocks-libev。
 
 1. 主菜单 - 节点 - 添加 可以把我们家里的节点先添加进来，比如说我这里就叫 Home
 
-    ![](https://blog-img.mitsea.com/images/blog/posts/2020/10/%E6%90%AD%E5%BB%BA%20ss-server%20%E8%BF%94%E5%9B%9E%E5%AE%B6%E4%B8%AD%E7%BD%91%E7%BB%9C/3.avif)
+    ![](https://image.mitsea.com/blog/posts/2020/10/%E6%90%AD%E5%BB%BA%20ss-server%20%E8%BF%94%E5%9B%9E%E5%AE%B6%E4%B8%AD%E7%BD%91%E7%BB%9C/3.avif)
 
 2. 然后编辑配置文件，在 [policy] 下新增一条根据 SSID 类型判断的策略
 
@@ -95,6 +95,6 @@ Docker 镜像我这边使用的是 gists/shadowsocks-libev。
 
 由于目前 Clash 尚不支持根据网关地址判断的策略，只能设置一个手动的策略组，需要的时候打开。不过 Proxifier 4 支持根据 Interface 判断。
 
-![](https://blog-img.mitsea.com/images/blog/posts/2020/10/%E6%90%AD%E5%BB%BA%20ss-server%20%E8%BF%94%E5%9B%9E%E5%AE%B6%E4%B8%AD%E7%BD%91%E7%BB%9C/4.avif)
+![](https://image.mitsea.com/blog/posts/2020/10/%E6%90%AD%E5%BB%BA%20ss-server%20%E8%BF%94%E5%9B%9E%E5%AE%B6%E4%B8%AD%E7%BD%91%E7%BB%9C/4.avif)
 
 > Photo by [JJ Ying](https://unsplash.com/@jjying?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/network?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

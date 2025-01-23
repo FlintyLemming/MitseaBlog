@@ -6,7 +6,7 @@ date = "2020-03-07"
 description = ""
 categories = ["Microsoft"]
 tags = ["Microsoft 365", "Azure"]
-image = "https://blog-img.mitsea.com/images/blog/posts/2020/03/%E5%85%B3%E4%BA%8E%20Microsoft%20365%20%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94%E7%9A%84%E6%9D%83%E9%99%90%E8%AF%B4%E6%98%8E/title.avif"
+image = "https://image.mitsea.com/blog/posts/2020/03/%E5%85%B3%E4%BA%8E%20Microsoft%20365%20%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94%E7%9A%84%E6%9D%83%E9%99%90%E8%AF%B4%E6%98%8E/title.avif"
 +++
 
 众所周知，Microsoft 365 世纪互联版是国内代理服务，在提供高速服务的同时受到中国法律的监督。所以在权限等可访问性上与国际版不同，下面就核心的几个功能做一个对比。
@@ -21,19 +21,19 @@ image = "https://blog-img.mitsea.com/images/blog/posts/2020/03/%E5%85%B3%E4%BA%8
 
 1. 进入功能列表 - 管理
 
-    ![](https://blog-img.mitsea.com/images/blog/posts/2020/03/%E5%85%B3%E4%BA%8E%20Microsoft%20365%20%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94%E7%9A%84%E6%9D%83%E9%99%90%E8%AF%B4%E6%98%8E/1.avif)
+    ![](https://image.mitsea.com/blog/posts/2020/03/%E5%85%B3%E4%BA%8E%20Microsoft%20365%20%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94%E7%9A%84%E6%9D%83%E9%99%90%E8%AF%B4%E6%98%8E/1.avif)
 
 2. 所有管理中心 - SharePoint
 
-    ![](https://blog-img.mitsea.com/images/blog/posts/2020/03/%E5%85%B3%E4%BA%8E%20Microsoft%20365%20%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94%E7%9A%84%E6%9D%83%E9%99%90%E8%AF%B4%E6%98%8E/2.avif)
+    ![](https://image.mitsea.com/blog/posts/2020/03/%E5%85%B3%E4%BA%8E%20Microsoft%20365%20%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94%E7%9A%84%E6%9D%83%E9%99%90%E8%AF%B4%E6%98%8E/2.avif)
 
 3. 策略 - 共享 里，像这样修改共享设置
 
-    ![](https://blog-img.mitsea.com/images/blog/posts/2020/03/%E5%85%B3%E4%BA%8E%20Microsoft%20365%20%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94%E7%9A%84%E6%9D%83%E9%99%90%E8%AF%B4%E6%98%8E/3.avif)
+    ![](https://image.mitsea.com/blog/posts/2020/03/%E5%85%B3%E4%BA%8E%20Microsoft%20365%20%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94%E7%9A%84%E6%9D%83%E9%99%90%E8%AF%B4%E6%98%8E/3.avif)
 
 4. 然后就可以正常分享文件了
 
-    ![](https://blog-img.mitsea.com/images/blog/posts/2020/03/%E5%85%B3%E4%BA%8E%20Microsoft%20365%20%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94%E7%9A%84%E6%9D%83%E9%99%90%E8%AF%B4%E6%98%8E/4.avif)
+    ![](https://image.mitsea.com/blog/posts/2020/03/%E5%85%B3%E4%BA%8E%20Microsoft%20365%20%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94%E7%9A%84%E6%9D%83%E9%99%90%E8%AF%B4%E6%98%8E/4.avif)
 
 ## SharePoint
 
@@ -41,19 +41,19 @@ SharePoint 不能够分享整个站点给任意用户。但从原理上说，你
 
 1. 进入要共享的站点，然后点击设置齿轮 - 网站设置
 
-    ![](https://blog-img.mitsea.com/images/blog/posts/2020/03/%E5%85%B3%E4%BA%8E%20Microsoft%20365%20%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94%E7%9A%84%E6%9D%83%E9%99%90%E8%AF%B4%E6%98%8E/5.avif)
+    ![](https://image.mitsea.com/blog/posts/2020/03/%E5%85%B3%E4%BA%8E%20Microsoft%20365%20%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94%E7%9A%84%E6%9D%83%E9%99%90%E8%AF%B4%E6%98%8E/5.avif)
 
 2. 点击 网站权限
 
-    ![](https://blog-img.mitsea.com/images/blog/posts/2020/03/%E5%85%B3%E4%BA%8E%20Microsoft%20365%20%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94%E7%9A%84%E6%9D%83%E9%99%90%E8%AF%B4%E6%98%8E/6.avif)
+    ![](https://image.mitsea.com/blog/posts/2020/03/%E5%85%B3%E4%BA%8E%20Microsoft%20365%20%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94%E7%9A%84%E6%9D%83%E9%99%90%E8%AF%B4%E6%98%8E/6.avif)
 
 3. 左上角 权限 - 授予权限
 
-    ![](https://blog-img.mitsea.com/images/blog/posts/2020/03/%E5%85%B3%E4%BA%8E%20Microsoft%20365%20%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94%E7%9A%84%E6%9D%83%E9%99%90%E8%AF%B4%E6%98%8E/7.avif)
+    ![](https://image.mitsea.com/blog/posts/2020/03/%E5%85%B3%E4%BA%8E%20Microsoft%20365%20%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94%E7%9A%84%E6%9D%83%E9%99%90%E8%AF%B4%E6%98%8E/7.avif)
 
 4. 在这里输入对方的 Microsoft 账号（国际版也可以），然后对方就会收到邀请链接
 
-    ![](https://blog-img.mitsea.com/images/blog/posts/2020/03/%E5%85%B3%E4%BA%8E%20Microsoft%20365%20%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94%E7%9A%84%E6%9D%83%E9%99%90%E8%AF%B4%E6%98%8E/8.avif)
+    ![](https://image.mitsea.com/blog/posts/2020/03/%E5%85%B3%E4%BA%8E%20Microsoft%20365%20%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94%E7%9A%84%E6%9D%83%E9%99%90%E8%AF%B4%E6%98%8E/8.avif)
 
 但是这项功能世纪互联版暂时是不可用的，这里引用客服的回答
 

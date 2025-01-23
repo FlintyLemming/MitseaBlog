@@ -6,7 +6,7 @@ date = "2023-08-23"
 description = "Windows 自带流氓软件"
 categories = ["LifeTec", "Microsoft", "Windows"]
 tags = ["Edge"]
-image = "https://blog-img.mitsea.com/images/blog/posts/2023/08/%E6%97%A0%E7%97%9B%E7%A6%81%E7%94%A8%20Microsoft%20Edge/philip-oroni-KtEloTGQ8wM-unsplash.avif"
+image = "https://image.mitsea.com/blog/posts/2023/08/%E6%97%A0%E7%97%9B%E7%A6%81%E7%94%A8%20Microsoft%20Edge/philip-oroni-KtEloTGQ8wM-unsplash.avif"
 +++
 
 如果通过 Powershell 命令强制卸载 Edge 软件包，可能会导致意料之外的问题，推荐使用策略组编辑器禁止 Edge 运行
@@ -20,7 +20,7 @@ image = "https://blog-img.mitsea.com/images/blog/posts/2023/08/%E6%97%A0%E7%97%9
 5. 点击 不允许的应用程序列表 右侧的 显示…
 6. 添加一项 `msedge.exe` 后，点击 确定
 
-    ![](https://blog-img.mitsea.com/images/blog/posts/2023/08/%E6%97%A0%E7%97%9B%E7%A6%81%E7%94%A8%20Microsoft%20Edge/Untitled.avif)
+    ![](https://image.mitsea.com/blog/posts/2023/08/%E6%97%A0%E7%97%9B%E7%A6%81%E7%94%A8%20Microsoft%20Edge/Untitled.avif)
 
 7. 再点击 确定，然后关闭 策略组编辑器 即可
 

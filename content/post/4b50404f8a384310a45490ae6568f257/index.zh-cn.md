@@ -6,7 +6,7 @@ date = "2023-06-01"
 description = "数据党狂喜"
 categories = ["HomeLab", "MineService"]
 tags = ["硬盘", "NAS"]
-image = "https://blog-img.mitsea.com/images/blog/posts/2023/06/%E9%9B%86%E4%B8%AD%E7%9B%91%E6%B5%8B%E5%A4%9A%E5%8F%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E7%A1%AC%E7%9B%98%20SMART%20%E4%BF%A1%E6%81%AF/jaredd-craig-9kTHBEaFmhU-unsplash.avif"
+image = "https://image.mitsea.com/blog/posts/2023/06/%E9%9B%86%E4%B8%AD%E7%9B%91%E6%B5%8B%E5%A4%9A%E5%8F%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E7%A1%AC%E7%9B%98%20SMART%20%E4%BF%A1%E6%81%AF/jaredd-craig-9kTHBEaFmhU-unsplash.avif"
 +++
 
 [Demo Site](https://disks.mitsea.com/web/dashboard)

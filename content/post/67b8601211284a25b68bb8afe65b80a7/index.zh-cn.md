@@ -6,7 +6,7 @@ date = "2020-12-15"
 description = ""
 categories = ["Network", "MineService"]
 tags = ["Backblaze", "CloudFlare", "图床"]
-image = "https://blog-img.mitsea.com/images/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/c-m-X_j3b4rqnlk-unsplash.avif"
+image = "https://image.mitsea.com/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/c-m-X_j3b4rqnlk-unsplash.avif"
 +++
 
 Backblaze B2 在大厂的对象存储里算是非常便宜的了，如果不考虑国内访问速度，应该是非常不错的选择。由于 B2 与 CloudFlare 合作，所以套上 CloudFlare 后并不会消耗流量，所以拿来做图床是个不错的选择，下面介绍下步骤。
@@ -24,15 +24,15 @@ Backblaze B2 在大厂的对象存储里算是非常便宜的了，如果不考�
     https://f002.backblazeb2.com/file/<存储桶名称>/......
     ```
     
-    ![](https://blog-img.mitsea.com/images/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/Untitled.avif)
+    ![](https://image.mitsea.com/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/Untitled.avif)
     
 3. 在 CloudFlare 里新建一条 CNAME 解析，地址就填刚才获得的这个 f002.backblazeb2.com
     
-    ![](https://blog-img.mitsea.com/images/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/Untitled%201.avif)
+    ![](https://image.mitsea.com/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/Untitled%201.avif)
     
 4. 在 页面规则 里 创建页面规则
     
-    ![](https://blog-img.mitsea.com/images/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/Untitled%202.avif)
+    ![](https://image.mitsea.com/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/Untitled%202.avif)
     
 5. URL 匹配填写如下内容
     
@@ -40,7 +40,7 @@ Backblaze B2 在大厂的对象存储里算是非常便宜的了，如果不考�
     https://<刚才解析的域名>/file/<存储桶>/*
     ```
     
-    ![](https://blog-img.mitsea.com/images/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/Untitled%203.avif)
+    ![](https://image.mitsea.com/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/Untitled%203.avif)
     
     添加设置中选择 缓存级别 - 缓存所有内容
     
@@ -52,7 +52,7 @@ Backblaze B2 在大厂的对象存储里算是非常便宜的了，如果不考�
     https://<解析的域名>/file/*/*
     ```
     
-    ![](https://blog-img.mitsea.com/images/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/Untitled%204.avif)
+    ![](https://image.mitsea.com/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/Untitled%204.avif)
     
     设置填写 转发 URL - 302重定向 - [https://secure.backblaze.com/404notfound](https://secure.backblaze.com/404notfound)
     
@@ -62,9 +62,9 @@ Backblaze B2 在大厂的对象存储里算是非常便宜的了，如果不考�
     {"cache-control":"max-age=720000"}
     ```
     
-    ![](https://blog-img.mitsea.com/images/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/Untitled%205.avif)
+    ![](https://image.mitsea.com/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/Untitled%205.avif)
     
-    ![](https://blog-img.mitsea.com/images/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/Untitled%206.avif)
+    ![](https://image.mitsea.com/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/Untitled%206.avif)
     
 
 ## 隐藏 Bucket 名称
@@ -75,7 +75,7 @@ Backblaze B2 在大厂的对象存储里算是非常便宜的了，如果不考�
 
 1. Workers - 管理 Workers
     
-    ![](https://blog-img.mitsea.com/images/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/Untitled%207.avif)
+    ![](https://image.mitsea.com/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/Untitled%207.avif)
     
 2. 添加一个 Worker 并部署，内容如下。你需要做的就是修改开头的 b2Domain 和 b2Bucket 两个变量即可。
     
@@ -161,7 +161,7 @@ Backblaze B2 在大厂的对象存储里算是非常便宜的了，如果不考�
     
 3. 添加完后设置路由
     
-    ![](https://blog-img.mitsea.com/images/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/Untitled%208.avif)
+    ![](https://image.mitsea.com/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/Untitled%208.avif)
     
 4. 地址为 
     
@@ -171,7 +171,7 @@ Backblaze B2 在大厂的对象存储里算是非常便宜的了，如果不考�
     
     Worker 就选择刚才添加的 Worker
     
-    ![](https://blog-img.mitsea.com/images/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/Untitled%209.avif)
+    ![](https://image.mitsea.com/blog/posts/2020/12/Backblaze%20B2%20%2B%20CloudFlare%20%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/Untitled%209.avif)
     
     然后就可以直接通过 https://<域名>/<Bucket内路径> 引用文件了
 
