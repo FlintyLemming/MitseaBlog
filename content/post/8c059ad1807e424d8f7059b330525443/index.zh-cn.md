@@ -42,5 +42,5 @@ image = "https://image.mitsea.com/blog/posts/2024/07/%E7%BB%99%E7%BE%A4%E6%99%96
     sudo systemctl restart pkg-ContainerManager-dockerd.service
     ```
 
-> Photo by [Karsten Winegeart](https://unsplash.com/@karsten116?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/an-aerial-view-of-a-mountain-valley-with-a-river-running-through-it-PrXVzkJOqq4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-  
+> Photo by [Karsten Winegeart](https://unsplash.com/@karsten116?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-black-and-white-photo-of-wavy-lines-kBVAKM4f6V0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+      
