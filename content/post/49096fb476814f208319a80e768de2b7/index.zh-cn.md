@@ -6,7 +6,7 @@ date = "2024-09-14"
 description = "本质就是用一个旧版的三星穿戴app完成最开始的配对"
 categories = ["Android", "Consumer"]
 tags = ["wearOS", "Galaxy"]
-image = "https://image.mitsea.com/blog/posts/2024/09/%E5%A4%96%E7%89%88%20Galaxy%20%E6%89%8B%E6%9C%BA%E7%BB%91%E5%AE%9A%E5%9B%BD%E8%A1%8C%20Galaxy%20Watch/karsten-winegeart-Rr0DAKP6bu4-unsplash.avif"
+image = "https://image.mitsea.com/blog/posts/2024/09/%E5%A4%96%E7%89%88%20Galaxy%20%E6%89%8B%E6%9C%BA%E7%BB%91%E5%AE%9A%E5%9B%BD%E8%A1%8C%20Galaxy%20Watch/bro-takes-photos-fQtoEnKkSrE-unsplash.avif"
 +++
 
 ## 读前须知
@@ -53,4 +53,5 @@ image = "https://image.mitsea.com/blog/posts/2024/09/%E5%A4%96%E7%89%88%20Galaxy
     
     ![](https://image.mitsea.com/blog/posts/2024/09/%E5%A4%96%E7%89%88%20Galaxy%20%E6%89%8B%E6%9C%BA%E7%BB%91%E5%AE%9A%E5%9B%BD%E8%A1%8C%20Galaxy%20Watch/IMG_8864.avif)
 
-> Photo by [Karsten Winegeart](https://unsplash.com/@karsten116?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) [Unsplash](https://unsplash.com/photos/a-mountain-range-with-a-dirt-road-in-the-foreground-Rr0DAKP6bu4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+> Photo by [Bro Takes Photos](https://unsplash.com/@brotakesphotos?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) [Unsplash](https://unsplash.com/photos/a-black-and-blue-photo-of-a-wall-fQtoEnKkSrE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+      
