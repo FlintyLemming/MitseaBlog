@@ -2,7 +2,7 @@
 title: "Android"
 description: "Everything about Android"
 slug: "android"
-image: "https://img.mitsea.com/blog/categories/android.png?x-oss-process=style/ImageCompress"
+image: "https://image.mitsea.com/blog/categories/android.avif"
 style:
     background: "#3ddc84"
     color: "#fff"
