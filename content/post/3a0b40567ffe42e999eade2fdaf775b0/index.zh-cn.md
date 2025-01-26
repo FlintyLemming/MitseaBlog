@@ -6,14 +6,14 @@ date = "2023-08-17"
 description = ""
 categories = ["HomeLab", "MineService"]
 tags = ["Nginx", "反代"]
-image = "https://image.mitsea.com/blog/posts/2023/08/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https%20%28DSM%207.x%29/john-zhou-FrzN1-ENO3Q-unsplash.avif"
+image = "https://hf-image.mitsea.com:8840/blog/posts/2023/08/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https%20%28DSM%207.x%29/john-zhou-FrzN1-ENO3Q-unsplash.avif"
 +++
 
 群晖无论是商店的套件还是 Docker 都可以自行安装很多网络服务，对于安装的服务应该如何配置 https 呢？在常规 Linux 系统上，一般通过 Nginx、Apache 解决，但群晖内置了基于 Nginx 的图形化反代工具，一切都变得非常简单。
 
 该场景主要是用的 Nginx 的 proxy_pass 功能，它可以让我们通过一个端口、不同的域名就可以访问到本机的多个 Web 服务。效果如下图。
 
-![](https://image.mitsea.com/blog/posts/2023/08/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https%20%28DSM%207.x%29/Untitled.avif)
+![](https://hf-image.mitsea.com:8840/blog/posts/2023/08/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https%20%28DSM%207.x%29/Untitled.avif)
 
 本篇文章就以 qBittorrent 的 WebUI 为例，介绍如何添加 https
 
@@ -27,7 +27,7 @@ image = "https://image.mitsea.com/blog/posts/2023/08/%E5%88%A9%E7%94%A8%E7%BE%A4
 
 你要申请一个与访问域名相匹配的证书，并已经配置好在 控制面板 - 安全性 - 证书 下。
 
-![](https://image.mitsea.com/blog/posts/2023/08/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https%20%28DSM%207.x%29/Untitled%201.avif)
+![](https://hf-image.mitsea.com:8840/blog/posts/2023/08/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https%20%28DSM%207.x%29/Untitled%201.avif)
 
 ## 端口
 
@@ -37,11 +37,11 @@ image = "https://image.mitsea.com/blog/posts/2023/08/%E5%88%A9%E7%94%A8%E7%BE%A4
 
 1. 确认网络服务的本地端口，正如之前提到的，后面是不会通过这个端口访问的。
 
-    ![](https://image.mitsea.com/blog/posts/2023/08/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https%20%28DSM%207.x%29/Untitled%202.avif)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2023/08/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https%20%28DSM%207.x%29/Untitled%202.avif)
 
 2. 打开 控制面板 - 登陆门户 - 高级 - 反向代理服务器，点 新增
 
-    ![](https://image.mitsea.com/blog/posts/2023/08/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https%20%28DSM%207.x%29/Untitled%203.avif)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2023/08/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https%20%28DSM%207.x%29/Untitled%203.avif)
 
 3. 这里有一些内容需要填写，一项一项来
 
@@ -65,12 +65,12 @@ image = "https://image.mitsea.com/blog/posts/2023/08/%E5%88%A9%E7%94%A8%E7%BE%A4
 
     目的地端口 - 服务的本地端口，qbittorrent 我这里设置的 Web UI IP 是 8844，这里就填 8844
 
-    ![](https://image.mitsea.com/blog/posts/2023/08/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https%20%28DSM%207.x%29/Untitled%204.avif)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2023/08/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https%20%28DSM%207.x%29/Untitled%204.avif)
 
 4. 路由器 NAT 设置一下，看你来源端口设置的什么，以上面为例。那就设置这台机器 IP 的 4433 对公网 4433
 5. 打开 控制面板 - 安全性 - 证书 - 设置，把刚才创建的这一项的证书，选择你前面导入的
 
-    ![](https://image.mitsea.com/blog/posts/2023/08/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https%20%28DSM%207.x%29/Untitled%205.avif)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2023/08/%E5%88%A9%E7%94%A8%E7%BE%A4%E6%99%96%E8%87%AA%E5%B8%A6%E5%8F%8D%E4%BB%A3%E4%B8%BA%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%20https%20%28DSM%207.x%29/Untitled%205.avif)
 
 6. 使用 https://pt.xxx.com:4433 访问即可
 

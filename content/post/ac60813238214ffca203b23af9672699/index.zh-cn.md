@@ -6,7 +6,7 @@ date = "2021-03-25"
 description = ""
 categories = ["Linux", "Windows"]
 tags = ["Windows", "Linux"]
-image = "https://image.mitsea.com/blog/posts/2021/03/X410%20%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/title.avif"
+image = "https://hf-image.mitsea.com:8840/blog/posts/2021/03/X410%20%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/title.avif"
 +++
 
 之前对 Linux Xserver 不了解，所以买了 X410 一直不会用。今天从官网了解了下使用方法，下面记一下如何搭配 WSL 使用。
@@ -34,4 +34,4 @@ image = "https://image.mitsea.com/blog/posts/2021/03/X410%20%E4%BD%BF%E7%94%A8%E
     
 6. 启动成功
     
-    ![](https://image.mitsea.com/blog/posts/2021/03/X410%20%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/1.avif)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2021/03/X410%20%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/1.avif)

@@ -6,7 +6,7 @@ date = "2020-01-11"
 description = ""
 categories = ["HomeLab"]
 tags = ["宽带"]
-image = "https://image.mitsea.com/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/title.avif"
+image = "https://hf-image.mitsea.com:8840/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/title.avif"
 +++
 
 这里我原来真是蠢到家了，明明自己的宽带有公网 IP，还去找机房做 frp 服务器，明明本地就能解决。下面说下步骤吧
@@ -17,7 +17,7 @@ image = "https://image.mitsea.com/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC
 
 1. 搜索一下可以看到很多关于 frp 服务的镜像
 
-    ![](https://image.mitsea.com/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/1.avif)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/1.avif)
 
     注意不要下载客户端，也就是那个 frpc，要下载服务端，frps，server
 
@@ -38,7 +38,7 @@ image = "https://image.mitsea.com/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC
 
 5. 然后我们要取得这个配置文件，就需要把这个路径从 docker 里面的路径，映射到外部我们方便编辑的路径
 
-    ![](https://image.mitsea.com/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/2.avif)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/2.avif)
 
     左边就是实际存在的路径，这个随便写一个地方，好管理就行。右边就是 docker 里面的路径。也就是我们能在左边的路径里，看到右边路径里的文件，这样就很方便的编辑 docker 里面的文件了。
 
@@ -49,27 +49,27 @@ image = "https://image.mitsea.com/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC
 
     看起来我们要设置一个frp服务端口，他默认是 7700，可以改可以不改。因为之前说了，这是 docker 里面的端口，要映射出来才能用。如果需要自定义端口，只需要设置映射出来的端口就行。那我这里想自定义端口为 8851，就在 端口设置 里这样填写。然后，还要填写个你在客户端上可能用到的服务的端口，比如我要用 rdp ，转发端口是 8847。为什么要加这一条，后面会提到。
 
-    ![](https://image.mitsea.com/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/3.avif)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/3.avif)
 
 7. 保存完毕后先别着急运行，先编辑下配置文件。进入到刚才映射出来的目录，发现甚至连预设文件都没给一个
 
-    ![](https://image.mitsea.com/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/4.avif)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/4.avif)
 
 8. 创建一个 frps.ini 文件，填写如下内容。因为这次功能要求不多，只要能转发就行。
 
-    ![](https://image.mitsea.com/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/5.avif)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/5.avif)
 
     你甚至连 token 都可以不写，不过我觉得不太安全
 
 9. 保存后，尝试运行镜像，看下 log，哎可以了
 
-    ![](https://image.mitsea.com/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/6.avif)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/6.avif)
 
 ## 在路由器设置 NAT
 
 要想使得无公网IP的电脑能连上你的 frp 服务，你需要映射你的服务端口到公网，这个用过公网 IP 服务的应该都熟悉了。我这边在路由器上就是这么设置的。
 
-![](https://image.mitsea.com/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/7.avif)
+![](https://hf-image.mitsea.com:8840/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/7.avif)
 
 ## 在无公网IP的电脑配置客户端
 
@@ -92,7 +92,7 @@ image = "https://image.mitsea.com/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC
 
 4. 然后 cd 到 frp 的目录，输入  frpc.exe 运行
 
-    ![](https://image.mitsea.com/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/8.avif)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/8.avif)
 
     可以看到运行成功
 
@@ -102,16 +102,16 @@ image = "https://image.mitsea.com/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC
 
     计算机 填写 <服务端本地地址>:<刚才设置的 remote_port 端口>
 
-    ![](https://image.mitsea.com/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/9.avif)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/9.avif)
 
 2. 成功远程
 
-    ![](https://image.mitsea.com/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/10.avif)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/10.avif)
 
 ## 在外使用
 
 1. 在家里路由器上配置 NAT，转发那个 remote_port 端口
 
-    ![](https://image.mitsea.com/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/11.avif)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2020/01/%E5%AE%B6%E6%9C%89%E5%85%AC%E7%BD%91IP%20%E5%88%A9%E7%94%A8frp%E8%BF%9C%E7%A8%8B%E6%97%A0%E5%85%AC%E7%BD%91IP%E7%9A%84%E7%94%B5%E8%84%91/11.avif)
 
 2. 然后就可以用 <公网IP地址或DDNS域名>:<remote_port 端口> 访问了

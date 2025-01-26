@@ -2,7 +2,7 @@
 title: "个人服务"
 description: "关于自己搭建的一些服务"
 slug: "mine-service"
-image: "https://image.mitsea.com/blog/categories/mine-service.avif"
+image: "https://hf-image.mitsea.com:8840/blog/categories/mine-service.avif"
 style:
     background: "#628ba9"
     color: "#fff"
