@@ -1,7 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "第三方 Emby 客户端"
-slug = "hh4vi4YaHKzShMNRXh9uzJ"
+slug = "1997bda595c5801aa0d9c8f760e4a45b"
 date = "2025-01-26"
 description = "列表来自互联网，内容请自行判断"
 categories = ["MineService"]

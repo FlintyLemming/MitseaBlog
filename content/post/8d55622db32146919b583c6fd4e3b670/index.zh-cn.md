@@ -1,7 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "QNAP TS-453B mini 黑群晖散热简单改造"
-slug = "sqU5RP8PeWJjpvTRdUiQca"
+slug = "8d55622db32146919b583c6fd4e3b670"
 date = "2025-01-28T01:00:00+08:00"
 description = ""
 categories = ["Consumer"]

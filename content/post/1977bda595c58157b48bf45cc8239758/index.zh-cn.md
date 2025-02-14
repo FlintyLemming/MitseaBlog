@@ -40,7 +40,6 @@ image = "https://hf-image.mitsea.com:8840/blog/posts/2025/02/Deepseek%20R1%20%E6
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 发布时间 | 2016 | 2017 | 2018 | 2020 | 2022 | 2022 | 2024 |
 | 典型显卡 | Tesla P40、GeForce GTX 1080 | Tesla V100 | Quadro RTX 6000、RTX 2080 | RTX A6000（现在 GPU）服务器用的、A100、RTX 3090 | RTX 6000 Ada、L40、RTX 4090 | H100、H200 | B200、RTX 5090 |
-RTX 5090 |
 
 ### Nvidia 显卡接口不同
 
@@ -71,7 +70,7 @@ RTX 5090 |
 
 unsloth 出了动态量化的版本
 
-![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/image.png)
+![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/Deepseek%20R1%20%E6%8E%A8%E7%90%86%E9%9C%80%E6%B1%82/image.avif)
 
 disk size 就约等于显存占用量，说是 2.51-bit 效果还不错，但是没有条件验证。可以考虑在现有机器上加点内存验证，或者等有没有人提供这个模型的 API。
 
@@ -105,4 +104,4 @@ fp8 砍到姥姥家了，性能只有 H100 的 14%，感觉是诈骗产品.jpg
 
 除了国内正规供货，想不出任何理由买它
 
-![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/image%201.png)
+![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/Deepseek%20R1%20%E6%8E%A8%E7%90%86%E9%9C%80%E6%B1%82/image%201.avif)
