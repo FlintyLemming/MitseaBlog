@@ -13,15 +13,7 @@
 {{- end -}}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <follow_challenge>
-        <feedId>56006540991339520</feedId>
-        <userId>61579482606965760</userId>
-    </follow_challenge>
     <channel>
-        <follow_challenge>
-            <feedId>56006540991339520</feedId>
-            <userId>61579482606965760</userId>
-        </follow_challenge>
         <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
         <link>{{ .Permalink }}</link>
         <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
