@@ -37,7 +37,7 @@ Easytier 也类似，只不过你需要分开部署。下面的步骤中，“�
 1. 下载 GitHub Release 里的压缩包，里面有一个 easytier-web
 2. 执行 `sudo chmod +x easytier-web` 使其可被执行后，执行 `./easytier-web --help` 后可以看到参数说明，你可以修改 config-server 和 api-server 各自的端口
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image.png)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image.avif)
     
     默认直接运行 `./easytier-web` 即可，后续测试没问题后再部署成服务
     
@@ -62,11 +62,11 @@ Easytier 也类似，只不过你需要分开部署。下面的步骤中，“�
     
 3. 把 easytier-web/frontend/dict 里的 html 文件部署到服务器上就可以用了。注意你前台的根域名和 API 后端的根域名要一样
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%201.png)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%201.avif)
     
 4. 注册并登陆，就能看到控制台了
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%202.png)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%202.avif)
     
 
 ## 添加中继设备
@@ -88,28 +88,28 @@ Easytier 也类似，只不过你需要分开部署。下面的步骤中，“�
     
     没有问题的话会提示连接成功
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%203.png)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%203.avif)
     
 3. 默认端口是 11010，记得开放端口，修改的话参考官方文档
 4. 去到 Dashboard 那边，这里就能看到设备了。点设备右边的齿轮
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%204.png)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%204.avif)
     
 5. 点 Create
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%205.png)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%205.avif)
     
 6. 填写信息
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%206.png)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%206.avif)
     
 7. 加完后，这里选择刚才创建的网络
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%207.png)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%207.avif)
     
 8. 加完后就可以看到这里是本机
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%208.png)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%208.avif)
     
 
 ## 添加其他设备
@@ -122,25 +122,25 @@ Easytier 也类似，只不过你需要分开部署。下面的步骤中，“�
     
 2. 然后在 Dashboard 里就可以看到另一个机器了，点击它右边的齿轮
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%209.png)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%209.avif)
     
 3. 这边无法直接选择刚才的网络，还是要点右边的 Create 手动添加一下
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%2010.png)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%2010.avif)
     
 4. 填写一样的网络名称、网络密码和公共服务器，IP 地址换一个同网段的另一个 IP 即可
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%2011.png)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%2011.avif)
     
     注意 网络方式 那里不要选手动，不然即便填了一样的网络名称和密码，两个机器之间互相也是看不到的
     
 5. 加完后，这里选择刚才创建的网络
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%2012.png)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%2012.avif)
     
 6. 可以看到两个设备之间可以通信了
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%2013.png)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%2013.avif)
     
 
 至此，完成了等效于 Netbird 或是 Tailscale 的添加两个设备的步骤
@@ -152,11 +152,11 @@ Easytier 也类似，只不过你需要分开部署。下面的步骤中，“�
 1. 在你需要共享的局域网内按照上面的步骤安装并配置好 Easytier
 2. 在网页控制台里打开这个设备的设置，编辑网络，展开 高级设置 后在 子网代理CIDR 里填写内网网段即可
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%2014.png)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%2014.avif)
     
 3. 填好后，点击运行网络，就会把新配置下发到客户端上，并自动应用新配置。默认情况下，他会把路由表下发到所有其他设备上，不过由于在前面我推荐你使用不带参数的 `--manual-routes` 启动客户端，所以现在其他客户端默认是不会接受下发的路由的。
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%2015.png)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%2015.avif)
     
 4. 若要在别的设备上接收这条路由，修改 `--manual-routes` 选项的参数即可，比如你要接受 192.168.5.0/24 的路由，那启动命令就改成
     
@@ -371,13 +371,13 @@ docker run -d --entrypoint easytier-web -v /yourpath/data:/app -p 11211:11211 -p
 
 -v 路径映射根据自己的情况修改，/app 不要改，这个可以在 docker hub 上看到他默认的 workdir
 
-![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%2016.png)
+![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%2016.avif)
 
 **注册 easytier-core**
 
 参考官方文档 https://easytier.cn/guide/installation.html 修改这里的启动参数即可
 
-![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%2017.png)
+![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%2017.avif)
 
 ```
 command: --manual-routes --relay-network-whitelist mytier --config-server udp://1.2.3.4:22020/abc
