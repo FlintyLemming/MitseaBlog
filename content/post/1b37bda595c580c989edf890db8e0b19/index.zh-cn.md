@@ -72,7 +72,7 @@ Easytier 也类似，只不过你需要分开部署。不过由于当前版本�
 需要再次提醒的是，本教程只是面向从 Netbird 或者 Tailscale 迁移过来的用户，所以下面的说明假设你已经熟悉 Netbird 或者 Tailscale 的子网路由功能
 
 1. 在你需要共享的局域网内按照上面的步骤安装并配置好 Easytier
-2. 启动参数增加 `--proxy-networks` ，比如你要下发你当前所在的内网 192.168.5.0/24 给其他节点，那你的启动命令就变成
+2. 启动参数增加 `--proxy-networks` ，比如你要下发你当前所在的内网 192.168.5.0/24 和 192.168.2.0/24 给其他节点，那你的启动命令就变成
     
     ```bash
     ./easytier-core --network-name mytier \
@@ -82,6 +82,7 @@ Easytier 也类似，只不过你需要分开部署。不过由于当前版本�
     --manual-routes \
     --relay-network-whitelist mytier \
     --proxy-networks 192.168.5.0/24 \
+    --proxy-networks 192.168.2.0/24 \
     --external-node tcp://11.22.33.44:11010
     ```
     
