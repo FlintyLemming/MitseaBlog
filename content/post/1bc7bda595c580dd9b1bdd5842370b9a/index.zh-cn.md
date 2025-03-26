@@ -70,4 +70,4 @@ vLLM 1.0 的逻辑会改成 SGLang 那种，就是推荐你用 Docker 安装，�
 
 官方 API 目前还是 64k 上下文，这下秒杀官方了.jpg
 
-![](https://hf-image.mitsea.com:8840/blog/posts/2025/03/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%20DeepSeek-V3-0324/image%203.avif)
+![](https://hf-image.mitsea.com:8840/blog/posts/2025/03/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%20DeepSeek-V3-0324/image%204.avif)
