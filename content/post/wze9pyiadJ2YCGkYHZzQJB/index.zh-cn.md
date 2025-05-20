@@ -21,7 +21,7 @@ image = "https://hf-image.mitsea.com:8840/blog/posts/2025/05/TCL-S1916%20%E4%BA%
 
 1. 打开[这个地址](https://index.mitsea.com/%E8%BD%AF%E4%BB%B6/%E9%A9%B1%E5%8A%A8%E5%92%8C%E5%85%B6%E4%BB%96%E9%95%9C%E5%83%8F/TCL-S1916%20%E7%BD%91%E7%AE%A1%E4%BA%A4%E6%8D%A2%E6%9C%BA)，我把软件都放进去了，下载后解压 **TCL-S1916网管交换机软件.zip**
 2. 安装 WinPcap，管理软件依赖里面的某个 dll
-3. 将电脑网口与交换机的\*\* 16 口\*\*连接，也就是最后一个口，交换机只能通过这个口连接
+3. 将电脑网口与交换机的 **16 口**连接，也就是最后一个口，交换机只能通过这个口连接
 4. 给电脑设置一个固定 IP，任意都行
 
    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/05/TCL-S1916%20%E4%BA%A4%E6%8D%A2%E6%9C%BA%E9%85%8D%E7%BD%AE/6_bDxKJBMGEu.avif)
