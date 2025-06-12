@@ -23,46 +23,32 @@ Easytier 也类似，只不过你需要分开部署。下面的步骤中，“�
 
 ### 说明
 
-1. 管理后台用的 easytier-web 这个二进制文件启动
-2. 管理后台运行时启动了两个服务：config-server 和 api-server
+1. 管理后台用的 easytier-web-embed 这个二进制文件启动
+2. 管理后台运行时启动了三个服务：config-server、api-server 和 web-server
 3. config-server 是你节点需要连接的，类似于你用 `tailscale up` 的 `--login-server` 参数，或是 `netbird up` 的 `--management-url`
 4. api-server 就是官方[这个 Dashboard](https://easytier.cn/web) 的后端
-5. 自建的话就是自建这个后端，然后前台 Dashboard 网页也是需要部署的，你的 API 地址和前端的根域名必须要一致
-6. 自建后端 + Dashboard 就等于 Netbird、Tailscale 那个 Web 管理页面，可以管理设备，设置子网路由
+5. web-server 就是官方[这个 Dashboard](https://easytier.cn/web) 的前端
+6. 自建前后端 就等于 Netbird、Tailscale 那个 Web 管理页面，可以管理设备，设置子网路由
 
 ### 具体步骤
 
-**部署后端**
-
-1. 下载 GitHub Release 里的压缩包，里面有一个 easytier-web
-2. 执行 `sudo chmod +x easytier-web` 使其可被执行后，执行 `./easytier-web --help` 后可以看到参数说明，你可以修改 config-server 和 api-server 各自的端口
+1. 下载 GitHub Release 里的压缩包，里面有一个 easytier-web-embed
+2. 执行 `sudo chmod +x easytier-web-embed` 使其可被执行后，执行 `./easytier-web-embed --help` 后可以看到参数说明，你可以修改 config-server、 api-server 和 web-server 各自的端口
+        
+    默认直接运行 `./easytier-web-embed` 即可，后续测试没问题后再部署成服务
     
-    ![](https://img.flinty.moe/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image.avif)
-    
-    默认直接运行 `./easytier-web` 即可，后续测试没问题后再部署成服务
-    
-3. 部署完后需要对 api-server 这个 RESTful API 进行反代 https 加密，套上你自己的域名
-4. 至此，你部署出来了两个服务
-    
+3. 部署完后需要对 api-server 和 web-server 进行反代 https 加密，套上你自己的域名。这两个默认端口一样，可以只做一个反代规则，公用一个域名
+4. 至此，你部署出来了三个服务
     
     | 服务 | 说明 | 端口 | 协议 |
     | --- | --- | --- | --- |
     | api-server | 后面前端需要连接的 | 默认 11211，tcp，反代后那就是你自己 https 的端口 | tcp |
+    | web-server | 前端 dashboard | 默认 11211，tcp，反代后那就是你自己 https 的端口 | tcp |
     | config-server | 后续节点需要链接的，需要你服务器防火墙单独开放这个端口 | 默认 22020，udp | udp |
 
-**部署前端**
-
-1. 拉下代码仓库，进入 easytier-web/frontend 文件夹
-2. 执行下面两个命令编译出 html 文件（需要你有前端编译环境，若没有自行安装 node.js）
+5. 打开反代的域名，就可以看到官方同款的 Dashboard 了，API Host 那里由于前面把两个服务反代成同一个域名，所以还写同域名即可
     
-    ```bash
-    pnpm -r install
-    pnpm -r build
-    ```
-    
-3. 把 easytier-web/frontend/dict 里的 html 文件部署到服务器上就可以用了。注意你前台的根域名和 API 后端的根域名要一样
-    
-    ![](https://img.flinty.moe/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/image%201.avif)
+    ![](https://hf-image.mitsea.com:8840/blog/posts/2025/02/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier/QQ20250530-170504.png)
     
 4. 注册并登陆，就能看到控制台了
     
@@ -193,28 +179,28 @@ Easytier 也类似，只不过你需要分开部署。下面的步骤中，“�
 
 | 名称 | 二进制程序 | 设备 |
 | --- | --- | --- |
-| 网页服务 api-server + config-server | easytier-web | A |
+| 网页服务 api-server + config-server + web-server | easytier-web-embed | A |
 | 自建公共服务转发机 | easytier-core | B（也可以跟 A 放一起） |
 | 其他入网设备 | easytier-core | C |
 
 ### 注册为 systemd 服务
 
-所以我们需要在设备 A 上将 `./easytier-web` 这个命令注册为服务，在 B 和 C 上将 `./easytier-core --config-server udp://1.2.3.4:22020/abc` 这个命令注册为服务
+所以我们需要在设备 A 上将 `./easytier-web-embed` 这个命令注册为服务，在 B 和 C 上将 `./easytier-core --config-server udp://1.2.3.4:22020/abc` 这个命令注册为服务
 
-**注册 easytier-web**
+**注册 easytier-web-embed**
 
 1. 移动二进制文件并设置执行权限
     
     ```
-    sudo mv easytier-web /usr/local/bin/easytier-web
-    sudo chmod +x /usr/local/bin/easytier-web
+    sudo mv easytier-web-embed /usr/local/bin/easytier-web-embed
+    sudo chmod +x /usr/local/bin/easytier-web-embed
     
     ```
     
 2. 创建 systemd 服务单元文件
     
     ```
-    sudo nano /etc/systemd/system/easytier-web.service
+    sudo nano /etc/systemd/system/easytier-web-embed.service
     
     ```
     
@@ -222,12 +208,12 @@ Easytier 也类似，只不过你需要分开部署。下面的步骤中，“�
     
     ```
     [Unit]
-    Description=easytier-web Service
+    Description=easytier-web-embed Service
     After=network.target
     
     [Service]
     Type=simple
-    ExecStart=/usr/local/bin/easytier-web
+    ExecStart=/usr/local/bin/easytier-web-embed
     User=root
     Restart=on-failure
     RestartSec=5
@@ -249,22 +235,22 @@ Easytier 也类似，只不过你需要分开部署。下面的步骤中，“�
     让该服务在开机时自动启动：
     
     ```
-    sudo systemctl enable easytier-web
+    sudo systemctl enable easytier-web-embed
     
     ```
     
     启动该服务：
     
     ```
-    sudo systemctl start easytier-web
+    sudo systemctl start easytier-web-embed
     
     ```
     
     你可以使用下面的命令查看服务状态和日志：
     
     ```
-    systemctl status easytier-web
-    journalctl -u easytier-web -f
+    systemctl status easytier-web-embed
+    journalctl -u easytier-web-embed -f
     
     ```
     
@@ -341,15 +327,15 @@ Easytier 也类似，只不过你需要分开部署。下面的步骤中，“�
 
 ### 使用 docker 部署
 
-**注册 easytier-web**
+**注册 easytier-web-embed**
 
 运行下面的命令启动
 
 ```bash
-docker run -d --entrypoint easytier-web -v /yourpath/data:/app -p 11211:11211 -p 22020:22020/udp easytier/easytier:latest
+docker run -d --entrypoint easytier-web-embed -v /yourpath/data:/app -p 11211:11211 -p 22020:22020/udp easytier/easytier:latest
 ```
 
-主要就是重新指定了 entrypoint，使用 easytier-web 启动
+主要就是重新指定了 entrypoint，使用 easytier-web-embed 启动
 
 -v 路径映射根据自己的情况修改，/app 不要改，这个可以在 docker hub 上看到他默认的 workdir
 
