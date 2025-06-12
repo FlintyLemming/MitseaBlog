@@ -6,7 +6,7 @@ date = "2024-03-20"
 description = "群晖的 CloudSync 在同步文件时，会因为某些问题导致不同步部分文件，并且 没 有 任 何 提 示"
 categories = ["Consumer", "HomeLab"]
 tags = ["群晖", "bug"]
-image = "https://hf-image.mitsea.com:8840/blog/posts/2024/03/6726aecbb50f474e84439d779be50b14/rick-rothenberg-HTCLvTGXpmM-unsplash.avif"
+image = "https://img.flinty.moe/blog/posts/2024/03/6726aecbb50f474e84439d779be50b14/rick-rothenberg-HTCLvTGXpmM-unsplash.avif"
 +++
 
 ## 省流
@@ -19,21 +19,21 @@ image = "https://hf-image.mitsea.com:8840/blog/posts/2024/03/6726aecbb50f474e844
 
 今天我瞟了眼两边的文件数，坏了，不对，漏同步文件了
 
-![](https://hf-image.mitsea.com:8840/blog/posts/2024/03/6726aecbb50f474e84439d779be50b14/PixPin_2024-03-20_20-09-12.avif)
+![](https://img.flinty.moe/blog/posts/2024/03/6726aecbb50f474e84439d779be50b14/PixPin_2024-03-20_20-09-12.avif)
 
 于是我就拉文件列表到 Excel 中对比，发现漏同步的文件含有在 Windows 上显示异常的特殊字符
 
-![](https://hf-image.mitsea.com:8840/blog/posts/2024/03/6726aecbb50f474e84439d779be50b14/Untitled.avif)
+![](https://img.flinty.moe/blog/posts/2024/03/6726aecbb50f474e84439d779be50b14/Untitled.avif)
 
-![](https://hf-image.mitsea.com:8840/blog/posts/2024/03/6726aecbb50f474e84439d779be50b14/Untitled%201.avif)
+![](https://img.flinty.moe/blog/posts/2024/03/6726aecbb50f474e84439d779be50b14/Untitled%201.avif)
 
 其实这也不算是啥特殊字符，比如第一个是日语里的浊点（U+3099），在 Windows 上显示也是对的
 
-![](https://hf-image.mitsea.com:8840/blog/posts/2024/03/6726aecbb50f474e84439d779be50b14/Untitled%202.avif)
+![](https://img.flinty.moe/blog/posts/2024/03/6726aecbb50f474e84439d779be50b14/Untitled%202.avif)
 
 第二个是韩语，在 Windows 上也是分开显示，但是在 Web 上显示是对的
 
-![](https://hf-image.mitsea.com:8840/blog/posts/2024/03/6726aecbb50f474e84439d779be50b14/Untitled%203.avif)
+![](https://img.flinty.moe/blog/posts/2024/03/6726aecbb50f474e84439d779be50b14/Untitled%203.avif)
 
 之所以会分开，是因为编辑时使用的输入方式问题。以 ド 为例，如果是输入法候选里选择的 ド，那就会直接输入“ド” (U+30C9)，这是一个字符。但如果是靠系统渲染去拼字，输入时输入两个字符，即 “ト” (U+30C8) + 浊点（U+3099），则会出现上述情况。
 

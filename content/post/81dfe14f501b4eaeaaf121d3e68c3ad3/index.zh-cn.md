@@ -6,16 +6,16 @@ date = "2023-09-05"
 description = ""
 categories = ["Windows", "LifeTec"]
 tags = ["阿里云盘"]
-image = "https://hf-image.mitsea.com:8840/blog/posts/2023/09/C%E7%9B%98%E5%89%A9%E4%BD%99%E7%A9%BA%E9%97%B4%E5%A4%A7%E4%BA%8E2T%E6%97%A0%E6%B3%95%E5%AE%89%E8%A3%85%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/boliviainteligente-5mwuSrKEN2U-unsplash.avif"
+image = "https://img.flinty.moe/blog/posts/2023/09/C%E7%9B%98%E5%89%A9%E4%BD%99%E7%A9%BA%E9%97%B4%E5%A4%A7%E4%BA%8E2T%E6%97%A0%E6%B3%95%E5%AE%89%E8%A3%85%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/boliviainteligente-5mwuSrKEN2U-unsplash.avif"
 +++
 
 在尝试安装阿里云盘的时候提示如下错误
 
-![](https://hf-image.mitsea.com:8840/blog/posts/2023/09/C%E7%9B%98%E5%89%A9%E4%BD%99%E7%A9%BA%E9%97%B4%E5%A4%A7%E4%BA%8E2T%E6%97%A0%E6%B3%95%E5%AE%89%E8%A3%85%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/CleanShot%202023-09-05%20at%2011.32.19%402x.avif)
+![](https://img.flinty.moe/blog/posts/2023/09/C%E7%9B%98%E5%89%A9%E4%BD%99%E7%A9%BA%E9%97%B4%E5%A4%A7%E4%BA%8E2T%E6%97%A0%E6%B3%95%E5%AE%89%E8%A3%85%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/CleanShot%202023-09-05%20at%2011.32.19%402x.avif)
 
 查看日志
 
-![](https://hf-image.mitsea.com:8840/blog/posts/2023/09/C%E7%9B%98%E5%89%A9%E4%BD%99%E7%A9%BA%E9%97%B4%E5%A4%A7%E4%BA%8E2T%E6%97%A0%E6%B3%95%E5%AE%89%E8%A3%85%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/CleanShot%202023-09-05%20at%2011.36.41%402x.avif)
+![](https://img.flinty.moe/blog/posts/2023/09/C%E7%9B%98%E5%89%A9%E4%BD%99%E7%A9%BA%E9%97%B4%E5%A4%A7%E4%BA%8E2T%E6%97%A0%E6%B3%95%E5%AE%89%E8%A3%85%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/CleanShot%202023-09-05%20at%2011.36.41%402x.avif)
 
 发现他认为 3506375848 小于 332140
 

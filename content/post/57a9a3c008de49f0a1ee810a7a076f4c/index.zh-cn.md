@@ -6,7 +6,7 @@ date = "2021-03-03"
 description = ""
 categories = ["Apple", "Crash"]
 tags = ["M1", "Mac"]
-image = "https://hf-image.mitsea.com:8840/blog/posts/2021/03/M1%20Mac%20%E6%97%A0%E6%B3%95%E8%AE%BE%E7%BD%AE%E6%AD%A3%E7%A1%AE%E7%9A%84%E7%BC%A9%E6%94%BE%E6%AF%94%E4%BE%8B/title.avif"
+image = "https://img.flinty.moe/blog/posts/2021/03/M1%20Mac%20%E6%97%A0%E6%B3%95%E8%AE%BE%E7%BD%AE%E6%AD%A3%E7%A1%AE%E7%9A%84%E7%BC%A9%E6%94%BE%E6%AF%94%E4%BE%8B/title.avif"
 +++
 
 ## 问题
@@ -17,15 +17,15 @@ image = "https://hf-image.mitsea.com:8840/blog/posts/2021/03/M1%20Mac%20%E6%97%A
     
     比如我手头的松人 4K 显示器，就被识别成了一个分辨率为  1680x1050 的显示器
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2021/03/M1%20Mac%20%E6%97%A0%E6%B3%95%E8%AE%BE%E7%BD%AE%E6%AD%A3%E7%A1%AE%E7%9A%84%E7%BC%A9%E6%94%BE%E6%AF%94%E4%BE%8B/1.avif)
+    ![](https://img.flinty.moe/blog/posts/2021/03/M1%20Mac%20%E6%97%A0%E6%B3%95%E8%AE%BE%E7%BD%AE%E6%AD%A3%E7%A1%AE%E7%9A%84%E7%BC%A9%E6%94%BE%E6%AF%94%E4%BE%8B/1.avif)
     
 2. **对于 4K 以下的分辨率，无法开启 HiDPI。**
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2021/03/M1%20Mac%20%E6%97%A0%E6%B3%95%E8%AE%BE%E7%BD%AE%E6%AD%A3%E7%A1%AE%E7%9A%84%E7%BC%A9%E6%94%BE%E6%AF%94%E4%BE%8B/2.avif)
+    ![](https://img.flinty.moe/blog/posts/2021/03/M1%20Mac%20%E6%97%A0%E6%B3%95%E8%AE%BE%E7%BD%AE%E6%AD%A3%E7%A1%AE%E7%9A%84%E7%BC%A9%E6%94%BE%E6%AF%94%E4%BE%8B/2.avif)
     
     同样的显示器，x86 Mac 没有问题
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2021/03/M1%20Mac%20%E6%97%A0%E6%B3%95%E8%AE%BE%E7%BD%AE%E6%AD%A3%E7%A1%AE%E7%9A%84%E7%BC%A9%E6%94%BE%E6%AF%94%E4%BE%8B/3.avif)
+    ![](https://img.flinty.moe/blog/posts/2021/03/M1%20Mac%20%E6%97%A0%E6%B3%95%E8%AE%BE%E7%BD%AE%E6%AD%A3%E7%A1%AE%E7%9A%84%E7%BC%A9%E6%94%BE%E6%AF%94%E4%BE%8B/3.avif)
     
     在 x86 Mac 上，2K 显示器如果系统没有开启 HiDPI，可以有很多方法开启，比如使用下面的这个脚本
     
@@ -46,7 +46,7 @@ image = "https://hf-image.mitsea.com:8840/blog/posts/2021/03/M1%20Mac%20%E6%97%A
 
 我从淘宝购入了一个 edid 欺骗器，并让卖家烧写成主流的 Dell 4K 显示器信息，希望能有用。到时会更新。
 
-![](https://hf-image.mitsea.com:8840/blog/posts/2021/03/M1%20Mac%20%E6%97%A0%E6%B3%95%E8%AE%BE%E7%BD%AE%E6%AD%A3%E7%A1%AE%E7%9A%84%E7%BC%A9%E6%94%BE%E6%AF%94%E4%BE%8B/4.avif)
+![](https://img.flinty.moe/blog/posts/2021/03/M1%20Mac%20%E6%97%A0%E6%B3%95%E8%AE%BE%E7%BD%AE%E6%AD%A3%E7%A1%AE%E7%9A%84%E7%BC%A9%E6%94%BE%E6%AF%94%E4%BE%8B/4.avif)
 
 [https://item.taobao.com/item.htm?id=611036111443&tracelogww=ltckbburl](https://item.taobao.com/item.htm?id=611036111443&tracelogww=ltckbburl)
 
@@ -54,7 +54,7 @@ image = "https://hf-image.mitsea.com:8840/blog/posts/2021/03/M1%20Mac%20%E6%97%A
 
 淦，翻车了…不行
 
-![](https://hf-image.mitsea.com:8840/blog/posts/2021/03/M1%20Mac%20%E6%97%A0%E6%B3%95%E8%AE%BE%E7%BD%AE%E6%AD%A3%E7%A1%AE%E7%9A%84%E7%BC%A9%E6%94%BE%E6%AF%94%E4%BE%8B/5.avif)
+![](https://img.flinty.moe/blog/posts/2021/03/M1%20Mac%20%E6%97%A0%E6%B3%95%E8%AE%BE%E7%BD%AE%E6%AD%A3%E7%A1%AE%E7%9A%84%E7%BC%A9%E6%94%BE%E6%AF%94%E4%BE%8B/5.avif)
 
 > Photo by [Renato Ramos Puma](https://unsplash.com/@renatoramospuma?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   

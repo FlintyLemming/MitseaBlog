@@ -6,7 +6,7 @@ date = "2020-05-30"
 description = ""
 categories = ["Apple"]
 tags = ["黑苹果"]
-image = "https://hf-image.mitsea.com:8840/blog/posts/2020/05/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%87%E7%BA%A7/title.avif"
+image = "https://img.flinty.moe/blog/posts/2020/05/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%87%E7%BA%A7/title.avif"
 +++
 
 > 本文不是手把手教程，仅仅是梳理出一个总的过程，方便在趴教程时心里有个框架
@@ -18,7 +18,7 @@ image = "https://hf-image.mitsea.com:8840/blog/posts/2020/05/%E9%BB%91%E8%8B%B9%
 macOS 系统为了方便，建议下载已经打包 Clover 的安装文件，文件格式为 .dmg
 类似这样的都是已经内置 Clover 的，他们在标题中标注带有 Clover
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2020/05/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%87%E7%BA%A7/1.avif)
+    ![](https://img.flinty.moe/blog/posts/2020/05/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%87%E7%BA%A7/1.avif)
     
     什么是 Clover，Clover 是一个引导工具，我们开机自检完毕后首先进入的是引导，如果你是单系统，往往看不到这个界面。Windows 自带的引导显然不能引导 macOS 启动，所以我们需要 Clover 来引导 macOS 启动，当然，它也可以引导 Windows 和 Linux ，是一个很方便的多系统引导工具。
     
@@ -42,11 +42,11 @@ macOS 所在磁盘建议为此分配两个分区，这里我们可以用 DiskGen
 等待滚动log，进入安装的第一阶段，会看到一个 UI 界面
 首先进入 磁盘工具，进入后，找到刚才分区的磁盘。虽然我们分出了一个 ESP引导分区，一个文件分区，但其实这里我们只能看到一个 NTFS 文件分区。类似这样：
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2020/05/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%87%E7%BA%A7/2.avif)
+    ![](https://img.flinty.moe/blog/posts/2020/05/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%87%E7%BA%A7/2.avif)
     
     选中这个分区，点 抹掉，名称随便起，格式选择 Mac OS 扩展（日志式），然后点 抹掉。这个过程中可能会等很久，甚至会重启，没关系，操作第二次是很正常的。
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2020/05/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%87%E7%BA%A7/3.avif)
+    ![](https://img.flinty.moe/blog/posts/2020/05/%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%87%E7%BA%A7/3.avif)
     
     然后关闭磁盘工具，选择安装 macOS，安装向导中选择刚刚分好的区，进行安装就可以了，安装过程可能会重启一到两次，重启后进入 Clover 后注意选择项目，不是选择上面的 Install 1 选项，而是选择另外一个带有 Install 的选项（称之为 Install 2）。注意，之后如果安装过程中重启，全部选择 Install 2，包括之后的系统更新。
     安装好后就能进入系统了。检查一下显卡、声卡、网卡驱动是否正常，如果不正常，可以百度一下相关驱动，安装一般都很简单。

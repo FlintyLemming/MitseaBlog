@@ -6,7 +6,7 @@ date = "2020-01-19"
 description = ""
 categories = ["Android"]
 tags = ["Project Treble", "小米"]
-image = "https://hf-image.mitsea.com:8840/blog/posts/2020/01/%E5%B0%8F%E7%B1%B3%204%20Project%20Treble%20%E8%BF%87%E7%A8%8B/title.avif"
+image = "https://img.flinty.moe/blog/posts/2020/01/%E5%B0%8F%E7%B1%B3%204%20Project%20Treble%20%E8%BF%87%E7%A8%8B/title.avif"
 +++
 
 原帖来自 [https://forum.xda-developers.com/xiaomi-mi-3/development/guide-how-to-create-vendor-to-flash-gsi-t3828310](https://forum.xda-developers.com/xiaomi-mi-3/development/guide-how-to-create-vendor-to-flash-gsi-t3828310)

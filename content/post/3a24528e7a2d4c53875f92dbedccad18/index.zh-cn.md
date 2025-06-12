@@ -6,7 +6,7 @@ date = "2020-05-31"
 description = ""
 categories = ["Coding"]
 tags = ["Git", "SourceTree"]
-image = "https://hf-image.mitsea.com:8840/blog/posts/2020/05/SourceTree%20%E8%B7%B3%E8%BF%87%E7%99%BB%E5%BD%95%E4%BB%A5%E5%8F%8A%E5%88%9B%E5%BB%BA%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/title.avif"
+image = "https://img.flinty.moe/blog/posts/2020/05/SourceTree%20%E8%B7%B3%E8%BF%87%E7%99%BB%E5%BD%95%E4%BB%A5%E5%8F%8A%E5%88%9B%E5%BB%BA%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/title.avif"
 +++
 
 ## 跳过登录
@@ -44,7 +44,7 @@ image = "https://hf-image.mitsea.com:8840/blog/posts/2020/05/SourceTree%20%E8%B7
           }
         ]
 
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2020/05/SourceTree%20%E8%B7%B3%E8%BF%87%E7%99%BB%E5%BD%95%E4%BB%A5%E5%8F%8A%E5%88%9B%E5%BB%BA%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/1.avif)
+    ![](https://img.flinty.moe/blog/posts/2020/05/SourceTree%20%E8%B7%B3%E8%BF%87%E7%99%BB%E5%BD%95%E4%BB%A5%E5%8F%8A%E5%88%9B%E5%BB%BA%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/1.avif)
 
 3. 然后进入下面这个文件夹
 
@@ -59,7 +59,7 @@ image = "https://hf-image.mitsea.com:8840/blog/posts/2020/05/SourceTree%20%E8%B7
             <value>20160201</value>
         </setting>
 
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2020/05/SourceTree%20%E8%B7%B3%E8%BF%87%E7%99%BB%E5%BD%95%E4%BB%A5%E5%8F%8A%E5%88%9B%E5%BB%BA%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/2.avif)
+    ![](https://img.flinty.moe/blog/posts/2020/05/SourceTree%20%E8%B7%B3%E8%BF%87%E7%99%BB%E5%BD%95%E4%BB%A5%E5%8F%8A%E5%88%9B%E5%BB%BA%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/2.avif)
 
 5. 修改完后重新运行安装程序即可
 
@@ -75,16 +75,16 @@ SourceTree 在安装完毕后往往不会生成桌面快捷方式和文件夹，
 
 1. 运行 SourceTree 时，打开文件管理器。在 详细信息（Windows 7 里叫 进程）里找到 SourceTree
 
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2020/05/SourceTree%20%E8%B7%B3%E8%BF%87%E7%99%BB%E5%BD%95%E4%BB%A5%E5%8F%8A%E5%88%9B%E5%BB%BA%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/3.avif)
+    ![](https://img.flinty.moe/blog/posts/2020/05/SourceTree%20%E8%B7%B3%E8%BF%87%E7%99%BB%E5%BD%95%E4%BB%A5%E5%8F%8A%E5%88%9B%E5%BB%BA%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/3.avif)
 
 2. 右键，点击 打开文件所在位置
 
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2020/05/SourceTree%20%E8%B7%B3%E8%BF%87%E7%99%BB%E5%BD%95%E4%BB%A5%E5%8F%8A%E5%88%9B%E5%BB%BA%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/4.avif)
+    ![](https://img.flinty.moe/blog/posts/2020/05/SourceTree%20%E8%B7%B3%E8%BF%87%E7%99%BB%E5%BD%95%E4%BB%A5%E5%8F%8A%E5%88%9B%E5%BB%BA%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/4.avif)
 
 3. 这样也是能找到 SourceTree 的安装目录
 
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2020/05/SourceTree%20%E8%B7%B3%E8%BF%87%E7%99%BB%E5%BD%95%E4%BB%A5%E5%8F%8A%E5%88%9B%E5%BB%BA%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/5.avif)
+    ![](https://img.flinty.moe/blog/posts/2020/05/SourceTree%20%E8%B7%B3%E8%BF%87%E7%99%BB%E5%BD%95%E4%BB%A5%E5%8F%8A%E5%88%9B%E5%BB%BA%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/5.avif)
 
 4. 右键 - 发送到 - 桌面快捷方式
 
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2020/05/SourceTree%20%E8%B7%B3%E8%BF%87%E7%99%BB%E5%BD%95%E4%BB%A5%E5%8F%8A%E5%88%9B%E5%BB%BA%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/6.avif)
+    ![](https://img.flinty.moe/blog/posts/2020/05/SourceTree%20%E8%B7%B3%E8%BF%87%E7%99%BB%E5%BD%95%E4%BB%A5%E5%8F%8A%E5%88%9B%E5%BB%BA%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/6.avif)

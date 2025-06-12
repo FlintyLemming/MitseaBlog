@@ -6,7 +6,7 @@ date = "2021-04-22"
 description = ""
 categories = ["Linux"]
 tags = ["Windows", "Linux"]
-image = "https://hf-image.mitsea.com:8840/blog/posts/2021/04/%E3%80%90%E7%BF%BB%E8%AF%91%E3%80%91%E7%AE%A1%E7%90%86%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E6%9C%80%E5%A5%BD%E7%9A%84%E6%96%B9%E6%B3%95%EF%BC%9A%E4%B8%80%E4%B8%AA%20bare%20git%20%E4%BB%93%E5%BA%93/title.avif"
+image = "https://img.flinty.moe/blog/posts/2021/04/%E3%80%90%E7%BF%BB%E8%AF%91%E3%80%91%E7%AE%A1%E7%90%86%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E6%9C%80%E5%A5%BD%E7%9A%84%E6%96%B9%E6%B3%95%EF%BC%9A%E4%B8%80%E4%B8%AA%20bare%20git%20%E4%BB%93%E5%BA%93/title.avif"
 +++
 
 原文地址：[https://www.atlassian.com/git/tutorials/dotfiles](https://www.atlassian.com/git/tutorials/dotfiles)
@@ -60,7 +60,7 @@ config branch -M main
 config push -u origin main
 ```
 
-![](https://hf-image.mitsea.com:8840/blog/posts/2021/04/%E3%80%90%E7%BF%BB%E8%AF%91%E3%80%91%E7%AE%A1%E7%90%86%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E6%9C%80%E5%A5%BD%E7%9A%84%E6%96%B9%E6%B3%95%EF%BC%9A%E4%B8%80%E4%B8%AA%20bare%20git%20%E4%BB%93%E5%BA%93/1.avif)
+![](https://img.flinty.moe/blog/posts/2021/04/%E3%80%90%E7%BF%BB%E8%AF%91%E3%80%91%E7%AE%A1%E7%90%86%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E6%9C%80%E5%A5%BD%E7%9A%84%E6%96%B9%E6%B3%95%EF%BC%9A%E4%B8%80%E4%B8%AA%20bare%20git%20%E4%BB%93%E5%BA%93/1.avif)
 
 ### 需要确认的事情
 

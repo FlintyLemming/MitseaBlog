@@ -6,7 +6,7 @@ date = "2019-10-09"
 description = ""
 categories = ["Windows"]
 tags = ["PE"]
-image = "https://hf-image.mitsea.com:8840/blog/posts/2019/10/%E5%88%B6%E4%BD%9CPE%E5%90%AF%E5%8A%A8%E7%9B%98/title.avif"
+image = "https://img.flinty.moe/blog/posts/2019/10/%E5%88%B6%E4%BD%9CPE%E5%90%AF%E5%8A%A8%E7%9B%98/title.avif"
 +++
 
 > 本文面向普通用户，所以就不介绍微软官方提供的PE制作方法了，并且那个方法制作出来功能比较少，操作也不方便
@@ -19,7 +19,7 @@ image = "https://hf-image.mitsea.com:8840/blog/posts/2019/10/%E5%88%B6%E4%BD%9CP
 
 从优启通 [官网](http://www.uqitong.top/) 下载工具，这里推荐下载UEFI版
 
-![](https://hf-image.mitsea.com:8840/blog/posts/2019/10/%E5%88%B6%E4%BD%9CPE%E5%90%AF%E5%8A%A8%E7%9B%98/1.avif)
+![](https://img.flinty.moe/blog/posts/2019/10/%E5%88%B6%E4%BD%9CPE%E5%90%AF%E5%8A%A8%E7%9B%98/1.avif)
 
 ### 安装工具
 
@@ -33,16 +33,16 @@ image = "https://hf-image.mitsea.com:8840/blog/posts/2019/10/%E5%88%B6%E4%BD%9CP
 
 3. 在这个位置选择刚刚插入的U盘，如果没有看到U盘，尝试重新插入，并点击刷新
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2019/10/%E5%88%B6%E4%BD%9CPE%E5%90%AF%E5%8A%A8%E7%9B%98/2.avif)
+    ![](https://img.flinty.moe/blog/posts/2019/10/%E5%88%B6%E4%BD%9CPE%E5%90%AF%E5%8A%A8%E7%9B%98/2.avif)
     
 4. 一般情况什么都不用设置，直接点击“一键制作启动U盘”
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2019/10/%E5%88%B6%E4%BD%9CPE%E5%90%AF%E5%8A%A8%E7%9B%98/3.avif)
+    ![](https://img.flinty.moe/blog/posts/2019/10/%E5%88%B6%E4%BD%9CPE%E5%90%AF%E5%8A%A8%E7%9B%98/3.avif)
     
 5. 等待制作，这个过程还是有一会的，尤其是如果你用的是USB2.0速度的U盘
 
 6. 出现下面的提示就说明已经制作好了，这里不用测试，点击取消
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2019/10/%E5%88%B6%E4%BD%9CPE%E5%90%AF%E5%8A%A8%E7%9B%98/4.avif)
+    ![](https://img.flinty.moe/blog/posts/2019/10/%E5%88%B6%E4%BD%9CPE%E5%90%AF%E5%8A%A8%E7%9B%98/4.avif)
     
     然后你可以进行之后的操作了

@@ -6,7 +6,7 @@ date = "2019-11-17"
 description = ""
 categories = ["MineService"]
 tags = ["WordPress"]
-image = "https://hf-image.mitsea.com:8840/blog/posts/2019/11/WordPress%20%E9%9D%99%E6%80%81%E5%8C%96/title.avif"
+image = "https://img.flinty.moe/blog/posts/2019/11/WordPress%20%E9%9D%99%E6%80%81%E5%8C%96/title.avif"
 +++
 
 在朋友的推荐下并结合自己的实际情况，决定从以 node.js 为主的动态博客转向全站静态化。主要是原来 Ghost Blog 颜值高是高，但是并不是很稳定，升级容易炸。虽然这次操作是围绕着 WordPress 展开，但并不代表我会抛弃 Ghost Blog。因为如果使用静态化，在服务器上运行的博客实例作用就不承载访问需求，不会因为稳定性差造成最基本的访问问题，并且 Ghost Blog 也有了静态化工具，所以之后也许会尝试下它那个，再综合考虑下。
@@ -25,11 +25,11 @@ image = "https://hf-image.mitsea.com:8840/blog/posts/2019/11/WordPress%20%E9%9D%
 
 1. 关闭防跨站攻击
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2019/11/WordPress%20%E9%9D%99%E6%80%81%E5%8C%96/1.avif)
+    ![](https://img.flinty.moe/blog/posts/2019/11/WordPress%20%E9%9D%99%E6%80%81%E5%8C%96/1.avif)
     
 2. 启用 伪静态，选择 wordpress 然后保存即可
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2019/11/WordPress%20%E9%9D%99%E6%80%81%E5%8C%96/2.avif)
+    ![](https://img.flinty.moe/blog/posts/2019/11/WordPress%20%E9%9D%99%E6%80%81%E5%8C%96/2.avif)
     
 3. 域名一定不要跟你博客的域名相同，因为这边只承担后台编辑的功能，访问不在这边
 
@@ -37,22 +37,22 @@ image = "https://hf-image.mitsea.com:8840/blog/posts/2019/11/WordPress%20%E9%9D%
 
 你可以使用 Windows 10 的 WSL 运行 Linux 子系统来实现和远程服务器相同的操作，这边不再赘述。我这边的话，使用的是群晖的 WordPress 套件，只需要简单设置一下密码等即可方便部署，快捷省事。
 
-![](https://hf-image.mitsea.com:8840/blog/posts/2019/11/WordPress%20%E9%9D%99%E6%80%81%E5%8C%96/3.avif)
+![](https://img.flinty.moe/blog/posts/2019/11/WordPress%20%E9%9D%99%E6%80%81%E5%8C%96/3.avif)
 
 ## 对网站静态化
 
 1. 插件商店里搜索 WP Super Cache，安装并启用
 2. 打开设置，选择 启用缓存功能 (推荐)，并点击 更新
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2019/11/WordPress%20%E9%9D%99%E6%80%81%E5%8C%96/4.avif)
+    ![](https://img.flinty.moe/blog/posts/2019/11/WordPress%20%E9%9D%99%E6%80%81%E5%8C%96/4.avif)
     
 3. 高级 里，勾选 启用缓存，杂项 里选择 为所有访客启用缓存，并点击下方的 更新
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2019/11/WordPress%20%E9%9D%99%E6%80%81%E5%8C%96/5.avif)
+    ![](https://img.flinty.moe/blog/posts/2019/11/WordPress%20%E9%9D%99%E6%80%81%E5%8C%96/5.avif)
     
 4. 预缓存 里，刷新时间可以根据实际更新情况修改，然后点击 保存设置。之后请确保下面显示 取消预加载缓存，说明是有在工作的。
     
-    ![](https://hf-image.mitsea.com:8840/blog/posts/2019/11/WordPress%20%E9%9D%99%E6%80%81%E5%8C%96/6.avif)
+    ![](https://img.flinty.moe/blog/posts/2019/11/WordPress%20%E9%9D%99%E6%80%81%E5%8C%96/6.avif)
     
 5. 稍等一会，换个还没登陆 WordPress 后台的浏览器，浏览网站，并打开一篇文章，查看 index.html 代码末尾，可以看到由 Super Cache 生成的静态页面标记注释，说明缓存已经生成成功。
     
@@ -87,7 +87,7 @@ image = "https://hf-image.mitsea.com:8840/blog/posts/2019/11/WordPress%20%E9%9D%
 
 创建一个新存储桶专门存博客静态页面
 
-![](https://hf-image.mitsea.com:8840/blog/posts/2019/11/WordPress%20%E9%9D%99%E6%80%81%E5%8C%96/7.avif)
+![](https://img.flinty.moe/blog/posts/2019/11/WordPress%20%E9%9D%99%E6%80%81%E5%8C%96/7.avif)
 
 这边有几个点提一下
 
@@ -129,7 +129,7 @@ image = "https://hf-image.mitsea.com:8840/blog/posts/2019/11/WordPress%20%E9%9D%
 
 默认首页设置为 index-https.html，因为缓存工具默认生成的就是这个文件名，如果你改过，记得对应改一下。
 
-![](https://hf-image.mitsea.com:8840/blog/posts/2019/11/WordPress%20%E9%9D%99%E6%80%81%E5%8C%96/8.avif)
+![](https://img.flinty.moe/blog/posts/2019/11/WordPress%20%E9%9D%99%E6%80%81%E5%8C%96/8.avif)
 
 #### 添加域名
 
@@ -143,4 +143,4 @@ image = "https://hf-image.mitsea.com:8840/blog/posts/2019/11/WordPress%20%E9%9D%
 
 测个速，挺好。
 
-![](https://hf-image.mitsea.com:8840/blog/posts/2019/11/WordPress%20%E9%9D%99%E6%80%81%E5%8C%96/9.avif)
+![](https://img.flinty.moe/blog/posts/2019/11/WordPress%20%E9%9D%99%E6%80%81%E5%8C%96/9.avif)
