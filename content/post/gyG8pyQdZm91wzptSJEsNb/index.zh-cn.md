@@ -65,9 +65,9 @@ SGLang 实际上是 vLLM 的分支，在 ROCm 上用 SGLang 就是以 vLLM 的 d
 
 #### LM Studio (llama.cpp)
 
-LM Studio 的话，后端其实调用的是 llama.cpp，用的 Vulcan GPU 加速，而不是 ROCm。不过这并不代表效率就会比 ROCm 低，因为社区是有人反应说 AMD 消费端 GPU这个 ROCm 在部分场景里的加速效果是不如 Vulcan 的。
+LM Studio 的话，后端其实调用的是 llama.cpp，用的 Vulkan GPU 加速，而不是 ROCm。不过这并不代表效率就会比 ROCm 低，因为社区是有人反应说 AMD 消费端 GPU这个 ROCm 在部分场景里的加速效果是不如 Vulkan 的。
 
-Vulcan 加速其实是 AMD 对于这个 AI MAX+ 平台推广时推荐的平台，也是最成熟的平台，所以不出所料模型很容易就可以加载并进行推理。
+Vulkan 加速其实是 AMD 对于这个 AI MAX+ 平台推广时推荐的平台，也是最成熟的平台，所以不出所料模型很容易就可以加载并进行推理。
 
 这边推理一个 DeepSeek-R1-0528-Qwen3-8B 的 GGUF 8bit 模型也是完全没问题，就是这个速度并不算快啊，后面有单独的速度测试。
 
@@ -89,7 +89,7 @@ unsloth/Qwen3-32B-128K-UD-Q8\_K\_XL
 
 unsloth/Qwen3-235B-A22B-128K-UD-Q2\_K\_XL
 
-由于 Vulcan 加速平台 llama.cpp 的限制，模型基本都选用 unsloth 动态量化 2.0 的模型，虽然说是量化模型，但是从 unsloth 的[文章](https://docs.unsloth.ai/basics/unsloth-dynamic-2.0-ggufs "文章")可以看到对于一个原生 fp8 模型来说 Q6 Q8 的 UD 2.0 模型 MMLU 都是等于原始模型的，从效果上来看可以看作是没有损失。
+由于 Vulkan 加速平台 llama.cpp 的限制，模型基本都选用 unsloth 动态量化 2.0 的模型，虽然说是量化模型，但是从 unsloth 的[文章](https://docs.unsloth.ai/basics/unsloth-dynamic-2.0-ggufs "文章")可以看到对于一个原生 fp8 模型来说 Q6 Q8 的 UD 2.0 模型 MMLU 都是等于原始模型的，从效果上来看可以看作是没有损失。
 
 ![](https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_3pXwBIvlOe.avif)
 
