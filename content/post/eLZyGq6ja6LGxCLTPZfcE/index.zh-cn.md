@@ -2,7 +2,7 @@
 author = "FlintyLemming"
 title = "AMD AI MAX+ 395 安装 ROCm 环境"
 slug = "eLZyGq6ja6LGxCLTPZfcE"
-date = "2025-02-28"
+date = "2025-06-16"
 description = "折腾人"
 categories = ["Consumer"]
 tags = ["AMD", "AI"]
