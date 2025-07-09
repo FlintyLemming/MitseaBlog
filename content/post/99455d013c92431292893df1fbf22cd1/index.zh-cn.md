@@ -6,7 +6,7 @@ date = "2022-08-01"
 description = ""
 categories = ["Lifestyle"]
 tags = ["Apple Transit"]
-image = "https://img.flinty.moe/blog/posts/2022/08/Apple%20Transit%20%E9%87%91%E9%99%B5%E9%80%9A%E4%BA%A4%E9%80%9A%E5%8D%A1%E5%BC%80%E5%8F%91%E7%A5%A8/title.avif"
+image = "https://img.mitsea.com/blog/posts/2022/08/Apple%20Transit%20%E9%87%91%E9%99%B5%E9%80%9A%E4%BA%A4%E9%80%9A%E5%8D%A1%E5%BC%80%E5%8F%91%E7%A5%A8/title.avif"
 +++
 
 在 南京市民卡 App 里找半天没找到，后来发现是在微信小程序里…
@@ -18,7 +18,7 @@ image = "https://img.flinty.moe/blog/posts/2022/08/Apple%20Transit%20%E9%87%91%E
 1. 打开 Wallet App，点开金陵通交通卡
 2. 点击右上角的三个点 - 查看卡号
 
-    ![](https://img.flinty.moe/blog/posts/2022/08/Apple%20Transit%20%E9%87%91%E9%99%B5%E9%80%9A%E4%BA%A4%E9%80%9A%E5%8D%A1%E5%BC%80%E5%8F%91%E7%A5%A8/1.avif)
+    ![](https://img.mitsea.com/blog/posts/2022/08/Apple%20Transit%20%E9%87%91%E9%99%B5%E9%80%9A%E4%BA%A4%E9%80%9A%E5%8D%A1%E5%BC%80%E5%8F%91%E7%A5%A8/1.avif)
 
 3. 拷贝卡号
 
@@ -33,7 +33,7 @@ image = "https://img.flinty.moe/blog/posts/2022/08/Apple%20Transit%20%E9%87%91%E
 3. 这里要求输入一条充值记录，把刚才查到的信息填进去，点击立即验证
 4. 这里就可以选择交易记录开票了
 
-    ![](https://img.flinty.moe/blog/posts/2022/08/Apple%20Transit%20%E9%87%91%E9%99%B5%E9%80%9A%E4%BA%A4%E9%80%9A%E5%8D%A1%E5%BC%80%E5%8F%91%E7%A5%A8/2.avif)
+    ![](https://img.mitsea.com/blog/posts/2022/08/Apple%20Transit%20%E9%87%91%E9%99%B5%E9%80%9A%E4%BA%A4%E9%80%9A%E5%8D%A1%E5%BC%80%E5%8F%91%E7%A5%A8/2.avif)
 
 > Photo by [Ant Rozetsky](https://unsplash.com/@rozetsky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/bus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   

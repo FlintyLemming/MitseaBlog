@@ -5,7 +5,7 @@ slug = "ddfb7e62396b40c59f74432c862dea69"
 date = "2020-11-09"
 categories = ["Linux", "Network"]
 tags = ["Ubuntu"]
-image = "https://img.flinty.moe/blog/posts/2020/11/%E4%BD%BF%E7%94%A8%20cli%20%E7%99%BB%E9%99%86%E5%85%AC%E5%8F%B8%E4%B8%8A%E7%BD%91%E9%AA%8C%E8%AF%81%E7%B3%BB%E7%BB%9F/pawel-wieladek-QpWb8mB1tVU-unsplash.avif"
+image = "https://img.mitsea.com/blog/posts/2020/11/%E4%BD%BF%E7%94%A8%20cli%20%E7%99%BB%E9%99%86%E5%85%AC%E5%8F%B8%E4%B8%8A%E7%BD%91%E9%AA%8C%E8%AF%81%E7%B3%BB%E7%BB%9F/pawel-wieladek-QpWb8mB1tVU-unsplash.avif"
 +++
 
 最近需要尝试在 Ubuntu 上部署一个项目，装好 Ubuntu Server 就傻眼了，公司有个上网登录窗，我不知道怎么登陆。于是想到了三个方法：
@@ -20,7 +20,7 @@ image = "https://img.flinty.moe/blog/posts/2020/11/%E4%BD%BF%E7%94%A8%20cli%20%E
 
 首先看下公司的网络登录窗，貌似就是深信服的标准登陆页面
 
-![](https://img.flinty.moe/blog/posts/2020/11/%E4%BD%BF%E7%94%A8%20cli%20%E7%99%BB%E9%99%86%E5%85%AC%E5%8F%B8%E4%B8%8A%E7%BD%91%E9%AA%8C%E8%AF%81%E7%B3%BB%E7%BB%9F/Untitled.avif)
+![](https://img.mitsea.com/blog/posts/2020/11/%E4%BD%BF%E7%94%A8%20cli%20%E7%99%BB%E9%99%86%E5%85%AC%E5%8F%B8%E4%B8%8A%E7%BD%91%E9%AA%8C%E8%AF%81%E7%B3%BB%E7%BB%9F/Untitled.avif)
 
 用开发者选项查看源代码，可以在 /ac_portal/share/res/js/logic_new.js 里看到登陆的 js 方法
 
@@ -45,7 +45,7 @@ curl -d "opr=pwdLogin&userName=<用户名，要带引号>&pwd=<密码，要带�
 
 提示 logon success，成功
 
-![](https://img.flinty.moe/blog/posts/2020/11/%E4%BD%BF%E7%94%A8%20cli%20%E7%99%BB%E9%99%86%E5%85%AC%E5%8F%B8%E4%B8%8A%E7%BD%91%E9%AA%8C%E8%AF%81%E7%B3%BB%E7%BB%9F/Untitled%201.avif)
+![](https://img.mitsea.com/blog/posts/2020/11/%E4%BD%BF%E7%94%A8%20cli%20%E7%99%BB%E9%99%86%E5%85%AC%E5%8F%B8%E4%B8%8A%E7%BD%91%E9%AA%8C%E8%AF%81%E7%B3%BB%E7%BB%9F/Untitled%201.avif)
 
 由于 curl 命令在几乎所有平台都可以用，所以可以自己设定一个开机自启的任务自动执行这么个命令，就不用每次上班打开电脑还要手动登陆了。
 

@@ -6,7 +6,7 @@ date = "2019-10-08"
 description = ""
 categories = ["Game"]
 tags = ["Minecraft"]
-image = "https://img.flinty.moe/blog/posts/2019/10/Minecraft%20SEUS%20PTGI%20%E5%85%89%E5%BD%B1%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/anastasiia-ornarin-IPvYyfMiUYM-unsplash.avif"
+image = "https://img.mitsea.com/blog/posts/2019/10/Minecraft%20SEUS%20PTGI%20%E5%85%89%E5%BD%B1%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/anastasiia-ornarin-IPvYyfMiUYM-unsplash.avif"
 +++
 
 # **须知**
@@ -41,19 +41,19 @@ UMSOEA：https:www.patreon.com/umsoea
 
 2. 打开 Minecraft Launcher，点击 启动选项-新建，创建一个1.12.2版本的游戏。
 
-![](https://img.flinty.moe/blog/posts/2019/10/Minecraft%20SEUS%20PTGI%20%E5%85%89%E5%BD%B1%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/1.avif)
+![](https://img.mitsea.com/blog/posts/2019/10/Minecraft%20SEUS%20PTGI%20%E5%85%89%E5%BD%B1%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/1.avif)
 
 3. 返回启动器主页，点击开始游戏右侧的箭头，选择刚才创建的1.12.2版本，点击开始游戏，等待下载额外文件
 
 4. 下载完毕后，自动启动游戏，直接关闭游戏，关闭启动器，打开 OptiFine_1.12.2_HD_U_E2.jar，打开前请务必确保安装 Java 运行环境，否则无法打开。
 
-![](https://img.flinty.moe/blog/posts/2019/10/Minecraft%20SEUS%20PTGI%20%E5%85%89%E5%BD%B1%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/2.avif)
+![](https://img.mitsea.com/blog/posts/2019/10/Minecraft%20SEUS%20PTGI%20%E5%85%89%E5%BD%B1%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/2.avif)
 
 5. 由于正版启动器无论选择什么安装路径，用户数据都会保存在固定的路径，如果之前没有迁移过系统默认保存用户数据的路径，这里直接点击Install，稍后会提示安装成功。
 
 6. 打开 Minecraft Launcher，可以看到在 1.12.2 的基础上新增了一个 1.12.2-OptiFine_HD_U_E2 选项，选中它，进入游戏。至此 OptiFine 安装完成。
 
-![](https://img.flinty.moe/blog/posts/2019/10/Minecraft%20SEUS%20PTGI%20%E5%85%89%E5%BD%B1%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/3.avif)
+![](https://img.mitsea.com/blog/posts/2019/10/Minecraft%20SEUS%20PTGI%20%E5%85%89%E5%BD%B1%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/3.avif)
 
 ## **加载 SEUS PTGI E6 光影包**
 
@@ -75,7 +75,7 @@ UMSOEA：https:www.patreon.com/umsoea
 
 4. 进入游戏就可以看到光影生效了
 
-![](https://img.flinty.moe/blog/posts/2019/10/Minecraft%20SEUS%20PTGI%20%E5%85%89%E5%BD%B1%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/4.avif)
+![](https://img.mitsea.com/blog/posts/2019/10/Minecraft%20SEUS%20PTGI%20%E5%85%89%E5%BD%B1%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/4.avif)
 
 ## **加载 UMSOEA R4 材质包**
 
@@ -95,9 +95,9 @@ UMSOEA：https:www.patreon.com/umsoea
 
 还可以设置时间为晚上，看到更多的效果。
 
-![](https://img.flinty.moe/blog/posts/2019/10/Minecraft%20SEUS%20PTGI%20%E5%85%89%E5%BD%B1%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/5.avif)
+![](https://img.mitsea.com/blog/posts/2019/10/Minecraft%20SEUS%20PTGI%20%E5%85%89%E5%BD%B1%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/5.avif)
 
-![](https://img.flinty.moe/blog/posts/2019/10/Minecraft%20SEUS%20PTGI%20%E5%85%89%E5%BD%B1%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/6.avif)
+![](https://img.mitsea.com/blog/posts/2019/10/Minecraft%20SEUS%20PTGI%20%E5%85%89%E5%BD%B1%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/6.avif)
 
 > Photo by [Anastasiia Ornarin](https://unsplash.com/@ornarin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-group-of-circular-objects-sitting-on-top-of-a-desert-IPvYyfMiUYM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
   

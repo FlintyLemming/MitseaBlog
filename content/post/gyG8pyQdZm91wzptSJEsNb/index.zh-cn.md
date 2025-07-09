@@ -6,7 +6,7 @@ date = "2025-06-12"
 description = "性价比有限的AI小主机体验"
 categories = ["Consumer"]
 tags = ["AMD", "ROCm", "AI"]
-image = "https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/matthew-stephenson-HHhDlTqwPfk-unsplash.avif"
+image = "https://img.mitsea.com/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/matthew-stephenson-HHhDlTqwPfk-unsplash.avif"
 +++
 
 ## 背景
@@ -27,27 +27,27 @@ image = "https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B
 
 **CPU-Z**，新版已经适配了这个平台
 
-![](https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_ZO1KiNZD5e.avif)
+![](https://img.mitsea.com/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_ZO1KiNZD5e.avif)
 
-![](https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_2qY_kuNI--.avif)
+![](https://img.mitsea.com/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_2qY_kuNI--.avif)
 
 **GPU-Z**
 
-![](https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_ybVTzeuYwH.avif)
+![](https://img.mitsea.com/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_ybVTzeuYwH.avif)
 
 **Cinebench 2024**，多核心差点没打过 Apple M1 Ultra，有点丢人，单核也没打过 M1
 
-![](https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_KK96dCMetG.avif)
+![](https://img.mitsea.com/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_KK96dCMetG.avif)
 
-![](https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_M3ZeNqY-tv.avif)
+![](https://img.mitsea.com/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_M3ZeNqY-tv.avif)
 
 **3DMark Time Spy Extreme**，GPU 约等于桌面端 4060。
 
-![](https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_dpeAiB5Lvv.avif)
+![](https://img.mitsea.com/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_dpeAiB5Lvv.avif)
 
 **AIDA64 Memory Benchmark**，不知道为啥明明没开 Hyper-V 和虚拟化平台，还是提示说开了 Hypervisor。就是这个内存带宽有点捉急啊，之前别人还在嘲讽 DGX Spark 内存带宽只有 273 GB/s，这还不如 DGX Spark 呢
 
-![](https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/photo_2025-06-11%2021.09.07_HHGriLsv3h.avif)
+![](https://img.mitsea.com/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/photo_2025-06-11%2021.09.07_HHGriLsv3h.avif)
 
 ## LLM 推理概况
 
@@ -71,7 +71,7 @@ Vulkan 加速其实是 AMD 对于这个 AI MAX+ 平台推广时推荐的平台�
 
 这边推理一个 DeepSeek-R1-0528-Qwen3-8B 的 GGUF 8bit 模型也是完全没问题，就是这个速度并不算快啊，后面有单独的速度测试。
 
-![](https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_RI4ewo-ZvE.avif)
+![](https://img.mitsea.com/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_RI4ewo-ZvE.avif)
 
 但是 LM Studio 有个很大的问题是**不支持并发**，同时发送两个请求，另一个只能排队等待，导致只适合单线程任务使用场景。
 
@@ -91,7 +91,7 @@ unsloth/Qwen3-235B-A22B-128K-UD-Q2\_K\_XL
 
 由于 Vulkan 加速平台 llama.cpp 的限制，模型基本都选用 unsloth 动态量化 2.0 的模型，虽然说是量化模型，但是从 unsloth 的[文章](https://docs.unsloth.ai/basics/unsloth-dynamic-2.0-ggufs "文章")可以看到对于一个原生 fp8 模型来说 Q6 Q8 的 UD 2.0 模型 MMLU 都是等于原始模型的，从效果上来看可以看作是没有损失。
 
-![](https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_3pXwBIvlOe.avif)
+![](https://img.mitsea.com/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_3pXwBIvlOe.avif)
 
 ### 性能
 
@@ -99,7 +99,7 @@ unsloth/Qwen3-235B-A22B-128K-UD-Q2\_K\_XL
 
 大约是 30 tokens 每秒，然后 Flash Attention 是支持这个模型的，打开后可以顺利开出 128k 上下文，后面测试默认也都开启
 
-![](https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_TkY5IURxEV.avif)
+![](https://img.mitsea.com/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_TkY5IURxEV.avif)
 
 **unsloth/Qwen3-30B-A3B-128K-UD-Q8\_K\_XL**
 
@@ -113,7 +113,7 @@ unsloth/Qwen3-235B-A22B-128K-UD-Q2\_K\_XL
 
 大约 20 tokens 每秒，其实速度还行，但是感觉实际意义不是很大？因为上下文基本上开不了多大了，属于是探查一下 96G 显存能够跑的模型的上限
 
-![](https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_KQHnwJkSBw.avif)
+![](https://img.mitsea.com/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_KQHnwJkSBw.avif)
 
 所以情势就比较明朗了，目前比较适合这个机器的模型是 **unsloth/Qwen3-30B-A3B-128K-UD-Q8\_K\_XL**，而且 Qwen3 可以控制是否思考，也支持 function calling，实用性还是比较不错的。
 
@@ -121,19 +121,19 @@ unsloth/Qwen3-235B-A22B-128K-UD-Q2\_K\_XL
 
 总的来说，这个机器的纯推理性能真的算不上强，大概是还没优化明白，也有可能是内存带宽不大的原因。那么此时就有一个问题了，倘若我掏出来 500GB/s 内存带宽的大机器出来，用 CPU 纯硬跑能不能干得过他呢
 
-![](https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_-oz653hV64.avif)
+![](https://img.mitsea.com/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_-oz653hV64.avif)
 
 我们直接加载相同 32B 模型直接进内存，拉满 128k 上下文，毕竟这台机器内存不仅带宽够大，容量也有 2TB，完全不慌
 
-![](https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_qukRCYWOWT.avif)
+![](https://img.mitsea.com/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_qukRCYWOWT.avif)
 
 很可惜的是，速度并不快，推理 **unsloth/Qwen3-32B-128K-UD-Q8\_K\_XL** 模型仅仅只有每秒 5 tokens，还没打过 AMD 小主机
 
-![](https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_c82pcUC2wU.avif)
+![](https://img.mitsea.com/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_c82pcUC2wU.avif)
 
 此时 CPU 吃满 96 线程（试过超过物理核心数反而会变慢），内存带宽达到了 180GB/s 左右
 
-![](https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_uIJXOJN1RO.avif)
+![](https://img.mitsea.com/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_uIJXOJN1RO.avif)
 
 看起来推理 LLM 模型还是必须要一个加速硬件
 
@@ -141,7 +141,7 @@ unsloth/Qwen3-235B-A22B-128K-UD-Q2\_K\_XL
 
 但是，此时如果我掏出来 Apple Silicon 呢，既然目前能跑的模型也就是 30B 左右，如果掏出来一个 48G 或者 64G 内存的 Mac mini，AMD 小主机的性价比优势是否就不复存在了呢？
 
-![](https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_EOnQiBPeWS.avif)
+![](https://img.mitsea.com/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_EOnQiBPeWS.avif)
 
 行.jpg M4 Pro 推理 32B 8bit 模型根据[别人的测试](https://www.53ai.com/news/zhinengyingjian/2025041267419.html "别人的测试")，似乎跟 AMD 小主机半斤八两。考虑到 M4 Pro 即便是选配 64G 内存 + 512G 存储都要 15499，看起来 AMD 小主机的性价比多少还是有一点。
 
@@ -149,11 +149,11 @@ unsloth/Qwen3-235B-A22B-128K-UD-Q2\_K\_XL
 
 AMD 在 2025 Computex 台北电脑展上官宣了 ROCm 对于 Ryzen AI MAX 平台的支持
 
-![](https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_HySNpWDfKv.avif)
+![](https://img.mitsea.com/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_HySNpWDfKv.avif)
 
 不过就我现在的体验来说，ROCm 最新 6.4.1 版本还没完全支持 Ryzen AI MAX 平台，仅仅是能正常安装并且能看到设备 agent，我尝试使用 `rocm/pytorch:rocm6.4.1_ubuntu24.04_py3.12_pytorch_release_2.6.0` 这个镜像来执行一个简单的 pytorch 脚本都会报 `invalid device function` 的错误
 
-![](https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_0Zr5JELMHd.avif)
+![](https://img.mitsea.com/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_0Zr5JELMHd.avif)
 
 所以感觉 ROCm 这块感觉只能战未来了
 
@@ -161,11 +161,11 @@ AMD 在 2025 Computex 台北电脑展上官宣了 ROCm 对于 Ryzen AI MAX 平�
 
 由于 ROCm 还没适配明白，所以根据 AMD 的[文档](https://rocm.docs.amd.com/projects/radeon/en/latest/docs/advanced/comfyui/installcomfyui.html "文档")，ComfyUI 肯定是用不了了。Windows 下的话，可以用 [https://www.amuse-ai.com/](https://www.amuse-ai.com/ "https://www.amuse-ai.com/") 来跑 SDXL 模型，Amuse AI 看起来是 AMD 在 Windows 下专门推理绘图模型的工具，大大的 AMD Partner logo 似乎说明了一切。
 
-![](https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_733GBwKmkw.avif)
+![](https://img.mitsea.com/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_733GBwKmkw.avif)
 
 绘图这块笔者研究的就不多了，跑一个 AMD 自己微调的 SDXL io32 模型，8步生成一个 1024x1024 的图片速度大概是 5.5 秒
 
-![](https://img.flinty.moe/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_8WOsSWDv7Q.avif)
+![](https://img.mitsea.com/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%88%9D%E6%9C%9F%E4%BD%93%E9%AA%8C/image_8WOsSWDv7Q.avif)
 
 ## 小结
 

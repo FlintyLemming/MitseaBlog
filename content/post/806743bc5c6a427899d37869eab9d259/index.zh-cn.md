@@ -6,7 +6,7 @@ date = "2021-01-31"
 description = ""
 categories = ["Game"]
 tags = ["原神"]
-image = "https://img.flinty.moe/blog/posts/2021/01/原神装备推荐/title.avif"
+image = "https://img.mitsea.com/blog/posts/2021/01/原神装备推荐/title.avif"
 +++
 
 ## 公子

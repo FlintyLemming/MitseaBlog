@@ -6,7 +6,7 @@ date = "2020-02-01"
 description = ""
 categories = ["Apple"]
 tags = ["iOS", "Jailbreak"]
-image = "https://img.flinty.moe/blog/posts/2020/02/iOS%2012%20rootless%20Jailbreak%20%E8%B6%8A%E7%8B%B1%E4%BB%A5%E5%8F%8A%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/title.avif"
+image = "https://img.mitsea.com/blog/posts/2020/02/iOS%2012%20rootless%20Jailbreak%20%E8%B6%8A%E7%8B%B1%E4%BB%A5%E5%8F%8A%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/title.avif"
 +++
 
 ## 安装文件管理器
@@ -24,19 +24,19 @@ image = "https://img.flinty.moe/blog/posts/2020/02/iOS%2012%20rootless%20Jailbre
 
 3. 解压下载的项目文件，双击 rootlessJB.xcodeproj 即可快速加载项目。如果是第一次使用 xcode，可能会需要同意一些使用条款
 
-    ![](https://img.flinty.moe/blog/posts/2020/02/iOS%2012%20rootless%20Jailbreak%20%E8%B6%8A%E7%8B%B1%E4%BB%A5%E5%8F%8A%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/1.avif)
+    ![](https://img.mitsea.com/blog/posts/2020/02/iOS%2012%20rootless%20Jailbreak%20%E8%B6%8A%E7%8B%B1%E4%BB%A5%E5%8F%8A%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/1.avif)
 
     这里点击 Open
 
-    ![](https://img.flinty.moe/blog/posts/2020/02/iOS%2012%20rootless%20Jailbreak%20%E8%B6%8A%E7%8B%B1%E4%BB%A5%E5%8F%8A%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/2.avif)
+    ![](https://img.mitsea.com/blog/posts/2020/02/iOS%2012%20rootless%20Jailbreak%20%E8%B6%8A%E7%8B%B1%E4%BB%A5%E5%8F%8A%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/2.avif)
 
 4. 打开后默认是这样的界面
 
-    ![](https://img.flinty.moe/blog/posts/2020/02/iOS%2012%20rootless%20Jailbreak%20%E8%B6%8A%E7%8B%B1%E4%BB%A5%E5%8F%8A%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/3.avif)
+    ![](https://img.mitsea.com/blog/posts/2020/02/iOS%2012%20rootless%20Jailbreak%20%E8%B6%8A%E7%8B%B1%E4%BB%A5%E5%8F%8A%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/3.avif)
 
     如果不是，双击这里
 
-    ![](https://img.flinty.moe/blog/posts/2020/02/iOS%2012%20rootless%20Jailbreak%20%E8%B6%8A%E7%8B%B1%E4%BB%A5%E5%8F%8A%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/4.avif)
+    ![](https://img.mitsea.com/blog/posts/2020/02/iOS%2012%20rootless%20Jailbreak%20%E8%B6%8A%E7%8B%B1%E4%BB%A5%E5%8F%8A%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/4.avif)
 
 5. 修改 Bundle Indentifier 包名，比如原来是
     ```
@@ -48,11 +48,11 @@ image = "https://img.flinty.moe/blog/posts/2020/02/iOS%2012%20rootless%20Jailbre
     ```
 6. 在 Team 里添加账号
 
-    ![](https://img.flinty.moe/blog/posts/2020/02/iOS%2012%20rootless%20Jailbreak%20%E8%B6%8A%E7%8B%B1%E4%BB%A5%E5%8F%8A%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/5.avif)
+    ![](https://img.mitsea.com/blog/posts/2020/02/iOS%2012%20rootless%20Jailbreak%20%E8%B6%8A%E7%8B%B1%E4%BB%A5%E5%8F%8A%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/5.avif)
 
 7. 插上手机，左上角选择自己的设备，然后点击箭头编译安装
 
-    ![](https://img.flinty.moe/blog/posts/2020/02/iOS%2012%20rootless%20Jailbreak%20%E8%B6%8A%E7%8B%B1%E4%BB%A5%E5%8F%8A%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/6.avif)
+    ![](https://img.mitsea.com/blog/posts/2020/02/iOS%2012%20rootless%20Jailbreak%20%E8%B6%8A%E7%8B%B1%E4%BB%A5%E5%8F%8A%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/6.avif)
 
 8. 稍等片刻，设备上就会出现 rootlessJB 应用，验证后打开，点击 Jailbreak！ 即可越狱
     > 这里 iSuperSU 可选，类似一个任务管理器的工具。Tweaks 必选。
@@ -62,7 +62,7 @@ image = "https://img.flinty.moe/blog/posts/2020/02/iOS%2012%20rootless%20Jailbre
 ### 仅有 xxx.dylib 和 xxx.plist 两个插件的工具
 1. 如果你下载的工具是类似于这样的文件，那么安装起来比较简单
 
-    ![](https://img.flinty.moe/blog/posts/2020/02/iOS%2012%20rootless%20Jailbreak%20%E8%B6%8A%E7%8B%B1%E4%BB%A5%E5%8F%8A%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/7.avif)
+    ![](https://img.mitsea.com/blog/posts/2020/02/iOS%2012%20rootless%20Jailbreak%20%E8%B6%8A%E7%8B%B1%E4%BB%A5%E5%8F%8A%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/7.avif)
 
 2. 将这两个文件拷贝到手机目录里，比如说，你可以拷贝到某个文件管理app下，比如 Shu、Documents 这类
 
@@ -87,7 +87,7 @@ image = "https://img.flinty.moe/blog/posts/2020/02/iOS%2012%20rootless%20Jailbre
 ### 有一些文件夹的工具
 1. 如果你下载的工具有一些文件夹，像这样，他们通常包括设置内容，则需要依次复制几个文件
 
-    ![](https://img.flinty.moe/blog/posts/2020/02/iOS%2012%20rootless%20Jailbreak%20%E8%B6%8A%E7%8B%B1%E4%BB%A5%E5%8F%8A%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/8.avif)
+    ![](https://img.mitsea.com/blog/posts/2020/02/iOS%2012%20rootless%20Jailbreak%20%E8%B6%8A%E7%8B%B1%E4%BB%A5%E5%8F%8A%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/8.avif)
 
 2. 打开 GeoFilza ，定位到下述目录
     ```

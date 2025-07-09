@@ -6,7 +6,7 @@ date = "2022-10-24"
 description = "QTS 5.10 的内核但是没用 SystemD 真是奇怪"
 categories = ["HomeLab"]
 tags = ["QNAP"]
-image = "https://img.flinty.moe/blog/posts/2022/10/QNAP%20%E9%83%A8%E7%BD%B2%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/title.avif"
+image = "https://img.mitsea.com/blog/posts/2022/10/QNAP%20%E9%83%A8%E7%BD%B2%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/title.avif"
 +++
 
 ## 下载 Agent
@@ -17,7 +17,7 @@ image = "https://img.flinty.moe/blog/posts/2022/10/QNAP%20%E9%83%A8%E7%BD%B2%20%
 
 2. 解压后，把里面的二进制文件随便放到一个地方
 
-    ![](https://img.flinty.moe/blog/posts/2022/10/QNAP%20%E9%83%A8%E7%BD%B2%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/Untitled.avif)
+    ![](https://img.mitsea.com/blog/posts/2022/10/QNAP%20%E9%83%A8%E7%BD%B2%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/Untitled.avif)
 
 3. SSH 到 QNAP，使用 `sudo -i` 切换到 root 账号。默认进去有个菜单，选择退出即可回到命令行。
 4. 找到刚才放进去的文件，共享文件夹一般在 /share 下面。刚才我是放在了个人账号的 home 共享文件夹里，那二进制文件就在 /share/homes/FlintyLemming 下
@@ -29,7 +29,7 @@ image = "https://img.flinty.moe/blog/posts/2022/10/QNAP%20%E9%83%A8%E7%BD%B2%20%
 1. 在 Dashboard 里创建一个新设备，获取链接密码
 2. 进到 agent 所在文件夹后，通过执行 ./nezha-agent 可以查看使用帮助
 
-    ![](https://img.flinty.moe/blog/posts/2022/10/QNAP%20%E9%83%A8%E7%BD%B2%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/Untitled%201.avif)
+    ![](https://img.mitsea.com/blog/posts/2022/10/QNAP%20%E9%83%A8%E7%BD%B2%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/Untitled%201.avif)
 
 3. 基本上指定一下服务器地址和密码即可，命令为
 
@@ -39,7 +39,7 @@ image = "https://img.flinty.moe/blog/posts/2022/10/QNAP%20%E9%83%A8%E7%BD%B2%20%
 
 4. 执行后，没报错，并且在 Web 上能看到信息就可以
 
-    ![](https://img.flinty.moe/blog/posts/2022/10/QNAP%20%E9%83%A8%E7%BD%B2%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/Untitled%202.avif)
+    ![](https://img.mitsea.com/blog/posts/2022/10/QNAP%20%E9%83%A8%E7%BD%B2%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/Untitled%202.avif)
 
 5. 记下自己的执行命令，并把 `./` 替换成绝对路径，比如我的文件放在 `/share/homes/FlintyLemming` 下，那我的执行命令就是
 
@@ -51,7 +51,7 @@ image = "https://img.flinty.moe/blog/posts/2022/10/QNAP%20%E9%83%A8%E7%BD%B2%20%
 
 这里是 QTS 比较坑爹的地方。即便内核比隔壁群晖新，已经用上了 5.x，但是它还是用的 SystemV 而不是 SystemD。然后 system、chkconfig 啥的命令通通没有。
 
-![](https://img.flinty.moe/blog/posts/2022/10/QNAP%20%E9%83%A8%E7%BD%B2%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/Untitled%203.avif)
+![](https://img.mitsea.com/blog/posts/2022/10/QNAP%20%E9%83%A8%E7%BD%B2%20%E5%93%AA%E5%90%92%E7%9B%91%E6%8E%A7%20Agent/Untitled%203.avif)
 
 因为他也没有 rc.d，init.d 我也不好动。所以我打算直接用计划任务土法守护进程。
 

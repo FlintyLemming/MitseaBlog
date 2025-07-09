@@ -6,7 +6,7 @@ date = "2020-05-31"
 description = ""
 categories = ["Consumer", "Android"]
 tags = ["iQOO"]
-image = "https://img.flinty.moe/blog/posts/2020/05/%E5%8E%9F%E7%94%9F%E7%94%A8%E6%88%B7%E7%9A%84%20iQOO%20%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/title.avif"
+image = "https://img.mitsea.com/blog/posts/2020/05/%E5%8E%9F%E7%94%9F%E7%94%A8%E6%88%B7%E7%9A%84%20iQOO%20%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/title.avif"
 +++
 
 ### 开头
@@ -21,7 +21,7 @@ image = "https://img.flinty.moe/blog/posts/2020/05/%E5%8E%9F%E7%94%9F%E7%94%A8%E
 2. 冰箱
 之所以先设置冰箱，因为如果你使用“设备管理员”方式激活冰箱的话，必须保证手机上没有登录任何账户，包括 vivo 账户。不过为了打开开发者模式，你可能已经登录了 vivo 账户，退出即可。然后按照软件内的激活教程，使用设备管理员模式激活冰箱。
     
-    ![](https://img.flinty.moe/blog/posts/2020/05/%E5%8E%9F%E7%94%9F%E7%94%A8%E6%88%B7%E7%9A%84%20iQOO%20%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/1.avif)
+    ![](https://img.mitsea.com/blog/posts/2020/05/%E5%8E%9F%E7%94%9F%E7%94%A8%E6%88%B7%E7%9A%84%20iQOO%20%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/1.avif)
     
     当然如果你经常使用电脑，大可选择“普通 ADB”方式来激活冰箱。
     
@@ -32,17 +32,17 @@ Funtouch OS 阉割了很多原生系统的设置页面，包括电池、多用�
     
     使用 Ampere 可以跳转到电池状态页面。
     
-    ![](https://img.flinty.moe/blog/posts/2020/05/%E5%8E%9F%E7%94%9F%E7%94%A8%E6%88%B7%E7%9A%84%20iQOO%20%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/2.avif)
+    ![](https://img.mitsea.com/blog/posts/2020/05/%E5%8E%9F%E7%94%9F%E7%94%A8%E6%88%B7%E7%9A%84%20iQOO%20%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/2.avif)
     
     使用 设置工具箱，可以跳转到多用户和电池管理等设置页面，这个软件可以在酷安下载到。
     
     打开软件后，点击左上角汉堡菜单按钮，找到“电池设置”。“电池优化”可以跳转到系统的电池优化界面（我是没找到从系统设置里怎么进去……），如果某个软件经常被杀后台，可以在这里设置不优化电池使用。
     
-    ![](https://img.flinty.moe/blog/posts/2020/05/%E5%8E%9F%E7%94%9F%E7%94%A8%E6%88%B7%E7%9A%84%20iQOO%20%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/3.avif)
+    ![](https://img.mitsea.com/blog/posts/2020/05/%E5%8E%9F%E7%94%9F%E7%94%A8%E6%88%B7%E7%9A%84%20iQOO%20%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/3.avif)
     
     在这个应用的“权限管理”菜单中，可以找到多用户管理设置的入口。
     
-    ![](https://img.flinty.moe/blog/posts/2020/05/%E5%8E%9F%E7%94%9F%E7%94%A8%E6%88%B7%E7%9A%84%20iQOO%20%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/4.avif)
+    ![](https://img.mitsea.com/blog/posts/2020/05/%E5%8E%9F%E7%94%9F%E7%94%A8%E6%88%B7%E7%9A%84%20iQOO%20%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/4.avif)
     
     其他可能还有一些阉割入口的设置项，暂时还没遇到。
     
@@ -51,7 +51,7 @@ Funtouch OS 的后台管理也很迷，有的app很严格，有的app后台放�
     
     黑阈的激活同样是需要adb命令，按照提示激活即可。
     
-    ![](https://img.flinty.moe/blog/posts/2020/05/%E5%8E%9F%E7%94%9F%E7%94%A8%E6%88%B7%E7%9A%84%20iQOO%20%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/5.avif)
+    ![](https://img.mitsea.com/blog/posts/2020/05/%E5%8E%9F%E7%94%9F%E7%94%A8%E6%88%B7%E7%9A%84%20iQOO%20%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/5.avif)
     
 5. 字体
 原生的系统往往都提供比较方便的修改字体的方式，再不济，Magisk 字体包一刷也就解决了。Funtouch OS 修改字体的方式和 MIUI 同理，都是利用主题的修改。酷安里搜索“vivo 主题修改器”，可以使用这个工具导入带有自定义字体的主题到系统的“i主题”app里，然后应用导入的字体主题就行。这个工具使用方法非常简单，不赘述了。
@@ -62,7 +62,7 @@ Funtouch OS 的后台管理也很迷，有的app很严格，有的app后台放�
     
     换了启动器图标包怎么弄我就不用说了。
     
-    ![](https://img.flinty.moe/blog/posts/2020/05/%E5%8E%9F%E7%94%9F%E7%94%A8%E6%88%B7%E7%9A%84%20iQOO%20%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/6.avif)
+    ![](https://img.mitsea.com/blog/posts/2020/05/%E5%8E%9F%E7%94%9F%E7%94%A8%E6%88%B7%E7%9A%84%20iQOO%20%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/6.avif)
     
 8. 语音助手
 这里就比较坑了，Funtouch OS 不允许你更换系统默认语音助手，所以你不能用 Jovi键 呼出 Google Assistant，然后我也没找到怎么设置长按 Home 键呼出。但是我们可以把 Jovi 按键干掉，第一步里已经把 Jovi 服务干掉了，然后在 设置-Jovi-智慧按键 里全部改成无。然后就可以吧 Jovi键 锯掉了。

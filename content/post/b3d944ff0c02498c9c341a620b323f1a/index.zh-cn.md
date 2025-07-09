@@ -6,7 +6,7 @@ date = "2023-06-25"
 description = "群晖你干的好啊.jpg"
 categories = ["HomeLab", "Linux"]
 tags = ["群晖", "设备树"]
-image = "https://img.flinty.moe/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2B%20%E6%B7%BB%E5%8A%A0%20E10M20-T1%20%E7%9A%84%E6%94%AF%E6%8C%81/johannes-mandle-r_FNlKOxxos-unsplash.avif"
+image = "https://img.mitsea.com/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2B%20%E6%B7%BB%E5%8A%A0%20E10M20-T1%20%E7%9A%84%E6%94%AF%E6%8C%81/johannes-mandle-r_FNlKOxxos-unsplash.avif"
 +++
 
 ## 起因
@@ -22,7 +22,7 @@ image = "https://img.flinty.moe/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2
 
 既然硬件没限制，又有脚本号称可以支持，那我直接进行一个冲动消费，1575，卡就到手上了
 
-![](https://img.flinty.moe/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2B%20%E6%B7%BB%E5%8A%A0%20E10M20-T1%20%E7%9A%84%E6%94%AF%E6%8C%81/IMG_2186.avif)
+![](https://img.mitsea.com/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2B%20%E6%B7%BB%E5%8A%A0%20E10M20-T1%20%E7%9A%84%E6%94%AF%E6%8C%81/IMG_2186.avif)
 
 结果是，脚本 log 认出了这张卡，也认到了卡上的 nvme SSD，但就是在 WebGUI 里看不到，无法管理，网卡也用不了。但我觉得硬件上肯定是没限制，只是这个卡没什么大冤种会买，用的人比较少罢了，所以作者的脚本没有适配全面。我就继续研究。
 
@@ -36,7 +36,7 @@ image = "https://img.flinty.moe/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2
 
 我就把这三个项目里都加上了 `DS1621+=yes` ，重启后 nvme SSD 还是识别不了，但是网卡识别了。至此，问题解决了一部分。
 
-![](https://img.flinty.moe/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2B%20%E6%B7%BB%E5%8A%A0%20E10M20-T1%20%E7%9A%84%E6%94%AF%E6%8C%81/%25E6%2588%25AA%25E5%25B1%258F2023-06-25_15.38.58.avif)
+![](https://img.mitsea.com/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2B%20%E6%B7%BB%E5%8A%A0%20E10M20-T1%20%E7%9A%84%E6%94%AF%E6%8C%81/%25E6%2588%25AA%25E5%25B1%258F2023-06-25_15.38.58.avif)
 
 ### 手动创建存储池？
 
@@ -54,7 +54,7 @@ image = "https://img.flinty.moe/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2
 
 然而并没用，我系统里这个文件里已经有了
 
-![](https://img.flinty.moe/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2B%20%E6%B7%BB%E5%8A%A0%20E10M20-T1%20%E7%9A%84%E6%94%AF%E6%8C%81/%25E6%2588%25AA%25E5%25B1%258F2023-06-25_15.47.55.avif)
+![](https://img.mitsea.com/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2B%20%E6%B7%BB%E5%8A%A0%20E10M20-T1%20%E7%9A%84%E6%94%AF%E6%8C%81/%25E6%2588%25AA%25E5%25B1%258F2023-06-25_15.47.55.avif)
 
 ### Device Tree
 
@@ -89,7 +89,7 @@ E10M20-T1 {
 
 但是如果添加到 1621+ 里的话，`pcie_postfix` 不知道写什么。这个是群晖自己创造的东西，不懂他的含义。不过考虑到现在扩展卡里的硬盘 PCIe 信息正好符合这个后缀规律，所以我觉得这里应该不用改，就应该是 `00.0,08.0,00.0`
 
-![](https://img.flinty.moe/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2B%20%E6%B7%BB%E5%8A%A0%20E10M20-T1%20%E7%9A%84%E6%94%AF%E6%8C%81/%25E6%2588%25AA%25E5%25B1%258F2023-06-25_16.04.28.avif)
+![](https://img.mitsea.com/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2B%20%E6%B7%BB%E5%8A%A0%20E10M20-T1%20%E7%9A%84%E6%94%AF%E6%8C%81/%25E6%2588%25AA%25E5%25B1%258F2023-06-25_16.04.28.avif)
 
 下面开始修改。把 model.dtb 文件搞出来后，使用下面的命令反编译 dtb 文件为可编辑的 dts 文件
 
@@ -99,7 +99,7 @@ dtc -I dtb -O dts -o model.dts model.dtb
 
 添加缺失的 E10M20-T1 支持
 
-![](https://img.flinty.moe/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2B%20%E6%B7%BB%E5%8A%A0%20E10M20-T1%20%E7%9A%84%E6%94%AF%E6%8C%81/%25E6%2588%25AA%25E5%25B1%258F2023-06-25_17.04.23.avif)
+![](https://img.mitsea.com/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2B%20%E6%B7%BB%E5%8A%A0%20E10M20-T1%20%E7%9A%84%E6%94%AF%E6%8C%81/%25E6%2588%25AA%25E5%25B1%258F2023-06-25_17.04.23.avif)
 
 将修改好的 dts 文件重新编译为 dtb 文件
 
@@ -111,7 +111,7 @@ dtc -I dts -O dtb -o model.dtb model.dts
 
 ## 修改效果
 
-![](https://img.flinty.moe/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2B%20%E6%B7%BB%E5%8A%A0%20E10M20-T1%20%E7%9A%84%E6%94%AF%E6%8C%81/%25E6%2588%25AA%25E5%25B1%258F2023-06-25_17.28.26.avif)
+![](https://img.mitsea.com/blog/posts/2023/06/%E7%BE%A4%E6%99%96%20DS1621%2B%20%E6%B7%BB%E5%8A%A0%20E10M20-T1%20%E7%9A%84%E6%94%AF%E6%8C%81/%25E6%2588%25AA%25E5%25B1%258F2023-06-25_17.28.26.avif)
 
 > Photo by [Johannes Mändle](https://unsplash.com/@leonardo_64?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   
