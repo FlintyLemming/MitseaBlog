@@ -16,7 +16,7 @@ image = "https://img.mitsea.com/blog/posts/2025/03/%E5%8D%8E%E4%B8%BA%E6%98%87%E
 | 昇腾 Ascend 910B2 | 376T | 64GB HBM2 |  | 台积电 |
 | 昇腾 Ascend 910B1 | 414T | 64GB HBM2 |  | 台积电 |
 
-由于没有 fp8 计算单元，若要部署完整精度的 Deepseek R1，则需要将近 2T 显存，需要至少 4 台 8 卡 32GB 版本的 910B
+由于没有 fp8 计算单元，若要部署完整精度的 Deepseek R1，则需要将近 2T 显存，需要至少 4 台 8 卡 64GB 版本的 910B
 
 > Photo by [A Chosen Soul](https://unsplash.com/@a_chosensoul?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-computer-generated-image-of-a-womans-face-fwGtrR0ujbM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
       
