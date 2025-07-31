@@ -9,12 +9,12 @@ tags = ["华为"]
 image = "https://img.mitsea.com/blog/posts/2025/03/%E5%8D%8E%E4%B8%BA%E6%98%87%E8%85%BE%20Ascend%20910B%20%E4%B8%80%E8%A7%88%E5%8F%8A%E5%AF%B9%E5%BA%94%E6%95%B4%E6%9C%BA/a-chosen-soul-fwGtrR0ujbM-unsplash.avif"
 +++
 
-| NPU 型号 | FP16 算力 | 显存 | 对应华为整机 |
-| --- | --- | --- | --- |
-| 昇腾 Ascend 910B4 | 280T | 32GB HBM2 | Atlas 800I A2 |
-| 昇腾 Ascend 910B3 | 313T | 64GB HBM2 | Atlas 800T A2 |
-| 昇腾 Ascend 910B2 | 376T | 64GB HBM2 |  |
-| 昇腾 Ascend 910B1 | 414T | 64GB HBM2 |  |
+| NPU 型号 | FP16 算力 | 显存 | 对应华为整机 | 芯片代工厂 |
+| --- | --- | --- | --- | --- |
+| 昇腾 Ascend 910B4 | 280T | 32GB HBM2 | Atlas 800I A2 | 中芯国际 |
+| 昇腾 Ascend 910B3 | 313T | 64GB HBM2 | Atlas 800T A2 | 中芯国际 |
+| 昇腾 Ascend 910B2 | 376T | 64GB HBM2 |  | 台积电 |
+| 昇腾 Ascend 910B1 | 414T | 64GB HBM2 |  | 台积电 |
 
 由于没有 fp8 计算单元，若要部署完整精度的 Deepseek R1，则需要将近 2T 显存，需要至少 4 台 8 卡 32GB 版本的 910B
 
