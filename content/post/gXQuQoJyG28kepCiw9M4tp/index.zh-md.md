@@ -58,7 +58,7 @@ image = "https://img.mitsea.com/blog/posts/2025/08/Claude%20Code%20%E6%9C%80%E4%
 
 - 当前模型支持高达 200K tokens 上下文长度。
 - 长时间操作后注意检查提示信息，两种常见策略应对增长的内容：
-  - `/clear`: 清空当前会话上下文（保留 .claudemd 文件）；
+  - `/clear`: 清空当前会话上下文（保留 CLAUDE.md 文件）；
   - `/compact`: 总结历史内容形成摘要后再继续对话。
 
 ***
