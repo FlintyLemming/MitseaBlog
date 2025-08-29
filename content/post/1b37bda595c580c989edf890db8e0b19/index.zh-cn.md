@@ -6,7 +6,7 @@ date = "2025-03-11"
 description = "纯命令行启动组网"
 categories = ["Network"]
 tags = ["Easytier"]
-image = "https://img.mitsea.com/blog/posts/2025/03/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier%20-%20%E6%97%A0%20Web%20%E7%AE%A1%E7%90%86/pawel-czerwinski-MIXZflFpQXk-unsplash.avif"
+image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/03/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier%20-%20%E6%97%A0%20Web%20%E7%AE%A1%E7%90%86/pawel-czerwinski-MIXZflFpQXk-unsplash.avif"
 +++
 
 ## 部署逻辑
@@ -195,7 +195,7 @@ Easytier 也类似，只不过你需要分开部署。不过由于当前版本�
 
 参考官方文档 https://easytier.cn/guide/installation.html 修改这里的启动参数即可
 
-![](https://img.mitsea.com/blog/posts/2025/03/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier%20-%20%E6%97%A0%20Web%20%E7%AE%A1%E7%90%86/image.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/03/%E4%B8%AD%E5%BF%83%E5%8C%96%E9%80%BB%E8%BE%91%E9%83%A8%E7%BD%B2%20Easytier%20-%20%E6%97%A0%20Web%20%E7%AE%A1%E7%90%86/image.avif)
 
 ```bash
 command: --network-name mytier --network-secret passwd --ipv4 192.168.99.1/24 --hostname node1 --manual-routes --relay-network-whitelist mytier

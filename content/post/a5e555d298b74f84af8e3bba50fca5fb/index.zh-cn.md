@@ -6,7 +6,7 @@ date = "2020-05-17"
 description = "可惜华为这个芯片绝版了"
 categories = ["Consumer"]
 tags = ["路由器", "小米", "华为"]
-image = "https://img.mitsea.com/blog/posts/2020/05/%E5%8D%8E%E4%B8%BA%20AX3%20Pro%20%E4%B8%8E%20%E5%B0%8F%E7%B1%B3%20AX3600%20%E7%9A%84%E5%AF%B9%E6%AF%94/title.avif"
+image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/05/%E5%8D%8E%E4%B8%BA%20AX3%20Pro%20%E4%B8%8E%20%E5%B0%8F%E7%B1%B3%20AX3600%20%E7%9A%84%E5%AF%B9%E6%AF%94/title.avif"
 +++
 
 家里是千兆宽带，并且新买的 iPhone SE 也支持 Wi-Fi 6，所以就买了个 Wi-Fi 6 路由器，在被华硕 AX3000 坑过一次后，我将目光瞄向了更加实惠的华为和小米。大家都说互联网公司出的路由器垃圾，但考虑到我之前一直用的华为 WS5200 四核版一直都没啥问题，所以这次，两家都买了，测试一下。
@@ -27,31 +27,31 @@ image = "https://img.mitsea.com/blog/posts/2020/05/%E5%8D%8E%E4%B8%BA%20AX3%20Pr
 
 下载 935Mbps，上传 226Mbps
 
-![](https://img.mitsea.com/blog/posts/2020/05/%E5%8D%8E%E4%B8%BA%20AX3%20Pro%20%E4%B8%8E%20%E5%B0%8F%E7%B1%B3%20AX3600%20%E7%9A%84%E5%AF%B9%E6%AF%94/1.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/05/%E5%8D%8E%E4%B8%BA%20AX3%20Pro%20%E4%B8%8E%20%E5%B0%8F%E7%B1%B3%20AX3600%20%E7%9A%84%E5%AF%B9%E6%AF%94/1.avif)
 
 ### Wi-Fi 6 80MHz
 
 设备是 iPhone SE，左边是华为 AX3 Pro，右边是小米 AX 3600。小米稍快。
 
-![](https://img.mitsea.com/blog/posts/2020/05/%E5%8D%8E%E4%B8%BA%20AX3%20Pro%20%E4%B8%8E%20%E5%B0%8F%E7%B1%B3%20AX3600%20%E7%9A%84%E5%AF%B9%E6%AF%94/2.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/05/%E5%8D%8E%E4%B8%BA%20AX3%20Pro%20%E4%B8%8E%20%E5%B0%8F%E7%B1%B3%20AX3600%20%E7%9A%84%E5%AF%B9%E6%AF%94/2.avif)
 
 ### Wi-Fi 5 866Mbps
 
 设备是 iPad mini 5，左边是华为 AX3 Pro，右边是小米 AX 3600。小米稍快。
 
-![](https://img.mitsea.com/blog/posts/2020/05/%E5%8D%8E%E4%B8%BA%20AX3%20Pro%20%E4%B8%8E%20%E5%B0%8F%E7%B1%B3%20AX3600%20%E7%9A%84%E5%AF%B9%E6%AF%94/3.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/05/%E5%8D%8E%E4%B8%BA%20AX3%20Pro%20%E4%B8%8E%20%E5%B0%8F%E7%B1%B3%20AX3600%20%E7%9A%84%E5%AF%B9%E6%AF%94/3.avif)
 
 ### Wi-Fi 5 433Mbps
 
 设备是小米 MIX 1，左边是华为 AX3 Pro，右边是小米 AX 3600。华为稍快。
 
-![](https://img.mitsea.com/blog/posts/2020/05/%E5%8D%8E%E4%B8%BA%20AX3%20Pro%20%E4%B8%8E%20%E5%B0%8F%E7%B1%B3%20AX3600%20%E7%9A%84%E5%AF%B9%E6%AF%94/4.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/05/%E5%8D%8E%E4%B8%BA%20AX3%20Pro%20%E4%B8%8E%20%E5%B0%8F%E7%B1%B3%20AX3600%20%E7%9A%84%E5%AF%B9%E6%AF%94/4.avif)
 
 ### Wi-Fi 6 内网传输
 
 由于 iperf 测试结果个人认为脱离实际，所以方法是使用网络 sftp 往 iPhone 里传输文件，图中注意 Edge 的上传速度即可，左边是华为 AX3 Pro，右边是小米 AX 3600。小米稍快。
 
-![](https://img.mitsea.com/blog/posts/2020/05/%E5%8D%8E%E4%B8%BA%20AX3%20Pro%20%E4%B8%8E%20%E5%B0%8F%E7%B1%B3%20AX3600%20%E7%9A%84%E5%AF%B9%E6%AF%94/5.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/05/%E5%8D%8E%E4%B8%BA%20AX3%20Pro%20%E4%B8%8E%20%E5%B0%8F%E7%B1%B3%20AX3600%20%E7%9A%84%E5%AF%B9%E6%AF%94/5.avif)
 
 ## 总结
 

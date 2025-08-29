@@ -6,7 +6,7 @@ date = "2025-02-11"
 description = "没钱别玩"
 categories = ["HomeLab"]
 tags = ["Deepseek"]
-image = "https://img.mitsea.com/blog/posts/2025/02/Deepseek%20R1%20%E6%8E%A8%E7%90%86%E9%9C%80%E6%B1%82/spenser-sembrat-QLYH_8w6PKs-unsplash.avif"
+image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/02/Deepseek%20R1%20%E6%8E%A8%E7%90%86%E9%9C%80%E6%B1%82/spenser-sembrat-QLYH_8w6PKs-unsplash.avif"
 +++
 
 ## 说明
@@ -70,7 +70,7 @@ image = "https://img.mitsea.com/blog/posts/2025/02/Deepseek%20R1%20%E6%8E%A8%E7%
 
 unsloth 出了动态量化的版本
 
-![](https://img.mitsea.com/blog/posts/2025/02/Deepseek%20R1%20%E6%8E%A8%E7%90%86%E9%9C%80%E6%B1%82/image.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/02/Deepseek%20R1%20%E6%8E%A8%E7%90%86%E9%9C%80%E6%B1%82/image.avif)
 
 disk size 就约等于显存占用量，说是 2.51-bit 效果还不错，但是没有条件验证。可以考虑在现有机器上加点内存验证，或者等有没有人提供这个模型的 API。
 
@@ -90,7 +90,7 @@ disk size 就约等于显存占用量，说是 2.51-bit 效果还不错，但是
 
 自组单机8卡 H200 SXM 那个配置如下
 
-![](https://img.mitsea.com/blog/posts/2025/02/Deepseek%20R1%20%E6%8E%A8%E7%90%86%E9%9C%80%E6%B1%82/1.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/02/Deepseek%20R1%20%E6%8E%A8%E7%90%86%E9%9C%80%E6%B1%82/1.avif)
 
 国行 H40 SXM 双机那个配置如下
 
@@ -104,4 +104,4 @@ fp8 砍到姥姥家了，性能只有 H100 的 14%，感觉是诈骗产品.jpg
 
 除了国内正规供货，想不出任何理由买它
 
-![](https://img.mitsea.com/blog/posts/2025/02/Deepseek%20R1%20%E6%8E%A8%E7%90%86%E9%9C%80%E6%B1%82/image%201.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/02/Deepseek%20R1%20%E6%8E%A8%E7%90%86%E9%9C%80%E6%B1%82/image%201.avif)

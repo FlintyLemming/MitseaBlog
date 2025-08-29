@@ -6,7 +6,7 @@ date = "2023-04-07"
 description = "原本 8G 显存玩 2K 3A 的同学这下 QQ 都不敢挂后台了"
 categories = ["LifeTec"]
 tags = ["QQ", "内存", "Electron"]
-image = "https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/malik-skydsgaard-rhqsKzvyyQo-unsplash.avif"
+image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/malik-skydsgaard-rhqsKzvyyQo-unsplash.avif"
 +++
 
 ## 说明
@@ -44,7 +44,7 @@ AMD Ryzen 5 5500U，核显分配 1G 内存
 
 注：显存在打开新频道对话时会达到1G，爆显存，建议显存分配2G
 
-![](https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Untitled.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Untitled.avif)
 
 ## 其他观察
 
@@ -54,35 +54,35 @@ AMD Ryzen 5 5500U，核显分配 1G 内存
 
 如果你的显存没有这额外的 300M，我不确定会不会影响性能。
 
-![](https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Untitled%201.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Untitled%201.avif)
 
-![](https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Untitled%202.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Untitled%202.avif)
 
 ## 附件
 
 ### 环境1截图
 
-![](https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Snipaste_2023-03-24_19-13-00.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Snipaste_2023-03-24_19-13-00.avif)
 
-![](https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Snipaste_2023-03-24_19-14-25.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Snipaste_2023-03-24_19-14-25.avif)
 
-![](https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Snipaste_2023-03-24_19-14-46.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Snipaste_2023-03-24_19-14-46.avif)
 
 ### 环境2截图
 
-![](https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Untitled%203.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Untitled%203.avif)
 
-![](https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Untitled%204.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Untitled%204.avif)
 
-![](https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Untitled%205.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Untitled%205.avif)
 
 ### 环境3截图
 
-![](https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Snipaste_2023-03-24_20-08-56.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Snipaste_2023-03-24_20-08-56.avif)
 
-![](https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Snipaste_2023-03-24_20-08-30.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Snipaste_2023-03-24_20-08-30.avif)
 
-![](https://img.mitsea.com/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Snipaste_2023-03-24_20-07-46.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/04/Windows%20Electron%20QQ%20%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E8%A7%82%E5%AF%9F/Snipaste_2023-03-24_20-07-46.avif)
 
 > Photo by [Malik Skydsgaard](https://unsplash.com/@malikskyds?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   

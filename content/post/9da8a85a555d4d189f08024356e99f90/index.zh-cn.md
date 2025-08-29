@@ -6,7 +6,7 @@ date = "2019-10-06"
 description = "主要就是补充 DeviceSupport"
 categories = ["Apple"]
 tags = ["Xcode", "iOS"]
-image = "https://img.mitsea.com/blog/posts/2019/10/%E8%80%81%E7%89%88%E6%9C%AC%20Xcode%20%E5%9C%A8%E6%96%B0%20iOS%20%E8%AE%BE%E5%A4%87%E4%B8%8A%E8%B0%83%E8%AF%95/title.avif"
+image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2019/10/%E8%80%81%E7%89%88%E6%9C%AC%20Xcode%20%E5%9C%A8%E6%96%B0%20iOS%20%E8%AE%BE%E5%A4%87%E4%B8%8A%E8%B0%83%E8%AF%95/title.avif"
 +++
 
 ## 补充老版本 Xcode 缺失的 DeviceSupport
@@ -16,7 +16,7 @@ image = "https://img.mitsea.com/blog/posts/2019/10/%E8%80%81%E7%89%88%E6%9C%AC%2
 13.1.1 (17A854)
 ```
 
-![](https://img.mitsea.com/blog/posts/2019/10/%E8%80%81%E7%89%88%E6%9C%AC%20Xcode%20%E5%9C%A8%E6%96%B0%20iOS%20%E8%AE%BE%E5%A4%87%E4%B8%8A%E8%B0%83%E8%AF%95/1.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2019/10/%E8%80%81%E7%89%88%E6%9C%AC%20Xcode%20%E5%9C%A8%E6%96%B0%20iOS%20%E8%AE%BE%E5%A4%87%E4%B8%8A%E8%B0%83%E8%AF%95/1.avif)
 
 其实补充 DeviceSupport 就可以解决一部分一个大版本内无法调试的情况。如果跨大版本，请继续下面的操作
 
@@ -24,11 +24,11 @@ image = "https://img.mitsea.com/blog/posts/2019/10/%E8%80%81%E7%89%88%E6%9C%AC%2
 
 在 Xcode/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs 目录下，复制一份现有的 sdk 文件，并修改为需要的版本，比如我这里就修改为 iPhoneOS13.1.1.sdk
 
-![](https://img.mitsea.com/blog/posts/2019/10/%E8%80%81%E7%89%88%E6%9C%AC%20Xcode%20%E5%9C%A8%E6%96%B0%20iOS%20%E8%AE%BE%E5%A4%87%E4%B8%8A%E8%B0%83%E8%AF%95/2.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2019/10/%E8%80%81%E7%89%88%E6%9C%AC%20Xcode%20%E5%9C%A8%E6%96%B0%20iOS%20%E8%AE%BE%E5%A4%87%E4%B8%8A%E8%B0%83%E8%AF%95/2.avif)
 
 然后 修改 iPhoneOS.sdk 里（不是 iPhoneOS13.1.1.sdk）的 SDKSettings.plist 文件。将原来的版本信息全部改成你需要的，比如我这里都改成 13.1.1。当然那个 DefaultDeploymentTarget 仍然可以按照原来的格式改成 13.1.99。改完保存，可能关闭按钮上显示没有保存，但其实是保存了的。如果不能保存，把文件拖到别的地方，改好后再覆盖回去。
 
-![](https://img.mitsea.com/blog/posts/2019/10/%E8%80%81%E7%89%88%E6%9C%AC%20Xcode%20%E5%9C%A8%E6%96%B0%20iOS%20%E8%AE%BE%E5%A4%87%E4%B8%8A%E8%B0%83%E8%AF%95/3.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2019/10/%E8%80%81%E7%89%88%E6%9C%AC%20Xcode%20%E5%9C%A8%E6%96%B0%20iOS%20%E8%AE%BE%E5%A4%87%E4%B8%8A%E8%B0%83%E8%AF%95/3.avif)
 
 ## 重启 Xcode
 一定要重启，不然不会生效

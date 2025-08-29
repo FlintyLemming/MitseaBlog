@@ -6,7 +6,7 @@ date = "2024-01-10"
 description = "新入手了台笔记本，照例修改了待机策略"
 categories = ["Windows", "Consumer"]
 tags = ["Windows", "笔记本"]
-image = "https://img.mitsea.com/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9C%81%E7%94%B5%E5%BE%85%E6%9C%BA%E8%AE%BE%E7%BD%AE/daniil-silantev-eNnGiKM-IjE-unsplash.avif"
+image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9C%81%E7%94%B5%E5%BE%85%E6%9C%BA%E8%AE%BE%E7%BD%AE/daniil-silantev-eNnGiKM-IjE-unsplash.avif"
 +++
 
 ## 背景知识
@@ -29,7 +29,7 @@ image = "https://img.mitsea.com/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%
 
 然后你就会发现对于 Windows 来说，待机和休眠都是一种睡眠状态
 
-![](https://img.mitsea.com/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9C%81%E7%94%B5%E5%BE%85%E6%9C%BA%E8%AE%BE%E7%BD%AE/Untitled.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9C%81%E7%94%B5%E5%BE%85%E6%9C%BA%E8%AE%BE%E7%BD%AE/Untitled.avif)
 
 不过一般来说，休眠指待机（S1）和待机（S3）这两种睡眠状态
 
@@ -66,13 +66,13 @@ image = "https://img.mitsea.com/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%
 3. 打开左侧的 选择关闭笔记本计算机盖的功能
 4. 点击更改当前不可用的设置
 
-    ![](https://img.mitsea.com/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9C%81%E7%94%B5%E5%BE%85%E6%9C%BA%E8%AE%BE%E7%BD%AE/Untitled%201.avif)
+    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9C%81%E7%94%B5%E5%BE%85%E6%9C%BA%E8%AE%BE%E7%BD%AE/Untitled%201.avif)
 
 推荐如下设置：
 
 上方都修改为睡眠，关机设置中打开休眠，并考虑关闭睡眠（因为没有必要了）
 
-![](https://img.mitsea.com/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9C%81%E7%94%B5%E5%BE%85%E6%9C%BA%E8%AE%BE%E7%BD%AE/Untitled%202.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9C%81%E7%94%B5%E5%BE%85%E6%9C%BA%E8%AE%BE%E7%BD%AE/Untitled%202.avif)
 
 此时，如果你接下来若干小时还需要使用电脑，那不用电脑时直接合盖即可；如果未来几天都不用，那就点击开始菜单-电源按钮-休眠（或者直接关机，根据情况选择）
 
@@ -86,7 +86,7 @@ image = "https://img.mitsea.com/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%
 
 在开头，你已经查看了笔记本的睡眠状态。若当前的睡眠状态是 待机（S3），则不需要修改。如果是 待机（S0 低电量待机）连接的网络，则需要按照下面的步骤进行修改。经过测试，我的笔记本在修改后待机 12 个小时大约消耗 10% 的电量。
 
-![](https://img.mitsea.com/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9C%81%E7%94%B5%E5%BE%85%E6%9C%BA%E8%AE%BE%E7%BD%AE/Untitled%203.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9C%81%E7%94%B5%E5%BE%85%E6%9C%BA%E8%AE%BE%E7%BD%AE/Untitled%203.avif)
 
 1. 搜索并打开注册表编辑器
 2. 定位到 `计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\F15576E8-98B7-4186-B944-EAFA664402D9` ，直接点击这个文件夹，不用展开
@@ -94,10 +94,10 @@ image = "https://img.mitsea.com/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%
 4. 打开控制面板，依次打开 硬件与声音 - 电源选项 - 当前选定的计划右侧的 更改计划设置 - 更改高级电源设置
 5. 把 待机状态下的网络连接 性下面两个都改为禁用
 
-    ![](https://img.mitsea.com/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9C%81%E7%94%B5%E5%BE%85%E6%9C%BA%E8%AE%BE%E7%BD%AE/Untitled%204.avif)
+    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9C%81%E7%94%B5%E5%BE%85%E6%9C%BA%E8%AE%BE%E7%BD%AE/Untitled%204.avif)
 
 6. 再次查看此系统上的睡眠状态，变成 待机（S0 低电量待机）网络已断开连接 即可
 
-    ![](https://img.mitsea.com/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9C%81%E7%94%B5%E5%BE%85%E6%9C%BA%E8%AE%BE%E7%BD%AE/Untitled%205.avif)
+    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2024/01/Windows%20%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9C%81%E7%94%B5%E5%BE%85%E6%9C%BA%E8%AE%BE%E7%BD%AE/Untitled%205.avif)
 
 > Photo by [Daniil Silantev](https://unsplash.com/@betagamma?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-group-of-trees-that-are-covered-in-snow-eNnGiKM-IjE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)

@@ -6,7 +6,7 @@ date = "2025-04-22"
 description = ""
 categories = ["HomeLab"]
 tags = ["备份", "restic"]
-image = "https://img.mitsea.com/blog/posts/2025/04/%E4%BD%BF%E7%94%A8%20restic%20%E8%BF%9B%E8%A1%8C%E5%A4%9A%E7%89%88%E6%9C%AC%E5%A4%87%E4%BB%BD/steve-gribble-tuRraTuflBA-unsplash.avif"
+image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/04/%E4%BD%BF%E7%94%A8%20restic%20%E8%BF%9B%E8%A1%8C%E5%A4%9A%E7%89%88%E6%9C%AC%E5%A4%87%E4%BB%BD/steve-gribble-tuRraTuflBA-unsplash.avif"
 +++
 
 ## 背景
@@ -63,7 +63,7 @@ sudo apt install restic
            backup /mnt/extend/appdata /mnt/extend/Projects
     ```
     
-    ![](https://img.mitsea.com/blog/posts/2025/04/%E4%BD%BF%E7%94%A8%20restic%20%E8%BF%9B%E8%A1%8C%E5%A4%9A%E7%89%88%E6%9C%AC%E5%A4%87%E4%BB%BD/image.avif)
+    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/04/%E4%BD%BF%E7%94%A8%20restic%20%E8%BF%9B%E8%A1%8C%E5%A4%9A%E7%89%88%E6%9C%AC%E5%A4%87%E4%BB%BD/image.avif)
     
 
 ## 仓库验证和快照管理
@@ -98,7 +98,7 @@ sudo restic --repo sftp:aiteam@ServerA_IP:/export/aiteam/restic-repo/r750xa \
 
 使用 crontab 自动化即可，每天执行一次备份、删除旧快照，即可保证始终有近 7 天的版本。可以使用 Restic Browser 便捷的查看历史版本，大概就是这样的效果
 
-![](https://img.mitsea.com/blog/posts/2025/04/%E4%BD%BF%E7%94%A8%20restic%20%E8%BF%9B%E8%A1%8C%E5%A4%9A%E7%89%88%E6%9C%AC%E5%A4%87%E4%BB%BD/iShot_2025-04-22_21.16.10.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/04/%E4%BD%BF%E7%94%A8%20restic%20%E8%BF%9B%E8%A1%8C%E5%A4%9A%E7%89%88%E6%9C%AC%E5%A4%87%E4%BB%BD/iShot_2025-04-22_21.16.10.avif)
 
 ## 关于 Docker
 

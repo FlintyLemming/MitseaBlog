@@ -6,7 +6,7 @@ date = "2023-11-06"
 description = "WinNAS 好"
 categories = ["HomeLab", "Windows"]
 tags = ["存储空间", "NAS"]
-image = "https://img.mitsea.com/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/jigar-panchal-D_ivYIn4jWw-unsplash.avif"
+image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/jigar-panchal-D_ivYIn4jWw-unsplash.avif"
 +++
 
 在组建阵列时，一般都推荐使用容量相同的磁盘，不过这种情况下有条件的都使用 RAID 阵列卡获得最大性能了。但是作为垃圾佬，手头的硬盘都是根据市场价格买最便宜的容量，所以会有容量不一的硬盘。此时，如何在不同容量的硬盘上创建单盘冗余阵列并且还能最大化可用空间就成了一个重要的需求。目前主流方案有两个方向：块冗余和文件冗余。
@@ -15,11 +15,11 @@ image = "https://img.mitsea.com/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%
 
 块冗余是更为传统但是性能更好的方案。首先传统 RAID 对于垃圾佬非常不友好，如果是 1+2+3T 的硬盘组合，单盘冗余可用空间就只有 2T。在此基础上，群晖进行了改进，通过划分磁盘为多个部分，通过创建多个 RAID5 达到最大利用效果。
 
-![](https://img.mitsea.com/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/Untitled.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/Untitled.avif)
 
 通过下面的对比可以看出 SHR 对于不同容量的硬盘相比传统 RAID5 有着巨大优势
 
-![](https://img.mitsea.com/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/Untitled%201.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/Untitled%201.avif)
 
 那么寻找一个类似 SHR 的超高利用率的阵列方案就至关重要。
 
@@ -33,35 +33,35 @@ image = "https://img.mitsea.com/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%
 
 如果在 GUI 上创建单盘冗余的虚拟磁盘，可用大小是可以正确预估的，大约为 1T
 
-![](https://img.mitsea.com/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/Untitled%202.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/Untitled%202.avif)
 
 但是实际创建时会报错
 
-![](https://img.mitsea.com/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/Untitled%203.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/Untitled%203.avif)
 
 问题就出现在红框处，因为 GUI 创建时 **NumberOfColumns** 默认是等于硬盘数量，当前场景下的话就是 5。
 
 **NumberOfColumns 代表操作阵列时的硬盘数量，5 代表着操作这块阵列时，始终要操作五个硬盘。** 可以按照下图所示模拟同时写入5块磁盘，当写入 100G 后，可以同时写入的硬盘就只剩4块了，不符合 NumberOfColumns 数量，剩下的空间都被废弃了。
 
-![](https://img.mitsea.com/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/Untitled%204.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/Untitled%204.avif)
 
 对于可以操作的这5个100G，可以得出如果 NumberOfColumns 为 5，再去掉一盘冗余，可用空间只有 400G。可以通过命令行创建时指定 `-NumberOfColumes 5` 测试，发现确实是。
 
-![](https://img.mitsea.com/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/Untitled%205.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/Untitled%205.avif)
 
 为了加强对于 NumberOfColumns 的理解，我们来看下如果是 4 应该怎么计算可用空间。首先 NumberOfColumns 为 4 意味着操作阵列时始终要调动起4块硬盘。这里模拟多次写入4盘，每次每盘写入100G的场景
 
-![](https://img.mitsea.com/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/Untitled%206.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/Untitled%206.avif)
 
 写入了三次，去掉冗余空间，一共大约是 3×(400-100)=900G
 
 如果 NumberOfColumns 为 3，同样模拟类似操作，可以操作 5 次，一共大约是 5×(300-100)=1000G
 
-![](https://img.mitsea.com/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/Untitled%207.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/Untitled%207.avif)
 
 此时对于这种磁盘阵列，单盘冗余利用率最高
 
-![](https://img.mitsea.com/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/Untitled%208.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/Untitled%208.avif)
 
 那么，是不是 NumberOfColumns 为 3 对于任何情况下都可以取到最大可用容量呢？不一定的。这其实是一个简单的线性规划问题，我们可以直接借助 ChatGPT 帮我们将上面的操作抽象为 Python 代码，假设我们有 1+2+3+4+5+6 6块磁盘，NumberOfColumns 为 4，代码如下
 
@@ -123,7 +123,7 @@ print(count)
 
 可用空间仅有 7×(300-100)=1400GB 可用空间，实际也确实如此
 
-![](https://img.mitsea.com/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/Untitled%209.avif)
+![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/10/Windows%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E4%B8%8D%E7%AD%89%E5%AE%B9%E9%87%8F%E7%A3%81%E7%9B%98%20Parity%20%E9%80%BB%E8%BE%91%E6%8E%A2%E7%A9%B6/Untitled%209.avif)
 
 这是因为 NumberOfColums 越小，每次用于冗余的百分比就越大，所以需要根据磁盘实际情况选择合适的 NumberOfColums 才能最大化可用空间。
 

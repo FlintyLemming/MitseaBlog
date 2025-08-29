@@ -6,7 +6,7 @@ date = "2019-10-09"
 description = ""
 categories = ["Apple"]
 tags = ["iOS"]
-image = "https://img.mitsea.com/blog/posts/2019/10/%E5%A6%82%E4%BD%95%E6%8A%93%E5%8F%96%20iOS%20app%20%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85/title.avif"
+image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2019/10/%E5%A6%82%E4%BD%95%E6%8A%93%E5%8F%96%20iOS%20app%20%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85/title.avif"
 +++
 
 iOS 从 AppStore 下载安装 app 虽然整个过程内容看似不可见，但本质就是下载一个 ipa 文件并安装，和 Android 类似。
@@ -20,22 +20,22 @@ iOS 从 AppStore 下载安装 app 虽然整个过程内容看似不可见，但�
 1. 从美区（或者其他区域，非国区）下载 Thor
 2. 点击这个图标，开始抓包。提示 HTTPS 解析设置，选择以后再说；提示配置 VPN，验证密码或者指纹添加。
     
-    ![](https://img.mitsea.com/blog/posts/2019/10/%E5%A6%82%E4%BD%95%E6%8A%93%E5%8F%96%20iOS%20app%20%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85/1.avif)
+    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2019/10/%E5%A6%82%E4%BD%95%E6%8A%93%E5%8F%96%20iOS%20app%20%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85/1.avif)
     
 3. 开启后，按钮会变成红色，状态栏会有 VPN 标志
     
-    ![](https://img.mitsea.com/blog/posts/2019/10/%E5%A6%82%E4%BD%95%E6%8A%93%E5%8F%96%20iOS%20app%20%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85/2.avif)
+    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2019/10/%E5%A6%82%E4%BD%95%E6%8A%93%E5%8F%96%20iOS%20app%20%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85/2.avif)
     
 4. 打开 AppStore ，下载一个 app ，等到有下载进度条的时候即可取消。
 5. 返回 Thor ，关闭开关，点击下方的“抓包记录”，进入最近的一条
     
-    ![](https://img.mitsea.com/blog/posts/2019/10/%E5%A6%82%E4%BD%95%E6%8A%93%E5%8F%96%20iOS%20app%20%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85/3.avif)
+    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2019/10/%E5%A6%82%E4%BD%95%E6%8A%93%E5%8F%96%20iOS%20app%20%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85/3.avif)
     
 6. 这里我们就能看到一条文件格式为 .ipa 的下载链接，点进去
 7. 点击链接-导出原始链接-拷贝
 8. 然后我们就可以拷贝到任意的下载器下载了，这里用的 Shu
     
-    ![](https://img.mitsea.com/blog/posts/2019/10/%E5%A6%82%E4%BD%95%E6%8A%93%E5%8F%96%20iOS%20app%20%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85/4.avif)
+    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2019/10/%E5%A6%82%E4%BD%95%E6%8A%93%E5%8F%96%20iOS%20app%20%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85/4.avif)
     
 9. 这样就可以获得目标 ipa 了
 

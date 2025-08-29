@@ -6,7 +6,7 @@ date = "2019-12-19"
 description = ""
 categories = ["LifeTec"]
 tags = ["有道词典", "欧路词典"]
-image = "https://img.mitsea.com/blog/posts/2019/12/%E5%B0%86%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8%E7%9A%84%E5%8D%95%E8%AF%8D%E6%9C%AC%E5%AF%BC%E5%85%A5%E5%88%B0%E6%AC%A7%E8%B7%AF%E8%AF%8D%E5%85%B8%E4%B8%AD/title.avif"
+image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2019/12/%E5%B0%86%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8%E7%9A%84%E5%8D%95%E8%AF%8D%E6%9C%AC%E5%AF%BC%E5%85%A5%E5%88%B0%E6%AC%A7%E8%B7%AF%E8%AF%8D%E5%85%B8%E4%B8%AD/title.avif"
 +++
 
 有道词典停止了iPad HD版本的维护，只能使用放大版的手机版，本人对此非常不满，于是又在群友的推荐下，选择了欧路词典
@@ -16,11 +16,11 @@ image = "https://img.mitsea.com/blog/posts/2019/12/%E5%B0%86%E6%9C%89%E9%81%93%E
 1. 首先要用电脑版的有道词典导出单词本，本人主要使用 macOS ，但是 macOS 版的有道词典没有导出功能，所以我选择使用 Windows 版本（作为备用系统追求稳定使用的是老旧的 Windows 7，请勿介意）的有道词典。
 2. 在这个位置，就可以找到导出选项
 
-    ![](https://img.mitsea.com/blog/posts/2019/12/%E5%B0%86%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8%E7%9A%84%E5%8D%95%E8%AF%8D%E6%9C%AC%E5%AF%BC%E5%85%A5%E5%88%B0%E6%AC%A7%E8%B7%AF%E8%AF%8D%E5%85%B8%E4%B8%AD/1.avif)
+    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2019/12/%E5%B0%86%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8%E7%9A%84%E5%8D%95%E8%AF%8D%E6%9C%AC%E5%AF%BC%E5%85%A5%E5%88%B0%E6%AC%A7%E8%B7%AF%E8%AF%8D%E5%85%B8%E4%B8%AD/1.avif)
 
 3. 由于欧路词典仅支持导入xml格式的文件，并且名字必须是StudyList，所以我们这里选择xml格式，名字改为StudyList
 
-    ![](https://img.mitsea.com/blog/posts/2019/12/%E5%B0%86%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8%E7%9A%84%E5%8D%95%E8%AF%8D%E6%9C%AC%E5%AF%BC%E5%85%A5%E5%88%B0%E6%AC%A7%E8%B7%AF%E8%AF%8D%E5%85%B8%E4%B8%AD/2.avif)
+    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2019/12/%E5%B0%86%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8%E7%9A%84%E5%8D%95%E8%AF%8D%E6%9C%AC%E5%AF%BC%E5%85%A5%E5%88%B0%E6%AC%A7%E8%B7%AF%E8%AF%8D%E5%85%B8%E4%B8%AD/2.avif)
 
 4. 为了对比文件内容，还需要导出欧路词典的单词本（如果是第一次用请先查一个单词并加入单词本中）。导入方法就是在app中点 工具-软件设置-头像-导入导出生词本-导出生词本，iOS的话就可以在 iTunes 中获取这个文件
 5. 之后我使用 Visual Studio Code 打开该文件，这里使用什么编辑器无所谓，只要后面的替换你能查到你所有的编辑器的正则表达式就可以。如果是新手那就下一个 Visual Studio Code 好了
