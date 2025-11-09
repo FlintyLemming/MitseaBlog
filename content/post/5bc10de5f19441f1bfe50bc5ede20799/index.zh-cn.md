@@ -6,7 +6,7 @@ date = "2023-12-31T01:00:00+08:00"
 description = ""
 categories = ["HomeLab"]
 tags = ["TrueNAS", "rsync"]
-image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/12/TrueNAS%20%E5%AE%9A%E6%97%B6%E5%90%8C%E6%AD%A5%E9%85%8D%E7%BD%AE/rick-rothenberg-Ih4tXZrOkMI-unsplash.avif"
+image = "https://assets.mitsea.cn/blog/posts/2023/12/TrueNAS%20%E5%AE%9A%E6%97%B6%E5%90%8C%E6%AD%A5%E9%85%8D%E7%BD%AE/rick-rothenberg-Ih4tXZrOkMI-unsplash.avif"
 +++
 
 TrueNAS 的同步功能我挺喜欢的，因为我文件比较多，可管理的定时非实时同步对我来说很实用，也比实时同步更可靠。
@@ -21,7 +21,7 @@ TrueNAS 的同步功能我挺喜欢的，因为我文件比较多，可管理的
 
 首先对基本配置里的几个点做补充
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/12/TrueNAS%20%E5%AE%9A%E6%97%B6%E5%90%8C%E6%AD%A5%E9%85%8D%E7%BD%AE/Untitled.avif)
+![](https://assets.mitsea.cn/blog/posts/2023/12/TrueNAS%20%E5%AE%9A%E6%97%B6%E5%90%8C%E6%AD%A5%E9%85%8D%E7%BD%AE/Untitled.avif)
 
 1. 若要同步文件夹里的内容，这里要加一个斜杠，默认不会加
 2. 用户这里建议选择和使用 Samba 相同的用户（一般就是除了 root 之外你自己手动创建的那个用户）
@@ -59,7 +59,7 @@ TrueNAS 的同步功能我挺喜欢的，因为我文件比较多，可管理的
 
 这里就是比较扭曲的地方了，他这个同步的 WebUI 功能做的不全，很多常用的功能还要自己加参数
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/12/TrueNAS%20%E5%AE%9A%E6%97%B6%E5%90%8C%E6%AD%A5%E9%85%8D%E7%BD%AE/Untitled%201.avif)
+![](https://assets.mitsea.cn/blog/posts/2023/12/TrueNAS%20%E5%AE%9A%E6%97%B6%E5%90%8C%E6%AD%A5%E9%85%8D%E7%BD%AE/Untitled%201.avif)
 
 首先要说明的是这里的参数格式为 --[参数名]=”[参数内容]”。然后说几个常用参数，其他的可以自己查。
 
@@ -71,17 +71,17 @@ TrueNAS 的同步功能我挺喜欢的，因为我文件比较多，可管理的
 
 原生 Linux 中，用户的登陆密码、Samba 密码、Rsync 服务端密码其实是三个东西。群晖的 Rsync 密码就需要我们主动设置。设置位置在这里，密码一定要设置，只选择一个用户是不会继承登陆密码的。
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/12/TrueNAS%20%E5%AE%9A%E6%97%B6%E5%90%8C%E6%AD%A5%E9%85%8D%E7%BD%AE/Untitled%202.avif)
+![](https://assets.mitsea.cn/blog/posts/2023/12/TrueNAS%20%E5%AE%9A%E6%97%B6%E5%90%8C%E6%AD%A5%E9%85%8D%E7%BD%AE/Untitled%202.avif)
 
 ## WebDAV
 
 这个相比于 Rsync 就没有那些弯弯绕了。先在云凭据里创建凭据
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/12/TrueNAS%20%E5%AE%9A%E6%97%B6%E5%90%8C%E6%AD%A5%E9%85%8D%E7%BD%AE/Untitled%203.avif)
+![](https://assets.mitsea.cn/blog/posts/2023/12/TrueNAS%20%E5%AE%9A%E6%97%B6%E5%90%8C%E6%AD%A5%E9%85%8D%E7%BD%AE/Untitled%203.avif)
 
 然后在云同步里设置同步就行了
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2023/12/TrueNAS%20%E5%AE%9A%E6%97%B6%E5%90%8C%E6%AD%A5%E9%85%8D%E7%BD%AE/Untitled%204.avif)
+![](https://assets.mitsea.cn/blog/posts/2023/12/TrueNAS%20%E5%AE%9A%E6%97%B6%E5%90%8C%E6%AD%A5%E9%85%8D%E7%BD%AE/Untitled%204.avif)
 
 > Photo by [Rick Rothenberg](https://unsplash.com/@rick_rothenberg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-close-up-of-a-bunch-of-green-plants-Ih4tXZrOkMI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
   

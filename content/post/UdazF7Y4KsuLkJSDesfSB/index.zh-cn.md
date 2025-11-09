@@ -6,7 +6,7 @@ date = "2025-05-26"
 description = "其实就是根目录空间不够系统升级"
 categories = ["HomeLab"]
 tags = ["NAS"]
-image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/squids-z-D5HE4cj-oIQ-unsplash.avif"
+image = "https://assets.mitsea.cn/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/squids-z-D5HE4cj-oIQ-unsplash.avif"
 +++
 
 ## 准备事项
@@ -27,7 +27,7 @@ image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/post
 
 进到 PE 后，打开 Rufus，磁盘就选择那个 515MB 的小硬盘，选择下载好的 img 恢复即可
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/TT%E6%88%AA%E5%9B%BE%E6%9C%AA%E5%91%BD%E5%90%8D_F1mqdyO42P.avif)
+![](https://assets.mitsea.cn/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/TT%E6%88%AA%E5%9B%BE%E6%9C%AA%E5%91%BD%E5%90%8D_F1mqdyO42P.avif)
 
 ## 升级系统（问题分析）
 
@@ -37,11 +37,11 @@ image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/post
 
 但是你用官方现在提供的任何一个版本更新都会失败
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_w62aj9TV64.avif)
+![](https://assets.mitsea.cn/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_w62aj9TV64.avif)
 
 此时设备名称也会变成 uLinux，我建议是重启一下，他会恢复，不然后续如果你想再用 Qfinder Pro 操作升级会无法上传固件。为了探究失败原因，使用 ssh 进入到设备控制台看一下，执行 `df -h` 后发现 `/` 已经 100% 了，这可能就是导致升级失败的原因
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_BGOebPEKLW.avif)
+![](https://assets.mitsea.cn/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_BGOebPEKLW.avif)
 
 可以进一步验证一下，比如可以把升级固件上传到 `/mnt/.fw_update_dir` 里，然后执行下面的命令尝试更新系统
 
@@ -52,7 +52,7 @@ image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/post
 
 发现它确实就是报空间不足的错误
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_63R9ouwoud.avif)
+![](https://assets.mitsea.cn/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_63R9ouwoud.avif)
 
 此时我们可以删除掉一些不影响升级的文件腾出空间，比如 `home`下面的文件夹
 
@@ -69,7 +69,7 @@ rm -rf /home/Qhttpd
 1. 从官网下好最新版的系统固件，并解压出 img 文件
 2. 恢复后，打开 Qfinder Pro，确认能看到一个系统版本只有 1.3.0 的设备，并记下他的 IP
 
-   ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_6NRv18y8qG.avif)
+   ![](https://assets.mitsea.cn/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_6NRv18y8qG.avif)
 3. 打开任意 SSH 工具，可以直接使用 Powershell，连接到 NAS 上
    ```bash 
    ssh admin@{IP}
@@ -84,32 +84,32 @@ rm -rf /home/Qhttpd
 
 5. 回到 Qfinder Pro，右键设备，点击 更新系统软件
 
-   ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_yKUDnPnGRw.avif)
+   ![](https://assets.mitsea.cn/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_yKUDnPnGRw.avif)
 
    账号密码都是 admin
 
-   ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_odH1l_K1xX.avif)
+   ![](https://assets.mitsea.cn/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_odH1l_K1xX.avif)
 
    稍等一会，它会提示你版本已经是最新，不用管他，直接确定
 
-   ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_DNk5DFAdv1.avif)
+   ![](https://assets.mitsea.cn/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_DNk5DFAdv1.avif)
 6. 选择下载并解压好的最新版 5.x 固件，然后点击 开始更新
 
-   ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_wysopC-dWu.avif)
+   ![](https://assets.mitsea.cn/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_wysopC-dWu.avif)
 
    它会提示一个这个，不用管他，点击 是
 
-   ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_mfi9zrqfuv.avif)
+   ![](https://assets.mitsea.cn/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_mfi9zrqfuv.avif)
 
    能超过 23% 就不会有问题了，等他正常走完，机器会自动重启
 
-   ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_Q1YtEzYFYw.avif)
+   ![](https://assets.mitsea.cn/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_Q1YtEzYFYw.avif)
 7. 机器重启后，就可以正常看到运行最新版系统的设备了，重启挺慢的，多等一会。
 
-   ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_GBpv617BFT.avif)
+   ![](https://assets.mitsea.cn/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_GBpv617BFT.avif)
 
    然后如果显示器已经显示设备进系统了，这个窗口就可以关闭了，重开一下 Qfinder 就能正常看到设备了
 
-   ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_MF_xBh5PX3.avif)
+   ![](https://assets.mitsea.cn/blog/posts/2025/05/QNAP%20TS-453b%20mini%20%E6%81%A2%E5%A4%8D%E5%BC%95%E5%AF%BC%20%E6%95%91%E7%A0%96/%E5%9B%BE%E7%89%87_MF_xBh5PX3.avif)
 
 > Photo by [Squids Z](https://unsplash.com/@squids93?utm_content=creditCopyText\&utm_medium=referral\&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/handrails-with-warm-lighting-provide-a-unique-perspective-D5HE4cj-oIQ?utm_content=creditCopyText\&utm_medium=referral\&utm_source=unsplash)

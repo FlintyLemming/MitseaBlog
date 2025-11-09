@@ -6,7 +6,7 @@ date = "2020-12-13"
 description = ""
 categories = ["HomeLab", "Consumer"]
 tags = ["NAS", "捡垃圾"]
-image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/title.avif"
+image = "https://assets.mitsea.cn/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/title.avif"
 +++
 
 2019 年购入的蜗牛星际 A 款，当时很便宜，才 240。这个设备好是好，就是有点吵，机箱风扇和电源风扇都挺吵的。
@@ -17,9 +17,9 @@ image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/post
 
 下面放下电源的实拍照
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/1.avif)
+![](https://assets.mitsea.cn/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/1.avif)
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/2.avif)
+![](https://assets.mitsea.cn/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/2.avif)
 
 是支持全模组的，还是比较不错的。
 
@@ -27,49 +27,49 @@ image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/post
 
 1. 拧下及其后侧的四颗紫色螺丝
 
-    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/3.avif)
+    ![](https://assets.mitsea.cn/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/3.avif)
 
 2. 然后就能在侧面看到电源了，很脏…
 
-    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/4.avif)
+    ![](https://assets.mitsea.cn/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/4.avif)
 
 3. 卸下支架上的一颗螺丝，和机箱后侧的四个螺丝
 
-    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/5.avif)
+    ![](https://assets.mitsea.cn/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/5.avif)
 
-    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/6.avif)
+    ![](https://assets.mitsea.cn/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/6.avif)
 
 4. 以及上方的大4pin供电线（这个线插得非常紧……），就可以取下自带电源了。
 
-    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/7.avif)
+    ![](https://assets.mitsea.cn/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/7.avif)
 
 5. 接着换上新电源，然后就发现一个问题，这里的支架够不到。这里应该是转为自带电源设计的，所以我这种电源应该是没法用了。
 
-    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/8.avif)
+    ![](https://assets.mitsea.cn/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/8.avif)
 
 6. 那没办法，只能用双面胶了…我这边选用比较厚的这种，贴上两层，顺便把电源稍稍垫起。
 
-    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/9.avif)
+    ![](https://assets.mitsea.cn/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/9.avif)
 
-    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/10.avif)
+    ![](https://assets.mitsea.cn/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/10.avif)
 
 7. 最后，接上主板、CPU、硬盘供电线
 
-    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/11.avif)
+    ![](https://assets.mitsea.cn/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/11.avif)
 
-    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/12.avif)
+    ![](https://assets.mitsea.cn/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/12.avif)
 
-    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/13.avif)
+    ![](https://assets.mitsea.cn/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/13.avif)
 
 8. 最后就是这样
 
-    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/14.avif)
+    ![](https://assets.mitsea.cn/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/14.avif)
 
 **然后出了大问题！这么多线我塞不好，盖子盖不上！**
 
 于是过了一周，定制线搞定…这成本可真不低……
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/15.avif)
+![](https://assets.mitsea.cn/blog/posts/2020/12/%E8%9C%97%E7%89%9B%E6%98%9F%E9%99%85A%E6%AC%BE%E6%9B%B4%E6%8D%A2%E7%94%B5%E6%BA%90/15.avif)
 
 Photo by [Alex Cheung](https://unsplash.com/@alexcpl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/nas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   

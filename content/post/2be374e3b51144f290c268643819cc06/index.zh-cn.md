@@ -6,7 +6,7 @@ date = "2021-02-01"
 description = ""
 categories = ["HomeLab", "Network", "Consumer"]
 tags = ["小米", "路由器"]
-image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/jorge-salvador-c6hEUfgiwnw-unsplash.avif"
+image = "https://assets.mitsea.cn/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/jorge-salvador-c6hEUfgiwnw-unsplash.avif"
 +++
 
 ## 测试环境
@@ -37,43 +37,43 @@ MacBook Pro 2018 13寸，使用 USB 2.5G 网卡，芯片是螃蟹的8156
 
 日常环境测试就是指除了上述设备全部连接外，还有其他不少 2.4G 的智能家居产品也连接。比较复杂的环境。连接设备一览：
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/STIIITCH_2021_02_07_01_04_36.avif)
+![](https://assets.mitsea.cn/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/STIIITCH_2021_02_07_01_04_36.avif)
 
 ### Wi-Fi 6 160MHz 2x2 2.4Gbps
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/Untitled.avif)
+![](https://assets.mitsea.cn/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/Untitled.avif)
 
 #### 2.5G有线 → 无线  200MB/s
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/Untitled%201.avif)
+![](https://assets.mitsea.cn/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/Untitled%201.avif)
 
 #### 无线 → 2.5G有线 185MB/s
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/Untitled%202.avif)
+![](https://assets.mitsea.cn/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/Untitled%202.avif)
 
 ### Wi-Fi 5 80MHz 3x3 1.3Gbps
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/Untitled%203.avif)
+![](https://assets.mitsea.cn/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/Untitled%203.avif)
 
 #### 2.5G有线 → 无线  100MB/s
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/Untitled%204.avif)
+![](https://assets.mitsea.cn/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/Untitled%204.avif)
 
 #### 无线 → 2.5G有线 91MB/s
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/Untitled%205.avif)
+![](https://assets.mitsea.cn/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/Untitled%205.avif)
 
 ### Wi-Fi 6 80MHz 2x2 1.2Gbps
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/1612672600884.avif)
+![](https://assets.mitsea.cn/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/1612672600884.avif)
 
 #### 2.5G有线 → 无线  100MB/s
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/1612672464488.avif)
+![](https://assets.mitsea.cn/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/1612672464488.avif)
 
 #### 无线 → 2.5G有线 110MB/s
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/1612672464486.avif)
+![](https://assets.mitsea.cn/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/1612672464486.avif)
 
 iPhone 类似
 
@@ -81,7 +81,7 @@ iPhone 类似
 
 正常发挥，基本跑满了带宽
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/1612672904447.avif)
+![](https://assets.mitsea.cn/blog/posts/2021/02/%E5%B0%8F%E7%B1%B3%20AX6000%20%E6%B5%8B%E8%AF%95/1612672904447.avif)
 
 ## 购买建议
 

@@ -6,7 +6,7 @@ date = "2025-01-26"
 description = "列表来自互联网，内容请自行判断"
 categories = ["MineService"]
 tags = ["emby"]
-image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/01/%E7%AC%AC%E4%B8%89%E6%96%B9%20Emby%20%E5%AE%A2%E6%88%B7%E7%AB%AF/pawel-czerwinski-pC8e7FFONcI-unsplash.avif"
+image = "https://assets.mitsea.cn/blog/posts/2025/01/%E7%AC%AC%E4%B8%89%E6%96%B9%20Emby%20%E5%AE%A2%E6%88%B7%E7%AB%AF/pawel-czerwinski-pC8e7FFONcI-unsplash.avif"
 +++
 
 🔗 **iOS/iPadOS**

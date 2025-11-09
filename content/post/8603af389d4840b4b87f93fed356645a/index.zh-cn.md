@@ -6,7 +6,7 @@ date = "2019-10-10"
 description = ""
 categories = ["Apple"]
 tags = ["Jailbreak", "iOS"]
-image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2019/10/iOS%2012%20%E8%87%AA%E7%94%A8%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6/title.avif"
+image = "https://assets.mitsea.cn/blog/posts/2019/10/iOS%2012%20%E8%87%AA%E7%94%A8%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6/title.avif"
 +++
 
 ## 实用工具
@@ -50,21 +50,21 @@ https://apt.wxhbts.com
 **Noctis12**
 【2.00 $】Dark Mode，细节效果跟原生 iOS 13 差距还是蛮多，但是预置的 macOS 透明效果挺好看
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2019/10/iOS%2012%20%E8%87%AA%E7%94%A8%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6/1.avif)
+![](https://assets.mitsea.cn/blog/posts/2019/10/iOS%2012%20%E8%87%AA%E7%94%A8%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6/1.avif)
 
 https://repo.packix.com/
 
 **PencilChargingIndicator**
 【Free】类似 Apple Pencil 充电效果的设备充电动画
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2019/10/iOS%2012%20%E8%87%AA%E7%94%A8%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6/2.avif)
+![](https://assets.mitsea.cn/blog/posts/2019/10/iOS%2012%20%E8%87%AA%E7%94%A8%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6/2.avif)
 
 https://shiftcmdk.github.io/repo/
 
 **Jellyfish**
 【1.99 $】一个比较美观的锁屏主题
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2019/10/iOS%2012%20%E8%87%AA%E7%94%A8%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6/3.avif)
+![](https://assets.mitsea.cn/blog/posts/2019/10/iOS%2012%20%E8%87%AA%E7%94%A8%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6/3.avif)
 
 https://repo.dynastic.co/
 
@@ -76,27 +76,27 @@ https://sparkdev.moe
 **Bolders**
 【Free】文件夹美化
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2019/10/iOS%2012%20%E8%87%AA%E7%94%A8%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6/4.avif)
+![](https://assets.mitsea.cn/blog/posts/2019/10/iOS%2012%20%E8%87%AA%E7%94%A8%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6/4.avif)
 
 自带 BigBoss 源
 
 **VideoHUD**
 【Free】音量条美化
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2019/10/iOS%2012%20%E8%87%AA%E7%94%A8%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6/5.avif)
+![](https://assets.mitsea.cn/blog/posts/2019/10/iOS%2012%20%E8%87%AA%E7%94%A8%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6/5.avif)
 
 自带 BigBoss 源
 
 **Palert**
 【Free】一个仿 tvOS 弹窗的插件
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2019/10/iOS%2012%20%E8%87%AA%E7%94%A8%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6/6.avif)
+![](https://assets.mitsea.cn/blog/posts/2019/10/iOS%2012%20%E8%87%AA%E7%94%A8%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6/6.avif)
 
 安装方式参看另一篇文章 https://www.flinty.moe/ios-12-palert/
 
 **ColorFlow**
 Music 播放界面美化工具
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2019/10/iOS%2012%20%E8%87%AA%E7%94%A8%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6/7.avif)
+![](https://assets.mitsea.cn/blog/posts/2019/10/iOS%2012%20%E8%87%AA%E7%94%A8%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6/7.avif)
 
 https://repo.packix.com/

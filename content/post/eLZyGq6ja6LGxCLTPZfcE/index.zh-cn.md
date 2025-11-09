@@ -6,7 +6,7 @@ date = "2025-06-16"
 description = "折腾人"
 categories = ["Consumer"]
 tags = ["AMD", "AI"]
-image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%AE%89%E8%A3%85%20ROCm%20%E7%8E%AF%E5%A2%83/europeana-05V1vhKRdc8-unsplash.avif"
+image = "https://assets.mitsea.cn/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%AE%89%E8%A3%85%20ROCm%20%E7%8E%AF%E5%A2%83/europeana-05V1vhKRdc8-unsplash.avif"
 +++
 
 > ❗本教程实际上只是引导你安装了一个测试版的 ROCm 环境，随时都会随着正式版的发布失效
@@ -66,13 +66,13 @@ docker run -it --cap-add=SYS_PTRACE --security-opt seccomp=unconfined \
 
 然后就可以安装 ROCm Python 包了，这里假设用的是 conda，但是他版本管理一坨，这里我们需要先看一下[这个地方](https://d2awnip2yjpvqn.cloudfront.net/v2/gfx1151/ "这个地方")有没有上传 pytorch，我写的时候是没上传的
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%AE%89%E8%A3%85%20ROCm%20%E7%8E%AF%E5%A2%83/image_GMTrwS5feq.avif)
+![](https://assets.mitsea.cn/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%AE%89%E8%A3%85%20ROCm%20%E7%8E%AF%E5%A2%83/image_GMTrwS5feq.avif)
 
 所以你按照它的文档是装不了 python，因为他压根就没上传
 
 你要看[这里](<https://github.com/scottt/rocm-TheRock/releases > "这里")，看他发布的最新的 torch 包适用于哪个版本，我写的时候是 ROCm 6.5.0rc + Python 3.11
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%AE%89%E8%A3%85%20ROCm%20%E7%8E%AF%E5%A2%83/image_ckq9rd2mdJ.avif)
+![](https://assets.mitsea.cn/blog/posts/2025/06/AMD%20AI%20MAX+%20395%20%E5%AE%89%E8%A3%85%20ROCm%20%E7%8E%AF%E5%A2%83/image_ckq9rd2mdJ.avif)
 
 所以你要严格按照这个版本创建 Python 3.11 环境，ROCm 的话我试过了，按照默认安装 7.0.0rc 也可以用
 

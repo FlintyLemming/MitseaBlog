@@ -6,20 +6,20 @@ date = "2024-08-22"
 description = ""
 categories = ["Apple"]
 tags = ["iOS", "iCloud"]
-image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2024/08/iCloud%20%E4%B8%89%E4%B8%AA%E4%BC%9A%E6%97%A0%E6%84%8F%E5%8D%A0%E7%94%A8%E9%A2%9D%E5%A4%96%E7%A9%BA%E9%97%B4%E7%9A%84%E5%8A%9F%E8%83%BD/steve-johnson-DY_NMDmcliM-unsplash.avif"
+image = "https://assets.mitsea.cn/blog/posts/2024/08/iCloud%20%E4%B8%89%E4%B8%AA%E4%BC%9A%E6%97%A0%E6%84%8F%E5%8D%A0%E7%94%A8%E9%A2%9D%E5%A4%96%E7%A9%BA%E9%97%B4%E7%9A%84%E5%8A%9F%E8%83%BD/steve-johnson-DY_NMDmcliM-unsplash.avif"
 +++
 
 # 云端信息
 
 ## 存在的问题
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2024/08/iCloud%20%E4%B8%89%E4%B8%AA%E4%BC%9A%E6%97%A0%E6%84%8F%E5%8D%A0%E7%94%A8%E9%A2%9D%E5%A4%96%E7%A9%BA%E9%97%B4%E7%9A%84%E5%8A%9F%E8%83%BD/image.avif)
+![](https://assets.mitsea.cn/blog/posts/2024/08/iCloud%20%E4%B8%89%E4%B8%AA%E4%BC%9A%E6%97%A0%E6%84%8F%E5%8D%A0%E7%94%A8%E9%A2%9D%E5%A4%96%E7%A9%BA%E9%97%B4%E7%9A%84%E5%8A%9F%E8%83%BD/image.avif)
 
 这个其实是默认关闭的，他有一个问题，就是你在设备上的删除操作是不会同步到云端的。换句话说，他会无限增量存储你的信息。
 
 你唯一可以部分删除云端信息的途径，就是图上有个管理存储空间，然后里面有个“最占空间的对话”，但是这只能删除掉一部分
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2024/08/iCloud%20%E4%B8%89%E4%B8%AA%E4%BC%9A%E6%97%A0%E6%84%8F%E5%8D%A0%E7%94%A8%E9%A2%9D%E5%A4%96%E7%A9%BA%E9%97%B4%E7%9A%84%E5%8A%9F%E8%83%BD/image%201.avif)
+![](https://assets.mitsea.cn/blog/posts/2024/08/iCloud%20%E4%B8%89%E4%B8%AA%E4%BC%9A%E6%97%A0%E6%84%8F%E5%8D%A0%E7%94%A8%E9%A2%9D%E5%A4%96%E7%A9%BA%E9%97%B4%E7%9A%84%E5%8A%9F%E8%83%BD/image%201.avif)
 
 ## 解决方法
 
@@ -40,11 +40,11 @@ image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/post
 
 打开你手机的 文件 App，右下角的 浏览 里回到最顶层，你会看到 **我的 iPhone** 和 **iCloud 云盘** 两个项目，存在上面的内容不占云空间，存在下面的内容占用云空间。
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2024/08/iCloud%20%E4%B8%89%E4%B8%AA%E4%BC%9A%E6%97%A0%E6%84%8F%E5%8D%A0%E7%94%A8%E9%A2%9D%E5%A4%96%E7%A9%BA%E9%97%B4%E7%9A%84%E5%8A%9F%E8%83%BD/IMG_8766.avif)
+![](https://assets.mitsea.cn/blog/posts/2024/08/iCloud%20%E4%B8%89%E4%B8%AA%E4%BC%9A%E6%97%A0%E6%84%8F%E5%8D%A0%E7%94%A8%E9%A2%9D%E5%A4%96%E7%A9%BA%E9%97%B4%E7%9A%84%E5%8A%9F%E8%83%BD/IMG_8766.avif)
 
 这里有一个坑点，就是 iPhone 所有（比如你用 Safari）下载的文件和 AirDrop 收到的文件都会存在 **iCloud 云盘** 的 **下载** 文件夹里。
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2024/08/iCloud%20%E4%B8%89%E4%B8%AA%E4%BC%9A%E6%97%A0%E6%84%8F%E5%8D%A0%E7%94%A8%E9%A2%9D%E5%A4%96%E7%A9%BA%E9%97%B4%E7%9A%84%E5%8A%9F%E8%83%BD/IMG_8767.avif)
+![](https://assets.mitsea.cn/blog/posts/2024/08/iCloud%20%E4%B8%89%E4%B8%AA%E4%BC%9A%E6%97%A0%E6%84%8F%E5%8D%A0%E7%94%A8%E9%A2%9D%E5%A4%96%E7%A9%BA%E9%97%B4%E7%9A%84%E5%8A%9F%E8%83%BD/IMG_8767.avif)
 
 ## 解决方法
 
@@ -56,7 +56,7 @@ image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/post
 
 这个问题就大了。首先你所有 App 都是默认开启了这个功能，这会导致一个现象：你的游戏资源文件、App 产生的各种缓存都会备份。但其实这些数据即便我们手机丢失后，也是可以重新下载的，完全不需要备份到 iCloud 占用空间。
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2024/08/iCloud%20%E4%B8%89%E4%B8%AA%E4%BC%9A%E6%97%A0%E6%84%8F%E5%8D%A0%E7%94%A8%E9%A2%9D%E5%A4%96%E7%A9%BA%E9%97%B4%E7%9A%84%E5%8A%9F%E8%83%BD/image%202.avif)
+![](https://assets.mitsea.cn/blog/posts/2024/08/iCloud%20%E4%B8%89%E4%B8%AA%E4%BC%9A%E6%97%A0%E6%84%8F%E5%8D%A0%E7%94%A8%E9%A2%9D%E5%A4%96%E7%A9%BA%E9%97%B4%E7%9A%84%E5%8A%9F%E8%83%BD/image%202.avif)
 
 ## 解决方法
 
@@ -66,6 +66,6 @@ image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/post
 
 另外，这里你关闭完全不影响软件内任何同步功能！包括使用 iCloud 同步数据的软件，可以放心关闭。因为控制这一功能的开关在 iCloud 第一页下面，不是这里。
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2024/08/iCloud%20%E4%B8%89%E4%B8%AA%E4%BC%9A%E6%97%A0%E6%84%8F%E5%8D%A0%E7%94%A8%E9%A2%9D%E5%A4%96%E7%A9%BA%E9%97%B4%E7%9A%84%E5%8A%9F%E8%83%BD/IMG_8768.avif)
+![](https://assets.mitsea.cn/blog/posts/2024/08/iCloud%20%E4%B8%89%E4%B8%AA%E4%BC%9A%E6%97%A0%E6%84%8F%E5%8D%A0%E7%94%A8%E9%A2%9D%E5%A4%96%E7%A9%BA%E9%97%B4%E7%9A%84%E5%8A%9F%E8%83%BD/IMG_8768.avif)
 
 一定要区分这两个地方的开关！

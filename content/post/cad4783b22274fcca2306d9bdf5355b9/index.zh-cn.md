@@ -6,7 +6,7 @@ date = "2020-02-06"
 description = ""
 categories = ["Apple", "Windows"]
 tags = ["MacBook", "wtg"]
-image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/02/MacBook%20Pro%202018%20%E8%BF%90%E8%A1%8C%20Windows%20to%20Go%20%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9D%91/steve-johnson-KvW2dYlAkfM-unsplash.avif"
+image = "https://assets.mitsea.cn/blog/posts/2020/02/MacBook%20Pro%202018%20%E8%BF%90%E8%A1%8C%20Windows%20to%20Go%20%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9D%91/steve-johnson-KvW2dYlAkfM-unsplash.avif"
 +++
 
 前几个月买了个 MacBook Pro 2018 13‘，配置是 i5-8259U - 16G - 256G - Iris Plus 655。由于这是我唯一的个人电脑，所以除了自带的 macOS ，我会使用 Windows，主要是使用外置显卡进行学习和娱乐。下面我就来细说一下自己遇到的一些坑，当然，下面提到的很多问题我都没有确定具体产生原因，只是给出了我自己的有限的解决方案。需要说明的是，以下提到的情况可能是我自己这台电脑独有的问题，也许不具备参考性，请自行斟酌。

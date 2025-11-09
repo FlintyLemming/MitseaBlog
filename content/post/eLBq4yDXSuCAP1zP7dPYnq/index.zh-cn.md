@@ -6,7 +6,7 @@ date = "2025-07-31"
 description = "建议就用 256k 上下文，1M Prefill 太慢了"
 categories = ["Coding"]
 tags = ["Qwen", "AI"]
-image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/07/vLLM%20%E9%83%A8%E7%BD%B2%20Qwen3%20Coder%20%E6%A8%A1%E5%9E%8B/vadim-kaipov-WA2YYz0tIFY-unsplash.avif"
+image = "https://assets.mitsea.cn/blog/posts/2025/07/vLLM%20%E9%83%A8%E7%BD%B2%20Qwen3%20Coder%20%E6%A8%A1%E5%9E%8B/vadim-kaipov-WA2YYz0tIFY-unsplash.avif"
 +++
 
 ## 文档参照
@@ -33,7 +33,7 @@ vllm serve /mnt/extend/models/llm/Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8 \
 
 启动后默认就是 256k 上下文
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/07/vLLM%20%E9%83%A8%E7%BD%B2%20Qwen3%20Coder%20%E6%A8%A1%E5%9E%8B/image_TvuskXp7i8.avif)
+![](https://assets.mitsea.cn/blog/posts/2025/07/vLLM%20%E9%83%A8%E7%BD%B2%20Qwen3%20Coder%20%E6%A8%A1%E5%9E%8B/image_TvuskXp7i8.avif)
 
 可以看到，每张卡剩余 61.31GB 显存，能开出来 2,073,680 tokens 的 KV Cache
 
@@ -88,6 +88,6 @@ VLLM_ALLOW_LONG_MAX_MODEL_LEN=1 vllm serve /mnt/extend/models/llm/Qwen/Qwen3-Cod
 
 这样就是 1M 上下文了
 
-![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/07/vLLM%20%E9%83%A8%E7%BD%B2%20Qwen3%20Coder%20%E6%A8%A1%E5%9E%8B/image_nv03Dz6S9a.avif)
+![](https://assets.mitsea.cn/blog/posts/2025/07/vLLM%20%E9%83%A8%E7%BD%B2%20Qwen3%20Coder%20%E6%A8%A1%E5%9E%8B/image_nv03Dz6S9a.avif)
 
 > Photo by [vadim kaipov](https://unsplash.com/@vadimkaipov?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/abstracted-view-of-a-forest-with-blurred-lines-WA2YYz0tIFY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)

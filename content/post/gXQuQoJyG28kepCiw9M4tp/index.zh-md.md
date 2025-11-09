@@ -6,7 +6,7 @@ date = "2025-08-05"
 description = "Claude Code 使用经验"
 categories = ["Coding"]
 tags = ["Claude", "AI"]
-image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2025/08/Claude%20Code%20%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%EF%BC%882025%E5%B9%B45%E6%9C%88%EF%BC%89/hirzul-maulana-r-i7U49v4c4-unsplash.avif"
+image = "https://assets.mitsea.cn/blog/posts/2025/08/Claude%20Code%20%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%EF%BC%882025%E5%B9%B45%E6%9C%88%EF%BC%89/hirzul-maulana-r-i7U49v4c4-unsplash.avif"
 +++
 
 本文来源于官方演讲视频，原地址 [Claude Code best practices - YouTube](https://www.youtube.com/watch?v=gv0WHhKelSE "Claude Code best practices - YouTube") 由 AI 根据内容总结生成

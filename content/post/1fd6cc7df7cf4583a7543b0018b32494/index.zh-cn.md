@@ -6,7 +6,7 @@ date = "2020-01-16"
 description = ""
 categories = ["Apple", "Coding"]
 tags = ["UIKit", "Swift"]
-image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/01/iOS%20%E5%8E%9F%E7%94%9F%20UIKit%20%E5%BC%80%E5%8F%91%E5%A4%84%E7%90%86%E9%94%AE%E7%9B%98%E9%81%AE%E6%8C%A1%E8%BE%93%E5%85%A5%E6%A1%86%E9%97%AE%E9%A2%98/slava-auchynnikau-B5nCJC-KpvA-unsplash.avif"
+image = "https://assets.mitsea.cn/blog/posts/2020/01/iOS%20%E5%8E%9F%E7%94%9F%20UIKit%20%E5%BC%80%E5%8F%91%E5%A4%84%E7%90%86%E9%94%AE%E7%9B%98%E9%81%AE%E6%8C%A1%E8%BE%93%E5%85%A5%E6%A1%86%E9%97%AE%E9%A2%98/slava-auchynnikau-B5nCJC-KpvA-unsplash.avif"
 +++
 
 # 概要
@@ -31,7 +31,7 @@ image = "https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/post
 
 1. 在 xib 中找到约束，并拖入 view 文件中
     
-    ![](https://hf-index.mitsea.com:8840/d/Share/mitsea-public-source/blog/posts/2020/01/iOS%20%E5%8E%9F%E7%94%9F%20UIKit%20%E5%BC%80%E5%8F%91%E5%A4%84%E7%90%86%E9%94%AE%E7%9B%98%E9%81%AE%E6%8C%A1%E8%BE%93%E5%85%A5%E6%A1%86%E9%97%AE%E9%A2%98/Untitled.avif)
+    ![](https://assets.mitsea.cn/blog/posts/2020/01/iOS%20%E5%8E%9F%E7%94%9F%20UIKit%20%E5%BC%80%E5%8F%91%E5%A4%84%E7%90%86%E9%94%AE%E7%9B%98%E9%81%AE%E6%8C%A1%E8%BE%93%E5%85%A5%E6%A1%86%E9%97%AE%E9%A2%98/Untitled.avif)
     
 2. 起个名字
     
