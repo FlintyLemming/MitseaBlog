@@ -1,7 +1,7 @@
 +++
 author = "FlintyLemming"
 title = "Linux Nvidia GPU 驱动离线更新（runfile）"
-slug = "1a57bda595c580088006c17d6ba2a744"
+slug = "rw3XKKiU9SZKwMnkgCYhuP"
 date = "2025-11-30"
 description = "主要适用于离线环境"
 categories = ["Linux"]
