@@ -65,12 +65,14 @@ Host <连接名称，随便写>
     HostName <服务器 IP>
     User <登录用户>
     Port <连接端口>
+    IdentityFile <公钥文件配置>
+    IdentitiesOnly yes
 ```
 
 
-最后看起来像这样
+最后看起来像这样，IdentityFile 那个文件里就写你这个机器的公钥，它充当“指路牌”的功能，这样 SSH 客户端就能与服务器的公钥进行匹配，直接在 SSH Agent 里拿对应的私钥登录。如果不设置，由于 SSH 客户端不知道该用哪个秘钥登录，他就会挨个都尝试一遍，当你 Bitwarden 里存了超过 6 个秘钥时，就有可能超过服务器设置的尝试次数。
 
-![](https://assets.mitsea.cn/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/image_tlkn_GPP6e.avif)
+![image](https://assets.mitsea.cn/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/image_54BiABuGx1.avif)
 
 ### macOS 特别注意
 
@@ -97,6 +99,31 @@ export SSH_AUTH_SOCK="$HOME/Library/Containers/com.bitwarden.desktop/Data/.bitwa
 
 点击批准就可以登录了，整体上感觉还是比较简单的
 
+## 后续优化
+
+将“使用 SSH 代理时提示授权”改成从不，这样每次 SSH 登录的时候就不需要点批准了
+
+![](https://assets.mitsea.cn/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/iShot_2025-12-19_21.18.07.avif)
+
+配合 fish 的预测，丝滑登录
+
+![](<https://assets.mitsea.cn/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/%E5%BD%95%E5%B1%8F2025-12-19%2021.11.53.gif>)
+
+配置文件开头添加如下配置
+
+```yaml 
+Host *
+    IdentitiesOnly yes
+    IdentityFile ~/.yourdotfiles/ssh/%n.pub
+    ForwardAgent yes
+```
+
+
+![](https://assets.mitsea.cn/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/iShot_2025-12-19_21.19.07.avif)
+
+IdentityFile 可以直接读与 Host 名称一致的公钥文件，这样可以简化配置
+
+ForwardAgent 开启后，当你在服务器上执行需要 SSH 密钥的操作时，服务器会通过 SSH 通道回传请求，调用你本地电脑上的 Bitwarden SSH Agent。这样私钥永远不会离开你的本地机器，安全性最高，也不需要在服务器上残留可见的密钥文件。
 
 > Photo by [Brooke Balentine](https://unsplash.com/@brookebalentine?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/red-berries-with-water-droplets-on-a-branch-sv55rtLoDVY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
       
