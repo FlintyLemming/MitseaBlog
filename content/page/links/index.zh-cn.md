@@ -17,6 +17,10 @@ links:
   - title: evsio0n
     description:
     website: https://evsio0n.com/
+  - title: Langdon
+    description:
+    website: https://langdon.one/
+  
 menu:
     main:
         weight: -50
