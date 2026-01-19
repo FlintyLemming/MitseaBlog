@@ -2,7 +2,8 @@ baseURL: https://blog.mitsea.com/
 languageCode: zh-cn
 title: Mitsea Blog
 theme: hugo-theme-stack
-paginate: 10
+pagination:
+    pagerSize: 10
 
 languages:
     zh-cn:
