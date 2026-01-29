@@ -129,8 +129,7 @@
 /* Menu style */
 #main-menu {
     list-style: none;
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow: visible;
     flex-grow: 1;
     font-size: 1.4rem;
     background-color: var(--card-background);
