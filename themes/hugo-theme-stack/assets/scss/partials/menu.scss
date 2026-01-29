@@ -129,6 +129,7 @@
 /* Menu style */
 #main-menu {
     list-style: none;
+    overflow-x: hidden;
     overflow-y: auto;
     flex-grow: 1;
     font-size: 1.4rem;
@@ -188,6 +189,7 @@
             align-items: center;
             color: var(--body-text-color);
             gap: var(--menu-icon-separation);
+            white-space: nowrap;
         }
 
         span {
