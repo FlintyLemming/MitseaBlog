@@ -63,7 +63,7 @@ image = "https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6
 
 ![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%209.avif)
 
-## DeepSeek V3.2 Thinking Disabled
+### DeepSeek V3.2 Thinking Disabled
 
 跟 GLM 坐一桌
 
