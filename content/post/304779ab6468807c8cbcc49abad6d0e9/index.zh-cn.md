@@ -31,45 +31,45 @@ image = "https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6
 
 效果最好，而且非常地道。只有划线一处翻译的并不是很好，直接翻译为“正在修复中”会比较合适。
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87.png)
+![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87.avif)
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%201.png)
+![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%201.avif)
 
 ### Qwen3 30B A3B Instruct 2507
 
 有一处翻译错误，原文是  a patch on the user’s end，意思是得更新客户端才可以解决问题，并不是用户自己打补丁。这个翻译问题一直贯穿到 Qwen3 Max
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%202.png)
+![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%202.avif)
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%203.png)
+![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%203.avif)
 
 ### Qwen3 Next 80B A3B
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%204.png)
+![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%204.avif)
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%205.png)
+![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%205.avif)
 
 ### Qwen3 Max
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%206.png)
+![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%206.avif)
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%207.png)
+![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%207.avif)
 
 ### GLM 4.7 Thinking Disabled
 
 效果不好，读起来不通顺切奇怪，看起来 GLM 并不适合拿来翻译
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%208.png)
+![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%208.avif)
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%209.png)
+![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%209.avif)
 
 ## DeepSeek V3.2 Thinking Disabled
 
 跟 GLM 坐一桌
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%2010.png)
+![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%2010.avif)
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%2011.png)
+![](https://assets.mitsea.cn/blog/posts/2026/02/LLM%20%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E8%83%BD%E5%8A%9B%E6%B5%85%E6%B5%8B/%E5%9B%BE%E7%89%87%2011.avif)
 
 > Photo by [Mike Hindle](https://unsplash.com/@mikehindle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/close-up-of-a-dark-palm-leaf-with-radiating-lines-UxW63Tbtyjk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
       
