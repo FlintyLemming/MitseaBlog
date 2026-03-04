@@ -299,5 +299,11 @@ reboot
 
 ![](https://assets.mitsea.cn/blog/posts/2026/03/%E5%9C%A8%20btrfs%20%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E4%B8%8A%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%20AOSC%20OS/%E5%9B%BE%E7%89%87%201.png)
 
+由于是从 livekit 复制出来的系统，所以默认 hostname 还是 livekit，可以改一下：
+
+```
+hostnamectl hostname your-new-hostname
+```
+
 > Photo by [Frode Myklebust](https://unsplash.com/@famyklebust?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/hills-and-ocean-under-a-pastel-sky-UbDdynMmcX0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
       
