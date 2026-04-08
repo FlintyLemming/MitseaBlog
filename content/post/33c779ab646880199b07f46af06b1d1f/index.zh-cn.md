@@ -48,7 +48,7 @@ cow_file_range failed: -30                     # -30 = EROFS
 
 后续写入全部失败
 
-**根因：**trfs zoned mode 在事务提交时，zone 激活失败（活跃 zone 限制、write pointer 冲突等），返回 `-EAGAIN`，导致事务中止，文件系统被迫进入只读保护状态。
+根因：btrfs zoned mode 在事务提交时，zone 激活失败（活跃 zone 限制、write pointer 冲突等），返回 `-EAGAIN`，导致事务中止，文件系统被迫进入只读保护状态。
 AI 认为这是 btrfs zoned mode 的软件层面 bug，非硬件故障。内核 7.0.0-12 对 zoned btrfs 支持不够成熟，上游虽有修复但未完全解决。
 
 我比较同意，因为发生问题后，SMART 的 UDMA_CRC_Error_Count 并没有增长，还是 0
