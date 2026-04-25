@@ -2,7 +2,7 @@
 author = "FlintyLemming"
 title = "单机 H200 HGX Day0 Deepseek v4 Pro 性能浅测"
 slug = "34d779ab6468808eb676e337f03ef378"
-date = "2025-04-25"
+date = "2026-04-25"
 description = "不太能用，需要关注后续多级缓存方案"
 categories = ["AI"]
 tags = ["H200", "Deepseek"]
