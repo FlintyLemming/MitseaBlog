@@ -6,7 +6,8 @@ date = "2026-03-04"
 description = "参考 Fedora 的分区设置"
 categories = ["HomeLab"]
 tags = ["AOSC"]
-image = "[https://assets.mitsea.cn/blog/posts/2026/03/%E5%9C%A8%20btrfs%20%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E4%B8%8A%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%20AOSC%20OS/frode-myklebust-UbDdynMmcX0-unsplash.jpg](https://assets.mitsea.cn/blog/posts/2026/03/%E5%9C%A8%20btrfs%20%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E4%B8%8A%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%20AOSC%20OS/frode-myklebust-UbDdynMmcX0-unsplash.jpg)"+++
+image = "https://assets.mitsea.cn/blog/posts/2026/03/%E5%9C%A8%20btrfs%20%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E4%B8%8A%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%20AOSC%20OS/frode-myklebust-UbDdynMmcX0-unsplash.jpg"
++++
 
 ## 准备操作
 
