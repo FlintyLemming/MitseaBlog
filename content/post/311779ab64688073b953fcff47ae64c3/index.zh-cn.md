@@ -13,7 +13,7 @@ image = "https://assets.mitsea.cn/blog/posts/2026/03/%E5%9C%A8%20btrfs%20%E6%96%
 
 进入命令行模式安装系统
 
-
+![](https://assets.mitsea.cn/blog/posts/2026/03/%E5%9C%A8%20btrfs%20%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E4%B8%8A%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%20AOSC%20OS/%E5%9B%BE%E7%89%87.png)
 
 由于下面的操作比较多，为了方便复制，可以考虑使用 ssh 远程连接
 
@@ -261,7 +261,7 @@ reboot
 
 安装完成
 
-
+![](https://assets.mitsea.cn/blog/posts/2026/03/%E5%9C%A8%20btrfs%20%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E4%B8%8A%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%20AOSC%20OS/%E5%9B%BE%E7%89%87%201.png)
 
 > Photo by [Frode Myklebust](https://unsplash.com/@famyklebust?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/hills-and-ocean-under-a-pastel-sky-UbDdynMmcX0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
