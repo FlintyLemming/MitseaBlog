@@ -6,7 +6,7 @@ date = "2026-06-07"
 description = ""
 categories = ["AI"]
 tags = ["SGLang", "GLM", "HiCache"]
-image = "https://assets.mitsea.cn/blog/posts/2022/08/Apple%20Transit%20%E9%87%91%E9%99%B5%E9%80%9A%E4%BA%A4%E9%80%9A%E5%8D%A1%E5%BC%80%E5%8F%91%E7%A5%A8/title.avif"
+image = "https://assets.mitsea.cn/blog/posts/2026/06/GLM-5.1%20Coding%20%E5%9C%BA%E6%99%AF%E9%83%A8%E7%BD%B2%E4%BC%98%E5%8C%96%EF%BC%9A%20HiCache%20%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97%E4%B8%8E%E5%9C%BA%E6%99%AF%E5%8E%8B%E6%B5%8B/jimmy-liu-k2zuVhKjA4o-unsplash.avif"
 +++
 
 ## 背景
