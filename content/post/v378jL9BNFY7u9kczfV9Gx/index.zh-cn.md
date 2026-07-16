@@ -6,7 +6,7 @@ date = "2025-11-30"
 description = "用起来感觉还行，目前还没遇到什么坑"
 categories = ["Linux"]
 tags = ["Nvidia", "CUDA"]
-image = "https://assets.mitsea.cn/blog/posts/2025/11/Linux%20Nvidia%20%E9%A9%B1%E5%8A%A8%E4%BB%8E%20runfile%20%E8%BF%81%E7%A7%BB%E5%88%B0%20apt%20%E7%AE%A1%E7%90%86/shubham-dhage-xwroH2gD8uw-unsplash.avif"
+image = "https://assets.flinty.moe/blog/posts/2025/11/Linux%20Nvidia%20%E9%A9%B1%E5%8A%A8%E4%BB%8E%20runfile%20%E8%BF%81%E7%A7%BB%E5%88%B0%20apt%20%E7%AE%A1%E7%90%86/shubham-dhage-xwroH2gD8uw-unsplash.avif"
 +++
 
 ## 背景
@@ -24,17 +24,17 @@ image = "https://assets.mitsea.cn/blog/posts/2025/11/Linux%20Nvidia%20%E9%A9%B1%
 
    卸载时可能会出现类似下面的提示，不影响，直接 OK
 
-   ![](https://assets.mitsea.cn/blog/posts/2025/11/Linux%20Nvidia%20%E9%A9%B1%E5%8A%A8%E4%BB%8E%20runfile%20%E8%BF%81%E7%A7%BB%E5%88%B0%20apt%20%E7%AE%A1%E7%90%86/image_xhsow37iET.avif)
+   ![](https://assets.flinty.moe/blog/posts/2025/11/Linux%20Nvidia%20%E9%A9%B1%E5%8A%A8%E4%BB%8E%20runfile%20%E8%BF%81%E7%A7%BB%E5%88%B0%20apt%20%E7%AE%A1%E7%90%86/image_xhsow37iET.avif)
 
-   ![](https://assets.mitsea.cn/blog/posts/2025/11/Linux%20Nvidia%20%E9%A9%B1%E5%8A%A8%E4%BB%8E%20runfile%20%E8%BF%81%E7%A7%BB%E5%88%B0%20apt%20%E7%AE%A1%E7%90%86/image_R40PWK5ZXq.avif)
+   ![](https://assets.flinty.moe/blog/posts/2025/11/Linux%20Nvidia%20%E9%A9%B1%E5%8A%A8%E4%BB%8E%20runfile%20%E8%BF%81%E7%A7%BB%E5%88%B0%20apt%20%E7%AE%A1%E7%90%86/image_R40PWK5ZXq.avif)
 
-   ![](https://assets.mitsea.cn/blog/posts/2025/11/Linux%20Nvidia%20%E9%A9%B1%E5%8A%A8%E4%BB%8E%20runfile%20%E8%BF%81%E7%A7%BB%E5%88%B0%20apt%20%E7%AE%A1%E7%90%86/image_0PB33nSStI.avif)
+   ![](https://assets.flinty.moe/blog/posts/2025/11/Linux%20Nvidia%20%E9%A9%B1%E5%8A%A8%E4%BB%8E%20runfile%20%E8%BF%81%E7%A7%BB%E5%88%B0%20apt%20%E7%AE%A1%E7%90%86/image_0PB33nSStI.avif)
 2. 执行下面的命令卸载 CUDA
    ```bash 
    sudo /usr/local/cuda/bin/cuda-uninstaller
    ```
 
-   ![](https://assets.mitsea.cn/blog/posts/2025/11/Linux%20Nvidia%20%E9%A9%B1%E5%8A%A8%E4%BB%8E%20runfile%20%E8%BF%81%E7%A7%BB%E5%88%B0%20apt%20%E7%AE%A1%E7%90%86/image_4deVQXwQvo.avif)
+   ![](https://assets.flinty.moe/blog/posts/2025/11/Linux%20Nvidia%20%E9%A9%B1%E5%8A%A8%E4%BB%8E%20runfile%20%E8%BF%81%E7%A7%BB%E5%88%B0%20apt%20%E7%AE%A1%E7%90%86/image_4deVQXwQvo.avif)
    ```bash 
    sudo rm -rf /usr/local/cuda*
    ```
@@ -51,7 +51,7 @@ echo "deb [signed-by=/usr/share/keyrings/cuda-archive-keyring.gpg] https://devel
 
 重新执行 apt update 后，可以看到上面是原来安装 nvidia container toolkit 添加的源，下面的是驱动和CUDA的源
 
-![](https://assets.mitsea.cn/blog/posts/2025/11/Linux%20Nvidia%20%E9%A9%B1%E5%8A%A8%E4%BB%8E%20runfile%20%E8%BF%81%E7%A7%BB%E5%88%B0%20apt%20%E7%AE%A1%E7%90%86/image_j2--CsAKRe.avif)
+![](https://assets.flinty.moe/blog/posts/2025/11/Linux%20Nvidia%20%E9%A9%B1%E5%8A%A8%E4%BB%8E%20runfile%20%E8%BF%81%E7%A7%BB%E5%88%B0%20apt%20%E7%AE%A1%E7%90%86/image_j2--CsAKRe.avif)
 
 然后上面这个源其实可以不要了，因为下面的已经包含了 nvidia container toolkit 的包了，所以我们可以直接删掉他
 
@@ -70,7 +70,7 @@ sudo apt install cuda
 ```
 
 
-![](https://assets.mitsea.cn/blog/posts/2025/11/Linux%20Nvidia%20%E9%A9%B1%E5%8A%A8%E4%BB%8E%20runfile%20%E8%BF%81%E7%A7%BB%E5%88%B0%20apt%20%E7%AE%A1%E7%90%86/image_kfoCjWwhyH.avif)
+![](https://assets.flinty.moe/blog/posts/2025/11/Linux%20Nvidia%20%E9%A9%B1%E5%8A%A8%E4%BB%8E%20runfile%20%E8%BF%81%E7%A7%BB%E5%88%B0%20apt%20%E7%AE%A1%E7%90%86/image_kfoCjWwhyH.avif)
 
 如果需要锁驱动版本等可以参考官方文档，有一个` nvidia-driver-pinning-<version>`，不需要自己去 hold 包
 
@@ -105,4 +105,4 @@ sudo apt install nvidia-fabricmanager
 
 注意这个就不需要指定版本了，因为 `nvidia-fabricmanager` 和 `nvidia-fabricmanager-<version>` 是两个东西。前者是 Nvidia 源里的，后者是 Ubuntu 官方源里的。
 
-![](https://assets.mitsea.cn/blog/posts/2025/11/Linux%20Nvidia%20%E9%A9%B1%E5%8A%A8%E4%BB%8E%20runfile%20%E8%BF%81%E7%A7%BB%E5%88%B0%20apt%20%E7%AE%A1%E7%90%86/image_lOi7beF_0M.avif)
+![](https://assets.flinty.moe/blog/posts/2025/11/Linux%20Nvidia%20%E9%A9%B1%E5%8A%A8%E4%BB%8E%20runfile%20%E8%BF%81%E7%A7%BB%E5%88%B0%20apt%20%E7%AE%A1%E7%90%86/image_lOi7beF_0M.avif)

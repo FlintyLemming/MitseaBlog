@@ -6,7 +6,7 @@ date = "2026-02-24"
 description = "本作包含大量容易错过的怪物、宝箱和位置"
 categories = ["Game"]
 tags = ["最终幻想"]
-image = "https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/apps.24364.14086627234907834.c86030ab-e956-465c-adca-f4a75ba02c31.avif"
+image = "https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/apps.24364.14086627234907834.c86030ab-e956-465c-adca-f4a75ba02c31.avif"
 +++
 
 # 事前说明
@@ -215,23 +215,23 @@ image = "https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB
 
 ### 1.1 开局箱子
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87.avif)
 
 ### 1.2 大战舰箱子
 
 大战舰一共 10 个箱子，确保都开掉。其中这里可以直接穿过来
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%201.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%201.avif)
 
 ### 1.3 菲因镇保罗家的箱子
 
 在菲因镇的这个位置
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%202.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%202.avif)
 
 这里可以穿过来
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%203.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%203.avif)
 
 ## 2 怪物图鉴
 
@@ -258,7 +258,7 @@ image = "https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB
 
 不小心进入大战舰也没关系，出来后往阿尔提亚镇走可以遇到
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%204.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%204.avif)
 
 ### 2.2 获得究极之书前
 
@@ -266,39 +266,39 @@ image = "https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB
 
 **031 - 蚁狮**
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%205.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%205.avif)
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/dde5a1.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/dde5a1.avif)
 
 **040 - 食人鱼**
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%206.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%206.avif)
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%207.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%207.avif)
 
 **042 - 冲鹰兽**
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%208.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%208.avif)
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%209.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%209.avif)
 
 **045 - 海盗**
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2010.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2010.avif)
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2011.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2011.avif)
 
 **052 - 海蛇**
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2012.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2012.avif)
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2013.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2013.avif)
 
 **054 - 陆魟**
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2014.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2014.avif)
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2015.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2015.avif)
 
 但我实际上是在沙漠遇到的
 
@@ -308,20 +308,20 @@ image = "https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB
 
 **022 - 髑髅**
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2016.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2016.avif)
 
 **071 - 多眼妖**
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2017.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2017.avif)
 
 **091 - 黑骑士**
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2018.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2018.avif)
 
 **094 - 岩石巨像**
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2019.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2019.avif)
 
 **106 - 将军**
 
-![](https://assets.mitsea.cn/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2020.avif)
+![](https://assets.flinty.moe/blog/posts/2026/02/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32%E5%88%9D%E5%9B%9E%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/%E5%9B%BE%E7%89%87%2020.avif)

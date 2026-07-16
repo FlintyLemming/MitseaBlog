@@ -6,7 +6,7 @@ date = "2026-04-25"
 description = "不太能用，需要关注后续多级缓存方案"
 categories = ["AI"]
 tags = ["H200", "Deepseek"]
-image = "https://assets.mitsea.cn/blog/posts/2026/04/%E5%8D%95%E6%9C%BA%20H200%20HGX%20Day0%20Deepseek%20v4%20Pro%20%E6%80%A7%E8%83%BD%E6%B5%85%E6%B5%8B/danielle-suijkerbuijk-wQVXDB17eDc-unsplash.avif"
+image = "https://assets.flinty.moe/blog/posts/2026/04/%E5%8D%95%E6%9C%BA%20H200%20HGX%20Day0%20Deepseek%20v4%20Pro%20%E6%80%A7%E8%83%BD%E6%B5%85%E6%B5%8B/danielle-suijkerbuijk-wQVXDB17eDc-unsplash.avif"
 +++
 
 ## 环境配置

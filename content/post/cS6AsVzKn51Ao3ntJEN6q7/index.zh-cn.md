@@ -6,7 +6,7 @@ date = "2025-12-14"
 description = "感觉非常的先进.jpg"
 categories = ["Linux"]
 tags = ["SSH", "Bitwarden"]
-image = "https://assets.mitsea.cn/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/brooke-balentine-sv55rtLoDVY-unsplash.avif"
+image = "https://assets.flinty.moe/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/brooke-balentine-sv55rtLoDVY-unsplash.avif"
 +++
 
 ## 背景
@@ -23,11 +23,11 @@ image = "https://assets.mitsea.cn/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwar
 
 设置里开启 SSH Agent
 
-![](https://assets.mitsea.cn/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/image_MEV5OkpyN4.avif)
+![](https://assets.flinty.moe/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/image_MEV5OkpyN4.avif)
 
 然后创建密钥对
 
-![](https://assets.mitsea.cn/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/image_b4Oq3lwH7_.avif)
+![](https://assets.flinty.moe/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/image_b4Oq3lwH7_.avif)
 
 按照图中步骤就可以，他会帮你生成密钥对并且无法修改
 
@@ -72,13 +72,13 @@ Host <连接名称，随便写>
 
 最后看起来像这样，IdentityFile 那个文件里就写你这个机器的公钥，它充当“指路牌”的功能，这样 SSH 客户端就能与服务器的公钥进行匹配，直接在 SSH Agent 里拿对应的私钥登录。如果不设置，由于 SSH 客户端不知道该用哪个秘钥登录，他就会挨个都尝试一遍，当你 Bitwarden 里存了超过 6 个秘钥时，就有可能超过服务器设置的尝试次数。
 
-![image](https://assets.mitsea.cn/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/image_54BiABuGx1.avif)
+![image](https://assets.flinty.moe/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/image_54BiABuGx1.avif)
 
 ### macOS 特别注意
 
 macOS 有点特殊的是它系统默认会起一个 SSH Agent，可以通过 `echo $SSH_AUTH_SOCK` 查看
 
-![](https://assets.mitsea.cn/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/image_b4ArDsBmSg.avif)
+![](https://assets.flinty.moe/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/image_b4ArDsBmSg.avif)
 
 所以需要修改默认的 SSH Agent 为 Bitwarden 的，执行下面的命令即可
 
@@ -89,13 +89,13 @@ export SSH_AUTH_SOCK="$HOME/Library/Containers/com.bitwarden.desktop/Data/.bitwa
 
 这样就可以看到 Bitwarden 里面的秘钥了，确认没问题的话，把这个环境变量加到 shell 的配置文件里即可
 
-![](https://assets.mitsea.cn/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/image_AKfAW6o-1I.avif)
+![](https://assets.flinty.moe/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/image_AKfAW6o-1I.avif)
 
 ## 使用 SSH Agent 登录
 
 通过 `ssh <刚才写的 Host 名>` 连接服务器后，Bitwarden 就会弹出窗口，请求批准登录
 
-![](https://assets.mitsea.cn/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/image_obMgH5KtcV.avif)
+![](https://assets.flinty.moe/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/image_obMgH5KtcV.avif)
 
 点击批准就可以登录了，整体上感觉还是比较简单的
 
@@ -103,11 +103,11 @@ export SSH_AUTH_SOCK="$HOME/Library/Containers/com.bitwarden.desktop/Data/.bitwa
 
 将“使用 SSH 代理时提示授权”改成从不，这样每次 SSH 登录的时候就不需要点批准了
 
-![](https://assets.mitsea.cn/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/iShot_2025-12-19_21.18.07.avif)
+![](https://assets.flinty.moe/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/iShot_2025-12-19_21.18.07.avif)
 
 配合 fish 的预测，丝滑登录
 
-![](<https://assets.mitsea.cn/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/%E5%BD%95%E5%B1%8F2025-12-19%2021.11.53.gif>)
+![](<https://assets.flinty.moe/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/%E5%BD%95%E5%B1%8F2025-12-19%2021.11.53.gif>)
 
 配置文件开头添加如下配置
 
@@ -119,7 +119,7 @@ Host *
 ```
 
 
-![](https://assets.mitsea.cn/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/iShot_2025-12-19_21.19.07.avif)
+![](https://assets.flinty.moe/blog/posts/2025/12/%E4%BD%BF%E7%94%A8%20Bitwarden%20%E7%AE%A1%E7%90%86%20SSH%20%E7%A7%98%E9%92%A5%E5%92%8C%E8%BF%9E%E6%8E%A5/iShot_2025-12-19_21.19.07.avif)
 
 IdentityFile 可以直接读与 Host 名称一致的公钥文件，这样可以简化配置
 

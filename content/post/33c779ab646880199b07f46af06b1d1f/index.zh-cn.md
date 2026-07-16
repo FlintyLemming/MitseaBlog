@@ -6,7 +6,7 @@ date = "2026-04-08"
 description = "btrfs 似乎也有问题"
 categories = ["HomeLab"]
 tags = ["NAS"]
-image = "https://assets.mitsea.cn/blog/posts/2026/04/HC620%20HM-SMR%20%E5%8A%A0%E5%AF%86%E7%9B%98%E4%B8%8A%E6%89%8B/alexander-korte-Oj0ykWKf5To-unsplash.avif"
+image = "https://assets.flinty.moe/blog/posts/2026/04/HC620%20HM-SMR%20%E5%8A%A0%E5%AF%86%E7%9B%98%E4%B8%8A%E6%89%8B/alexander-korte-Oj0ykWKf5To-unsplash.avif"
 +++
 
 因为最近 HDD 价格过于昂贵，所以这个盘比较火。我因为确实有一个专门备份的 Archive NAS，所以想试试这个盘是否堪用。
@@ -29,7 +29,7 @@ image = "https://assets.mitsea.cn/blog/posts/2026/04/HC620%20HM-SMR%20%E5%8A%A0%
 
 硬盘的 SMART 没有问题。这个盘要注意 Helium_Level，据说低于临界值 25 就会无法写入。氦气一旦泄露就会持续下降，所以务必要选择 100 的硬盘。
 
-![](https://assets.mitsea.cn/blog/posts/2026/04/HC620%20HM-SMR%20%E5%8A%A0%E5%AF%86%E7%9B%98%E4%B8%8A%E6%89%8B/image.avif)
+![](https://assets.flinty.moe/blog/posts/2026/04/HC620%20HM-SMR%20%E5%8A%A0%E5%AF%86%E7%9B%98%E4%B8%8A%E6%89%8B/image.avif)
 
 此外这个盘进行快扫也没有发现问题。
 
