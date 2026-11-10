@@ -1,5 +1,5 @@
 baseURL: https://blog.mitsea.com/
-languageCode: zh-cn
+locale: zh-cn
 title: Mitsea Blog
 theme: hugo-theme-stack
 pagination:
@@ -7,11 +7,12 @@ pagination:
 
 languages:
     zh-cn:
-        languageName: 中文
+        label: 中文
+        locale: zh-cn
         title: Mitsea Blog
         weight: 1
     # en:
-    #     languageName: English
+    #     label: English
     #     title: Mitsea Blog
     #     weight: 2
 
@@ -36,7 +37,6 @@ permalinks:
 params:
     mainSections:
         - post
-    featuredImageField: image
     rssFullContent: true
     favicon:
 
@@ -51,10 +51,7 @@ params:
     sidebar:
         emoji: 🍀
         subtitle: 人菜瘾大
-        avatar:
-            enabled: true
-            local: true
-            src: img/avatar.jpeg
+        avatar: img/avatar.jpeg
 
     article:
         math: false
@@ -164,12 +161,6 @@ params:
             # Available values: summary, summary_large_image
             card: summary_large_image
 
-    defaultImage:
-        opengraph:
-            enabled: false
-            local: false
-            src:
-
     colorScheme:
         # Display toggle
         toggle: true
@@ -178,7 +169,7 @@ params:
         default: auto
 
     imageProcessing:
-        cover:
+        thumbnail:
             enabled: false
         content:
             enabled: false

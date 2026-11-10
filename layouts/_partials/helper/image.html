@@ -1,0 +1,62 @@
+/// Params:
+///     Resources: Where to search for images
+///     Image: Image URL
+///     Context: page context (used to access the configuration)
+
+/// Returns:
+///     Resource: Hugo image resource object
+///     Permalink: Image URL
+///     Height: Image height
+///     Width: Image width
+
+{{ $result := dict }}
+
+{{ if .Image }}
+    {{ $url := urls.Parse .Image }}
+    {{ $permalink := .Image }}
+
+    {{ $result = dict
+        "Resource" nil
+        "Permalink" $permalink
+        "Height" nil
+        "Width" nil
+    }}
+    {{ $resource := dict }} 
+    {{ $local := true }}
+
+    {{ if not (in (slice "https" "http") $url.Scheme) }}
+        {{/* Local image */}}
+        {{ $resource = .Resources.Get (printf "%s" (.Image | safeURL)) }}
+    {{ end }}
+    {{/* Site override: remote images are used as plain URLs and never fetched at build time
+         (most are AVIF, which Hugo cannot read dimensions from; fetching them only slowed builds). */}}
+
+    {{ if $resource }}
+        {{ if and .Context.Site.Params.imageProcessing.autoOrient (reflect.IsImageResourceProcessable $resource) }}
+            {{ $filter := images.AutoOrient }}
+            {{ $resource = $resource | images.Filter $filter }}
+        {{ end }}
+
+        {{ if $local }}
+            {{ $permalink = $resource.RelPermalink }}
+        {{ end }}
+
+        {{ if reflect.IsImageResourceWithMeta $resource }}
+            {{ $result = dict
+                "Resource" $resource
+                "Permalink" $permalink
+                "Height" $resource.Height
+                "Width" $resource.Width
+            }}
+        {{ else }}
+            {{ $result = dict
+                "Resource" $resource
+                "Permalink" $permalink
+                "Height" nil
+                "Width" nil
+            }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{ return $result }}
