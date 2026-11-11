@@ -1,0 +1,39 @@
+/*
+ * Site overrides for hugo-theme-stack (replaces the theme's empty custom.scss).
+ */
+
+/*
+ * Cover image placeholder.
+ * List cards load the full-size cover originals (several MB, mostly AVIF), and AVIF
+ * does not render progressively, so until the whole file arrives the image box would
+ * be the same color as the card and look like a missing card. The background sits
+ * behind the <img> and is covered once the image paints. Firefox also draws the alt
+ * text ("Featured image of post ...") over the box while loading; make it transparent
+ * (screen readers still read it).
+ */
+:root {
+    --cover-placeholder-color: rgba(0, 0, 0, 0.06);
+
+    &[data-scheme="dark"] {
+        --cover-placeholder-color: rgba(255, 255, 255, 0.07);
+    }
+}
+
+.article-image img {
+    background-color: var(--cover-placeholder-color);
+    color: transparent;
+}
+
+/*
+ * Left nav menu: the theme makes it scrollable (overflow-y: auto) so short windows can
+ * still reach the bottom section. Its height is fractional, so Firefox sees a sub-pixel
+ * overflow and draws a full-height scrollbar even when everything fits. Keep it
+ * scrollable but never show the scrollbar.
+ */
+#main-menu {
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
